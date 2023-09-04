@@ -24,7 +24,7 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_DWE_Ciri_Boots_MSK
+													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_LI_Claws_Boots_MSK
 												</node>
 											</children>
 										</node>

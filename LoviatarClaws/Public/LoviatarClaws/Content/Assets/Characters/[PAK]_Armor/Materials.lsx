@@ -10,7 +10,7 @@
 					<attribute id="ID" type="FixedString" value="afc46452-6dda-43c3-afb6-8d4d479071be" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="13" />
-					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_MSK" />
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_MSK" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE.lsf" />
 					<children>
 						<node id="ScalarParameters">
@@ -88,7 +88,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="eba68334-168d-4945-b39d-f1940cf32bb7" /> HUM_F_ARM_DWE_Ciri_NM
+							<attribute id="ID" type="FixedString" value="eba68334-168d-4945-b39d-f1940cf32bb7" /> HUM_F_ARM_LI_Claws_NM
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_normalmap_DefaultWrapSampler" />
 							<children>
@@ -140,7 +140,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="6e1d3346-0dbb-4c02-bab4-2096d5b3a7b0" /> HUM_F_ARM_DWE_Ciri_basecolor
+							<attribute id="ID" type="FixedString" value="6e1d3346-0dbb-4c02-bab4-2096d5b3a7b0" /> HUM_F_ARM_LI_Claws_basecolor
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_basecolor_DefaultWrapSampler" />
 							<children>
@@ -192,7 +192,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="39413caf-f854-409a-8216-a6bb3ee7b603" /> HUM_F_ARM_DWE_Ciri_MSKcloth
+							<attribute id="ID" type="FixedString" value="39413caf-f854-409a-8216-a6bb3ee7b603" /> HUM_F_ARM_LI_Claws_MSKcloth
 							<attribute id="ParameterName" type="FixedString" value="MSKColor" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_MSKColor_DefaultWrapSampler" />
 							<children>
@@ -244,7 +244,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="e0d2abb2-5680-4eb4-9695-d5df76fd937e" /> HUM_F_ARM_DWE_Ciri_PM
+							<attribute id="ID" type="FixedString" value="e0d2abb2-5680-4eb4-9695-d5df76fd937e" /> HUM_F_ARM_LI_Claws_PM
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_physicalmap_DefaultWrapSampler" />
 							<children>
@@ -628,7 +628,7 @@
 					<attribute id="ID" type="FixedString" value="9898cefe-e89c-42df-b2b7-fc8d0c4cd798" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="13" />
-					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_Boots_MSK" />
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_Boots_MSK" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE.lsf" />
 					<children>
 						<node id="ScalarParameters">
@@ -706,7 +706,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="eba68334-168d-4945-b39d-f1940cf32bb7" /> HUM_F_ARM_DWE_Ciri_NM
+							<attribute id="ID" type="FixedString" value="eba68334-168d-4945-b39d-f1940cf32bb7" /> HUM_F_ARM_LI_Claws_NM
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_normalmap_DefaultWrapSampler" />
 							<children>
@@ -758,7 +758,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="6e1d3346-0dbb-4c02-bab4-2096d5b3a7b0" /> HUM_F_ARM_DWE_Ciri_basecolor
+							<attribute id="ID" type="FixedString" value="6e1d3346-0dbb-4c02-bab4-2096d5b3a7b0" /> HUM_F_ARM_LI_Claws_basecolor
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_basecolor_DefaultWrapSampler" />
 							<children>
@@ -810,7 +810,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="39413caf-f854-409a-8216-a6bb3ee7b603" /> HUM_F_ARM_DWE_Ciri_MSKcloth
+							<attribute id="ID" type="FixedString" value="39413caf-f854-409a-8216-a6bb3ee7b603" /> HUM_F_ARM_LI_Claws_MSKcloth
 							<attribute id="ParameterName" type="FixedString" value="MSKColor" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_MSKColor_DefaultWrapSampler" />
 							<children>
@@ -862,7 +862,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="e0d2abb2-5680-4eb4-9695-d5df76fd937e" /> HUM_F_ARM_DWE_Ciri_PM
+							<attribute id="ID" type="FixedString" value="e0d2abb2-5680-4eb4-9695-d5df76fd937e" /> HUM_F_ARM_LI_Claws_PM
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_physicalmap_DefaultWrapSampler" />
 							<children>
@@ -1246,7 +1246,7 @@
 					<attribute id="ID" type="FixedString" value="00a6cfbc-36db-41ca-b7dc-185cc26bd401" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="13" />
-					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_ShoulderBelt_MSK" />
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_ShoulderBelt_MSK" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE.lsf" />
 					<children>
 						<node id="ScalarParameters">
