@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>				
+				<node id="GameObjects"> Boots: Ciri's Boots (Tintable)
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws" />
+					<attribute id="MapKey" type="FixedString" value="07ea67e5-344b-4de6-91d3-449cce27a685" />
+					<attribute id="VisualTemplate" type="FixedString" value="e8c0a3dd-9d01-4519-aa6e-68d407c456aa" /> LOOT_ARM_Footwear_DWE_Ciri_MSK
+
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_DWE_Ciri_Boots_MSK
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<!-- <node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" /> 
+					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="520bf44f-b723-4e61-598d-ba19a747cac1" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="DWE_Item_Ciri_Boots" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="07ea67e5-344b-4de6-91d3-449cce27a685" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws" /> 
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="PhysicsTemplate" type="FixedString" value="acd603f2-ecae-a285-a65a-258f2f6e1b23" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="e8c0a3dd-9d01-4519-aa6e-68d407c456aa" /> LOOT_ARM_Footwear_DWE_Ciri_MSK
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>			 -->
+			</children>
+		</node>
+	</region>
+</save>

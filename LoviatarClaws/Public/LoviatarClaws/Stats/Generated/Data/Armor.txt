@@ -1,0 +1,7 @@
+new entry "LI_LoviatarClaws"
+using "ARM_Boots_Leather"
+data "ValueOverride" "1"
+data "Weight" "0.01"
+data "Rarity" "Legendary"
+data "RootTemplate" "07ea67e5-344b-4de6-91d3-449cce27a685"
+data "ColorPresetResource" "8c01383c-b72f-4d9e-beba-69ab5db59308"

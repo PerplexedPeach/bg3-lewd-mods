@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="DWE_Ciri_Black" />
+					<attribute id="ID" type="FixedString" value="ab6c6508-5bdb-4cdd-99c4-7708c1a2f844" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClaws/Assets/Black.dds" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4" />
+					<attribute id="Height" type="int32" value="4" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="false" />
+					<attribute id="Streaming" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_BM" />
+					<attribute id="ID" type="FixedString" value="2fe02571-c0de-4555-ab6d-9d6f41b6ccbe" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClaws/Assets/HUM_F_ARM_DWE_Ciri_BM.dds" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_basecolor" />
+					<attribute id="ID" type="FixedString" value="6e1d3346-0dbb-4c02-bab4-2096d5b3a7b0" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClaws/Assets/HUM_F_ARM_DWE_Ciri_basecolor.dds" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_MSKcloth" />
+					<attribute id="ID" type="FixedString" value="39413caf-f854-409a-8216-a6bb3ee7b603" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClaws/Assets/HUM_F_ARM_DWE_Ciri_MSKcloth.dds" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="false" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_PM" />
+					<attribute id="ID" type="FixedString" value="e0d2abb2-5680-4eb4-9695-d5df76fd937e" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClaws/Assets/HUM_F_ARM_DWE_Ciri_PM.dds" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_DWE_Ciri_NM" />
+					<attribute id="ID" type="FixedString" value="eba68334-168d-4945-b39d-f1940cf32bb7" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClaws/Assets/HUM_F_ARM_DWE_Ciri_NM.dds" />
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+
+			</children>
+		</node>
+	</region>
+</save>

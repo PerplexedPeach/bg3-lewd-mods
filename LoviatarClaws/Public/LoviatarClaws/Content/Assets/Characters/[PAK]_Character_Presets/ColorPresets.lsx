@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="MaterialPresetBank">
+		<node id="MaterialPresetBank">
+			<children>
+
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="8c01383c-b72f-4d9e-beba-69ab5db59308" />
+					<attribute id="Name" type="LSString" value="DWE_Ciri_Tinted" />
+					<children>
+						<node id="Presets">
+							<attribute id="MaterialResource" type="FixedString" value="" />
+							<children>
+								<node id="ColorPreset">
+									<attribute id="ForcePresetValues" type="bool" value="False" />
+									<attribute id="GroupName" type="FixedString" value="" />
+									<attribute id="MaterialPresetResource" type="FixedString" value="" />
+								</node>
+								<node id="MaterialPresets" />
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Primary" />
+									<attribute id="Value" type="fvec3" value="0.77 0.74 0.67" /> shirt
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Secondary" />
+									<attribute id="Value" type="fvec3" value="0.63 0.57 0.36" /> shirt ribbon, most stitches
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Tertiary" />
+									<attribute id="Value" type="fvec3" value="1 0.93 0.78" /> bra
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Primary" />
+									<attribute id="Value" type="fvec3" value="0.78 0.26 0.08" /> corset, boots
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Secondary" />
+									<attribute id="Value" type="fvec3" value="0.38 0.28 0.17" /> pants
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Tertiary" />
+									<attribute id="Value" type="fvec3" value="0.36 0.18 0.11" /> belt, straps, pouches, arm leathers, shoulder belt
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Metal_Primary" />
+									<attribute id="Value" type="fvec3" value="0.7 0.7 0.7" /> metal belt, front pouch button, shoulder belt metal
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Metal_Secondary" />
+									<attribute id="Value" type="fvec3" value="0.66 0.42 0.24" /> buckles, corset buttons, belt metal tips
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Metal_Tertiary" />
+									<attribute id="Value" type="fvec3" value="0.58 0.5 0.38" /> pants buttons
+								</node>
+		<!--
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Accent_Color" />
+									<attribute id="Value" type="fvec3" value="1 0 0" /> (unused)
+								</node>
+		-->
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_1" />
+									<attribute id="Value" type="fvec3" value="0.05 0.69 0.78" /> metal belt gem things
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_2" />
+									<attribute id="Value" type="fvec3" value="0.9 0.9 0.9" /> armband
+								</node>
+
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Color_01" /> underwear Cloth_Primary
+									<attribute id="Value" type="fvec3" value="0.77 0.74 0.67" /> shirt
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Color_02" /> underwear Cloth_Secondary
+									<attribute id="Value" type="fvec3" value="0.63 0.57 0.36" /> shirt ribbon, most stitches
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Color_03" /> underwear Cloth_Tertiary
+									<attribute id="Value" type="fvec3" value="1 0.93 0.78" /> bra
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="8c01383c-b72f-4d9e-beba-69ab5db59308" />
+					<attribute id="Name" type="LSString" value="DWE_Ciri_Tinted_Boots" />
+					<children>
+						<node id="Presets">
+							<attribute id="MaterialResource" type="FixedString" value="" />
+							<children>
+								<node id="ColorPreset">
+									<attribute id="ForcePresetValues" type="bool" value="False" />
+									<attribute id="GroupName" type="FixedString" value="" />
+									<attribute id="MaterialPresetResource" type="FixedString" value="" />
+								</node>
+								<node id="MaterialPresets" />
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Secondary" />
+									<attribute id="Value" type="fvec3" value="0.7 0.65 0.5" /> stitches
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Primary" />
+									<attribute id="Value" type="fvec3" value="0.6 0.24 0.07" /> boots
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Tertiary" />
+									<attribute id="Value" type="fvec3" value="0.44 0.2 0.08" /> straps and soles
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="663f0d81-68a5-4edd-b4f1-0736dac9d664" />
+					<attribute id="Name" type="LSString" value="DWE_Ciri_Tinted_ForStandardTextures" />
+					<children>
+						<node id="Presets">
+							<attribute id="MaterialResource" type="FixedString" value="" />
+							<children>
+								<node id="ColorPreset">
+									<attribute id="ForcePresetValues" type="bool" value="False" />
+									<attribute id="GroupName" type="FixedString" value="" />
+									<attribute id="MaterialPresetResource" type="FixedString" value="" />
+								</node>
+								<node id="MaterialPresets" />
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Primary" />
+									<attribute id="Value" type="fvec3" value="0.77 0.74 0.67" /> shirt
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Secondary" />
+									<attribute id="Value" type="fvec3" value="0.63 0.57 0.36" /> shirt ribbon, most stitches
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Tertiary" />
+									<attribute id="Value" type="fvec3" value="1 0.93 0.78" /> bra
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Primary" />
+<!--								<attribute id="Value" type="fvec3" value="0.78 0.26 0.08" /> corset, boots -->
+<!--								<attribute id="Value" type="fvec3" value="0.39 0.13 0.04" /> corset, boots -->
+									<attribute id="Value" type="fvec3" value="0.26 0.0867 0.0267" /> corset, boots
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Secondary" />
+<!--								<attribute id="Value" type="fvec3" value="0.38 0.28 0.17" /> pants -->
+<!--								<attribute id="Value" type="fvec3" value="0.19 0.14 0.085" /> pants -->
+									<attribute id="Value" type="fvec3" value="0.1267 0.0933 0.0567" /> pants
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Leather_Tertiary" />
+<!--								<attribute id="Value" type="fvec3" value="0.36 0.18 0.11" /> belt, straps, pouches, arm leathers, shoulder belt -->
+<!--								<attribute id="Value" type="fvec3" value="0.18 0.09 0.055" /> belt, straps, pouches, arm leathers, shoulder belt -->
+									<attribute id="Value" type="fvec3" value="0.12 0.06 0.0367" /> belt, straps, pouches, arm leathers, shoulder belt
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Metal_Primary" />
+									<attribute id="Value" type="fvec3" value="0.7 0.7 0.7" /> metal belt, front pouch button, shoulder belt metal
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Metal_Secondary" />
+									<attribute id="Value" type="fvec3" value="0.66 0.42 0.24" /> buckles, corset buttons, belt metal tips
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Metal_Tertiary" />
+									<attribute id="Value" type="fvec3" value="0.58 0.5 0.38" /> pants buttons
+								</node>
+		<!--
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Accent_Color" />
+									<attribute id="Value" type="fvec3" value="1 0 0" /> (unused)
+								</node>
+		-->
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_1" />
+									<attribute id="Value" type="fvec3" value="0.05 0.69 0.78" /> metal belt gem things
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_2" />
+									<attribute id="Value" type="fvec3" value="0.9 0.9 0.9" /> armband
+								</node>
+
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Color_01" /> underwear Cloth_Primary
+									<attribute id="Value" type="fvec3" value="0.77 0.74 0.67" /> shirt
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Color_02" /> underwear Cloth_Secondary
+									<attribute id="Value" type="fvec3" value="0.63 0.57 0.36" /> shirt ribbon, most stitches
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Color_03" /> underwear Cloth_Tertiary
+									<attribute id="Value" type="fvec3" value="1 0.93 0.78" /> bra
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+			</children>
+		</node>
+	</region>
+</save>
