@@ -44,7 +44,7 @@
 					<attribute id="V2" type="float" value="0.25"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="DWE_Item_Ciri_Gear"/> 4
+					<attribute id="MapKey" type="FixedString" value="Loviatar_symbol"/> 4
 					<attribute id="U1" type="float" value="0.75"/> Left
 					<attribute id="U2" type="float" value="1.0"/> Right
 					<attribute id="V1" type="float" value="0.0"/> Top
