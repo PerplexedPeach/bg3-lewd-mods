@@ -13,6 +13,7 @@
 -- Ext.Events.SessionLoaded:Subscribe("SessionLoaded", OnSessionLoaded)
 
 local loviatar_claws_item_id = "LI_LoviatarClaws_07ea67e5-344b-4de6-91d3-449cce27a685";
+local loviatars_love_status_id = "GOB_CALMNESS_IN_PAIN";
 local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_";
 local remodelled_frame_removed_group = "LI_Claws_RemodelledFrame_removed";
 local remodelled_frame_removed_id_prefix = remodelled_frame_removed_group .. "_";
@@ -41,7 +42,7 @@ local function getCurrentWearer()
 end
 
 local function hasLoviatarsLove(char)
-    return Osi.HasActiveStatus(char, "GOB_CALMNESS_IN_PAIN");
+    return Osi.HasActiveStatus(char, loviatars_love_status_id);
 end
 
 local function remodelledFrameLevel(char)
@@ -97,8 +98,21 @@ local function curseItemReequipHandler(template, char)
     end
 end
 
+local function curseItemAcquisitionHandler(char, status, causee, storyActionID)
+    -- filter if they're not a player character
+    if Osi.IsPlayer(char) == 1 then
+        if status == loviatars_love_status_id then
+            Osi.OpenMessageBox(char, "Due to your spectacular performance, the priest also gifts you a curious pair of boots. They seem to be made of some kind of leather, but they are so soft and supple that they feel like silk. You feel a strange urge to put them on...");
+            Osi.TemplateAddTo(loviatar_claws_item_id, char, 1, 1);
+        end
+    end
+end
+
 Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", curseLongRestHandler);
 
 -- handle curse from item unequip
 Ext.Osiris.RegisterListener("TemplateUnequipped", 2, "after", curseItemUnequipHandler);
 Ext.Osiris.RegisterListener("TemplateEquipped", 2, "after", curseItemReequipHandler);
+
+-- acquire from getting Loviatar's love
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", curseItemAcquisitionHandler);
