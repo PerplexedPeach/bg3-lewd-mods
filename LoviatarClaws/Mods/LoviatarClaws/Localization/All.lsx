@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="TranslatedStringKeys">
+		<node id="TranslatedStringKeys">
+			<children>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="hbd36fab3g78c0g47f2ga6begcbc5bdfbb8a9" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_GIFT_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h21ffd741g3eebg4e99ga48dg2b711b6cb47b" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_REMODEL_1_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h0767a1bcg5e6fg4330g98aeg8f51e7d616f6" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_REMODEL_2_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h1fbe0248g8e6dg4666gbddcg18229dc714ec" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_REMODEL_3_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h2f024bc4gb521g4a29g8280g050c958a8a39" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_REMODEL_4_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

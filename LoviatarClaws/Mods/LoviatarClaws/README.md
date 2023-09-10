@@ -4,9 +4,9 @@
 - optional body modification content
 
 ## How to Get
+- (recommended) get Loviatar's Love from getting hit sufficiently well by Abdirak (Loviatar priest in the goblin camp)
 - tutorial chest that you can also get via [summoning](https://www.nexusmods.com/baldursgate3/mods/457)
 - `07ea67e5-344b-4de6-91d3-449cce27a685` spawn with script
-- Abdirak (Loviatar priest in the goblin camp) inventory
 
 ## Body Modification (requires bg3se)
 If you have Loviatar's Love (status boost that lasts until you die), taking a long rest with the boots on will progressively advance `Remodelled Frame` permanent boost, up to 4 times, with effects listed below. The theme is muscle loss, tendon shortening, and so on (no model change yet).

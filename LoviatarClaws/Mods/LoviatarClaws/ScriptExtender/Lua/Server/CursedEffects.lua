@@ -18,11 +18,12 @@ local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_";
 local remodelled_frame_removed_group = "LI_Claws_RemodelledFrame_removed";
 local remodelled_frame_removed_id_prefix = remodelled_frame_removed_group .. "_";
 local remodelled_message = {
-    "You wake up, feeling that your body has subtly changed. Your muscles feels softer and your flesh feels fuller in certain places.",
-    "Your body feels more sensitive to touch. You feel a strange urge to join the frontline of the fiercest battle you can find.",
-    "Waking up, your body feels different yet again. You feel sluggish, and soft... Your muscles have shrunk, seemingly turned to fat in other places.",
-    "Again, you wake up to a softer body. Your full curves and supple limbs seem more appropriate for a bordella than a life on the road. You have now grown used to the grace of your new body."
+    "LI_CLAW_REMODEL_1_MSG",
+    "LI_CLAW_REMODEL_2_MSG",
+    "LI_CLAW_REMODEL_3_MSG",
+    "LI_CLAW_REMODEL_4_MSG",
 };
+local acquire_message = "LI_CLAW_GIFT_MSG";
 
 local function _I(msg)
     _P("[LoviatarClaws] " .. msg);
@@ -102,7 +103,7 @@ local function curseItemAcquisitionHandler(char, status, causee, storyActionID)
     -- filter if they're not a player character
     if Osi.IsPlayer(char) == 1 then
         if status == loviatars_love_status_id then
-            Osi.OpenMessageBox(char, "Due to your spectacular performance, the priest also gifts you a curious pair of boots. They seem to be made of some kind of leather, but they are so soft and supple that they feel like silk. You feel a strange urge to put them on...");
+            Osi.OpenMessageBox(char, acquire_message);
             Osi.TemplateAddTo(loviatar_claws_item_id, char, 1, 1);
         end
     end
