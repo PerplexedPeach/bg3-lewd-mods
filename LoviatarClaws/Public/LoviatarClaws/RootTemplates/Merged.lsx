@@ -11,7 +11,7 @@
 					<attribute id="Name" type="LSString" value="LI_LoviatarClaws" />
 					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws" />
 					<attribute id="MapKey" type="FixedString" value="07ea67e5-344b-4de6-91d3-449cce27a685" />
-					<attribute id="VisualTemplate" type="FixedString" value="e8c0a3dd-9d01-4519-aa6e-68d407c456aa" /> LOOT_ARM_Footwear_DWE_Ciri_MSK
+					<attribute id="VisualTemplate" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> LOOT_ARM_Footwear_DWE_Ciri_MSK
 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
