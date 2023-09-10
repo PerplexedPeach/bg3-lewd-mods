@@ -4,7 +4,7 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>				
-				<node id="GameObjects"> Boots: Ciri's Boots (Tintable)
+				<node id="GameObjects"> Loviatar's Claws (Tintable)
 					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws" />

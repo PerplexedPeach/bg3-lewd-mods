@@ -11,5 +11,13 @@
 	<content contentuid="hde66922bg1757g48c0g8b1cg871e194572ea" version="2">Dancing</content>
 	<content contentuid="h9fe29547g3240g45e0gbf6bg3d62f379dc07" version="4">Your dance &lt;LSTag Type="Status" Tooltip="GOADING_ATTACK"&gt;Goads&lt;/LSTag&gt; nearby creatures. &lt;br&gt;&lt;br&gt;The song ends if you are incapacitated or loses concentration.</content>
 	<content contentuid="hb478108fgf99bg495fg9178g9a3ea874d1c2" version="4">Must succeed a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; every turn or be &lt;LSTag Type="Status" Tooltip="GOADING_ATTACK"&gt;Goaded&lt;/LSTag&gt; by the dance.</content>
+	<content contentuid="hc6924b50ge295g4506g9ed6g888125bd80f0" version="1">Remodelled Frame: Inception</content> 
+	<content contentuid="h5fc1edc3gc384g4d69g97c5gdc91bbcbb33a" version="1">Remodelled Frame: Foundation</content> 
+	<content contentuid="h9313e8c1g0455g4ee4gb1a3g29718116e877" version="1">Remodelled Frame: Maturation</content> 
+	<content contentuid="h7e606603gabe0g42ffga443g5b5495f689ce" version="1">Remodelled Frame: Perfection</content> 
+	<content contentuid="hf3b29fbag93ddg4d9egadedgd277589eaa56" version="1">Your body is starting to change in subtle ways. Your muscles soften and your flesh feels fuller in certain places. You receive &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; -1.</content> 
+	<content contentuid="hfdf467cag2ab5g4f14g89e6g11bd71caff43" version="1">Your body is noticeably changing. What you lost in your muscles seems to have gone to filling out your curves. You receive &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; -1 &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; -1 &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; +1.</content> 
+	<content contentuid="he875f008g9bc8g4bfbg8bedg6b98dd52a162" version="1">Your body is being moulded into the image of submission. Your previous muscles give way to supple curves. You receive &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; -2 &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; -1 &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; +1.</content> 
+	<content contentuid="h9600c718ga293g4979gac87g590ae8d92fa8" version="1">Your body has been perfected as an image of submission. Your enticing curves and supple limbs would be more fitting in a bordello than out on an adventure. You receive &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; -2 &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; +2.</content> 
 </contentList>
 
