@@ -14,7 +14,13 @@
 
 local WEARER_KEY = "LoviatarClawsWearer";
 local loviatar_claws_item_id = "LI_LoviatarClaws_07ea67e5-344b-4de6-91d3-449cce27a685";
-local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_"
+local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_";
+local remodelled_message = {
+    "You wake up, feeling that your body has subtly changed. Your muscles feels softer and your flesh feels fuller in certain places.",
+    "Your body feels more sensitive to touch. You feel a strange urge to join the frontline of the fiercest battle you can find.",
+    "Waking up, your body feels different yet again. You feel sluggish, and soft... Your muscles have shrunk, seemingly turned to fat in other places.",
+    "Again, you wake up to a softer body. Your full curves and supple limbs seem more appropriate for a bordella than a life on the road. You have now grown used to the grace of your new body."
+};
 
 local function getCurrentWearer()
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
@@ -36,15 +42,17 @@ end
 local function upgradeRemodelledFrame(char)
     -- check level of remodelled body
     _P("Checking remodelled body level of " .. char);
-    local currentLevel = 0;
+    local current_level = 0;
     for level = 1, 4 do
         local passive_key = remodelled_frame_id_prefix .. level;
         if Osi.HasPassive(char, passive_key) == 1 then
+            current_level = level;
             Osi.RemovePassive(char, passive_key);
         end
     end
-    _P("Upgrading remodelled body to level " .. currentLevel + 1);
-    Osi.AddPassive(char, remodelled_frame_id_prefix .. currentLevel + 1);
+    _P("Upgrading remodelled body to level " .. current_level + 1);
+    Osi.AddPassive(char, remodelled_frame_id_prefix .. current_level + 1);
+    Osi.OpenMessageBox(char, remodelled_message[current_level + 1]);
 end
 
 local function curseLongRestHandler()

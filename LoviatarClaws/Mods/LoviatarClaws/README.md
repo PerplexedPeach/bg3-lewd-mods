@@ -4,8 +4,8 @@ To avoid body modification, die to remove Loviatar's Love.
 ```
 -1 STR
 -1 STR -1 DEX +1 CHA
--2 STR -1 DEX +1 CHA
--2 STR +2 CHA
+-2 STR -1 DEX +1 CHA disadvantage on intimidation checks
+-2 STR +2 CHA advantage on Persuasion checks, disadvantage on intimidation checks
 ```
 
 Additionally, with stacks of `Remodelled Frame`, removing the boots will give debuff until you re-equip the boots, the severity of which stacks with the `Remodelled Frame` stacks.
