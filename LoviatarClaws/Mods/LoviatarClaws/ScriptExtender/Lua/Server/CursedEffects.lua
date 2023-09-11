@@ -61,6 +61,10 @@ local function upgradeRemodelledFrame(char)
     -- check level of remodelled body
     local current_level = remodelledFrameLevel(char);
     _I("Upgrading remodelled body to level " .. current_level + 1);
+    if current_level > 0 then
+        Osi.RemovePassive(char, remodelled_frame_id_prefix .. current_level);
+    end
+
     Osi.AddPassive(char, remodelled_frame_id_prefix .. current_level + 1);
     Osi.OpenMessageBox(char, remodelled_message[current_level + 1]);
 end
