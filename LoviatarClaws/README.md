@@ -4,7 +4,7 @@
 - optional body modification content
 
 ## Ability Explanations
-Pain Mirror: AOE reflect 1d6+CHA psychic damage whenever you receive damage above 0. Enemies can avoid this damage by passing a WIS save (against a DC that should scale with your CHA).
+Pain Mirror: AOE reflect 1d6+CHA psychic damage whenever you receive damage above 0. Enemies can half this damage by passing a WIS save (against a DC that should scale with your CHA).
 Inviting Dance: concentration AOE taunting aura for 2 turns that gives disadvantage on attacks on people other than you, encouraging the AI to target you more.
 
 ## How to Get
