@@ -16,10 +16,10 @@ Inviting Dance: concentration AOE taunting aura for 2 turns that gives disadvant
 If you have Loviatar's Love (status boost that lasts until you die), taking a long rest with the boots on will progressively advance `Remodelled Frame` permanent boost, up to 4 times, with effects listed below. The theme is muscle loss, tendon shortening, and so on (no model change yet).
 To avoid body modification, die to remove Loviatar's Love.
 ```
-Inception: -1 STR
-Foundation: -1 STR -1 DEX +1 CHA
-Maturation: -2 STR -1 DEX +1 CHA disadvantage on intimidation checks
-Perfection: -2 STR +2 CHA advantage on Persuasion checks, disadvantage on intimidation checks
+Inception: -1 STR +1 CHA
+Foundation: -1 STR -1 DEX +2 CHA
+Maturation: -2 STR -1 DEX +3 CHA disadvantage on intimidation checks
+Perfection: -2 STR +4 CHA advantage on Persuasion checks, disadvantage on intimidation checks
 ```
 
 Additionally, with stacks of `Remodelled Frame`, removing the boots will give a debuff until you re-equip the boots, the severity of which stacks with the `Remodelled Frame` stacks.
