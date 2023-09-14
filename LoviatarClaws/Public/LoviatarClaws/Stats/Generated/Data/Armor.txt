@@ -6,7 +6,7 @@ data "Rarity" "Legendary"
 data "RootTemplate" "07ea67e5-344b-4de6-91d3-449cce27a685"
 data "ColorPresetResource" "8c01383c-b72f-4d9e-beba-69ab5db59308"
 data "PassivesOnEquip" "LI_Claws_penalty;LI_Claws_pain_mirror"
-data "Boosts" "UnlockSpell(Shout_LI_Claws_Dance);Disadvantage(Skill,Stealth)"
+data "Boosts" "UnlockSpell(Shout_LI_Claws_Dance);Disadvantage(Skill,Stealth);ScaleMultiplier(1.05)"
 data "Unique" "1"
 
 new entry "LI_LoviatarClaws_Camp"
@@ -37,7 +37,6 @@ data "Properties" "Highlighted;IsToggled;ToggledDefaultOn"
 data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and not HasStatus('SG_Polymorph')"
 data "StatsFunctors" "CreateExplosion(SWAP,Projectile_LI_pain_mirror_Explosion)"
-data "ToggleGroup" "NonLethal"
 
 
 new entry "Projectile_LI_pain_mirror_Explosion"
@@ -72,13 +71,15 @@ data "AuraStatuses" "TARGET:IF(Character() and not HasStatus('SILENCED') and not
 data "Boosts" "ActionResourceBlock(BonusActionPoint);"
 data "RemoveConditions" "HasStatus('SILENCED')"
 data "RemoveEvents" "OnStatusApplied;OnSpellCast;OnMove"
-data "StatusPropertyFlags" "OverheadOnTurn"
+data "StatusPropertyFlags" "Performing;UnsheathInstrument;OverheadOnTurn"
 data "OnRemoveFunctors" "BreakConcentration()"
 data "StatusGroups" "SG_DropForNonMutingDialog"
 data "StatusEffect" "729af756-b52f-4ec4-b3e6-38e1850aac6b"
 data "StillAnimationType" "Performing1"
 data "StillAnimationPriority" "Performing"
 data "StackId" "PERFORM"
+data "Sheathing" "Instrument"
+
 
 new entry "INVITING_DANCE_AURA_VICTIM"
 type "StatusData"
