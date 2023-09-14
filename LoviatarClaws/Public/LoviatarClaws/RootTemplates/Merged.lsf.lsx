@@ -28,6 +28,30 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human Male
+											<children>														
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>																							
+											</children>
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> Strong_Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" /> 
+												</node>												
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" /> 
+												</node>												
+											</children>
+										</node>		
 									</children>
 								</node>
 							</children>
@@ -59,6 +83,31 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human Male
+											<children>														
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>																							
+											</children>
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> Strong_Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" /> 
+												</node>												
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" /> 
+												</node>												
+											</children>
+										</node>		
+
 									</children>
 								</node>
 							</children>
