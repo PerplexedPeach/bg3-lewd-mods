@@ -45,7 +45,7 @@ local function getCurrentWearer()
 end
 
 local function hasLoviatarsLove(char)
-    return Osi.HasActiveStatus(char, loviatars_love_status_id);
+    return Osi.HasActiveStatus(char, loviatars_love_status_id) == 1;
 end
 
 local function remodelledFrameLevel(char)
