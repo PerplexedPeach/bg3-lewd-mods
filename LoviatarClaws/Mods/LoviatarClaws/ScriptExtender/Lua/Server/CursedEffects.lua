@@ -14,6 +14,7 @@
 
 local loviatar_claws_item_id = "LI_LoviatarClaws_07ea67e5-344b-4de6-91d3-449cce27a685";
 local loviatar_claws_camp_item_id = "LI_LoviatarClaws_Camp_ec34283c-5e38-4bbc-a9cd-01397d55c5ce";
+local loviatar_claws_replica_item_id = "LI_LoviatarClaws_Replica_49041dbe-1df1-4b57-a53f-72e291bd291f";
 local loviatars_love_status_id = "GOB_CALMNESS_IN_PAIN";
 local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_";
 local remodelled_frame_removed_group = "LI_Claws_RemodelledFrame_removed";
@@ -113,6 +114,7 @@ local function curseItemAcquisitionHandler(char, status, causee, storyActionID)
             Osi.OpenMessageBox(char, acquire_message);
             Osi.TemplateAddTo(loviatar_claws_item_id, char, 1, 1);
             Osi.TemplateAddTo(loviatar_claws_camp_item_id, char, 1, 1);
+            Osi.TemplateAddTo(loviatar_claws_replica_item_id, char, 1, 1);
         end
     end
 end

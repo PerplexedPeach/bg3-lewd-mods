@@ -2,6 +2,10 @@
 <contentList>
 	<content contentuid="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1">A legendary artefact of Loviatar that appears more like a torture device than footwear. Its leather gleams with malice, promising unimaginable pain and pleasure.</content>  
 	<content contentuid="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1">Loviatar's Claws</content> 
+
+	<content contentuid="hc3d49993g9df3g4967ga280g2de15a1a16fe" version="1">A realistic replica of Loviatar's legendary artefact. Fortunately, or unfortunatey, it seems to just be a pair of leather boots.</content>  
+	<content contentuid="h6f466240g2a6bg4b2bg9c43ga8b555dca886" version="1">Replica of Loviatar's Claws</content> 
+
 	<content contentuid="h7c99c7e4g3890g41b8g86f3gcb0f3541de2b" version="1">Walk in Pain</content> 
     <content contentuid="h64c866adg63d2g457aga411g8830a53a0c37" version="1">Forced into a painful and slow walk, you receive a penalty of -[1] to &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; and &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; -2. You become tolerant to pain and receive &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; +2.</content>
 	<content contentuid="h2fe27aadg254ag4f5cga27ag2accaec04d19" version="1">Pain Mirror</content> 
