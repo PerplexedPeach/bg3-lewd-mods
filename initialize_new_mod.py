@@ -70,11 +70,11 @@ def create_mod(name, author):
         # only if there are models and textures
         # with Folder(f"Generated/Public/{name}"):
         with Folder("Localization/English"):
-            with XMLFile(f"{name}.xml") as f:
+            with XMLFile(f"{name}.loca.xml") as f:
                 with XMLBlock(f, "contentList"):
                     pass
         with Folder(f"Public/{name}/RootTemplates"):
-            with XMLFile("Merged.lsx") as f:
+            with XMLFile("Merged.lsf.lsx") as f:
                 f.add_line("""
 <save>
     <version major="4" minor="0" revision="6" build="5" />
