@@ -35,14 +35,14 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> human female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="11a29e17-99fd-0db5-ec2e-d90a40ec5b1f" />
+													<attribute id="Object" type="FixedString" value="34dbad65-f9f4-463d-b947-7cfdf0503d77" />
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="7cc5cafc-2bb8-3627-97e0-125d2c4fd084" />
+													<attribute id="Object" type="FixedString" value="906952ff-8c1c-4233-b9e6-892a3ce0c494" />
 												</node>
 											</children>
 										</node>
-										<node id="Object">
+										<!-- <node id="Object">
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-00ac-8eb0a513fab0" /> githyanki female
 											<children>
 												<node id="MapValue">
@@ -52,7 +52,7 @@
 													<attribute id="Object" type="FixedString" value="ae9bf761-6ce7-e930-5395-8223aec21784" />
 												</node>
 											</children>
-										</node>
+										</node> -->
 									</children>
 								</node>
 								<node id="Slot">
@@ -64,10 +64,10 @@
 											<attribute id="MapKey" type="guid" value="f07faafa-0c6f-4f79-49a0-e970236b1bd5" />
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
 										</node> -->
-										<node id="Object">
+										<!-- <node id="Object">
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-00ac-8eb0a513fab0" />
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
-										</node>
+										</node> -->
 										<!-- <node id="Object">
 											<attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-c5ba-15ff6e699764" />
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
