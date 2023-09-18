@@ -45,51 +45,16 @@ class XMLFile(File):
         return ret
 
 
-class XMLBlock:
-    """Context manager for nesting XML blocks with proper indentation"""
-
-    def __init__(self, file: File, node: str, inline=False, **kwargs):
-        self.event = file
-        self.node = node
-        args = " ".join(f'{k}="{v}"' for k, v in kwargs.items())
-        if inline:
-            self.event.add_line(f"<{self.node} {args} />")
-        else:
-            self.event.add_line(f"<{self.node} {args}>")
-
-    def __enter__(self):
-        self.event.indent += 1
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        self.event.indent -= 1
-        self.event.add_line(f"</{self.node}>")
-
-
-def create_mod(name, author):
+def create_mod(args):
+    name = args.name
+    author = args.author
     with Folder(name):
         # only if there are models and textures
         # with Folder(f"Generated/Public/{name}"):
         with Folder("Localization/English"):
             with XMLFile(f"{name}.loca.xml") as f:
-                with XMLBlock(f, "contentList"):
-                    pass
-        with Folder(f"Public/{name}/RootTemplates"):
-            with XMLFile("Merged.lsf.lsx") as f:
-                f.add_line("""
-<save>
-    <version major="4" minor="0" revision="6" build="5" />
-    <region id="Templates">
-        <node id="Templates">
-            <children>        
-            </children>
-        </node>
-    </region>
-</save>
-                """)
-        # touch this file
-        with Folder(f"Public/{name}/Stats/Generated/Data"):
-            with File("Armor.txt") as f:
-                f.add_line(" ")
+                f.add_line("""<contentList>\n</contentList>""")
+        # every mod needs a meta
         with Folder(f"Mods/{name}"):
             with XMLFile("meta.lsx") as f:
                 f.add_line(f"""
@@ -137,12 +102,93 @@ def create_mod(name, author):
   </save>               
                 """)
 
+        if args.items:
+            with Folder(f"Public/{name}/RootTemplates"):
+                with XMLFile("Merged.lsf.lsx") as f:
+                    f.add_line("""
+    <save>
+        <version major="4" minor="0" revision="6" build="5" />
+        <region id="Templates">
+            <node id="Templates">
+                <children>        
+                </children>
+            </node>
+        </region>
+    </save>
+                    """)
+            # touch this file
+            with Folder(f"Public/{name}/Stats/Generated"):
+                with Folder("Data"):
+                    with File("Armor.txt") as f:
+                        f.add_line(" ")
+                with File("TreasureTable.txt"):
+                    f.add_line(" ")
+
+        if args.scripts:
+            with Folder(f"Mods/{name}/ScriptExtender"):
+                with File("Config.json") as f:
+                    f.add_line(f"""
+{
+                    "RequiredVersion": 1,
+"ModTable": "{name}",
+"FeatureFlags": ["Lua"]
+}
+                    """)
+                with Folder("Lua"):
+                    with File("BoostrapClient.lua") as f:
+                        f.add_line(" ")
+                    with File("BoostrapServer.lua") as f:
+                        f.add_line(f"Ext.Require(\"Server/{name}.lua\")")
+                    with Folder("Server"):
+                        with File(f"{name}.lua") as f:
+                            f.add_line(" ")
+        if args.assets:
+            with Folder(f"Generated/Public/{name}/Assets"):
+                with File("place DDS and GR2 files here.txt") as f:
+                    f.add_line(" ")
+            with Folder(f"Public/{name}/Content/Assets/Characters"):
+                with Folder(f"[PAK]_Armor"):
+                    with File("define meshes materials and textures here.txt") as f:
+                        f.add_line(" ")
+
+
+def prompt_for_binary_response(message):
+    while True:
+        response = input(message).lower()
+        if response in ["y", "yes"]:
+            return True
+        elif response in ["n", "no"]:
+            return False
+        else:
+            print("Invalid response. Please enter y or n.")
+
 
 if __name__ == "__main__":
     # parse arguments with argparse
     parser = argparse.ArgumentParser(description="Initialize a new mod")
     parser.add_argument("name", help="Name of the mod")
     parser.add_argument("author", help="Author of the mod")
+    parser.add_argument("-q", "--quiet",
+                        help="skip asking about optional creation features if they are not selected. By default each"
+                             " option will prompt the user for them.",
+                        action="store_true")
+    parser.add_argument("-a", "--assets", action="store_true", help="Whether this mod will have custom assets such as"
+                                                                    "textures and 3D models (default False)")
+    parser.add_argument("-i", "--items", action="store_true", help="Whether this mod will add custom items "
+                                                                   "(default False)")
+    parser.add_argument("-s", "--scripts", action="store_true", help="Whether this mod will have custom scripts enabled"
+                                                                     "by BG3SE (default False)")
 
     args = parser.parse_args()
-    create_mod(args.name, args.author)
+    if args.assets:
+        args.items = True
+    if not args.quiet:
+        if not args.assets:
+            args.assets = prompt_for_binary_response("Will this mod have custom assets? (y/n) ")
+            if args.assets:
+                args.items = True
+        if not args.items:
+            args.items = prompt_for_binary_response("Will this mod have custom items? (y/n) ")
+        if not args.scripts:
+            args.scripts = prompt_for_binary_response("Will this mod have custom scripts? (y/n) ")
+    create_mod(args)
