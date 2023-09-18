@@ -23,9 +23,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_ARM_Barbarian_Karlach_A_Body.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarness/Assets/HUM_F_ARM_LI_Harness_Body.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_ARM_Barbarian_Karlach_A_Body.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarness/Assets/HUM_F_ARM_LI_Harness_Body.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -36,7 +36,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="8ddbf459-cdfd-46b2-366f-3389aefead46" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_Barbarian_Karlach_A_Body.HUM_F_ARM_Barbarian_Karlach_A_Body_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Body.HUM_F_ARM_LI_Harness_Body_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
@@ -58,7 +58,7 @@
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="906952ff-8c1c-4233-b9e6-892a3ce0c494" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Hanress_Pants" />
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Harness_Pants" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -66,9 +66,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_ARM_Barbarian_Karlach_A_Pants.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarness/Assets/HUM_F_ARM_LI_Harness_Pants.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_ARM_Barbarian_Karlach_A_Pants.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarness/Assets/HUM_F_ARM_LI_Harness_Pants.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -79,7 +79,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="714e3022-dbf1-85d5-3cd8-7eccd4701c5c" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_Barbarian_Karlach_A_Pants.HUM_F_ARM_Barbarian_Karlach_A_Pants_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Pants.HUM_F_ARM_LI_Harness_Pants_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
