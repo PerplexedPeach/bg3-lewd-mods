@@ -4,7 +4,7 @@
     <region id="Templates">
         <node id="Templates">
             <children>        
-				<node id="GameObjects">
+				<node id="GameObjects"> stage 0
 					<attribute id="MapKey" type="FixedString" value="f84dabb1-f1da-467a-9236-8c6aa474d4a4" />
 					<attribute id="Name" type="LSString" value="LI_SharessHarness" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -125,6 +125,112 @@
 										<node id="RealMaterialOverrides" />
 									</children>
 								</node> -->
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> stage 1
+					<attribute id="MapKey" type="FixedString" value="62328163-7cb9-49b5-8e76-f4a4ebd345ec" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6599c3f-cfcd-4721-9cc2-1df5d8ff0154" />
+					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hae139e65ga634g4d4eg8f31g374998c8bc6f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_1" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> human female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a63d87ab-d57c-407b-9701-c4feb08116ad" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d0b138ef-8eed-4e06-8ae7-93c473984ce0" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="885b71e8-9614-47c2-8692-8d5b889505dc" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2079e226-16de-4201-81bd-27debbe3a409" /> body
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> stage 2
+					<attribute id="MapKey" type="FixedString" value="e54bf9e5-38d7-402f-8e6a-2f3d9e6baf9b" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6599c3f-cfcd-4721-9cc2-1df5d8ff0154" />
+					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h25a2322eg006dg4bdag8ca4g506f5126f2c6" version="1" />
+					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_2" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> human female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f7eaced1-9956-4ea1-a96b-8491a2dbad83" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="75d22eb9-d059-4e39-bd62-f3164a228493" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f9fb8674-2b55-4a46-8777-e4197a4cfbed" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="87ce3147-8072-4ae1-bbe8-9539d197ddc1" /> body
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
 							</children>
 						</node>
 					</children>

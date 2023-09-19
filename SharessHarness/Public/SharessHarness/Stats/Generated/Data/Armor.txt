@@ -5,3 +5,13 @@ data "RootTemplate" "f84dabb1-f1da-467a-9236-8c6aa474d4a4"
 data "ValueOverride" "3369"
 data "Weight" "0.1"
 data "Rarity" "Legendary"
+
+new entry "LI_SharessHarness_1"
+type "Armor"
+using "LI_SharessHarness"
+data "RootTemplate" "62328163-7cb9-49b5-8e76-f4a4ebd345ec"
+
+new entry "LI_SharessHarness_2"
+type "Armor"
+using "LI_SharessHarness"
+data "RootTemplate" "e54bf9e5-38d7-402f-8e6a-2f3d9e6baf9b"
