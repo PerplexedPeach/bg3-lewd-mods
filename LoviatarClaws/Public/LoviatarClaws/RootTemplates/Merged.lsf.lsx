@@ -3,8 +3,8 @@
 	<version major="4" minor="0" revision="6" build="5" />
 	<region id="Templates">
 		<node id="Templates">
-			<children>				
-				<node id="GameObjects"> Loviatar's Claws (Tintable)
+			<children>
+				<node id="GameObjects">  Loviatar's Claws (Tintable)
 					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws" />
@@ -21,7 +21,7 @@
 								<node id="Visuals">
 									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_LI_Claws_Boots_MSK
@@ -29,45 +29,44 @@
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human Male
-											<children>														
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
-												</node>																							
-											</children>
-										</node>	
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> Strong_Male
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" /> 
-												</node>												
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" /> Strong_Female
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" /> 
-												</node>												
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>
 											</children>
-										</node>		
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" />
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="GameObjects"> Loviatar's Claws Replica (Tintable)
+				<node id="GameObjects">  Loviatar's Claws Replica (Tintable)
 					<attribute id="Description" type="TranslatedString" handle="hc3d49993g9df3g4967ga280g2de15a1a16fe" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h6f466240g2a6bg4b2bg9c43ga8b555dca886" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws" />
 					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Replica" />
 					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Replica" />
 					<attribute id="MapKey" type="FixedString" value="49041dbe-1df1-4b57-a53f-72e291bd291f" />
-					<attribute id="VisualTemplate" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_LI_Claws_Boots_MSK
-
-					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="VisualTemplate" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" />
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<children>
 						<node id="Equipment">
@@ -75,44 +74,43 @@
 								<node id="Visuals">
 									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_LI_Claws_Boots_MSK
+													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" />
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human Male
-											<children>														
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
-												</node>																							
-											</children>
-										</node>	
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> Strong_Male
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" /> 
-												</node>												
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" /> Strong_Female
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" /> 
-												</node>												
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>
 											</children>
-										</node>		
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" />
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-
 				<node id="GameObjects"> Loviatar's Claws Camp (Tintable)
 					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
@@ -120,9 +118,8 @@
 					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Camp" />
 					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Camp" />
 					<attribute id="MapKey" type="FixedString" value="ec34283c-5e38-4bbc-a9cd-01397d55c5ce" />
-					<attribute id="VisualTemplate" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_LI_Claws_Boots_MSK
-
-					<attribute id="ParentTemplateId" type="FixedString" value="6bb7a595-7646-48a9-9c44-d39f16c1c5cb" /> ARM_Camp_Shoes
+					<attribute id="VisualTemplate" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6bb7a595-7646-48a9-9c44-d39f16c1c5cb" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<children>
 						<node id="Equipment">
@@ -130,45 +127,43 @@
 								<node id="Visuals">
 									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" /> HUM_F_ARM_LI_Claws_Boots_MSK
+													<attribute id="Object" type="FixedString" value="634c285b-8c1b-4893-9d36-7436d68ed061" />
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human Male
-											<children>														
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
-												</node>																							
-											</children>
-										</node>	
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> Strong_Male
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" /> 
-												</node>												
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" /> Strong_Female
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" /> 
-												</node>												
+													<attribute id="Object" type="FixedString" value="ae51bba1-bb5e-4a95-bd68-ca0c491b5bed" />
+												</node>
 											</children>
-										</node>		
-
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1bd11867-545b-4b4f-9563-da569969aa65" />
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-
 			</children>
 		</node>
 	</region>
