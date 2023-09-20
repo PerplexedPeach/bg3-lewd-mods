@@ -15,3 +15,13 @@ new entry "LI_SharessHarness_2"
 type "Armor"
 using "LI_SharessHarness"
 data "RootTemplate" "e54bf9e5-38d7-402f-8e6a-2f3d9e6baf9b"
+
+new entry "LI_SharessHarness_3"
+type "Armor"
+using "LI_SharessHarness"
+data "RootTemplate" "72dcd9e5-206b-48ba-83cc-997dc0598a57"
+
+new entry "LI_SharessHarness_4"
+type "Armor"
+using "LI_SharessHarness"
+data "RootTemplate" "2de908cd-285d-4a31-b259-cdec0d3b59c0"

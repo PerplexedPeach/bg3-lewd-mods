@@ -6,3 +6,7 @@ new subtable "1,1"
 object category "I_LI_SharessHarness_1",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_SharessHarness_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_4",1,0,0,0,0,0,0,0
