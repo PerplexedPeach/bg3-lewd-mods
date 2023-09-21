@@ -442,7 +442,7 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="0" />
 							<attribute id="StaticInstancedForward" type="uint32" value="0" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Cloth_Primary" />
-							<attribute id="Value" type="fvec4" value="0.77 0.74 0.67 0" />
+							<attribute id="Value" type="fvec4" value="0.05 0.05 0.05 0" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -458,7 +458,7 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="16" />
 							<attribute id="StaticInstancedForward" type="uint32" value="16" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Cloth_Secondary" />
-							<attribute id="Value" type="fvec4" value="0.9 0 0 0" />
+							<attribute id="Value" type="fvec4" value="1 0.7 0.34 0" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -474,10 +474,10 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="32" />
 							<attribute id="StaticInstancedForward" type="uint32" value="32" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Cloth_Tertiary" />
-							<attribute id="Value" type="fvec4" value="1 0.93 0.78 0" />
+							<attribute id="Value" type="fvec4" value="0.9 0.6 0.34 0" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
@@ -490,7 +490,7 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="48" />
 							<attribute id="StaticInstancedForward" type="uint32" value="48" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Accent_Color" />
-							<attribute id="Value" type="fvec4" value="1 1 1 0" />
+							<attribute id="Value" type="fvec4" value="0.9 0.05 0.05 0" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -506,7 +506,7 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="64" />
 							<attribute id="StaticInstancedForward" type="uint32" value="64" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Leather_Primary" />
-							<attribute id="Value" type="fvec4" value="0.6 0.24 0.07 0" />
+							<attribute id="Value" type="fvec4" value="0.05 0.05 0.05 0" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -554,7 +554,7 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="112" />
 							<attribute id="StaticInstancedForward" type="uint32" value="112" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Custom_1" />
-							<attribute id="Value" type="fvec4" value="0.05 0.69 0.78 0" />
+							<attribute id="Value" type="fvec4" value="0.05 0.05 0.05 0" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -570,7 +570,7 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="128" />
 							<attribute id="StaticInstancedForward" type="uint32" value="128" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Metal_Primary" />
-							<attribute id="Value" type="fvec4" value="0.7 0.7 0.7 0" />
+							<attribute id="Value" type="fvec4" value="1 0.7 0.34 0" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -618,7 +618,7 @@
 							<attribute id="StaticInstancedDeferred" type="uint32" value="176" />
 							<attribute id="StaticInstancedForward" type="uint32" value="176" />
 							<attribute id="UniformName" type="FixedString" value="Vector4Parameter_Custom_2" />
-							<attribute id="Value" type="fvec4" value="0.9 0.9 0.9 0" />
+							<attribute id="Value" type="fvec4" value="0.05 0.05 0.05 0" />
 						</node>
 					</children>
 				</node>
