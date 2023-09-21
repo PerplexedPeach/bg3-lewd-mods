@@ -32,7 +32,7 @@
 								<node id="Visuals">
 									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> HUM_F
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="34dbad65-f9f4-463d-b947-7cfdf0503d77" />
@@ -45,6 +45,21 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cb860ac2-44f1-4d4c-b100-087751c2738c" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="dfb67fa3-46ab-43a7-a3aa-1adaf6a8c0c4" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9825a587-2c1b-430f-b523-8a5bec1c0842" />
+												</node>
+											</children>
+										</node>
+
 									</children>
 								</node>
 								<node id="Slot">
@@ -99,6 +114,23 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1fb190d-a253-4975-a268-defdd897acef" /> body
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 								<node id="Slot">
@@ -149,6 +181,23 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="87ce3147-8072-4ae1-bbe8-9539d197ddc1" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7806e11d-fa20-4292-809c-8a2775aae6a5" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f6d5bce9-8493-40c7-b160-e561e73afcac" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="271a80b7-f4be-4d1a-9705-7be164f15c61" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e798ae81-9c49-4ac0-8f37-fbbfd72c3eff" /> body
 												</node>
 											</children>
 										</node>
@@ -208,6 +257,26 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="168abf82-1dca-4a13-9f45-962855ab4629" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="962b7907-4b75-4694-9c13-8dad103fe723" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e001df4c-ceff-4aa7-9ffe-edd6640ffa3a" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9b7b40da-ba68-433f-ab8e-e26150a116c5" /> body
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0410067e-23bf-437a-9134-3e954b52e814" /> tentacles top
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 								<node id="Slot">
@@ -226,7 +295,7 @@
 					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hea98ffe7g7586g42fbg95edgb8c660b1cba8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha60b4d38g8fd0g4b2fgbc41gd998234885d6" version="1" />
 					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_4" />
 					<children>
@@ -261,6 +330,26 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="df638967-dbff-4d50-b5fb-707e6ba62008" /> tentacles top
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="db2b7da5-5452-4f93-be2e-2df6cf7c5139" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="bcf25068-db4d-4804-a881-fd119bcd4446" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c7212ce8-f958-41a2-9f0f-bfad77fc5d0d" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="65aeab9d-86ed-43fe-9d4e-e3a5680ac5d9" /> body
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="69b04b23-9c69-4eac-a8be-ca1fcd70c3f9" /> tentacles top
 												</node>
 											</children>
 										</node>
