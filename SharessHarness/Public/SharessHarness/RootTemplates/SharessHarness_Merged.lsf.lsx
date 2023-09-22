@@ -14,7 +14,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb886db15g0e12g4d8fg9964g43c4741177b2" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness" />
 					<children>
 						<node id="Equipment">
@@ -80,7 +80,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hae139e65ga634g4d4eg8f31g374998c8bc6f" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_1" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_1" />
 					<children>
 						<node id="Equipment">
@@ -150,7 +150,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h25a2322eg006dg4bdag8ca4g506f5126f2c6" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_2" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_2" />
 					<children>
 						<node id="Equipment">
@@ -220,7 +220,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hea98ffe7g7586g42fbg95edgb8c660b1cba8" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_3" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_3" />
 					<children>
 						<node id="Equipment">
@@ -296,7 +296,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="ha60b4d38g8fd0g4b2fgbc41gd998234885d6" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_UNI_Barbarian_Karlach" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_4" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_4" />
 					<children>
 						<node id="Equipment">
@@ -316,7 +316,8 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
-												<node id="MapValue">
+												full pants version
+												<!-- <node id="MapValue">
 													<attribute id="Object" type="FixedString" value="ebb10398-b6bd-4635-8fdb-b12a9c572e29" /> top
 												</node>
 												<node id="MapValue">
@@ -330,6 +331,22 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="df638967-dbff-4d50-b5fb-707e6ba62008" /> tentacles top
+												</node> -->
+												skimpier alt version
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cf110e1d-dece-482b-8f18-376b642c21a9" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2befd6d2-e92a-4aa2-a8bb-87603dfb6f5c" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="07f8301e-5015-41ac-8fe8-6023e5c72660" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="04d75a8b-36cf-4e33-9996-04a27c7ad619" /> body
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="4f62a5cb-97ca-4571-a5d1-27b785e61a80" /> tentacles top
 												</node>
 											</children>
 										</node>
