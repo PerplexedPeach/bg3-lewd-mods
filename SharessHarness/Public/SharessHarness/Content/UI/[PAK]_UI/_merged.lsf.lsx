@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="2d961ee5-c856-4e3c-870f-5db85b16c2f7" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="SharessHarness_Icons" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharessHarness/Assets/Textures/Icons/SharessHarness_Icons.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int64" value="0" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
