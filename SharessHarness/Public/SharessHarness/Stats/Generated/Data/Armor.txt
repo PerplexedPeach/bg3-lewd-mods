@@ -5,6 +5,7 @@ data "RootTemplate" "f84dabb1-f1da-467a-9236-8c6aa474d4a4"
 data "ValueOverride" "3369"
 data "Weight" "0.1"
 data "Rarity" "Legendary"
+data "ColorPresetResource" "1e48a460-1d2f-4c8b-9bad-43d9f45fc3c8"
 
 new entry "LI_SharessHarness_1"
 type "Armor"
