@@ -9,4 +9,16 @@
 
 	<content contentuid="h9932f456gfdc0g44fdg9c8bg145048f05f72" version="1">Distracting Visage</content> 
 	<content contentuid="h70683e35g8f41g4f5dga7fcg65b7b1e31fa6" version="1">The armor distracts those next to you, giving you bonus &lt;LSTag Tooltip="ArmourClass"&gt;AC&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier against melee attacks.</content> 
+
+	<content contentuid="h24ff234bg2145g4a67ga0f7g5b4e6c3e27e6" version="1">Entrancing Visage</content> 
+	<content contentuid="ha1ad871fgba4ag4fd7ga330gdec15f712078" version="1">The armor distracts any that attacks you, giving you bonus &lt;LSTag Tooltip="ArmourClass"&gt;AC&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier against attacks.</content> 
+
+	<content contentuid="hfbb4b996g73e7g48d4g990dg7924de5ca06a" version="4">On Edge</content>
+	<content contentuid="h021a3524g4442g4a4bgb994g0bdf049139e6" version="4">You are perpetually on edge; the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1. This effect can stack.</content>
+
+	<content contentuid="h31552fcdg0750g4755g910dg4cdc6c325561" version="4">Adaptive Armor</content>
+	<content contentuid="h7303a2afg03edg4f05g98d8g5e6e91896af3" version="4">Your armor shifts on its own to protect its wearer. You take [1] less damage from all sources.</content>
+
+	<content contentuid="h79e1d49cg1f0cg4889g9761g171f12f7cc22" version="2">Force of Will</content>
+	<content contentuid="hbd3d0664gfd64g44d9g9069g9ce954a3f675" version="2">Your attacks and spells deal additional damage equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 </contentList>

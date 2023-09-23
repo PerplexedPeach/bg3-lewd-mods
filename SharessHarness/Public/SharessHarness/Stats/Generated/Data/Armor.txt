@@ -7,7 +7,7 @@ data "Weight" "0.1"
 data "Rarity" "Legendary"
 data "ColorPresetResource" "1e48a460-1d2f-4c8b-9bad-43d9f45fc3c8"
 data "Proficiency Group" ""
-data "PassivesOnEquip" "LI_Sharess_Harness_Proficiency_Passive;MAG_ArcaneEnchantment_Lesser_Passive;LI_Sharess_Harness_Distracting_Visage_Passive;MAG_CharismaCaster_CantripBooster_Passive"
+data "PassivesOnEquip" "LI_Sharess_Harness_Proficiency_Passive;MAG_ArcaneEnchantment_Lesser_Passive;LI_Sharess_Harness_DistractingVisage_Passive;MAG_CharismaCaster_CantripBooster_Passive"
 data "Boosts" "Resistance(Acid, Resistant);Disadvantage(Concentration)"
 
 
@@ -16,7 +16,7 @@ type "PassiveData"
 using "MAG_PHB_ElvenChain_Armor_Passive"
 data "DisplayName" "hb886db15g0e12g4d8fg9964g43c4741177b2;2"
 
-new entry "LI_Sharess_Harness_Distracting_Visage_Passive"
+new entry "LI_Sharess_Harness_DistractingVisage_Passive"
 type "PassiveData"
 data "DisplayName" "h9932f456gfdc0g44fdg9c8bg145048f05f72;1"
 data "Description" "h70683e35g8f41g4f5dga7fcg65b7b1e31fa6;1"
@@ -36,41 +36,75 @@ data "Properties" "AdjustRoll(OBSERVER_OBSERVER, -CharismaModifier)"
 data "InterruptDefaultValue" "Enabled"
 
 
-new entry "DISTRACTING_VISAGE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "AC(1);IF(CharismaGreaterThan(25)):AC(1);IF(CharismaGreaterThan(23)):AC(1);IF(CharismaGreaterThan(21)):AC(1);IF(CharismaGreaterThan(19)):AC(1);IF(CharismaGreaterThan(17)):AC(1);IF(CharismaGreaterThan(15)):AC(1);IF(CharismaGreaterThan(13)):AC(1);IF(CharismaGreaterThan(11)):AC(1)"
-data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnAttacked) and not IsMeleeAttack())"
-data "RemoveEvents" "OnAttacked"
-data "StackType" "Ignore"
-data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead"
-
-
-
 new entry "LI_SharessHarness_1"
 type "Armor"
 using "LI_SharessHarness"
 data "RootTemplate" "62328163-7cb9-49b5-8e76-f4a4ebd345ec"
 data "ValueOverride" "4469"
-data "Boosts" "Resistance(Acid, Resistant);Disadvantage(Concentration);ReduceCriticalAttackThreshold(1)"
+data "PassivesOnEquip" "LI_Sharess_Harness_Proficiency_Passive;MAG_ArcaneEnchantment_Lesser_Passive;LI_Sharess_Harness_Distracting_Visage_Passive;MAG_CharismaCaster_CantripBooster_Passive;LI_SharessHarness_OnEdge_Passive"
+
+new entry "LI_SharessHarness_OnEdge_Passive"
+type "PassiveData"
+data "DisplayName" "hfbb4b996g73e7g48d4g990dg7924de5ca06a;1"
+data "Description" "h021a3524g4442g4a4bgb994g0bdf049139e6;1"
+data "Boosts" "ReduceCriticalAttackThreshold(1)"
 
 
 new entry "LI_SharessHarness_2"
 type "Armor"
-using "LI_SharessHarness"
+using "LI_SharessHarness_1"
 data "RootTemplate" "e54bf9e5-38d7-402f-8e6a-2f3d9e6baf9b"
 data "ValueOverride" "5569"
+data "PassivesOnEquip" "LI_Sharess_Harness_Proficiency_Passive;MAG_ArcaneEnchantment_Lesser_Passive;LI_Sharess_Harness_Distracting_Visage_Passive;LI_SharessHarness_ForceOfWill;LI_SharessHarness_OnEdge_Passive;LI_SharessHarness_AdaptiveArmor_1"
+
+new entry "LI_SharessHarness_AdaptiveArmor_1"
+type "PassiveData"
+data "DisplayName" "h31552fcdg0750g4755g910dg4cdc6c325561;1"
+data "Description" "h7303a2afg03edg4f05g98d8g5e6e91896af3;1"
+data "DescriptionParams" "1"
+data "Boosts" "DamageReduction(All, Flat, 1)"
+
+new entry "LI_SharessHarness_ForceOfWill"
+type "PassiveData"
+using "MAG_ElementalGish_CantripBooster_Amulet_Passive"
+data "DisplayName" "h79e1d49cg1f0cg4889g9761g171f12f7cc22;1"
+data "Description" "hbd3d0664gfd64g44d9g9069g9ce954a3f675;2"
+data "Boosts" "DamageBonus(max(0,CharismaModifier))"
+
 
 
 new entry "LI_SharessHarness_3"
 type "Armor"
-using "LI_SharessHarness"
+using "LI_SharessHarness_2"
 data "RootTemplate" "72dcd9e5-206b-48ba-83cc-997dc0598a57"
 data "ValueOverride" "6669"
+data "PassivesOnEquip" "LI_Sharess_Harness_Proficiency_Passive;MAG_ArcaneEnchantment_Lesser_Passive;LI_Sharess_Harness_Distracting_Visage_Passive;LI_SharessHarness_ForceOfWill;LI_SharessHarness_OnEdge_Passive;LI_SharessHarness_AdaptiveArmor_2"
+
+new entry "LI_SharessHarness_AdaptiveArmor_2"
+type "PassiveData"
+using "LI_SharessHarness_AdaptiveArmor_1
+data "DescriptionParams" "2"
+data "Boosts" "DamageReduction(All, Flat, 2)"
 
 
 new entry "LI_SharessHarness_4"
 type "Armor"
-using "LI_SharessHarness"
+using "LI_SharessHarness_3"
 data "RootTemplate" "2de908cd-285d-4a31-b259-cdec0d3b59c0"
 data "ValueOverride" "7769"
+data "PassivesOnEquip" "LI_Sharess_Harness_Proficiency_Passive;MAG_ArcaneEnchantment_Lesser_Passive;LI_Sharess_Harness_EntrancigVisage_Passive;LI_SharessHarness_ForceOfWill;LI_SharessHarness_OnEdge_Passive;LI_SharessHarness_AdaptiveArmor_2"
+
+new entry "LI_Sharess_Harness_EntrancigVisage_Passive"
+type "PassiveData"
+data "DisplayName" "h24ff234bg2145g4a67ga0f7g5b4e6c3e27e6;1"
+data "Description" "ha1ad871fgba4ag4fd7ga330gdec15f712078;1"
+data "StatsFunctorContext" "OnAttacked"
+data "Boosts" "UnlockInterrupt(LI_Interrupt_EntrancingVisage)"
+
+new entry "LI_Interrupt_EntrancingVisage"
+type "InterruptData"
+data "DisplayName" "h24ff234bg2145g4a67ga0f7g5b4e6c3e27e6;1"
+data "Description" "ha1ad871fgba4ag4fd7ga330gdec15f712078;1"
+using "LI_Interrupt_DistratingVisage"
+data "Icon" "Loviatar_symbol"
+data "Conditions" "IsAttack() and Self(context.Target,context.Observer)"
