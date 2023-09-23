@@ -1,17 +1,59 @@
 new entry "LI_SharessHarness"
 type "Armor"
-using "ARM_Barbarian"
+using "ARM_Leather_Body_2"
 data "RootTemplate" "f84dabb1-f1da-467a-9236-8c6aa474d4a4"
 data "ValueOverride" "3369"
 data "Weight" "0.1"
 data "Rarity" "Legendary"
 data "ColorPresetResource" "1e48a460-1d2f-4c8b-9bad-43d9f45fc3c8"
+data "Proficiency Group" ""
+data "PassivesOnEquip" "LI_Sharess_Harness_Proficiency_Passive;MAG_ArcaneEnchantment_Lesser_Passive;LI_Sharess_Harness_Distracting_Visage_Passive;MAG_CharismaCaster_CantripBooster_Passive"
+data "Boosts" "Resistance(Acid, Resistant);Disadvantage(Concentration)"
+
+
+new entry "LI_Sharess_Harness_Proficiency_Passive"
+type "PassiveData"
+using "MAG_PHB_ElvenChain_Armor_Passive"
+data "DisplayName" "hb886db15g0e12g4d8fg9964g43c4741177b2;2"
+
+new entry "LI_Sharess_Harness_Distracting_Visage_Passive"
+type "PassiveData"
+data "DisplayName" "h9932f456gfdc0g44fdg9c8bg145048f05f72;1"
+data "Description" "h70683e35g8f41g4f5dga7fcg65b7b1e31fa6;1"
+data "StatsFunctorContext" "OnAttacked"
+data "Boosts" "UnlockInterrupt(LI_Interrupt_DistratingVisage)"
+
+new entry "LI_Interrupt_DistratingVisage"
+type "InterruptData"
+data "DisplayName" "h9932f456gfdc0g44fdg9c8bg145048f05f72;1"
+data "Description" "h70683e35g8f41g4f5dga7fcg65b7b1e31fa6;1"
+data "Icon" "Loviatar_symbol"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsMeleeAttack() and Self(context.Target,context.Observer)"
+data "Properties" "AdjustRoll(OBSERVER_OBSERVER, -CharismaModifier)"
+data "InterruptDefaultValue" "Enabled"
+
+
+new entry "DISTRACTING_VISAGE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "AC(1);IF(CharismaGreaterThan(25)):AC(1);IF(CharismaGreaterThan(23)):AC(1);IF(CharismaGreaterThan(21)):AC(1);IF(CharismaGreaterThan(19)):AC(1);IF(CharismaGreaterThan(17)):AC(1);IF(CharismaGreaterThan(15)):AC(1);IF(CharismaGreaterThan(13)):AC(1);IF(CharismaGreaterThan(11)):AC(1)"
+data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnAttacked) and not IsMeleeAttack())"
+data "RemoveEvents" "OnAttacked"
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead"
+
+
 
 new entry "LI_SharessHarness_1"
 type "Armor"
 using "LI_SharessHarness"
 data "RootTemplate" "62328163-7cb9-49b5-8e76-f4a4ebd345ec"
 data "ValueOverride" "4469"
+data "Boosts" "Resistance(Acid, Resistant);Disadvantage(Concentration);ReduceCriticalAttackThreshold(1)"
+
 
 new entry "LI_SharessHarness_2"
 type "Armor"
@@ -19,11 +61,13 @@ using "LI_SharessHarness"
 data "RootTemplate" "e54bf9e5-38d7-402f-8e6a-2f3d9e6baf9b"
 data "ValueOverride" "5569"
 
+
 new entry "LI_SharessHarness_3"
 type "Armor"
 using "LI_SharessHarness"
 data "RootTemplate" "72dcd9e5-206b-48ba-83cc-997dc0598a57"
 data "ValueOverride" "6669"
+
 
 new entry "LI_SharessHarness_4"
 type "Armor"
