@@ -119,7 +119,7 @@ def create_mod(args):
             # touch this file
             with Folder(f"Public/{name}/Stats/Generated"):
                 with Folder("Data"):
-                    with File("Armor.txt") as f:
+                    with File(f"{name}_Stats.txt") as f:
                         f.add_line(" ")
                 with File("TreasureTable.txt"):
                     f.add_line(" ")
