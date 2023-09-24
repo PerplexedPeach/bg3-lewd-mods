@@ -71,14 +71,14 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="Metal_Secondary" />
-									<attribute id="Value" type="fvec3" value="1 0.7 0.34" /> 
+									<attribute id="Value" type="fvec3" value="0.9 0.6 0.34" /> 
 								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="Metal_Tertiary" />
-									<attribute id="Value" type="fvec3" value="0.2 0.2 0.2" />
+									<attribute id="Value" type="fvec3" value="0.8 0.5 0.3" />
 								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
