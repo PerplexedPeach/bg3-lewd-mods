@@ -131,6 +131,8 @@ data "DescriptionParams" "1;RegainHitPoints(2)"
 data "Boosts" "RollBonus(SavingThrow,1)"
 data "TickFunctors" "IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(99)):RegainHitPoints(2)"
 data "TickType" "StartTurn"
+data "StatusPropertyFlags" "IgnoreResting"
+
 
 new entry "LI_SATED_1"
 type "StatusData"
