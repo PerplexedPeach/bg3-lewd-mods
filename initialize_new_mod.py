@@ -104,7 +104,7 @@ def create_mod(args):
 
         if args.items:
             with Folder(f"Public/{name}/RootTemplates"):
-                with XMLFile("Merged.lsf.lsx") as f:
+                with XMLFile(f"{name}_Merged.lsf.lsx") as f:
                     f.add_line("""
     <save>
         <version major="4" minor="0" revision="6" build="5" />
