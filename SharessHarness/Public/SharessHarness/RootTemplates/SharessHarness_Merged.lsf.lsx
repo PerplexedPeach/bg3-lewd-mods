@@ -45,6 +45,7 @@
 												</node>
 											</children>
 										</node>
+
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
@@ -95,6 +96,14 @@
 								<node id="DreadLongHair" />
 								<node id="AfroShortHair" />
 								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+									</children>
+								</node>		
 								<node id="Visuals">
 									<children>
 										<node id="Object">
@@ -111,6 +120,23 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="2079e226-16de-4201-81bd-27debbe3a409" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a63d87ab-d57c-407b-9701-c4feb08116ad" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d0b138ef-8eed-4e06-8ae7-93c473984ce0" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="885b71e8-9614-47c2-8692-8d5b889505dc" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f4cfe13f-a0dc-4250-a842-4bfb3ac029af" /> body
 												</node>
 											</children>
 										</node>
@@ -165,6 +191,14 @@
 								<node id="DreadLongHair" />
 								<node id="AfroShortHair" />
 								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+									</children>
+								</node>		
 								<node id="Visuals">
 									<children>
 										<node id="Object">
@@ -181,6 +215,23 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="87ce3147-8072-4ae1-bbe8-9539d197ddc1" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f7eaced1-9956-4ea1-a96b-8491a2dbad83" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="75d22eb9-d059-4e39-bd62-f3164a228493" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f9fb8674-2b55-4a46-8777-e4197a4cfbed" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9f4a4c12-ea44-4d47-8228-37e4afea0d2a" /> body
 												</node>
 											</children>
 										</node>
@@ -235,6 +286,14 @@
 								<node id="DreadLongHair" />
 								<node id="AfroShortHair" />
 								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+									</children>
+								</node>		
 								<node id="Visuals">
 									<children>
 										<node id="Object">
@@ -251,6 +310,26 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="ce9c00b4-1d78-49f1-842c-31c327c508e6" /> body
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f03d0f0d-8ff1-4c89-9b52-e341d4800633" /> tentacles top
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="70f7aaaa-7329-4fb6-8d8e-6edbe282b2d6" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1fafe96-4737-441c-a007-fb694de26ad0" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7f19f61c-0999-46f9-9455-9ec24b0f6996" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="349ade9e-c84e-4468-92a8-c5633b43b5ea" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f03d0f0d-8ff1-4c89-9b52-e341d4800633" /> tentacles top
@@ -311,6 +390,14 @@
 								<node id="DreadLongHair" />
 								<node id="AfroShortHair" />
 								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+									</children>
+								</node>									
 								<node id="Visuals">
 									<children>
 										<node id="Object">
@@ -344,6 +431,26 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="04d75a8b-36cf-4e33-9996-04a27c7ad619" /> body
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="4f62a5cb-97ca-4571-a5d1-27b785e61a80" /> tentacles top
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cf110e1d-dece-482b-8f18-376b642c21a9" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2befd6d2-e92a-4aa2-a8bb-87603dfb6f5c" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="07f8301e-5015-41ac-8fe8-6023e5c72660" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="5a769412-d829-4711-b250-74f12985024d" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="4f62a5cb-97ca-4571-a5d1-27b785e61a80" /> tentacles top
