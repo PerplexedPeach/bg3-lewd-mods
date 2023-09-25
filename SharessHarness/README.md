@@ -57,3 +57,7 @@ base model Karlach's barbarian clothing (UNI_Barbarian_Karlach 2e3a2651-18ce-44b
     - top is b7026cd8be87e5779be1092c0813c655
     - pants is Albedo_Normal_Physical_8 87f5fac7356dc95f1edd0d0e0eaca542 <attribute id="GTexFileName" type="FixedString" value="87f5fac7356dc95f1edd0d0e0eaca542" />
     - tentacles are Albedo_Normal_Physical_c c60191c1be35f9341b6919df6515d9f9 <attribute id="GTexFileName" type="FixedString" value="c60191c1be35f9341b6919df6515d9f9" />
+- transfering body modifications to non-human bodies (tiefling and githyanki)
+    - join the different bodies from each stage as shape keys to a basis one
+    - mesh data transfer shape keys to non-human base body
+    - duplicate the non-human base body, set one of the shape keys to 1, apply all shape keys to get an equivalent body of that stage
