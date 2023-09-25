@@ -1,17 +1,6 @@
--- PersistentVars = {}
+PersistentVars = {}
 
--- -- Variable will be restored after the savegame finished loading
--- local function doStuff()
---     PersistentVars['Test'] = 'Something to keep'
--- end
-
--- local function OnSessionLoaded()
---     -- Persistent variables are only available after SessionLoaded is triggered!
---     Ext.Print(PersistentVars['Test'])
--- end
-
--- Ext.Events.SessionLoaded:Subscribe("SessionLoaded", OnSessionLoaded)
-
+local persistent_dmg_taken = "Total Damage Taken";
 local loviatar_claws_item_id = "LI_LoviatarClaws_07ea67e5-344b-4de6-91d3-449cce27a685";
 local loviatar_claws_camp_item_id = "LI_LoviatarClaws_Camp_ec34283c-5e38-4bbc-a9cd-01397d55c5ce";
 local loviatar_claws_replica_item_id = "LI_LoviatarClaws_Replica_49041dbe-1df1-4b57-a53f-72e291bd291f";
@@ -26,6 +15,12 @@ local remodelled_message = {
     "LI_CLAW_REMODEL_4_MSG",
 };
 local acquire_message = "LI_CLAW_GIFT_MSG";
+local pain_thresholds_for_remodel = {
+    99,
+    199,
+    299,
+    499
+};
 
 local function _I(msg)
     _P("[LoviatarClaws] " .. msg);
@@ -42,6 +37,22 @@ local function getCurrentWearer()
         end
     end
     return nil
+end
+
+local function totalTakenDamage()
+    return PersistentVars[persistent_dmg_taken];
+end
+
+local function registerDamage(defender, attackerOwner, attacker2, damageType, damageAmount, damageCause, storyActionID)
+    -- only keep track of damage if the defender is the wearer (we're not going to track per-character, there wll just be a total)
+    if damageAmount == nil or damageAmount <= 0 then
+        return
+    end
+    local wearer = getCurrentWearer();
+    if wearer ~= nil and defender == wearer then
+        PersistentVars[persistent_dmg_taken] = PersistentVars[persistent_dmg_taken] + damageAmount;
+        _I("Damage taken: " .. damageAmount .. " total: " .. PersistentVars[persistent_dmg_taken]);
+    end
 end
 
 local function hasLoviatarsLove(char)
@@ -62,6 +73,15 @@ local function upgradeRemodelledFrame(char)
     -- check level of remodelled body
     local current_level = remodelledFrameLevel(char);
     if current_level < 4 then
+        -- check if we've reached the pain threshold for the next level
+        local total_damage = totalTakenDamage();
+        local pain_threshold = pain_thresholds_for_remodel[current_level + 1];
+        _I("Checking total damage: " .. total_damage .. " pain threshold: " .. pain_threshold);
+        if total_damage < pain_threshold then
+            _I("Needs more pain for remodelling!")
+            return
+        end
+
         _I("Upgrading remodelled body to level " .. current_level + 1);
         if current_level > 0 then
             Osi.RemovePassive(char, remodelled_frame_id_prefix .. current_level);
@@ -119,6 +139,15 @@ local function curseItemAcquisitionHandler(char, status, causee, storyActionID)
     end
 end
 
+local function OnSessionLoaded()
+    -- Persistent variables are only available after SessionLoaded is triggered!
+    if PersistentVars[persistent_dmg_taken] == nil then
+        PersistentVars[persistent_dmg_taken] = 0
+    end
+    _I("Total damage taken: " .. PersistentVars[persistent_dmg_taken]);
+end
+
+
 Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", curseLongRestHandler);
 
 -- handle curse from item unequip
@@ -127,3 +156,6 @@ Ext.Osiris.RegisterListener("TemplateEquipped", 2, "after", curseItemReequipHand
 
 -- acquire from getting Loviatar's love
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", curseItemAcquisitionHandler);
+
+Ext.Events.SessionLoaded:Subscribe("SessionLoaded", OnSessionLoaded)
+Ext.Osiris.RegisterListener("AttackedBy", 7, "after", registerDamage);
