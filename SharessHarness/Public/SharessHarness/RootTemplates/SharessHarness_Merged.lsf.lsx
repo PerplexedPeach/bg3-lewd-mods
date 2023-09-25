@@ -106,6 +106,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
 										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
 									</children>
 								</node>		
 								<node id="Visuals">
@@ -178,6 +182,23 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f347064d-ee64-4113-bd81-440eb880840a" /> body
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 								<node id="Slot">
@@ -221,6 +242,10 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
 										</node>	
 									</children>
 								</node>		
@@ -294,6 +319,23 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7806e11d-fa20-4292-809c-8a2775aae6a5" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f6d5bce9-8493-40c7-b160-e561e73afcac" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="271a80b7-f4be-4d1a-9705-7be164f15c61" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="48b3683f-b718-4f3b-81e6-1efa0a5ecc7d" /> body
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 								<node id="Slot">
@@ -338,6 +380,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
 										</node>					
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
 									</children>
 								</node>		
 								<node id="Visuals">
@@ -422,6 +468,26 @@
 												</node>
 											</children>
 										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="168abf82-1dca-4a13-9f45-962855ab4629" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="962b7907-4b75-4694-9c13-8dad103fe723" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e001df4c-ceff-4aa7-9ffe-edd6640ffa3a" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="168e872c-b7ce-4e12-8707-839e5fc9b6e8" /> body
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0410067e-23bf-437a-9134-3e954b52e814" /> tentacles top
+												</node>
+											</children>
+										</node>
 									</children>
 								</node>
 								<node id="Slot">
@@ -466,6 +532,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
 										</node>			
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
 									</children>
 								</node>									
 								<node id="Visuals">
@@ -561,6 +631,26 @@
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="65aeab9d-86ed-43fe-9d4e-e3a5680ac5d9" /> body
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="69b04b23-9c69-4eac-a8be-ca1fcd70c3f9" /> tentacles top
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="db2b7da5-5452-4f93-be2e-2df6cf7c5139" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="bcf25068-db4d-4804-a881-fd119bcd4446" /> pants
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c7212ce8-f958-41a2-9f0f-bfad77fc5d0d" /> tentacles
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="88cc0deb-3778-4cdc-8b86-6edf259fca70" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="69b04b23-9c69-4eac-a8be-ca1fcd70c3f9" /> tentacles top
