@@ -1,0 +1,15 @@
+new entry "LI_LoviatarClaws_Alt"
+using "LI_LoviatarClaws"
+data "RootTemplate" "75d51dc4-cc69-4b8a-8d92-61a841682866"
+data "ColorPresetResource" "cdd91020-598f-4754-b76b-3e1af59aca6c"
+
+new entry "LI_LoviatarClaws_Replica_Alt"
+using "LI_LoviatarClaws_Replica"
+data "RootTemplate" "1414dba3-2720-47b2-96f0-685bb8b2f319"
+data "ColorPresetResource" "cdd91020-598f-4754-b76b-3e1af59aca6c"
+
+new entry "LI_LoviatarClaws_Camp_Alt"
+using "LI_LoviatarClaws_Camp"
+data "RootTemplate" "c8d403fc-077a-43b6-a48e-0e622696745b"
+data "ColorPresetResource" "cdd91020-598f-4754-b76b-3e1af59aca6c"
+ 

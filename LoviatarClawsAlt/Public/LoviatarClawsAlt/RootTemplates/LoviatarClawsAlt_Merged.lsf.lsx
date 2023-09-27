@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">  Loviatar's Claws (Tintable)
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Alt" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Alt" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Alt" />
+					<attribute id="MapKey" type="FixedString" value="75d51dc4-cc69-4b8a-8d92-61a841682866" />
+					<attribute id="VisualTemplate" type="FixedString" value="aec5f5b4-05b7-41b0-aff3-e3879178c2f6" /> HUM_F_ARM_LI_Claws_Boots_MSK
+
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="aec5f5b4-05b7-41b0-aff3-e3879178c2f6" /> HUM_F_ARM_LI_Claws_Boots_MSK
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7c7025bc-a031-4172-ac24-b8762eb500c5" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7c7025bc-a031-4172-ac24-b8762eb500c5" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="82b4985a-0ce9-41f6-b7f3-7efe978e2091" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  Loviatar's Claws Replica (Tintable)
+					<attribute id="Description" type="TranslatedString" handle="hc3d49993g9df3g4967ga280g2de15a1a16fe" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6f466240g2a6bg4b2bg9c43ga8b555dca886" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Alt" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Replica_Alt" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Replica_Alt" />
+					<attribute id="MapKey" type="FixedString" value="1414dba3-2720-47b2-96f0-685bb8b2f319" />
+					<attribute id="VisualTemplate" type="FixedString" value="aec5f5b4-05b7-41b0-aff3-e3879178c2f6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="aec5f5b4-05b7-41b0-aff3-e3879178c2f6" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7c7025bc-a031-4172-ac24-b8762eb500c5" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7c7025bc-a031-4172-ac24-b8762eb500c5" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="82b4985a-0ce9-41f6-b7f3-7efe978e2091" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> Loviatar's Claws Camp (Tintable)
+					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Alt" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Camp_Alt" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Camp_Alt" />
+					<attribute id="MapKey" type="FixedString" value="c8d403fc-077a-43b6-a48e-0e622696745b" />
+					<attribute id="VisualTemplate" type="FixedString" value="aec5f5b4-05b7-41b0-aff3-e3879178c2f6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6bb7a595-7646-48a9-9c44-d39f16c1c5cb" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="aec5f5b4-05b7-41b0-aff3-e3879178c2f6" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7c7025bc-a031-4172-ac24-b8762eb500c5" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7c7025bc-a031-4172-ac24-b8762eb500c5" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="82b4985a-0ce9-41f6-b7f3-7efe978e2091" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
