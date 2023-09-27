@@ -33,7 +33,7 @@ local function _I(msg)
     _P("[SharessHarness] " .. msg);
 end
 
-local function harnessLevel(char)
+function HarnessLevel(char)
     local worn = Osi.GetEquippedItem(char, "Breast");
     _I("Character " .. char .. " wearing breasts " .. tostring(worn));
     if worn == nil then
@@ -60,7 +60,7 @@ local function getSatedWearer()
             end
         end
         -- check if this character is wearing it but has no stacks
-        local harness_level = harnessLevel(char);
+        local harness_level = HarnessLevel(char);
         if harness_level ~= nil then
             return char, 0
         end
@@ -70,7 +70,7 @@ local function getSatedWearer()
 end
 
 
-local function remodelledFrameLevel(char)
+function RemodelledFrameLevel(char)
     for level = 1, 4 do
         local passive_key = remodelled_frame_id_prefix .. level;
         if Osi.HasPassive(char, passive_key) == 1 then
@@ -94,9 +94,9 @@ end
 
 local function upgradeArmor(char)
     -- check level of remodelled body
-    local body_level = remodelledFrameLevel(char);
+    local body_level = RemodelledFrameLevel(char);
     -- can only upgrade to the remodelled body stage
-    local armor_level = harnessLevel(char);
+    local armor_level = HarnessLevel(char);
     -- not wearing the harness
     -- TODO give a message to the player that they need to be wearing the harness
     if armor_level == nil then
