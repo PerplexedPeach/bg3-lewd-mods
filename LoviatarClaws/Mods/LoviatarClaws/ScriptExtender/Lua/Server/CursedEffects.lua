@@ -100,7 +100,7 @@ function LiClawsProgression:new(main_shortname, item_id, camp_item_id, replica_i
 end
 
 function LiClawsProgression:log(message)
-    _P(self.shortname .. " " .. message);
+    _P("[" .. self.shortname .. "] " .. message);
 end
 
 function LiClawsProgression:error(message)
