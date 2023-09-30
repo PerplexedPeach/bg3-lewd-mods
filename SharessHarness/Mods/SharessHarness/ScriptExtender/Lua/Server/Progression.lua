@@ -89,7 +89,7 @@ local function delayedCall(delayInMs, func)
             Ext.Events.Tick:Unsubscribe(handlerId)
             func()
         end
-    end); 
+    end);
 end
 
 local function upgradeArmor(char)
@@ -134,12 +134,17 @@ local function curseLongRestHandler()
     if wearer ~= nil then
         _I("Sharess Harness wearer found: " .. wearer .. " with " .. stacks .. " stacks");
 
-        -- if we have fewer than 3 stacks, we don't need to do anything
-        -- give a message to the player hinting that they need to get more stacks
-        if stacks == 3 then
-            upgradeArmor(wearer);
-        else 
-            Osi.OpenMessageBox(wearer, need_more_sated_stacks_msg);
+        -- check that the armor can still be upgraded
+        local armor_level = HarnessLevel(wearer);
+        -- armor level is from 0 to 4, so if it's 4 then we can't upgrade it anymore
+        if armor_level ~= nil and armor_level < 4 then
+            -- if we have fewer than 3 stacks, we don't need to do anything
+            -- give a message to the player hinting that they need to get more stacks
+            if stacks >= 2 then
+                upgradeArmor(wearer);
+            elseif stacks >= 0 then
+                Osi.OpenMessageBox(wearer, need_more_sated_stacks_msg);
+            end
         end
 
         -- remove sated status (doing it manually so it doesn't get cleared automatically after long rest)
