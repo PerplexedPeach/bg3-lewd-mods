@@ -128,11 +128,11 @@ def create_mod(args):
             with Folder(f"Mods/{name}/ScriptExtender"):
                 with File("Config.json") as f:
                     f.add_line(f"""
-{
-                    "RequiredVersion": 1,
-"ModTable": "{name}",
-"FeatureFlags": ["Lua"]
-}
+{{
+    "RequiredVersion": 4,
+    "ModTable": "{name}",
+    "FeatureFlags": ["Lua"]
+}}
                     """)
                 with Folder("Lua"):
                     with File("BoostrapClient.lua") as f:
