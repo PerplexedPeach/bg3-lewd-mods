@@ -71,6 +71,7 @@ end
 local function OnSessionLoaded()
     -- Persistent variables are only available after SessionLoaded is triggered!
     if PersistentVars[persistent_dmg_taken] == nil then
+        _I(persistent_dmg_taken  .." not found, setting to 0");
         PersistentVars[persistent_dmg_taken] = 0
     end
     _I("Total damage taken: " .. PersistentVars[persistent_dmg_taken]);
