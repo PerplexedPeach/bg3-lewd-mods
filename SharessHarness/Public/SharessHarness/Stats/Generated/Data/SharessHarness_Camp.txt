@@ -1,0 +1,24 @@
+new entry "LI_SharessHarness_Camp"
+using "ARM_Camp_Body"
+data "RootTemplate" "318b8895-5d56-4223-8e43-43452f49165e"
+data "ValueOverride" "200"
+data "Weight" "0.1"
+data "Rarity" "Legendary"
+data "ColorPresetResource" "1e48a460-1d2f-4c8b-9bad-43d9f45fc3c8"
+
+new entry "LI_SharessHarness_Camp_1"
+using "LI_SharessHarness_Camp"
+data "RootTemplate" "cbd7b5b9-a83d-4c51-8a67-93b0f62b16f5"
+
+new entry "LI_SharessHarness_Camp_2"
+using "LI_SharessHarness_Camp_1"
+data "RootTemplate" "86d0d2d2-a13c-4e6a-b633-3b5e983406cc"
+
+new entry "LI_SharessHarness_Camp_3"
+using "LI_SharessHarness_Camp_2"
+data "RootTemplate" "7eb986a6-7572-4c29-a46a-a572a35afd2f"
+
+
+new entry "LI_SharessHarness_Camp_4"
+using "LI_SharessHarness_Camp_3"
+data "RootTemplate" "97c80a65-e689-49bd-891e-88398bb8ac3a"

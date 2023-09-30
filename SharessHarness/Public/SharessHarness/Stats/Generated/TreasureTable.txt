@@ -10,6 +10,16 @@ new subtable "1,1"
 object category "I_LI_SharessHarness_3",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_SharessHarness_4",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Camp",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Camp_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Camp_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Camp_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Camp_4",1,0,0,0,0,0,0,0
 
 new treasuretable "FOR_Spiders_SpiderQueen"
 CanMerge 1
