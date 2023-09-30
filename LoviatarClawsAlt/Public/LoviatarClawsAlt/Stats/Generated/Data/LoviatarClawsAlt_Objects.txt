@@ -1,0 +1,7 @@
+new entry "LI_Formless_Anvil"
+type "Object"
+using "OBJ_GenericLootItem"
+data "Rarity" "Legendary"
+data "RootTemplate" "6086fcf7-a0e3-4347-9ef7-87a76e2a0b24"
+data "ValueOverride" "0"
+data "Weight" "0.2"
