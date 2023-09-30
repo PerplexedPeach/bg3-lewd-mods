@@ -41,7 +41,9 @@
 	<content contentuid="h619a8cf4gad61g44d4ga47egcee28deee02f" version="1">Pain and pleasure is now nearly indistinguishable. It is no longer an unwelcome guest, but an essential part of your existence. It fuels you, fortifies you, makes you feel alive in a way you have never experienced before. Loviatar's transformative power is thoroughly imbued within you, turning every sting into a source of strength. (Ready for Remodelled Frame: Perfection)</content> 
 
 	<content contentuid="h61605ec3g362ag47c1gb20ag03adb12e9772" version="1">Flash Kick</content> 
-	<content contentuid="h68f9196fg1154g45a4ga7ddgf4d745495884" version="1">This move strikes with unexpected, deadly force before one can react, displaying a seamless blend of elegance and power. It is a risky move for someone not used to wearing high heels.</content> 
+	<content contentuid="h68f9196fg1154g45a4ga7ddgf4d745495884" version="1">This move strikes with unexpected deadly force, displaying a seamless blend of elegance and power. They must make a DC [1] Wisdom saving throw or fall prone. It is a risky move for someone not used to wearing high heels. You must make a save to stay on your feet, with an easier DC for having a remodelled frame.</content> 
 
+	<content contentuid="hf4e8a060g4763g4b4bg9840gfb32e25c414b" version="1">Slippery Slope</content> 
+	<content contentuid="h0953146ag35ecg4836gaf3cg2e2db89cce61" version="1">Kicking with heels is not easy. Make a DC [1] save to stay on your feet.</content> 
 </contentList>
 
