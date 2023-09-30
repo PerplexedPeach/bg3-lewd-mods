@@ -39,6 +39,35 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="hec99bdb4gf178g48abgbf45g9641e4abb3a3" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_READY_1_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h0767a1bcg5e6fg4330g98aeg8f51e7d616f6" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_READY_2_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h0aa21920geb08g4d1fgb10agb48943060485" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_READY_3_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h0aa21920geb08g4d1fgb10agb48943060485" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_CLAW_READY_4_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+
 			</children>
 		</node>
 	</region>

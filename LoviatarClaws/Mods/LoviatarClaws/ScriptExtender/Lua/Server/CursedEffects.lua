@@ -13,6 +13,12 @@ local remodelled_message = {
     "LI_CLAW_REMODEL_3_MSG",
     "LI_CLAW_REMODEL_4_MSG",
 };
+local ready_for_remodel_message = {
+    "LI_CLAW_READY_1_MSG",
+    "LI_CLAW_READY_2_MSG",
+    "LI_CLAW_READY_3_MSG",
+    "LI_CLAW_READY_4_MSG",
+}
 local acquire_message = "LI_CLAW_GIFT_MSG";
 local pain_thresholds_for_remodel = {
     99,
@@ -130,6 +136,15 @@ function LiClawsProgression:registerDamage(defender, attackerOwner, attacker2, d
     end
     local wearer = self:getCurrentWearer();
     if wearer ~= nil and defender == wearer then
+        -- check if we're passing a threshold, and if so display a message
+        local total_damage = TotalTakenDamage();
+        for i = 4, 1, -1 do
+            if total_damage < pain_thresholds_for_remodel[i] and total_damage + damageAmount >= pain_thresholds_for_remodel[i] then
+                self:log("Reached pain threshold: " .. pain_thresholds_for_remodel[i]);
+                Osi.OpenMessageBox(wearer, ready_for_remodel_message[i]);
+            end
+        end
+            
         PersistentVars[persistent_dmg_taken] = PersistentVars[persistent_dmg_taken] + damageAmount;
         self:log("Damage taken: " .. damageAmount .. " total: " .. PersistentVars[persistent_dmg_taken]);
     end
