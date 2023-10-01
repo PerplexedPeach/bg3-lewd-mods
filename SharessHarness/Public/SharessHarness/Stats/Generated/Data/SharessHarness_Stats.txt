@@ -214,7 +214,7 @@ type "PassiveData"
 using "MAG_ElementalGish_CantripBooster_Amulet_Passive"
 data "DisplayName" "h79e1d49cg1f0cg4889g9761g171f12f7cc22;1"
 data "Description" "hbd3d0664gfd64g44d9g9069g9ce954a3f675;2"
-data "Boosts" "DamageBonus(max(0,CharismaModifier))"
+data "Boosts" "IF(IsCantrip()):DamageBonus(max(1,CharismaModifier)); IF(not IsCantrip()):DamageBonus(max(0,CharismaModifier/2))"
 
 
 

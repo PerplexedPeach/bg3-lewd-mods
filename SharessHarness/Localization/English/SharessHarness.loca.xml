@@ -20,7 +20,7 @@
 	<content contentuid="h7303a2afg03edg4f05g98d8g5e6e91896af3" version="4">Your armor shifts on its own to protect its wearer. You take [1] less damage from all sources.</content>
 
 	<content contentuid="h79e1d49cg1f0cg4889g9761g171f12f7cc22" version="2">Force of Will</content>
-	<content contentuid="hbd3d0664gfd64g44d9g9069g9ce954a3f675" version="2">Your attacks and spells deal additional damage equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hbd3d0664gfd64g44d9g9069g9ce954a3f675" version="2">Any damage caused by you is increased by half of your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;, except for cantrips which receive the full Charisma bonus.</content>
 
 
 	<content contentuid="h91540dfeg012eg489aga568gca98f8457838" version="2">Subversive Stimulation</content>
