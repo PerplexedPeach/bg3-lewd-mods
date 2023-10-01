@@ -8,10 +8,14 @@
 
 	<content contentuid="h7c99c7e4g3890g41b8g86f3gcb0f3541de2b" version="1">Walk in Pain</content> 
     <content contentuid="h64c866adg63d2g457aga411g8830a53a0c37" version="1">Forced into a painful and slow walk, you receive a penalty of -[1] to &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; and &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; -2. You become tolerant to pain and receive &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; +2.</content>
+
 	<content contentuid="h2fe27aadg254ag4f5cga27ag2accaec04d19" version="1">Pain Mirror</content> 
-    <content contentuid="h2f26c1b6g4cecg4b30ga8bdg3cfe4d0fdae9" version="1">Any pain you experience can be amplified and channeled outwards to those around you. Any time you take damage, enemies within 15m of you suffer [1] or half damage if they succeed on a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+    <content contentuid="h2f26c1b6g4cecg4b30ga8bdg3cfe4d0fdae9" version="1">Any pain you experience can be amplified and channeled outwards to those around you. Using your reaction, any time you take damage, enemies around you of you suffer [1] or half damage if they succeed on a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. The radius increases from 5m up to 10m for a body perfected to experience pain.</content>
+    <content contentuid="h16a36272g8799g469bgaddbg53aecd475a6c" version="1">Amplify and channel pain to those within [1] of you.</content>
+
 	<content contentuid="heb755bb5g225eg4276g9f51ga4e2a3446aeb" version="1">Inviting Dance</content> 
     <content contentuid="h0fcfaca4g794dg4eafgad93g3ca62e89ffdc" version="1">&lt;LSTag Type="Status" Tooltip="GOADING_ATTACK"&gt;Goad&lt;/LSTag&gt; nearby creatures with a suggestive dance to attack you.</content>
+
 	<content contentuid="hde66922bg1757g48c0g8b1cg871e194572ea" version="2">Dancing</content>
 	<content contentuid="h9fe29547g3240g45e0gbf6bg3d62f379dc07" version="4">Your dance &lt;LSTag Type="Status" Tooltip="GOADING_ATTACK"&gt;Goads&lt;/LSTag&gt; nearby creatures. &lt;br&gt;&lt;br&gt;The song ends if you are incapacitated or loses concentration.</content>
 	<content contentuid="hb478108fgf99bg495fg9178g9a3ea874d1c2" version="4">Must succeed a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; every turn or be &lt;LSTag Type="Status" Tooltip="GOADING_ATTACK"&gt;Goaded&lt;/LSTag&gt; by the dance.</content>
