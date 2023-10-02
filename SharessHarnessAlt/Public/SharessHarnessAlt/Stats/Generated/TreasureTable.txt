@@ -1,0 +1,12 @@
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_SharessHarness_Robe",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Robe_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Robe_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Robe_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Robe_4",1,0,0,0,0,0,0,0
