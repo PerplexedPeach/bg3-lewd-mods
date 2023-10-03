@@ -48,38 +48,43 @@ end
 
 function LiHarnessProgression:harnessLevel(char)
     local worn = Osi.GetEquippedItem(char, "Breast");
-    self:log("Character " .. char .. " wearing breasts " .. tostring(worn));
+    -- self:log("Character " .. char .. " wearing breasts " .. tostring(worn));
     if worn == nil then
         return nil;
     end
     for level = 1, 5 do
         local harness_template_id = self.item_ids[level];
         if Osi.GetTemplate(worn) == harness_template_id then
-            self:log("Found armor stage: " .. level - 1);
             return level - 1;
         end
     end
     return nil;
 end
 
-function LiHarnessProgression:getSatedWearer()
+---return a table of player character IDs that are wearing some copy of the item
+---@return table player_id to number of sated stacks
+function LiHarnessProgression:getSatedWearers()
+    local sated = {};
     -- return the character and the number of sated stacks
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
         local char = player[1];
+        local found = false;
         for stacks, status_id in pairs(sated_status_ids) do
             if Osi.HasActiveStatus(char, status_id) == 1 then
                 self:log("Found sated wearer: " .. char .. " with stacks " .. stacks);
-                return char, stacks
+                sated[char] = stacks;
+                found = true;
             end
         end
-        -- check if this character is wearing it but has no stacks
-        local harness_level = self:harnessLevel(char);
-        if harness_level ~= nil then
-            return char, 0
+        if found == false then
+            -- check if this character is wearing it but has no stacks
+            local harness_level = self:harnessLevel(char);
+            if harness_level ~= nil then
+                sated[char] = 0;
+            end
         end
     end
-    self:log("No sated wearer found");
-    return nil, 0
+    return sated;
 end
 
 local function delayedCall(delayInMs, func)
@@ -107,8 +112,8 @@ function LiHarnessProgression:upgradeArmor(char)
         return
     end
 
+    self:log("Body level " .. body_level .. " armor level " .. tostring(armor_level));
     if body_level > armor_level then
-        self:log("Body level " .. body_level .. " is higher than armor level " .. armor_level .. ", upgrading armor");
         -- remove the old armor
         local old_armor_template = self.item_ids[armor_level + 1];
         Osi.TemplateRemoveFromUser(old_armor_template, char, 1);
@@ -131,13 +136,13 @@ function LiHarnessProgression:upgradeArmor(char)
 end
 
 function LiHarnessProgression:curseLongRestHandler()
+    self:log("long rest handler start")
     -- loop over characters and check if anyone has 3 sated stacks
-    local wearer, stacks = self:getSatedWearer();
-    if wearer ~= nil then
-        self:log("Sharess Harness wearer found: " .. wearer .. " with " .. stacks .. " stacks");
-
+    local wearers = self:getSatedWearers();
+    for wearer, stacks in pairs(wearers) do
         -- check that the armor can still be upgraded
         local armor_level = self:harnessLevel(wearer);
+        self:log("Wearer found: " .. wearer .. " with " .. stacks .. " stacks with armor level " .. tostring(armor_level));
         -- armor level is from 0 to 4, so if it's 4 then we can't upgrade it anymore
         if armor_level ~= nil and armor_level < 4 then
             -- if we have fewer than 3 stacks, we don't need to do anything
@@ -145,13 +150,17 @@ function LiHarnessProgression:curseLongRestHandler()
             if stacks >= 2 then
                 self:upgradeArmor(wearer);
             elseif stacks >= 0 then
+                self:log("Insufficient stacks: " .. stacks .. " for wearer " .. wearer .. ", giving message")
                 Osi.OpenMessageBox(wearer, need_more_sated_stacks_msg);
             end
         end
+    end
 
+    for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
+        local char = player[1];
         -- remove sated status (doing it manually so it doesn't get cleared automatically after long rest)
         for _, status_id in pairs(sated_status_ids) do
-            Osi.RemoveStatus(wearer, status_id);
+            Osi.RemoveStatus(char, status_id);
         end
     end
 end

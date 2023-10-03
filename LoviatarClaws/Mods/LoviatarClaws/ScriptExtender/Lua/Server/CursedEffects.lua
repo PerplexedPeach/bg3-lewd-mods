@@ -115,17 +115,18 @@ function LiClawsProgression:error(message)
 end
 
 ---Get the current wearer of the item
----@return nil if not found, otherwise player character ID
-function LiClawsProgression:getCurrentWearer()
+---@return table list of player character IDs that are wearing some copy of the item
+function LiClawsProgression:getCurrentWearers()
+    local wearers = {};
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
         local char = player[1];
         local boots = Osi.GetEquippedItem(char, "Boots");
         if boots ~= nil and Osi.GetTemplate(boots) == self.item_id then
             _I("Found wearer: " .. char);
-            return char;
+            wearers[#wearers + 1] = char;
         end
     end
-    return nil
+    return wearers;
 end
 
 function LiClawsProgression:registerDamage(defender, attackerOwner, attacker2, damageType, damageAmount, damageCause,
@@ -134,26 +135,28 @@ function LiClawsProgression:registerDamage(defender, attackerOwner, attacker2, d
     if damageAmount == nil or damageAmount <= 0 then
         return
     end
-    local wearer = self:getCurrentWearer();
-    if wearer ~= nil and defender == wearer then
-        -- check if we're passing a threshold, and if so display a message
-        local total_damage = TotalTakenDamage();
-        for i = 4, 1, -1 do
-            if total_damage < pain_thresholds_for_remodel[i] and total_damage + damageAmount >= pain_thresholds_for_remodel[i] then
-                self:log("Reached pain threshold: " .. pain_thresholds_for_remodel[i]);
-                Osi.OpenMessageBox(wearer, ready_for_remodel_message[i]);
+    local wearers = self:getCurrentWearers();
+    for _, wearer in pairs(wearers) do
+        if defender == wearer then
+            -- check if we're passing a threshold, and if so display a message
+            local total_damage = TotalTakenDamage();
+            for i = 4, 1, -1 do
+                if total_damage < pain_thresholds_for_remodel[i] and total_damage + damageAmount >= pain_thresholds_for_remodel[i] then
+                    self:log("Reached pain threshold: " .. pain_thresholds_for_remodel[i]);
+                    Osi.OpenMessageBox(wearer, ready_for_remodel_message[i]);
+                end
             end
+                
+            PersistentVars[persistent_dmg_taken] = PersistentVars[persistent_dmg_taken] + damageAmount;
+            self:log("Damage taken: " .. damageAmount .. " total: " .. PersistentVars[persistent_dmg_taken]);
         end
-            
-        PersistentVars[persistent_dmg_taken] = PersistentVars[persistent_dmg_taken] + damageAmount;
-        self:log("Damage taken: " .. damageAmount .. " total: " .. PersistentVars[persistent_dmg_taken]);
     end
 end
 
 function LiClawsProgression:curseLongRestHandler()
     -- loop over characters and check if anyway was wearing the cursed item
-    local wearer = self:getCurrentWearer();
-    if wearer ~= nil then
+    local wearers = self:getCurrentWearers();
+    for _, wearer in pairs(wearers) do
         self:log("Loviatar Claws wearer found: " .. wearer);
         -- check that the wearer has Loviatar's blessing
         -- if not, then they can no longer proceed with the transformation
