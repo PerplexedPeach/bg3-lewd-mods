@@ -1,4 +1,4 @@
-new entry "LI_Formless_Anvil"
+ new entry "LI_Formless_Anvil"
 type "Object"
 using "OBJ_GenericLootItem"
 data "Rarity" "Legendary"
