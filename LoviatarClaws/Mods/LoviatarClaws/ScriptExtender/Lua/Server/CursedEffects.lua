@@ -32,9 +32,22 @@ local function _I(msg)
 end
 
 
+function TotalTakenDamageID(char)
+    return persistent_dmg_taken .. "_" .. char;
+end
 
-function TotalTakenDamage()
-    return PersistentVars[persistent_dmg_taken];
+function TotalTakenDamage(char)
+    local dmg = PersistentVars[TotalTakenDamageID(char)];
+    if dmg == nil then
+        return 0;
+    end
+    return dmg;
+end
+
+function IncreaseTotalTakenDamage(char, amount)
+    local id = TotalTakenDamageID(char);
+    PersistentVars[id] = TotalTakenDamage(char) + amount;
+    _I("Damage taken: " .. amount .. " total: " .. PersistentVars[id] .. " for ID: " .. id);
 end
 
 function HasLoviatarsLove(char)
@@ -56,7 +69,7 @@ function UpgradeRemodelledFrame(char)
     local current_level = RemodelledFrameLevel(char);
     if current_level < 4 then
         -- check if we've reached the pain threshold for the next level
-        local total_damage = TotalTakenDamage();
+        local total_damage = TotalTakenDamage(char);
         local pain_threshold = pain_thresholds_for_remodel[current_level + 1];
         _I("Checking total damage: " .. total_damage .. " pain threshold: " .. pain_threshold);
         if total_damage < pain_threshold then
@@ -75,12 +88,6 @@ function UpgradeRemodelledFrame(char)
 end
 
 local function OnSessionLoaded()
-    -- Persistent variables are only available after SessionLoaded is triggered!
-    if PersistentVars[persistent_dmg_taken] == nil then
-        _I(persistent_dmg_taken  .." not found, setting to 0");
-        PersistentVars[persistent_dmg_taken] = 0
-    end
-    _I("Total damage taken: " .. PersistentVars[persistent_dmg_taken]);
 end
 
 
@@ -139,16 +146,14 @@ function LiClawsProgression:registerDamage(defender, attackerOwner, attacker2, d
     for _, wearer in pairs(wearers) do
         if defender == wearer then
             -- check if we're passing a threshold, and if so display a message
-            local total_damage = TotalTakenDamage();
+            local total_damage = TotalTakenDamage(wearer);
             for i = 4, 1, -1 do
                 if total_damage < pain_thresholds_for_remodel[i] and total_damage + damageAmount >= pain_thresholds_for_remodel[i] then
                     self:log("Reached pain threshold: " .. pain_thresholds_for_remodel[i]);
                     Osi.OpenMessageBox(wearer, ready_for_remodel_message[i]);
                 end
             end
-                
-            PersistentVars[persistent_dmg_taken] = PersistentVars[persistent_dmg_taken] + damageAmount;
-            self:log("Damage taken: " .. damageAmount .. " total: " .. PersistentVars[persistent_dmg_taken]);
+            IncreaseTotalTakenDamage(wearer, damageAmount);
         end
     end
 end
