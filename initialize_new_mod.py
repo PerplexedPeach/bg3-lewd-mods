@@ -1,5 +1,11 @@
 import os
 import argparse
+import uuid
+
+
+# e.g. b3a212d7-e669-4f3d-aa2f-3a629d00ba01
+def generate_uuid():
+    return str(uuid.uuid4())
 
 
 class Folder:
@@ -55,52 +61,54 @@ def create_mod(args):
             with XMLFile(f"{name}.loca.xml") as f:
                 f.add_line("""<contentList>\n</contentList>""")
         # every mod needs a meta
+        mod_uuid = generate_uuid()
         with Folder(f"Mods/{name}"):
             with XMLFile("meta.lsx") as f:
                 f.add_line(f"""
- <save>
-  <version major="4" minor="0" revision="7" build="2" />
-  <region id="Config">
-    <node id="root">
-        <children>
-            <node id="Dependencies"/>
-                <node id="ModuleInfo">
-                    <attribute id="Author" type="LSWString" value="{author}"/> 
-                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-                    <attribute id="Description" type="LSWString" value="{name}"/> 
-                    <attribute id="Folder" type="LSWString" value="{name}"/> 
-                    <attribute id="GMTemplate" type="FixedString" value=""/>
-                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value=""/>
-                    <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
-                    <attribute id="MenuLevelName" type="FixedString" value=""/>
-                    <attribute id="Name" type="FixedString" value="{name}"/>
-                    <attribute id="NumPlayers" type="uint8" value="4"/>
-                    <attribute id="PhotoBooth" type="FixedString" value=""/>
-                    <attribute id="StartupLevelName" type="FixedString" value=""/>
-                    <attribute id="Tags" type="LSWString" value=""/>
-                    <attribute id="Type" type="FixedString" value="Add-on"/>
-                    <attribute id="UUID" type="FixedString" value="GENERATE_AND_FILL"/> 
-                    <attribute id="Version64" type="int64" value="36028797018963968"/>
-                    <children>
-                        <node id="PublishVersion">
-                            <attribute id="Version64" type="int64" value="144115196665790673"/>
-                        </node>
-                        <node id="Scripts"/>
-                        <node id="TargetModes">
-                            <children>
-                                <node id="Target">
-                                    <attribute id="Object" type="FixedString" value="Story"/>
-                                </node>
-                            </children>
-                        </node>
-                    </children>
-                </node>
-            </children>
-        </node>
-    </region>
-  </save>               
+<save>
+<version major="4" minor="0" revision="7" build="2" />
+<region id="Config">
+<node id="root">
+    <children>
+        <node id="Dependencies"/>
+            <node id="ModuleInfo">
+                <attribute id="Author" type="LSWString" value="{author}"/> 
+                <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+                <attribute id="Description" type="LSWString" value="{name}"/> 
+                <attribute id="Folder" type="LSWString" value="{name}"/> 
+                <attribute id="GMTemplate" type="FixedString" value=""/>
+                <attribute id="LobbyLevelName" type="FixedString" value=""/>
+                <attribute id="MD5" type="LSString" value=""/>
+                <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
+                <attribute id="MenuLevelName" type="FixedString" value=""/>
+                <attribute id="Name" type="FixedString" value="{name}"/>
+                <attribute id="NumPlayers" type="uint8" value="4"/>
+                <attribute id="PhotoBooth" type="FixedString" value=""/>
+                <attribute id="StartupLevelName" type="FixedString" value=""/>
+                <attribute id="Tags" type="LSWString" value=""/>
+                <attribute id="Type" type="FixedString" value="Add-on"/>
+                <attribute id="UUID" type="FixedString" value="{mod_uuid}"/> 
+                <attribute id="Version64" type="int64" value="36028797018963968"/>
+                <children>
+                    <node id="PublishVersion">
+                        <attribute id="Version64" type="int64" value="144115196665790673"/>
+                    </node>
+                    <node id="Scripts"/>
+                    <node id="TargetModes">
+                        <children>
+                            <node id="Target">
+                                <attribute id="Object" type="FixedString" value="Story"/>
+                            </node>
+                        </children>
+                    </node>
+                </children>
+            </node>
+        </children>
+    </node>
+</region>
+</save>               
                 """)
+        print(f"Created mod {name} with UUID {mod_uuid}")
 
         if args.items:
             with Folder(f"Public/{name}/RootTemplates"):
@@ -123,6 +131,190 @@ def create_mod(args):
                         f.add_line(" ")
                 with File("TreasureTable.txt"):
                     f.add_line(" ")
+            # large icons
+            with Folder(f"Public/Game/GUI/Assets/Tooltips"):
+                with Folder("Icons"):
+                    with File("large 380 DDS DXT3 icons for abilities here.txt") as f:
+                        f.add_line(" ")
+                with Folder("ItemIcons"):
+                    with File("large 380 DDS DXT3 icons for items here.txt") as f:
+                        f.add_line(" ")
+            # small icons
+            with Folder(f"Public/{name}/Assets/Textures/Icons"):
+                with File(f"small icon tileset 256 DDS DXT3 each 64 here called {name}_Icons.dds.txt") as f:
+                    f.add_line(" ")
+            icon_uuid = generate_uuid()
+            with Folder(f"Public/{name}/Content/UI/[PAK]_UI"):
+                with File("_merged.lsf.lsx") as f:
+                    f.add_line(f"""
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328" />
+    <region id="TextureBank">
+        <node id="TextureBank">
+            <children>
+                <node id="Resource">
+                    <attribute id="ID" type="FixedString" value="{icon_uuid}" />
+                    <attribute id="Localized" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="{name}_Icons" />
+                    <attribute id="SRGB" type="bool" value="True" />
+                    <attribute id="SourceFile" type="LSString" value="Public/{name}/Assets/Textures/Icons/{name}_Icons.dds" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Icons_Items" />
+                    <attribute id="Type" type="int64" value="0" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+                    """)
+            with Folder(f"Public/{name}/GUI"):
+                with File("Icons_Items.lsx") as f:
+                    f.add_line(f"""
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328" />  This file is not converted to lsf!
+    <region id="TextureAtlasInfo"> 
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/{name}_Icons.dds"/>
+                    <attribute id="UUID" type="FixedString" value="{icon_uuid}"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int64" value="256"/>
+                    <attribute id="Width" type="int64" value="256"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="{name}"/> 1
+                    <attribute id="U1" type="float" value="0.0"/> Left
+                    <attribute id="U2" type="float" value="0.25"/> Right
+                    <attribute id="V1" type="float" value="0.0"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="LI_"/> 2
+                    <attribute id="U1" type="float" value="0.25"/> Left
+                    <attribute id="U2" type="float" value="0.5"/> Right
+                    <attribute id="V1" type="float" value="0.0"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="LI_"/> 3
+                    <attribute id="U1" type="float" value="0.5"/> Left
+                    <attribute id="U2" type="float" value="0.75"/> Right
+                    <attribute id="V1" type="float" value="0.0"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="LI_"/> 4
+                    <attribute id="U1" type="float" value="0.75"/> Left
+                    <attribute id="U2" type="float" value="1.0"/> Right
+                    <attribute id="V1" type="float" value="0.0"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="LI_"/> 1
+                    <attribute id="U1" type="float" value="0.0"/> Left
+                    <attribute id="U2" type="float" value="0.25"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.5"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="LI_"/> 2
+                    <attribute id="U1" type="float" value="0.25"/> Left
+                    <attribute id="U2" type="float" value="0.5"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.5"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 3
+                    <attribute id="U1" type="float" value="0.5"/> Left
+                    <attribute id="U2" type="float" value="0.75"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.5"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 4
+                    <attribute id="U1" type="float" value="0.75"/> Left
+                    <attribute id="U2" type="float" value="1.0"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.5"/> Bottom
+                </node>
+
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 1
+                    <attribute id="U1" type="float" value="0.0"/> Left
+                    <attribute id="U2" type="float" value="0.25"/> Right
+                    <attribute id="V1" type="float" value="0.5"/> Top
+                    <attribute id="V2" type="float" value="0.75"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 2
+                    <attribute id="U1" type="float" value="0.25"/> Left
+                    <attribute id="U2" type="float" value="0.5"/> Right
+                    <attribute id="V1" type="float" value="0.5"/> Top
+                    <attribute id="V2" type="float" value="0.75"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 3
+                    <attribute id="U1" type="float" value="0.5"/> Left
+                    <attribute id="U2" type="float" value="0.75"/> Right
+                    <attribute id="V1" type="float" value="0.5"/> Top
+                    <attribute id="V2" type="float" value="0.75"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 4
+                    <attribute id="U1" type="float" value="0.75"/> Left
+                    <attribute id="U2" type="float" value="1.0"/> Right
+                    <attribute id="V1" type="float" value="0.5"/> Top
+                    <attribute id="V2" type="float" value="0.75"/> Bottom
+                </node>
+
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 1
+                    <attribute id="U1" type="float" value="0.0"/> Left
+                    <attribute id="U2" type="float" value="0.25"/> Right
+                    <attribute id="V1" type="float" value="0.75"/> Top
+                    <attribute id="V2" type="float" value="1.0"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 2
+                    <attribute id="U1" type="float" value="0.25"/> Left
+                    <attribute id="U2" type="float" value="0.5"/> Right
+                    <attribute id="V1" type="float" value="0.75"/> Top
+                    <attribute id="V2" type="float" value="1.0"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 3
+                    <attribute id="U1" type="float" value="0.5"/> Left
+                    <attribute id="U2" type="float" value="0.75"/> Right
+                    <attribute id="V1" type="float" value="0.75"/> Top
+                    <attribute id="V2" type="float" value="1.0"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 4
+                    <attribute id="U1" type="float" value="0.75"/> Left
+                    <attribute id="U2" type="float" value="1.0"/> Right
+                    <attribute id="V1" type="float" value="0.75"/> Top
+                    <attribute id="V2" type="float" value="1.0"/> Bottom
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+                    """)
 
         if args.scripts:
             with Folder(f"Mods/{name}/ScriptExtender"):
