@@ -102,7 +102,7 @@
 
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body.HUM_F_ARM_LI_Harness_Robe_Body_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -170,7 +170,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Garter.HUM_F_ARM_LI_Harness_Robe_Garter_Mesh.0" />
 						</node>
 					</children>
@@ -275,7 +275,7 @@
 
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_1.HUM_F_ARM_LI_Harness_Robe_Body_1_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -343,7 +343,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Garter_1.HUM_F_ARM_LI_Harness_Robe_Garter_1_Mesh.0" />
 						</node>
 					</children>
@@ -528,7 +528,7 @@
 
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_2.HUM_F_ARM_LI_Harness_Robe_Body_2_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -596,7 +596,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Garter_2.HUM_F_ARM_LI_Harness_Robe_Garter_2_Mesh.0" />
 						</node>
 					</children>
@@ -780,7 +780,7 @@
 
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_3.HUM_F_ARM_LI_Harness_Robe_Body_3_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -848,7 +848,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Garter_3.HUM_F_ARM_LI_Harness_Robe_Garter_3_Mesh.0" />
 						</node>
 					</children>
@@ -1033,7 +1033,7 @@
 
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_4.HUM_F_ARM_LI_Harness_Robe_Body_4_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -1101,7 +1101,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="4e7b6533-c3c7-089d-f84e-e5a9172707b1" />
+							<attribute id="MaterialID" type="FixedString" value="9ddcc06d-daf2-4e7a-a657-41454c26e44c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Garter_4.HUM_F_ARM_LI_Harness_Robe_Garter_4_Mesh.0" />
 						</node>
 					</children>
