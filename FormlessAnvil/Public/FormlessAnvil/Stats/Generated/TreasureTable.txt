@@ -2,3 +2,48 @@ new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
 object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "DEN_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentarimTrader_Common"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_OrinsImpersonation_Smith"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentarimTrader_Common"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_GithQuartermistress_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_ZhentQuartermaster"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_MysticCarrion_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_Formless_Anvil",1,0,0,0,0,0,0,0
