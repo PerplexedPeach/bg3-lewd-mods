@@ -1,0 +1,15 @@
+new entry "LI_LoviatarClaws_Heels"
+using "LI_LoviatarClaws"
+data "RootTemplate" "b03e5646-ba7f-493c-a3f9-b642f4c5cdf8"
+data "ColorPresetResource" "cdd91020-598f-4754-b76b-3e1af59aca6c"
+
+new entry "LI_LoviatarClaws_Heels_Replica"
+using "LI_LoviatarClaws_Replica"
+data "RootTemplate" "041da15c-1906-41ef-bb27-ee7a05c02c47"
+data "ColorPresetResource" "cdd91020-598f-4754-b76b-3e1af59aca6c"
+
+new entry "LI_LoviatarClaws_Heels_Camp"
+using "LI_LoviatarClaws_Camp"
+data "RootTemplate" "8c0f0080-bb79-4b43-a788-bc033645fa70"
+data "ColorPresetResource" "cdd91020-598f-4754-b76b-3e1af59aca6c"
+ 

@@ -1,0 +1,7 @@
+
+{
+    "RequiredVersion": 4,
+    "ModTable": "LoviatarClawsHeels",
+    "FeatureFlags": ["Lua"]
+}
+                    

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_BM" />
+					<attribute id="ID" type="FixedString" value="26c2915c-cbbd-4198-bdea-573688d07494" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClawsHeels/Assets/HUM_F_ARM_LI_Claws_Heels_BM.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_basecolor" />
+					<attribute id="ID" type="FixedString" value="fcea49a9-029e-4a3a-8a33-cb6dfb308778" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClawsHeels/Assets/HUM_F_ARM_LI_Claws_Heels_BM.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_MSKcloth" />
+					<attribute id="ID" type="FixedString" value="0f46bf5f-4714-488d-a00d-9473066eda74" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClawsHeels/Assets/HUM_F_ARM_LI_Claws_Heels_MSK.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="false" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_PM" />
+					<attribute id="ID" type="FixedString" value="6eeb21c3-66c9-472a-90c8-6d8fe2db795d" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClawsHeels/Assets/HUM_F_ARM_LI_Claws_Heels_PM.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Claws_NM" />
+					<attribute id="ID" type="FixedString" value="0a7e702c-50c0-4250-8c4d-0caf621a6152" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LoviatarClawsHeels/Assets/HUM_F_ARM_LI_Claws_Heels_NM.DDS" />
+
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+
+			</children>
+		</node>
+	</region>
+</save>
