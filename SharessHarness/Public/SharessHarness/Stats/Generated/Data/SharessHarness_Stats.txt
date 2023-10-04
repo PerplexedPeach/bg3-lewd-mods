@@ -120,6 +120,7 @@ data "Icon" "LI_Overstimulated"
 data "StackId" "LI_OVERSTIM"
 data "OnRemoveFunctors" "IF(HasStatus('LI_SATED_1')):ApplyStatus(LI_SATED_2,100,-1); IF(HasStatus('LI_SATED')):ApplyStatus(LI_SATED_1,100,-1); IF(not HasStatus('LI_SATED_1') and not HasStatus('LI_SATED_2')):ApplyStatus(LI_SATED,100,-1)"
 data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);Advantage(AttackTarget);DetectDisturbancesBlock(true);StatusImmunity(SG_Prone)"
+data "OnApplyFunctors" "CreateSurface(2, 2, Water);ApplyStatus(WET, 100, 2)"
 
 
 new entry "LI_SATED"
