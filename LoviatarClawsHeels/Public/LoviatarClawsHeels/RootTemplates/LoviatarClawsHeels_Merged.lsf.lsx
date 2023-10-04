@@ -7,7 +7,7 @@
 				<node id="GameObjects">  Loviatar's Claws (Tintable)
 					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Heels" />
 					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Heels" />
 					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Heels" />
 					<attribute id="MapKey" type="FixedString" value="b03e5646-ba7f-493c-a3f9-b642f4c5cdf8" />

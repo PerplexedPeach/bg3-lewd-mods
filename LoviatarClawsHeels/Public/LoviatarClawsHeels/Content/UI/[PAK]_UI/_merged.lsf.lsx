@@ -5,11 +5,11 @@
 		<node id="TextureBank">
 			<children>
 				<node id="Resource">
-					<attribute id="ID" type="FixedString" value="cf582196-5001-4e19-b13e-c5ee96f534ab" />
+					<attribute id="ID" type="FixedString" value="b3a212d7-e669-4f3d-aa2f-3a629d00ba01" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="LoviatarClaws_Icons" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="SourceFile" type="LSString" value="Public/LoviatarClawsAlt/Assets/Textures/Icons/LoviatarClaws_Alt_Icons.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/LoviatarClawsHeels/Assets/Textures/Icons/LoviatarClaws_Heels_Icons.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Icons_Items" />
 					<attribute id="Type" type="int64" value="0" />
