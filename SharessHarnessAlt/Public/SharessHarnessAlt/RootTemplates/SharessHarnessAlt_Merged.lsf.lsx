@@ -47,6 +47,12 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d671c213-fb7c-486b-b8a6-fc8b51344b20" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7fa66ee3-382f-47c8-981b-6ae685b60448" /> garter
+												</node>
 											</children>
 										</node>
 
@@ -150,34 +156,20 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
+													<attribute id="Object" type="FixedString" value="ac996eae-69b7-4a02-a574-c381561b673d" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
+													<attribute id="Object" type="FixedString" value="9ed6ba39-9f46-451c-b2cd-64ff2a762c6c" /> garter
+												</node>												
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e1fb190d-a253-4975-a268-defdd897acef" /> body
+													<attribute id="Object" type="FixedString" value="747e81a7-a253-4be3-839c-1a7221f9a2f0" /> body
 												</node>
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f347064d-ee64-4113-bd81-440eb880840a" /> body
-												</node>
+
 											</children>
 										</node>
 									</children>
@@ -278,34 +270,20 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
+													<attribute id="Object" type="FixedString" value="3b8b5e80-fa18-447a-b3b7-8122b9fa0626" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
+													<attribute id="Object" type="FixedString" value="419625c4-6979-41c0-b85a-39da8ca2a3cf" /> garter
+												</node>												
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e1fb190d-a253-4975-a268-defdd897acef" /> body
+													<attribute id="Object" type="FixedString" value="c63ad2b7-2bcf-482b-9013-b3e26fd2e895" /> body
 												</node>
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f347064d-ee64-4113-bd81-440eb880840a" /> body
-												</node>
+
 											</children>
 										</node>
 									</children>
@@ -406,34 +384,20 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
+													<attribute id="Object" type="FixedString" value="3451d7a9-32d7-42b0-b818-26b63826f84b" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
+													<attribute id="Object" type="FixedString" value="7103e93e-affc-4f7c-ad87-ad59646272b1" /> garter
+												</node>												
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e1fb190d-a253-4975-a268-defdd897acef" /> body
+													<attribute id="Object" type="FixedString" value="cd754774-ed6e-4ffd-bdc6-18a94441391e" /> body
 												</node>
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f347064d-ee64-4113-bd81-440eb880840a" /> body
-												</node>
+
 											</children>
 										</node>
 									</children>
@@ -534,34 +498,20 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
+													<attribute id="Object" type="FixedString" value="083cbe12-de3b-40ec-a7c3-bbcbf590f2ec" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
+													<attribute id="Object" type="FixedString" value="9ebf7fce-00c9-4715-8578-1bb3cf4cc822" /> garter
+												</node>												
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e1fb190d-a253-4975-a268-defdd897acef" /> body
+													<attribute id="Object" type="FixedString" value="3b374d5b-ceac-4b3d-8731-3f0155fabc08" /> body
 												</node>
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e153e210-df88-4341-88aa-dbee078fbd33" /> top
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ef7e86c3-882d-49b9-b2c4-c2211dd4fc94" /> pants
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1f4fd41a-d930-47da-868d-6cb16adab0d4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f347064d-ee64-4113-bd81-440eb880840a" /> body
-												</node>
+
 											</children>
 										</node>
 									</children>
