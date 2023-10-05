@@ -28,6 +28,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
 										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
 									</children>
 								</node>		
 								<node id="Visuals">
@@ -70,23 +74,38 @@
 											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e00fe36c-5c0a-4dd5-b6d8-b751914529e4" />
+													<attribute id="Object" type="FixedString" value="9ecf55af-e1b9-429a-b35b-4fefc6db15f3" /> HUM_M_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_Heels
 												</node>
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
 											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e00fe36c-5c0a-4dd5-b6d8-b751914529e4" />
-												</node>
+
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="82b4985a-0ce9-41f6-b7f3-7efe978e2091" />
+													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_Heels
 												</node>
 											</children>
 										</node>
@@ -119,96 +138,9 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
 											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
 										</node>	
-									</children>
-								</node>		
-								<node id="Visuals">
-									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_Heels
-												</node>
-											</children>
-										</node>
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_Heels
-												</node>
-											</children>
-										</node>
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="91b6436f-9348-4a45-93c6-ba97b41c1660" /> TIF_F_NKD_Feet_Heels
-												</node>
-											</children>
-										</node>
-
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e00fe36c-5c0a-4dd5-b6d8-b751914529e4" />
-												</node>
-											</children>
-										</node>
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e00fe36c-5c0a-4dd5-b6d8-b751914529e4" />
-												</node>
-											</children>
-										</node>
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="82b4985a-0ce9-41f6-b7f3-7efe978e2091" />
-												</node>
-											</children>
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="GameObjects"> Loviatar's Claws Camp (Tintable)
-					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Heels" />
-					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Heels_Camp" />
-					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Heels_Camp" />
-					<attribute id="MapKey" type="FixedString" value="8c0f0080-bb79-4b43-a788-bc033645fa70" />
-					<attribute id="VisualTemplate" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" />
-					<attribute id="ParentTemplateId" type="FixedString" value="6bb7a595-7646-48a9-9c44-d39f16c1c5cb" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<children>
-						<node id="Equipment">
-							<children>
-								<node id="ParentRace"> This sets the ParentRace for each race
-									<children>
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
-											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
-										</node>							
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
-											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
 										</node>	
 									</children>
 								</node>		
@@ -252,23 +184,148 @@
 											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e00fe36c-5c0a-4dd5-b6d8-b751914529e4" />
+													<attribute id="Object" type="FixedString" value="9ecf55af-e1b9-429a-b35b-4fefc6db15f3" /> HUM_M_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_Heels
 												</node>
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
 											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e00fe36c-5c0a-4dd5-b6d8-b751914529e4" />
-												</node>
+
 											</children>
 										</node>
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="82b4985a-0ce9-41f6-b7f3-7efe978e2091" />
+													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> Loviatar's Claws Camp (Tintable)
+					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Heels" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Heels_Camp" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Heels_Camp" />
+					<attribute id="MapKey" type="FixedString" value="8c0f0080-bb79-4b43-a788-bc033645fa70" />
+					<attribute id="VisualTemplate" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6bb7a595-7646-48a9-9c44-d39f16c1c5cb" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
+									</children>
+								</node>		
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="91b6436f-9348-4a45-93c6-ba97b41c1660" /> TIF_F_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9ecf55af-e1b9-429a-b35b-4fefc6db15f3" /> HUM_M_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
+											<children>
+
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_Heels
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_Heels
 												</node>
 											</children>
 										</node>
