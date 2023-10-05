@@ -1,0 +1,119 @@
+new ItemCombination "FOR_LoviatarClaws_Heels"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Scroll_Revivify"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_LoviatarClaws_Heels_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Heels"
+data "PreviewStatsID" "LI_LoviatarClaws_Heels"
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Heels_Heels"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Heels"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Scroll_Revivify"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_LoviatarClaws_Heels_Heels_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws"
+data "PreviewStatsID" "LI_LoviatarClaws"
+
+
+
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Heels_Camp"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Scroll_Revivify"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Heels_Camp_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Heels_Camp"
+data "PreviewStatsID" "LI_LoviatarClaws_Heels_Camp"
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Heels_Heels_Camp"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Heels_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Scroll_Revivify"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Heels_Heels_Camp_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Camp"
+data "PreviewStatsID" "LI_LoviatarClaws_Camp"
+
+
+
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Heels_Replica"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Replica"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Scroll_Revivify"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Heels_Replica_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Heels_Replica"
+data "PreviewStatsID" "LI_LoviatarClaws_Heels_Replica"
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Heels_Heels_Replica"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Heels_Replica"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Scroll_Revivify"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Heels_Replica_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Replica"
+data "PreviewStatsID" "LI_LoviatarClaws_Replica"
