@@ -107,7 +107,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="f5ab85f8-3033-23b5-4dd0-3e13793212c0" />
+							<attribute id="MaterialID" type="FixedString" value="f5fb825d-cc05-41d5-ac9c-42b6b1e17871" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body.HUM_F_ARM_LI_Harness_Robe_Accessories_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -280,7 +280,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="f5ab85f8-3033-23b5-4dd0-3e13793212c0" />
+							<attribute id="MaterialID" type="FixedString" value="f5fb825d-cc05-41d5-ac9c-42b6b1e17871" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_1.HUM_F_ARM_LI_Harness_Robe_Accessories_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -533,7 +533,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="f5ab85f8-3033-23b5-4dd0-3e13793212c0" />
+							<attribute id="MaterialID" type="FixedString" value="f5fb825d-cc05-41d5-ac9c-42b6b1e17871" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_2.HUM_F_ARM_LI_Harness_Robe_Accessories_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -785,7 +785,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="f5ab85f8-3033-23b5-4dd0-3e13793212c0" />
+							<attribute id="MaterialID" type="FixedString" value="f5fb825d-cc05-41d5-ac9c-42b6b1e17871" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_3.HUM_F_ARM_LI_Harness_Robe_Accessories_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -1038,7 +1038,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="f5ab85f8-3033-23b5-4dd0-3e13793212c0" />
+							<attribute id="MaterialID" type="FixedString" value="f5fb825d-cc05-41d5-ac9c-42b6b1e17871" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body_4.HUM_F_ARM_LI_Harness_Robe_Accessories_Mesh.1" />
 						</node>
 						<node id="Objects">
