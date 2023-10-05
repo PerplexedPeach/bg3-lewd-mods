@@ -15,7 +15,7 @@
 
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb886db15g0e12g4d8fg9964g43c4741177b2" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Umberlee_Robe_A_Magic" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe" />
 					<children>
 						<node id="Equipment">
@@ -71,7 +71,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hae139e65ga634g4d4eg8f31g374998c8bc6f" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Umberlee_Robe_A_Magic" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe_1" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_1" />
 					<children>
 						<node id="Equipment">
@@ -199,7 +199,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h25a2322eg006dg4bdag8ca4g506f5126f2c6" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Umberlee_Robe_A_Magic" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_2" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_2" />
 					<children>
 						<node id="Equipment">
@@ -327,7 +327,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hea98ffe7g7586g42fbg95edgb8c660b1cba8" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Umberlee_Robe_A_Magic" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe_3" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_3" />
 					<children>
 						<node id="Equipment">
@@ -455,7 +455,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="ha60b4d38g8fd0g4b2fgbc41gd998234885d6" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Umberlee_Robe_A_Magic" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe_4" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_4" />
 					<children>
 						<node id="Equipment">
