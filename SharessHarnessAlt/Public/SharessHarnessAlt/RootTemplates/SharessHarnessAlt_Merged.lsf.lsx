@@ -169,7 +169,15 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
-
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ac996eae-69b7-4a02-a574-c381561b673d" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9ed6ba39-9f46-451c-b2cd-64ff2a762c6c" /> garter
+												</node>												
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3b06d69e-bdf0-4867-9f0a-b65c32b57be6" /> body
+												</node>
 											</children>
 										</node>
 									</children>
@@ -283,6 +291,15 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3b8b5e80-fa18-447a-b3b7-8122b9fa0626" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="419625c4-6979-41c0-b85a-39da8ca2a3cf" /> garter
+												</node>												
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="61a7e690-e992-4b78-be60-fae5f36eb83f" /> body
+												</node>
 
 											</children>
 										</node>
@@ -397,7 +414,15 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
-
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3451d7a9-32d7-42b0-b818-26b63826f84b" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7103e93e-affc-4f7c-ad87-ad59646272b1" /> garter
+												</node>												
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="55d936e8-d381-4be4-90ba-0c272fe0755c" /> body
+												</node>
 											</children>
 										</node>
 									</children>
@@ -511,7 +536,15 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
-
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="083cbe12-de3b-40ec-a7c3-bbcbf590f2ec" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9ebf7fce-00c9-4715-8578-1bb3cf4cc822" /> garter
+												</node>												
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="05e691e8-2180-4ccf-b7fd-fd79a20a46ba" /> body
+												</node>
 											</children>
 										</node>
 									</children>
