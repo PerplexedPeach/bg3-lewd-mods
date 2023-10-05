@@ -13,7 +13,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="d671c213-fb7c-486b-b8a6-fc8b51344b20" />
+					<attribute id="ID" type="FixedString" value="056d8246-b926-4f48-9346-c0c04986fbee" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="HUM_FS_ARM_LI_Harness_Robe_Body" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />

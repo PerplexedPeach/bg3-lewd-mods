@@ -35,7 +35,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
 							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_1.TIF_F_NKD_Body_1_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -117,7 +117,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
 							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_2.TIF_F_NKD_Body_2_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -198,7 +198,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
 							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_3.TIF_F_NKD_Body_3_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -280,7 +280,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
 							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_4.TIF_F_NKD_Body_4_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
