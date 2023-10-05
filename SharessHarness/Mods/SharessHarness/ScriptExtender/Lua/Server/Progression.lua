@@ -155,18 +155,27 @@ function LiHarnessProgression:curseLongRestHandler()
             end
         end
     end
+end
 
-    for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
-        local char = player[1];
-        -- remove sated status (doing it manually so it doesn't get cleared automatically after long rest)
-        for _, status_id in pairs(sated_status_ids) do
-            Osi.RemoveStatus(char, status_id);
+local clear_sated_registered = false;
+function LiHarnessProgression:clearSatedHandler()
+    delayedCall(3000, function()
+        for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
+            local char = player[1];
+            -- remove sated status (doing it manually so it doesn't get cleared automatically after long rest)
+            for _, status_id in pairs(sated_status_ids) do
+                Osi.RemoveStatus(char, status_id);
+            end
         end
-    end
+    end);
 end
 
 function LiHarnessProgression:registerHandlers()
     Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function() self:curseLongRestHandler() end);
+    if not clear_sated_registered then
+        Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function() self:clearSatedHandler() end);
+        clear_sated_registered = true;
+    end
     self:log("Registered handlers");
 end
 
