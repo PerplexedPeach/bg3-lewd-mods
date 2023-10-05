@@ -327,9 +327,9 @@ def create_mod(args):
 }}
                     """)
                 with Folder("Lua"):
-                    with File("BoostrapClient.lua") as f:
+                    with File("BootstrapClient.lua") as f:
                         f.add_line(" ")
-                    with File("BoostrapServer.lua") as f:
+                    with File("BootstrapServer.lua") as f:
                         f.add_line(f"Ext.Require(\"Server/{name}.lua\")")
                     with Folder("Server"):
                         with File(f"{name}.lua") as f:
