@@ -1,0 +1,401 @@
+new ItemCombination "FOR_SharessHarness"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe"
+data "PreviewStatsID" "LI_SharessHarness_Robe"
+
+
+
+new ItemCombination "FOR_SharessHarness_rev"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_rev_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness"
+data "PreviewStatsID" "LI_SharessHarness"
+
+
+
+new ItemCombination "FOR_SharessHarness_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_1"
+data "PreviewStatsID" "LI_SharessHarness_Robe_1"
+
+
+
+new ItemCombination "FOR_SharessHarness_rev_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_rev_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_1"
+data "PreviewStatsID" "LI_SharessHarness_1"
+
+
+
+
+new ItemCombination "FOR_SharessHarness_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_2"
+data "PreviewStatsID" "LI_SharessHarness_Robe_2"
+
+
+
+new ItemCombination "FOR_SharessHarness_rev_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_rev_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_2"
+data "PreviewStatsID" "LI_SharessHarness_2"
+
+
+
+new ItemCombination "FOR_SharessHarness_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_3"
+data "PreviewStatsID" "LI_SharessHarness_Robe_3"
+
+
+
+new ItemCombination "FOR_SharessHarness_rev_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_rev_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_3"
+data "PreviewStatsID" "LI_SharessHarness_3"
+
+
+
+
+new ItemCombination "FOR_SharessHarness_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_4"
+data "PreviewStatsID" "LI_SharessHarness_Robe_4"
+
+
+
+new ItemCombination "FOR_SharessHarness_rev_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_rev_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_4"
+data "PreviewStatsID" "LI_SharessHarness_4"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_Camp"
+data "PreviewStatsID" "LI_SharessHarness_Robe_Camp"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_rev"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_rev_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp"
+data "PreviewStatsID" "LI_SharessHarness_Camp"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_Camp_1"
+data "PreviewStatsID" "LI_SharessHarness_Robe_Camp_1"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_rev_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_Camp_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_rev_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_1"
+data "PreviewStatsID" "LI_SharessHarness_Camp_1"
+
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_Camp_2"
+data "PreviewStatsID" "LI_SharessHarness_Robe_Camp_2"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_rev_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_Camp_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_rev_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_2"
+data "PreviewStatsID" "LI_SharessHarness_Camp_2"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_Camp_3"
+data "PreviewStatsID" "LI_SharessHarness_Robe_Camp_3"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_rev_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_Camp_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_rev_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_3"
+data "PreviewStatsID" "LI_SharessHarness_Camp_3"
+
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Robe_Camp_4"
+data "PreviewStatsID" "LI_SharessHarness_Robe_Camp_4"
+
+
+
+new ItemCombination "FOR_SharessHarness_Camp_rev_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Robe_Camp_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Camp_rev_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_4"
+data "PreviewStatsID" "LI_SharessHarness_Camp_4"

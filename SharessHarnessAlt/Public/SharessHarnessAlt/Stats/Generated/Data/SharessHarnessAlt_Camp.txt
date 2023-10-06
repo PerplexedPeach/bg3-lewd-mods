@@ -1,0 +1,20 @@
+new entry "LI_SharessHarness_Robe_Camp"
+using "LI_SharessHarness_Camp"
+data "RootTemplate" "dbc7ba54-929e-4ae2-8e81-6db0f6576fba"
+data "ColorPresetResource" "89ca69af-9c7b-4e90-b6bf-e292fa60e7ff"
+
+new entry "LI_SharessHarness_Robe_Camp_1"
+using "LI_SharessHarness_Robe_Camp"
+data "RootTemplate" "2c8de27d-1240-4665-814a-9403cae6acc8"
+
+new entry "LI_SharessHarness_Robe_Camp_2"
+using "LI_SharessHarness_Robe_Camp"
+data "RootTemplate" "89a913ed-58db-4239-8837-ac4a80d8c103"
+
+new entry "LI_SharessHarness_Robe_Camp_3"
+using "LI_SharessHarness_Robe_Camp"
+data "RootTemplate" "aca38254-a949-4755-af95-e7891ef0763d"
+
+new entry "LI_SharessHarness_Robe_Camp_4"
+using "LI_SharessHarness_Robe_Camp"
+data "RootTemplate" "37aa0d5d-6c50-43ae-a7d2-dee015178ca0"
