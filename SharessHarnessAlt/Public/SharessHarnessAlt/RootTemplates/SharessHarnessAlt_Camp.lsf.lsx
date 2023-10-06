@@ -5,8 +5,8 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects"> stage 0
-					<attribute id="MapKey" type="FixedString" value="4cca4166-4662-43c9-8d54-ed40c098117b" />
-					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe" />
+					<attribute id="MapKey" type="FixedString" value="dbc7ba54-929e-4ae2-8e81-6db0f6576fba" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_Camp" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
                     <attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
@@ -16,7 +16,7 @@
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb886db15g0e12g4d8fg9964g43c4741177b2" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe" />
-					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_Camp" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -68,17 +68,18 @@
 
 				</node>
 				<node id="GameObjects"> stage 1
-					<attribute id="MapKey" type="FixedString" value="c1099b28-a68d-45d3-9b2e-a0ecadd82a13" />
-					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_1" />
+					<attribute id="MapKey" type="FixedString" value="2c8de27d-1240-4665-814a-9403cae6acc8" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_Camp_1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="ParentTemplateId" type="FixedString" value="f6599c3f-cfcd-4721-9cc2-1df5d8ff0154" />
-					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hae139e65ga634g4d4eg8f31g374998c8bc6f" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe_1" />
-					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_1" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_Camp_1" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -190,17 +191,18 @@
 					</children>
 				</node>
 				<node id="GameObjects"> stage 2
-					<attribute id="MapKey" type="FixedString" value="d68447a5-8118-488e-8889-f2df5e00e6c1" />
-					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_2" />
+					<attribute id="MapKey" type="FixedString" value="89a913ed-58db-4239-8837-ac4a80d8c103" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_Camp_2" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="ParentTemplateId" type="FixedString" value="f6599c3f-cfcd-4721-9cc2-1df5d8ff0154" />
-					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h25a2322eg006dg4bdag8ca4g506f5126f2c6" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe_2" />
-					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_2" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_Camp_2" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -313,17 +315,18 @@
 					</children>
 				</node>
 				<node id="GameObjects"> stage 3
-					<attribute id="MapKey" type="FixedString" value="d495219d-6f26-4ff9-8782-075236fc51c6" />
-					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_3" />
+					<attribute id="MapKey" type="FixedString" value="aca38254-a949-4755-af95-e7891ef0763d" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_Camp_3" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="ParentTemplateId" type="FixedString" value="f6599c3f-cfcd-4721-9cc2-1df5d8ff0154" />
-					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hea98ffe7g7586g42fbg95edgb8c660b1cba8" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe_3" />
-					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_3" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_Camp_3" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -435,17 +438,18 @@
 					</children>
 				</node>
 				<node id="GameObjects"> stage 4
-					<attribute id="MapKey" type="FixedString" value="19ed1429-5761-405a-80b6-4d938393b8af" />
-					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_4" />
+					<attribute id="MapKey" type="FixedString" value="37aa0d5d-6c50-43ae-a7d2-dee015178ca0" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_Robe_Camp_4" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="ParentTemplateId" type="FixedString" value="f6599c3f-cfcd-4721-9cc2-1df5d8ff0154" />
-					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="ha60b4d38g8fd0g4b2fgbc41gd998234885d6" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Robe_4" />
-					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_4" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Robe_Camp_4" />
 					<children>
 						<node id="Equipment">
 							<children>
