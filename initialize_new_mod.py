@@ -145,9 +145,8 @@ def create_mod(args):
                     f.add_line(" ")
             icon_uuid = generate_uuid()
             with Folder(f"Public/{name}/Content/UI/[PAK]_UI"):
-                with File("_merged.lsf.lsx") as f:
+                with XMLFile("_merged.lsf.lsx") as f:
                     f.add_line(f"""
-<?xml version="1.0" encoding="utf-8"?>
 <save>
     <version major="4" minor="0" revision="9" build="328" />
     <region id="TextureBank">
@@ -169,9 +168,8 @@ def create_mod(args):
 </save>
                     """)
             with Folder(f"Public/{name}/GUI"):
-                with File("Icons_Items.lsx") as f:
+                with XMLFile("Icons_Items.lsx") as f:
                     f.add_line(f"""
-<?xml version="1.0" encoding="UTF-8"?>
 <save>
     <version major="4" minor="0" revision="9" build="328" />  This file is not converted to lsf!
     <region id="TextureAtlasInfo"> 
