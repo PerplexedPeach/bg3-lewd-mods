@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+
+				<node id="Resource"> HUM_FS legs
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1925352 0.5059927 0.1326617" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1944194 -0.01143119 -0.1739619" />
+					<attribute id="Center" type="fvec3" value="-0.000942111 0.2472807 -0.0206501" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_NKD_Feet_Heels" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.3575889" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Footwear" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/HighHeelFeet/Assets/HUM_FS_NKD_Feet_Heels.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/HighHeelFeet/Assets/HUM_FS_NKD_Feet_Heels.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" /> skin material
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Feet_Heels.HUM_FS_NKD_Feet_Heels.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="feet" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="shins" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="knees" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> TIF_FS legs
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1925352 0.5059927 0.1326617" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1944194 -0.01143119 -0.1739619" />
+					<attribute id="Center" type="fvec3" value="-0.000942111 0.2472807 -0.0206501" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="TIF_FS_NKD_Feet_Heels" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.3575889" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Footwear" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/HighHeelFeet/Assets/TIF_FS_NKD_Feet_Heels.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/HighHeelFeet/Assets/TIF_FS_NKD_Feet_Heels.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="e9c3247c-c54f-7bd9-a5c1-ce38db0af4e4" /> skin material
+							<attribute id="ObjectID" type="FixedString" value="TIF_FS_NKD_Feet_Heels.TIF_FS_NKD_Feet_Heels.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="feet" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="shins" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="knees" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>	
+</save>
