@@ -1,0 +1,12 @@
+new entry "LI_LoviatarClaws_HeelsOpen"
+using "LI_LoviatarClaws"
+data "RootTemplate" "84dcbcd4-2612-4030-aa16-d839e4904d74"
+
+new entry "LI_LoviatarClaws_HeelsOpen_Replica"
+using "LI_LoviatarClaws_Replica"
+data "RootTemplate" "1388f279-022e-4184-9ddc-cee6f306984c"
+
+new entry "LI_LoviatarClaws_HeelsOpen_Camp"
+using "LI_LoviatarClaws_Camp"
+data "RootTemplate" "1bd111a4-0f97-4e55-9219-d1a6b254d3d0"
+ 

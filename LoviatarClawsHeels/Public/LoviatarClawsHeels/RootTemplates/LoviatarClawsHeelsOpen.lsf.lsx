@@ -7,11 +7,11 @@
 				<node id="GameObjects">  Loviatar's Claws (Tintable)
 					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Heels" />
-					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Heels" />
-					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Heels" />
-					<attribute id="MapKey" type="FixedString" value="b03e5646-ba7f-493c-a3f9-b642f4c5cdf8" />
-					<attribute id="VisualTemplate" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_HeelsOpen" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_HeelsOpen" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_HeelsOpen" />
+					<attribute id="MapKey" type="FixedString" value="84dcbcd4-2612-4030-aa16-d839e4904d74" />
+					<attribute id="VisualTemplate" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
@@ -40,10 +40,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -51,10 +51,10 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -62,11 +62,14 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="91b6436f-9348-4a45-93c6-ba97b41c1660" /> TIF_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" /> TIF_F_NKD_Feet_HeelsOpen
 												</node>
+												<!-- <node id="MapValue">
+													<attribute id="Object" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" /> TIF_F_NKD_Feet_HeelsOpen_Claws
+												</node> -->
 											</children>
 										</node>
 
@@ -74,10 +77,10 @@
 											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="9ecf55af-e1b9-429a-b35b-4fefc6db15f3" /> HUM_M_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="fa80bb98-fbee-4641-aa03-f23a001f114e" /> HUM_M_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -91,10 +94,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="3d95e4d3-b441-4233-b5cd-bb52b18c014d" /> HUM_FS_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -102,10 +105,10 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="3d95e4d3-b441-4233-b5cd-bb52b18c014d" /> HUM_FS_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -118,11 +121,11 @@
 				<node id="GameObjects">  Loviatar's Claws Replica (Tintable)
 					<attribute id="Description" type="TranslatedString" handle="hc3d49993g9df3g4967ga280g2de15a1a16fe" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h6f466240g2a6bg4b2bg9c43ga8b555dca886" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Heels" />
-					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Heels_Replica" />
-					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Heels_Replica" />
-					<attribute id="MapKey" type="FixedString" value="041da15c-1906-41ef-bb27-ee7a05c02c47" />
-					<attribute id="VisualTemplate" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_HeelsOpen" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_HeelsOpen_Replica" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_HeelsOpen_Replica" />
+					<attribute id="MapKey" type="FixedString" value="1388f279-022e-4184-9ddc-cee6f306984c" />
+					<attribute id="VisualTemplate" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" />
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<children>
@@ -150,10 +153,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -161,10 +164,10 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -172,10 +175,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="91b6436f-9348-4a45-93c6-ba97b41c1660" /> TIF_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" /> TIF_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -184,10 +187,10 @@
 											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="9ecf55af-e1b9-429a-b35b-4fefc6db15f3" /> HUM_M_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="fa80bb98-fbee-4641-aa03-f23a001f114e" /> HUM_M_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -201,10 +204,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="3d95e4d3-b441-4233-b5cd-bb52b18c014d" /> HUM_FS_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -212,10 +215,10 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="3d95e4d3-b441-4233-b5cd-bb52b18c014d" /> HUM_FS_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -228,11 +231,11 @@
 				<node id="GameObjects"> Loviatar's Claws Camp (Tintable)
 					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Heels" />
-					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Heels_Camp" />
-					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Heels_Camp" />
-					<attribute id="MapKey" type="FixedString" value="8c0f0080-bb79-4b43-a788-bc033645fa70" />
-					<attribute id="VisualTemplate" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" />
+					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_HeelsOpen" />
+					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_HeelsOpen_Camp" />
+					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_HeelsOpen_Camp" />
+					<attribute id="MapKey" type="FixedString" value="1bd111a4-0f97-4e55-9219-d1a6b254d3d0" />
+					<attribute id="VisualTemplate" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" />
 					<attribute id="ParentTemplateId" type="FixedString" value="6bb7a595-7646-48a9-9c44-d39f16c1c5cb" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<children>
@@ -260,10 +263,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -271,10 +274,10 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -282,10 +285,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c1b1ecff-34b6-48a5-bc3b-f7af7f911ca6" /> HUM_F_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="92a0d24c-a442-42d4-a5d6-e0c5c73150c2" /> HUM_F_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="91b6436f-9348-4a45-93c6-ba97b41c1660" /> TIF_F_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" /> TIF_F_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -294,10 +297,10 @@
 											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="9ecf55af-e1b9-429a-b35b-4fefc6db15f3" /> HUM_M_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="fa80bb98-fbee-4641-aa03-f23a001f114e" /> HUM_M_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -311,10 +314,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="3d95e4d3-b441-4233-b5cd-bb52b18c014d" /> HUM_FS_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
@@ -322,10 +325,10 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="99dbfc9e-43f0-4dd0-a198-28232de71b0e" /> HUM_FS_ARM_LI_Claws_Heels_MSK
+													<attribute id="Object" type="FixedString" value="3d95e4d3-b441-4233-b5cd-bb52b18c014d" /> HUM_FS_ARM_LI_Claws_HeelsOpen_MSK
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_Heels
+													<attribute id="Object" type="FixedString" value="9de89997-6adc-4cef-9cc5-fbaa2955ad98" /> TIF_FS_NKD_Feet_HeelsOpen
 												</node>
 											</children>
 										</node>
