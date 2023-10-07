@@ -112,8 +112,8 @@
 					</children>
 				</node>
 				<node id="GameObjects"> Loviatar's Claws Camp (Tintable)
-					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="h278d4471g5f30g4c4bgb5dfgc59ef256ea5c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h278d4471g5f30g4c4bgb5dfgc59ef256ea5c" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_LoviatarClaws_Alt" />
 					<attribute id="Name" type="LSString" value="LI_LoviatarClaws_Camp_AltTight" />
 					<attribute id="Stats" type="FixedString" value="LI_LoviatarClaws_Camp_AltTight" />
