@@ -117,3 +117,128 @@ new ItemCombinationResult "FOR_LoviatarClaws_Replica_Alt_1"
 data "ResultAmount 1" "1"
 data "Result 1" "LI_LoviatarClaws_Replica"
 data "PreviewStatsID" "LI_LoviatarClaws_Replica"
+
+
+
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Tight"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing_Greater"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_LoviatarClaws_Tight_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_AltTight"
+data "PreviewStatsID" "LI_LoviatarClaws_AltTight"
+
+
+
+new ItemCombination "FOR_LoviatarClaws_AltTight"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_AltTight"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing_Greater"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_LoviatarClaws_AltTight_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws"
+data "PreviewStatsID" "LI_LoviatarClaws"
+
+
+
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Tight_Camp"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Tight_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing_Greater"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Tight_Camp_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Camp_AltTight"
+data "PreviewStatsID" "LI_LoviatarClaws_Camp_AltTight"
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Camp_AltTight"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Camp_AltTight"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing_Greater"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Camp_AltTight_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Camp"
+data "PreviewStatsID" "LI_LoviatarClaws_Camp"
+
+
+
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Tight_Replica"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Replica"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing_Greater"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Tight_Replica_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Replica_AltTight"
+data "PreviewStatsID" "LI_LoviatarClaws_Replica_AltTight"
+
+
+
+new ItemCombination "FOR_LoviatarClaws_Replica_AltTight"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_LoviatarClaws_Replica_AltTight"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Potion_Healing_Greater"
+data "Transform 3" "None"
+
+new ItemCombinationResult "FOR_LoviatarClaws_Replica_AltTight_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_LoviatarClaws_Replica"
+data "PreviewStatsID" "LI_LoviatarClaws_Replica"
