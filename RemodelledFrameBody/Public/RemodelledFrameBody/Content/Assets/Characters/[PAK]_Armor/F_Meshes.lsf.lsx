@@ -5,7 +5,7 @@
 		<node id="VisualBank">
 			<children>
 
-				<node id="Resource"> tiefling female body 1
+				<node id="Resource"> human female body 1
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -14,9 +14,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="4c2f84e1-ef20-4c65-8a12-a154f4eb2070" />
+					<attribute id="ID" type="FixedString" value="5c54ca07-b2b8-4df3-a3b9-4e41632b26ed" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="TIF_F_NKD_LI_Harness_Robe_Body_1" />
+					<attribute id="Name" type="LSString" value="HUM_F_NKD_LI_Harness_Robe_Body_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -24,9 +24,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_1.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_1.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_1.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -35,8 +35,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
-							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_1.TIF_F_NKD_Body_1_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_1.HUM_F_NKD_Body_1_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Torso" />
@@ -87,7 +87,7 @@
 				</node>
 
 
-				<node id="Resource"> tiefling female body 2
+				<node id="Resource"> human female body 2
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -96,9 +96,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="d82d31a3-e89c-4a78-ae36-8b185f559a44" />
+					<attribute id="ID" type="FixedString" value="a0541c68-2d76-43b9-90d4-cbca8181ca6a" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="TIF_F_NKD_LI_Harness_Robe_Body_2" />
+					<attribute id="Name" type="LSString" value="HUM_F_NKD_LI_Harness_Robe_Body_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -106,9 +106,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_2.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_2.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_2.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -117,8 +117,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
-							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_2.TIF_F_NKD_Body_2_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_2.HUM_F_NKD_Body_2_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Torso" />
@@ -168,7 +168,7 @@
 					</children>
 				</node>
 
-				<node id="Resource"> tiefling female body 3
+				<node id="Resource"> human female body 3
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -177,9 +177,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="8216fd23-28ae-4246-8d1e-4f61348b860c" />
+					<attribute id="ID" type="FixedString" value="88c0c1a6-8e8d-4c6a-a8a4-1c67445e7752" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="TIF_F_NKD_LI_Harness_Robe_Body_3" />
+					<attribute id="Name" type="LSString" value="HUM_F_NKD_LI_Harness_Robe_Body_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -187,9 +187,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_3.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_3.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_3.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -198,8 +198,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
-							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_3.TIF_F_NKD_Body_3_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_3.HUM_F_NKD_Body_3_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Torso" />
@@ -250,7 +250,7 @@
 				</node>
 
 
-				<node id="Resource"> tiefling female body 4
+				<node id="Resource"> human female body 4
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -259,9 +259,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="714dd3df-38c1-46c3-80f3-20d9b05a701f" />
+					<attribute id="ID" type="FixedString" value="55286ba4-d053-4f8d-b6dd-1c87b8016623" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="TIF_F_NKD_LI_Harness_Robe_Body_4" />
+					<attribute id="Name" type="LSString" value="HUM_F_NKD_LI_Harness_Robe_Body_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -269,9 +269,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_4.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/TIF_F_NKD_Body_4.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/HUM_F_NKD_Body_4.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -280,8 +280,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="b3b205a0-3570-c06c-65a9-df9b95afc435" />
-							<attribute id="ObjectID" type="FixedString" value="TIF_F_NKD_Body_4.TIF_F_NKD_Body_4_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_4.HUM_F_NKD_Body_4_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Torso" />

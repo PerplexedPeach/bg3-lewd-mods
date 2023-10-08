@@ -14,7 +14,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="9f9b5dba-e101-453d-928f-2bbd34675541" />
+					<attribute id="ID" type="FixedString" value="1b845df0-6bee-4159-b066-84d68e34a5d9" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="GTY_F_NKD_LI_Harness_Robe_Body_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
@@ -24,9 +24,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_1.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_1.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_1.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -68,7 +68,9 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Shoulders" />
 						</node>
-
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="hands" />
+						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
@@ -94,7 +96,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="770504c7-d498-4ce3-b600-66203a7334c9" />
+					<attribute id="ID" type="FixedString" value="c65307c5-82cc-4393-b82a-b60b0a02cec9" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="GTY_F_NKD_LI_Harness_Robe_Body_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
@@ -104,9 +106,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_2.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_2.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_2.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -139,14 +141,18 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="upperarm" />
 						</node>
-
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="wrists" />
+						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="lowerarm" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Shoulders" />
 						</node>
-
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="hands" />
+						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
@@ -171,7 +177,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="fb89fbda-3f83-433d-a67b-d6997bd5ef60" />
+					<attribute id="ID" type="FixedString" value="957960e7-190f-41d6-9770-1cc1bf5a4c1c" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="GTY_F_NKD_LI_Harness_Robe_Body_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
@@ -181,9 +187,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_3.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_3.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_3.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -216,14 +222,18 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="upperarm" />
 						</node>
-
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="wrists" />
+						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="lowerarm" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Shoulders" />
 						</node>
-
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="hands" />
+						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
@@ -249,7 +259,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="df55f9ec-41fd-491e-b75d-3c8e1c7912f1" />
+					<attribute id="ID" type="FixedString" value="f0417d4c-7c9c-49d0-8c40-5d585e25e4e4" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="GTY_F_NKD_LI_Harness_Robe_Body_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
@@ -259,9 +269,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_4.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessAlt/Assets/GTY_F_NKD_Body_4.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/RemodelledFrameBody/Assets/GTY_F_NKD_Body_4.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -294,14 +304,18 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="upperarm" />
 						</node>
-
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="wrists" />
+						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="lowerarm" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Shoulders" />
 						</node>
-
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="hands" />
+						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
