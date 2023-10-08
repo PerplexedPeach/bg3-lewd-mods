@@ -1,0 +1,19 @@
+new entry "LI_RemodelledFrameBody_Camp_1"
+using "ARM_Camp_Body"
+data "ValueOverride" "0"
+data "Weight" "0.1"
+data "Rarity" "Common"
+data "RootTemplate" "9e0b66b1-c701-4df2-b115-28c8cc3b1493"
+
+new entry "LI_RemodelledFrameBody_Camp_2"
+using "LI_RemodelledFrameBody_Camp_1"
+data "RootTemplate" "b1c133cb-c644-44f7-8be3-0b75903fcfb5"
+
+new entry "LI_RemodelledFrameBody_Camp_3"
+using "LI_RemodelledFrameBody_Camp_2"
+data "RootTemplate" "39e11814-fef7-44ed-b2f2-36780e6537a9"
+
+new entry "LI_RemodelledFrameBody_Camp_4"
+using "LI_RemodelledFrameBody_Camp_3"
+data "RootTemplate" "d2f1b595-7a38-4c2f-af2b-ddcb429d62c2"
+ 

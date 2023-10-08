@@ -6,18 +6,18 @@
 			<children>
 
 				<node id="GameObjects"> stage 1
-					<attribute id="MapKey" type="FixedString" value="06bd8d1f-dcb9-451f-bb85-901f5fa79023" />
-					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_1" />
+					<attribute id="MapKey" type="FixedString" value="9e0b66b1-c701-4df2-b115-28c8cc3b1493" />
+					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_Camp_1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
-					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="VisualTemplate" type="FixedString" value="4c2f84e1-ef20-4c65-8a12-a154f4eb2070" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
 
-					<attribute id="Description" type="TranslatedString" handle="h2b078e85g067ag44bdg946fga9b1216d062f" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hb8ab6aa6g6ef9g4f49gaef4gfadbd5f93e6b" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf3b29fbag93ddg4d9egadedgd277589eaa56" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc6924b50ge295g4506g9ed6g888125bd80f0" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_RemodelledFrameBody_1" />
-					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_1" />
+					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_Camp_1" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -99,18 +99,18 @@
 					</children>
 				</node>
 				<node id="GameObjects"> stage 2
-					<attribute id="MapKey" type="FixedString" value="06bd8d1f-dcb9-451f-bb85-901f5fa79023" />
-					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_2" />
+					<attribute id="MapKey" type="FixedString" value="b1c133cb-c644-44f7-8be3-0b75903fcfb5" />
+					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_Camp_2" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
-					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="VisualTemplate" type="FixedString" value="d82d31a3-e89c-4a78-ae36-8b185f559a44" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
 
-					<attribute id="Description" type="TranslatedString" handle="h2b078e85g067ag44bdg946fga9b1216d062f" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hd29c2fcfg8e2bg4e5fgb2f1g812edb1a5cba" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hfdf467cag2ab5g4f14g89e6g11bd71caff43" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5fc1edc3gc384g4d69g97c5gdc91bbcbb33a" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_RemodelledFrameBody_2" />
-					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_2" />
+					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_Camp_2" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -193,18 +193,18 @@
 					</children>
 				</node>
 				<node id="GameObjects"> stage 3
-					<attribute id="MapKey" type="FixedString" value="fc55ef7a-6e74-4537-8e3f-231ba3a1fc5b" />
-					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_3" />
+					<attribute id="MapKey" type="FixedString" value="39e11814-fef7-44ed-b2f2-36780e6537a9" />
+					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_Camp_3" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
-					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="VisualTemplate" type="FixedString" value="8216fd23-28ae-4246-8d1e-4f61348b860c" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
 
-					<attribute id="Description" type="TranslatedString" handle="h2b078e85g067ag44bdg946fga9b1216d062f" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hfc5e8c17g4d28g495fg8464g22ad022acfcf" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="he875f008g9bc8g4bfbg8bedg6b98dd52a162" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9313e8c1g0455g4ee4gb1a3g29718116e877" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_RemodelledFrameBody_3" />
-					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_3" />
+					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_Camp_3" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -286,18 +286,18 @@
 					</children>
 				</node>
 				<node id="GameObjects"> stage 4
-					<attribute id="MapKey" type="FixedString" value="faa19a15-0f48-4a9e-b2dd-c6e6bd7160fb" />
-					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_4" />
+					<attribute id="MapKey" type="FixedString" value="d2f1b595-7a38-4c2f-af2b-ddcb429d62c2" />
+					<attribute id="Name" type="LSString" value="LI_RemodelledFrameBody_Camp_4" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
-					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="VisualTemplate" type="FixedString" value="714dd3df-38c1-46c3-80f3-20d9b05a701f" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
 
-					<attribute id="Description" type="TranslatedString" handle="h2b078e85g067ag44bdg946fga9b1216d062f" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hb7e6dafegc2dag45a4g9f37g941bfa3a3e1e" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h9600c718ga293g4979gac87g590ae8d92fa8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7e606603gabe0g42ffga443g5b5495f689ce" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_RemodelledFrameBody_4" />
-					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_4" />
+					<attribute id="Stats" type="FixedString" value="LI_RemodelledFrameBody_Camp_4" />
 					<children>
 						<node id="Equipment">
 							<children>
