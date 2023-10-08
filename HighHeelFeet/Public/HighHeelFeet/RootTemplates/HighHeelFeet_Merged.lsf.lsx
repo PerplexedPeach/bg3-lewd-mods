@@ -5,8 +5,8 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects"> High Heel Feet
-					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8756bb02gcbbcg4b17ga488g5e444cc26615" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf48e94b6g9926g42f5g8c6egb2091fa98d38" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_HighHeelFeet" />
 					<attribute id="Name" type="LSString" value="LI_HighHeelFeet" />
 					<attribute id="Stats" type="FixedString" value="LI_HighHeelFeet" />
@@ -97,8 +97,8 @@
 					</children>
 				</node>
 				<node id="GameObjects"> High Heel Feet Camp
-					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8756bb02gcbbcg4b17ga488g5e444cc26615" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf48e94b6g9926g42f5g8c6egb2091fa98d38" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_HighHeelFeet" />
 					<attribute id="Name" type="LSString" value="LI_HighHeelFeet_Camp" />
 					<attribute id="Stats" type="FixedString" value="LI_HighHeelFeet_Camp" />
