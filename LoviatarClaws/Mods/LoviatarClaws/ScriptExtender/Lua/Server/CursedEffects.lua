@@ -71,7 +71,7 @@ function UpgradeRemodelledFrame(char)
         -- check if we've reached the pain threshold for the next level
         local total_damage = TotalTakenDamage(char);
         local pain_threshold = pain_thresholds_for_remodel[current_level + 1];
-        _I("Checking total damage: " .. total_damage .. " pain threshold: " .. pain_threshold);
+        _I("Checking total damage: " .. total_damage .. " pain threshold: " .. pain_threshold .. " for " .. char);
         if total_damage < pain_threshold then
             _I("Needs more pain for remodelling!")
             return
@@ -129,7 +129,7 @@ function LiClawsProgression:getCurrentWearers()
         local char = player[1];
         local boots = Osi.GetEquippedItem(char, "Boots");
         if boots ~= nil and Osi.GetTemplate(boots) == self.item_id then
-            _I("Found wearer: " .. char);
+            self:log("Found wearer: " .. char);
             wearers[#wearers + 1] = char;
         end
     end
@@ -162,7 +162,7 @@ function LiClawsProgression:curseLongRestHandler()
     -- loop over characters and check if anyway was wearing the cursed item
     local wearers = self:getCurrentWearers();
     for _, wearer in pairs(wearers) do
-        self:log("Loviatar Claws wearer found: " .. wearer);
+        self:log("Long rest Loviatar Claws wearer found: " .. wearer);
         -- check that the wearer has Loviatar's blessing
         -- if not, then they can no longer proceed with the transformation
         if not HasLoviatarsLove(wearer) then
