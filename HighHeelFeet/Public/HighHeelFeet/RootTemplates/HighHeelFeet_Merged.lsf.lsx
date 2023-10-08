@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects"> High Heel Feet
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_HighHeelFeet" />
+					<attribute id="Name" type="LSString" value="LI_HighHeelFeet" />
+					<attribute id="Stats" type="FixedString" value="LI_HighHeelFeet" />
+					<attribute id="MapKey" type="FixedString" value="131135a6-7488-4b2f-9bab-731e6776c6fd" />
+					<attribute id="VisualTemplate" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" />
+
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> TIF FS
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
+									</children>
+								</node>		
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" /> TIF_F_NKD_Feet_HeelsOpen_Claws
+												</node>
+											</children>
+										</node>
+
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
+											<children>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> TIF FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="39ae3ec8-2d2c-44a2-92ba-8d419406557c" /> TIF_FS_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> High Heel Feet Camp
+					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_HighHeelFeet" />
+					<attribute id="Name" type="LSString" value="LI_HighHeelFeet_Camp" />
+					<attribute id="Stats" type="FixedString" value="LI_HighHeelFeet_Camp" />
+					<attribute id="MapKey" type="FixedString" value="26aefb82-c28a-4f77-a573-a5835fd28a3b" />
+					<attribute id="VisualTemplate" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6bb7a595-7646-48a9-9c44-d39f16c1c5cb" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> TIF FS
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
+									</children>
+								</node>		
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="089c967b-23ab-4d6c-b720-74ec39fd4ff4" /> HUM_F_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="27557d2c-380e-41ab-a2bf-8aa26ee127f8" /> GTY_F_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="75ae2cda-5fc0-46c0-a7a8-a9bd0bc51fb6" /> TIF_F_NKD_Feet_HeelsOpen_Claws
+												</node>
+											</children>
+										</node>
+
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="42a57365-41d4-4650-8f72-a2f1fcbff6ff" /> HUM_M_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> Strong_Male
+											<children>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="99da49cf-1301-43ca-ad0e-c6eaa80e0576" /> HUM_FS_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> TIF FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="39ae3ec8-2d2c-44a2-92ba-8d419406557c" /> TIF_FS_NKD_Feet_HeelsOpen
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

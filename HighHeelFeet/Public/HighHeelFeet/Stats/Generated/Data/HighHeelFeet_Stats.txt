@@ -1,0 +1,11 @@
+new entry "LI_HighHeelFeet"
+using "ARM_Boots_Leather"
+data "ValueOverride" "0"
+data "Weight" "0.01"
+data "RootTemplate" "131135a6-7488-4b2f-9bab-731e6776c6fd"
+
+new entry "LI_HighHeelFeet_Camp"
+using "ARM_Camp_Shoes"
+data "ValueOverride" "0"
+data "Weight" "0.01"
+data "RootTemplate" "26aefb82-c28a-4f77-a573-a5835fd28a3b"
