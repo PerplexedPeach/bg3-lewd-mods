@@ -33,6 +33,8 @@
 	<content contentuid="haff09e03ge491g4a89gab74ga6b4302d9900" version="2">Sated and Satiated</content>
 	<content contentuid="h985731f0gcc1bg480bga5f5g1a84c87c1b53" version="2">Your armor shifts, as if to bring you more comfort. You receive +[1] to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and regenerate [2] HP a turn. Is it sated, or have you merely whet its appetite?</content>
 
-
 	<content contentuid="h719b1529gafa3g4f76gb914g95967c68efc4" version="1">Your armor squirms against your body, ready to evolve. It struggles though, seemingly not having enough energy to do so. Perhaps you need to sate it more before resting?</content>
+
+	<content contentuid="h0666b2ceg4e37g4608g9a06g42de29806168" version="2">Stimulation Surge</content>
+	<content contentuid="h7cf81ffagdab8g4798gbb1cg3bcef3485f85" version="2">You let the tentacles freely roam over your body, heightening your senses temporarily. You recover an action, but are brought closer to overstimulation.</content>
 </contentList>

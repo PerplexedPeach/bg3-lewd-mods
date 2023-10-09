@@ -1,5 +1,7 @@
 local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_";
-
+local stim_surge_id = "Shout_LI_Stim_Surge";
+local stim_status_prefix = "LI_STIM_";
+local stim_surge_level_increment = 3;
 
 local sated_status_ids = {
     "LI_SATED",
@@ -7,7 +9,6 @@ local sated_status_ids = {
     "LI_SATED_2"
 };
 local need_more_sated_stacks_msg = "LI_NEED_MORE_SATED_MSG";
-
 
 local function _I(msg)
     _P("[SharessHarness] " .. msg);
@@ -178,6 +179,29 @@ function LiHarnessProgression:registerHandlers()
     end
     self:log("Registered handlers");
 end
+
+function GetStimLevel(char)
+    for level = 0, 9 do
+        local stim_id = stim_status_prefix .. level;
+        if Osi.HasActiveStatus(char, stim_id) == 1 then
+            return level;
+        end
+    end
+    return nil;
+end
+
+function HandleStimSurge(caster, spell, spellType, spellElement, storyActionID)
+    -- _I("Spell casted: " .. spell .. " by " .. caster .. " type " .. spellType .. " element " .. spellElement .. " story action " .. storyActionID);
+    if spell == stim_surge_id then
+        -- check what level of stim they have
+        local current_stim_level = GetStimLevel(caster) or 0;
+        local new_stim_level = math.min(current_stim_level + stim_surge_level_increment, 9);
+        Osi.RemoveStatus(caster, stim_status_prefix .. current_stim_level);
+        Osi.ApplyStatus(caster, stim_status_prefix .. new_stim_level, 1, 1, caster);
+        _I("Stim surge: " .. caster .. " stim level " .. current_stim_level .. " -> " .. new_stim_level);
+    end
+end
+Ext.Osiris.RegisterListener("CastedSpell", 5, "after", HandleStimSurge);
 
 Harness = LiHarnessProgression:new("Harness", {
     "LI_SharessHarness_f84dabb1-f1da-467a-9236-8c6aa474d4a4",
