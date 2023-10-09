@@ -127,7 +127,7 @@
 													<attribute id="Object" type="FixedString" value="885b71e8-9614-47c2-8692-8d5b889505dc" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="2079e226-16de-4201-81bd-27debbe3a409" /> body
+													<attribute id="Object" type="FixedString" value="5c54ca07-b2b8-4df3-a3b9-4e41632b26ed" /> body
 												</node>
 											</children>
 										</node>
@@ -144,7 +144,7 @@
 													<attribute id="Object" type="FixedString" value="885b71e8-9614-47c2-8692-8d5b889505dc" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f4cfe13f-a0dc-4250-a842-4bfb3ac029af" /> body
+													<attribute id="Object" type="FixedString" value="1b845df0-6bee-4159-b066-84d68e34a5d9" /> body
 												</node>
 											</children>
 										</node>
@@ -161,7 +161,7 @@
 													<attribute id="Object" type="FixedString" value="885b71e8-9614-47c2-8692-8d5b889505dc" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="0a1cd824-9934-4a2e-b326-8268b1f5ed40" /> body
+													<attribute id="Object" type="FixedString" value="4c2f84e1-ef20-4c65-8a12-a154f4eb2070" /> body
 												</node>
 											</children>
 										</node>
@@ -264,7 +264,7 @@
 													<attribute id="Object" type="FixedString" value="f9fb8674-2b55-4a46-8777-e4197a4cfbed" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="87ce3147-8072-4ae1-bbe8-9539d197ddc1" /> body
+													<attribute id="Object" type="FixedString" value="a0541c68-2d76-43b9-90d4-cbca8181ca6a" /> body
 												</node>
 											</children>
 										</node>
@@ -281,7 +281,7 @@
 													<attribute id="Object" type="FixedString" value="f9fb8674-2b55-4a46-8777-e4197a4cfbed" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="9f4a4c12-ea44-4d47-8228-37e4afea0d2a" /> body
+													<attribute id="Object" type="FixedString" value="c65307c5-82cc-4393-b82a-b60b0a02cec9" /> body
 												</node>
 											</children>
 										</node>
@@ -298,7 +298,7 @@
 													<attribute id="Object" type="FixedString" value="f9fb8674-2b55-4a46-8777-e4197a4cfbed" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="5927a277-c9d3-4d30-8ba3-39239fa1b36a" /> body
+													<attribute id="Object" type="FixedString" value="d82d31a3-e89c-4a78-ae36-8b185f559a44" /> body
 												</node>
 											</children>
 										</node>
@@ -401,7 +401,7 @@
 													<attribute id="Object" type="FixedString" value="7f19f61c-0999-46f9-9455-9ec24b0f6996" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ce9c00b4-1d78-49f1-842c-31c327c508e6" /> body
+													<attribute id="Object" type="FixedString" value="88c0c1a6-8e8d-4c6a-a8a4-1c67445e7752" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f03d0f0d-8ff1-4c89-9b52-e341d4800633" /> tentacles top
@@ -421,7 +421,7 @@
 													<attribute id="Object" type="FixedString" value="7f19f61c-0999-46f9-9455-9ec24b0f6996" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="349ade9e-c84e-4468-92a8-c5633b43b5ea" /> body
+													<attribute id="Object" type="FixedString" value="957960e7-190f-41d6-9770-1cc1bf5a4c1c" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f03d0f0d-8ff1-4c89-9b52-e341d4800633" /> tentacles top
@@ -441,7 +441,7 @@
 													<attribute id="Object" type="FixedString" value="7f19f61c-0999-46f9-9455-9ec24b0f6996" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="85b9ff40-7fc3-43e9-9665-2b96b276d52f" /> body
+													<attribute id="Object" type="FixedString" value="8216fd23-28ae-4246-8d1e-4f61348b860c" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f03d0f0d-8ff1-4c89-9b52-e341d4800633" /> tentacles top
@@ -543,23 +543,6 @@
 										<node id="Object">
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
-												full pants version
-												<!-- <node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ebb10398-b6bd-4635-8fdb-b12a9c572e29" /> top
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ecc04d56-efde-4161-a880-7c2e012c2df6" /> pants
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="711aa17a-b47e-4fb6-8208-66f9472a53c4" /> tentacles
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="015bce04-7d2a-4ce1-88f7-349113e68036" /> body
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="df638967-dbff-4d50-b5fb-707e6ba62008" /> tentacles top
-												</node> -->
-												skimpier alt version
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="cf110e1d-dece-482b-8f18-376b642c21a9" /> top
 												</node>
@@ -570,7 +553,7 @@
 													<attribute id="Object" type="FixedString" value="07f8301e-5015-41ac-8fe8-6023e5c72660" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="04d75a8b-36cf-4e33-9996-04a27c7ad619" /> body
+													<attribute id="Object" type="FixedString" value="55286ba4-d053-4f8d-b6dd-1c87b8016623" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="4f62a5cb-97ca-4571-a5d1-27b785e61a80" /> tentacles top
@@ -590,7 +573,7 @@
 													<attribute id="Object" type="FixedString" value="07f8301e-5015-41ac-8fe8-6023e5c72660" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="5a769412-d829-4711-b250-74f12985024d" /> body
+													<attribute id="Object" type="FixedString" value="f0417d4c-7c9c-49d0-8c40-5d585e25e4e4" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="4f62a5cb-97ca-4571-a5d1-27b785e61a80" /> tentacles top
@@ -610,7 +593,7 @@
 													<attribute id="Object" type="FixedString" value="07f8301e-5015-41ac-8fe8-6023e5c72660" /> tentacles
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c4f2280f-fa78-4482-a6b9-82db04d41f79" /> body
+													<attribute id="Object" type="FixedString" value="714dd3df-38c1-46c3-80f3-20d9b05a701f" /> body
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="4f62a5cb-97ca-4571-a5d1-27b785e61a80" /> tentacles top
