@@ -307,3 +307,17 @@ type "StatusData"
 using "LI_SLIP"
 data "DescriptionParams" "2"
 data "OnApplyFunctors" "IF(not SavingThrow(Ability.Dexterity, 2)):ApplyStatus(PRONE,100,1)"
+
+
+
+new entry "LI_LoviatarClaws_Bare"
+using "LI_LoviatarClaws"
+data "RootTemplate" "4324d638-3388-4c6d-a41d-b74fb5ea0ef8"
+
+new entry "LI_LoviatarClaws_Bare_Replica"
+using "LI_LoviatarClaws_Replica"
+data "RootTemplate" "d2068b16-f596-4382-9300-aa305cbe467c"
+
+new entry "LI_LoviatarClaws_Bare_Camp"
+using "LI_LoviatarClaws_Camp"
+data "RootTemplate" "4c1d66f0-e1fc-4601-9b5f-26503fba856a"

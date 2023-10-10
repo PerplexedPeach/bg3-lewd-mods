@@ -228,5 +228,10 @@ Claws = LiClawsProgression:new("Claws",
     "LI_LoviatarClaws_Camp_ec34283c-5e38-4bbc-a9cd-01397d55c5ce",
     "LI_LoviatarClaws_Replica_49041dbe-1df1-4b57-a53f-72e291bd291f");
 Claws:registerHandlers();
+Bare = LiClawsProgression:new("Claws",
+"LI_LoviatarClaws_Bare_4324d638-3388-4c6d-a41d-b74fb5ea0ef8",
+"LI_LoviatarClaws_Bare_Camp_4c1d66f0-e1fc-4601-9b5f-26503fba856a",
+"LI_LoviatarClaws_Bare_Replica_d2068b16-f596-4382-9300-aa305cbe467c");
+Bare:registerHandlers();
 
 Ext.Events.SessionLoaded:Subscribe(OnSessionLoaded);
