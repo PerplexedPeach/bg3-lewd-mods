@@ -6,7 +6,7 @@ Claws:registerHandlers();
 -- Mods.LoviatarClaws.PersistentVars["Total Damage Taken"] = 100
 
 
-Tright = Mods.LoviatarClaws.LiClawsProgression:new("Claws Alt",
+Tright = Mods.LoviatarClaws.LiClawsProgression:new("Claws AltTight",
     "LI_LoviatarClaws_AltTight_c2fa9f05-3a13-474e-a5f2-4131e48b98af",
     "LI_LoviatarClaws_Camp_AltTight_a53a700e-69be-48c3-b97b-b8f1c74c14ca",
     "LI_LoviatarClaws_Replica_AltTight_d109f61b-9cd3-482a-8df3-dfc4fd2a93a0");

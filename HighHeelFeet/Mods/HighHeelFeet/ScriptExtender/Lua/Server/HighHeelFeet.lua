@@ -33,7 +33,7 @@ end
 -- avoid triggering unequip handler after replacing an existing equipped boots
 local do_not_trigger_unequip = false;
 -- only care about this if the character has remodelled frame 
-function FeetUnequipHandler(item, char)
+function UnequipHandler(item, char)
     if do_not_trigger_unequip == true then
         return;
     end
@@ -65,7 +65,7 @@ function FeetUnequipHandler(item, char)
     end
 end
 
-function FeetReequipHandler(item, char)
+function ReequipHandler(item, char)
     -- ignore if it's one of the feets to avoid infinte loop
     if Osi.GetTemplate(item) == feet_id or Osi.GetTemplate(item) == feet_camp_id then
         return;
@@ -89,5 +89,5 @@ function FeetReequipHandler(item, char)
     end
 end
 
-Ext.Osiris.RegisterListener("Unequipped", 2, "after", function(...) FeetUnequipHandler(...) end);
-Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) FeetReequipHandler(...) end);
+Ext.Osiris.RegisterListener("Unequipped", 2, "after", function(...) UnequipHandler(...) end);
+Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) ReequipHandler(...) end);
