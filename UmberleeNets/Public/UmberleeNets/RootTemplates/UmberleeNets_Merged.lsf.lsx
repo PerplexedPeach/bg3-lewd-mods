@@ -72,7 +72,7 @@
 				<node id="GameObjects">  Umberlee Nets Unflexed
 					<attribute id="DisplayName" type="TranslatedString" handle="hf856cc70g160cg4486gba4cg6640c9652687" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets_Unflexed" />
+					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets" />
 					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Unflexed" />
 					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Unflexed" />
 					<attribute id="MapKey" type="FixedString" value="4ce38af1-7bbd-4380-a971-dfdea65d1819" />
