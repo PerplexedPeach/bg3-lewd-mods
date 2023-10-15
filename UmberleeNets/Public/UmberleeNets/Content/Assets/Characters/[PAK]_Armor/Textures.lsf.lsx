@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_R_BM" />
+					<attribute id="ID" type="FixedString" value="0eddb98b-9257-4a97-9369-14ce98e4f984" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_R_BM.DDS" />
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_R_MSKcloth" />
+					<attribute id="ID" type="FixedString" value="e519cca2-7b6d-4423-8ead-d700ccb9c0dd" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_R_MSK.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="false" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_R_PM" />
+					<attribute id="ID" type="FixedString" value="47370010-e0db-4eb7-be76-b5e915e4b3ce" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_R_PM.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_R_NM" />
+					<attribute id="ID" type="FixedString" value="55b4cfce-8418-4490-bf42-a871fb5a7793" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_R_NM.DDS" />
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_BM" />
+					<attribute id="ID" type="FixedString" value="36ddb86d-b9fe-4ef8-addf-7540d59e20b0" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_BM.DDS" />
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_MSK" />
+					<attribute id="ID" type="FixedString" value="c9ef242b-bb1c-4a80-9b0c-266f73691203" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_MSK.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="false" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_PM" />
+					<attribute id="ID" type="FixedString" value="9116410b-7dcc-4867-9e09-edf0177b3d77" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_PM.DDS" />
+
+					<attribute id="Format" type="uint32" value="62" /> BC1
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_NM" />
+					<attribute id="ID" type="FixedString" value="10b9bc93-263d-47f6-8132-9147369bfe24" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_NM.DDS" />
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,11 @@
+new entry "LI_UmberleeNets"
+type "Armor"
+using "ARM_Underwear"
+data "Rarity" "Legendary"
+data "RootTemplate" "372c66a5-8211-4ff1-86b2-f10bb1a84167" 
+data "ColorPresetResource" "fba5eaf5-6063-415d-b8f4-3d79a0b5e214"
+
+new entry "LI_UmberleeNets_Unflexed"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "4ce38af1-7bbd-4380-a971-dfdea65d1819" 
