@@ -77,9 +77,7 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
 						</node>								
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
-						</node>	
+
 					</children>
 				</node>
 
@@ -156,9 +154,7 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
 						</node>								
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
-						</node>	
+
 					</children>
 				</node>
 
@@ -234,9 +230,7 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
 						</node>								
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
-						</node>	
+
 					</children>
 				</node>
 
@@ -313,9 +307,7 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
 						</node>								
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
-						</node>	
+
 					</children>
 				</node>
 			</children>
