@@ -4,3 +4,11 @@ new subtable "1,1"
 object category "I_LI_UmberleeNets",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_UmberleeNets_Unflexed",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_4",1,0,0,0,0,0,0,0

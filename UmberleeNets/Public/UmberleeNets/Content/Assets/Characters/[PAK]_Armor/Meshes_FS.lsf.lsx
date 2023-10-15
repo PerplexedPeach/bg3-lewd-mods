@@ -4,6 +4,177 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
+				<node id="Resource"> LL
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1925352 0.5059927 0.1326617" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1944194 -0.01143119 -0.1739619" />
+					<attribute id="Center" type="fvec3" value="-0.000942111 0.2472807 -0.0206501" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="e1c410fd-cd44-4e86-8b31-3c4f92d4613a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_LL" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.3575889" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Footwear" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LL.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LL.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_FS_Mesh_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_LL.HUM_FS_LI_Stockings_LL.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Pants" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> LR
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1925352 0.5059927 0.1326617" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1944194 -0.01143119 -0.1739619" />
+					<attribute id="Center" type="fvec3" value="-0.000942111 0.2472807 -0.0206501" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="d5b6b510-f6b7-418b-b09d-34159e886563" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_LR" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.3575889" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Footwear" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LR.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LR.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_FS_Fishnet_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_LR.HUM_FS_LI_Stockings_LR.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Pants" />
+						</node>
+					</children>
+				</node>
+
+
+				<node id="Resource"> LL unflexed
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1925352 0.5059927 0.1326617" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1944194 -0.01143119 -0.1739619" />
+					<attribute id="Center" type="fvec3" value="-0.000942111 0.2472807 -0.0206501" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="adb7ed99-7d53-454d-ae1c-1117d48e50ac" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_LL_Unflexed" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.3575889" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Footwear" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LL_Unflexed.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LL_Unflexed.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_FS_Mesh_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_LL_Unflexed.HUM_FS_LI_Stockings_LL_Unflexed.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Pants" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> LR unflexed
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1925352 0.5059927 0.1326617" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1944194 -0.01143119 -0.1739619" />
+					<attribute id="Center" type="fvec3" value="-0.000942111 0.2472807 -0.0206501" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="083021d4-8112-490b-8b99-dabbdec3532f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_LR_Unflexed" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.3575889" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Footwear" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LR_Unflexed.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_LR_Unflexed.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_FS_Fishnet_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_LR_Unflexed.HUM_FS_LI_Stockings_LR_Unflexed.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Pants" />
+						</node>
+					</children>
+				</node>
+
 				<node id="Resource"> belt 0
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -14,11 +185,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" />
+					<attribute id="ID" type="FixedString" value="4674113b-7717-4a0d-a14a-ab8d181284ae" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_Belt" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -26,9 +197,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -36,8 +207,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_F_Fishnet_Belt
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_Belt.HUM_F_LI_Stockings_Belt.0" />
+							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_FS_Fishnet_Belt
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_Belt.HUM_FS_LI_Stockings_Belt.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -56,11 +227,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="1a4a70aa-1e3d-4c25-9674-ef747bfe949e" />
+					<attribute id="ID" type="FixedString" value="0ed49bc8-1ede-40d3-9232-e329c0ee2eb6" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_1" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_Belt_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -68,9 +239,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_1.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_1.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_1.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -78,8 +249,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_F_Fishnet_Belt
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_Belt_1.HUM_F_LI_Stockings_Belt.0" />
+							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_FS_Fishnet_Belt
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_Belt_1.HUM_FS_LI_Stockings_Belt.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -98,11 +269,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="d02039ad-e83e-4fdc-8970-b0aa2a14a01b" />
+					<attribute id="ID" type="FixedString" value="846e7c38-5541-419c-be22-e8f85bba5e8e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_2" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_Belt_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -110,9 +281,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_2.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_2.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_2.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -120,8 +291,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_F_Fishnet_Belt
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_Belt_2.HUM_F_LI_Stockings_Belt.0" />
+							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_FS_Fishnet_Belt
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_Belt_2.HUM_FS_LI_Stockings_Belt.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -140,11 +311,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="d345a8a4-c805-4654-aa6e-1d4bf8b3aa4b" />
+					<attribute id="ID" type="FixedString" value="c8e9bae9-3a25-4451-afc9-4daef2ea5200" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_3" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_Belt_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -152,9 +323,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_3.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_3.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_3.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -162,8 +333,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_F_Fishnet_Belt
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_Belt_3.HUM_F_LI_Stockings_Belt.0" />
+							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_FS_Fishnet_Belt
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_Belt_3.HUM_FS_LI_Stockings_Belt.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -182,11 +353,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="9cf8f1c6-53df-44a9-8d5a-c3ac14563842" />
+					<attribute id="ID" type="FixedString" value="56b3c234-2555-44cc-92b9-9ad29ab42e5b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_Belt_4" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_Belt_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -194,9 +365,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_4.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_Belt_4.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_Belt_4.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -204,8 +375,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_F_Fishnet_Belt
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_Belt_4.HUM_F_LI_Stockings_Belt.0" />
+							<attribute id="MaterialID" type="FixedString" value="64b7441c-6bf0-49ed-918d-fa7dbcdbb383" /> HUM_FS_Fishnet_Belt
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_Belt_4.HUM_FS_LI_Stockings_Belt.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -225,11 +396,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="ce2922e5-6062-429a-97fc-c72e1ff33fe2" />
+					<attribute id="ID" type="FixedString" value="ff1e8930-b8e9-40be-ade0-7f1216e78c7b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UL" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UL" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -237,9 +408,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -247,8 +418,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_F_Mesh_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UL.HUM_F_LI_Stockings_UL.0" />
+							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_FS_Mesh_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UL.HUM_FS_LI_Stockings_UL.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -267,11 +438,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="72448b1b-8d45-4954-a18d-3ee06fa93510" />
+					<attribute id="ID" type="FixedString" value="1e6b9653-f74f-487b-948f-47aa8342dbb8" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UL_1" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UL_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -279,9 +450,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_1.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_1.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_1.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -289,8 +460,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_F_Mesh_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UL_1.HUM_F_LI_Stockings_UL.0" />
+							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_FS_Mesh_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UL_1.HUM_FS_LI_Stockings_UL.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -309,11 +480,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="645289bc-52f9-4389-aa14-ba37e59394c5" />
+					<attribute id="ID" type="FixedString" value="d7944f11-40fe-4c79-a42b-f3d8c545b998" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UL_2" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UL_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -321,9 +492,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_2.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_2.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_2.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -331,8 +502,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_F_Mesh_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UL_2.HUM_F_LI_Stockings_UL.0" />
+							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_FS_Mesh_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UL_2.HUM_FS_LI_Stockings_UL.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -351,11 +522,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="c768ca5a-e317-49ca-86b8-dcaa792b065a" />
+					<attribute id="ID" type="FixedString" value="9e07a899-a894-40f2-b30c-40ba39723205" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UL_3" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UL_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -363,9 +534,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_3.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_3.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_3.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -373,8 +544,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_F_Mesh_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UL_3.HUM_F_LI_Stockings_UL.0" />
+							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_FS_Mesh_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UL_3.HUM_FS_LI_Stockings_UL.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -393,11 +564,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="1e729837-cb2c-4bff-8159-055939545632" />
+					<attribute id="ID" type="FixedString" value="1fdd782f-caf5-4c47-aa3e-60855fc9a61b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UL_4" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UL_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -405,9 +576,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_4.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UL_4.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UL_4.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -415,8 +586,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_F_Mesh_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UL_4.HUM_F_LI_Stockings_UL.0" />
+							<attribute id="MaterialID" type="FixedString" value="5be0a6a9-48eb-21fe-7baa-3b1c4c392e38" /> HUM_FS_Mesh_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UL_4.HUM_FS_LI_Stockings_UL.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -436,11 +607,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="875d5a44-4ac0-4daf-be90-0859892b8433" />
+					<attribute id="ID" type="FixedString" value="610d3495-0f80-499f-9981-0da7200e8a8b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UR" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UR" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -448,9 +619,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -458,8 +629,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_F_Fishnet_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UR.HUM_F_LI_Stockings_UR.0" />
+							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_FS_Fishnet_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UR.HUM_FS_LI_Stockings_UR.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -478,11 +649,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="5caeae5e-ac23-4b7c-9ec1-acf69d660257" />
+					<attribute id="ID" type="FixedString" value="da83e156-ed99-48ad-b096-cc407a21b572" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UR_1" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UR_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -490,9 +661,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_1.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_1.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_1.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -500,8 +671,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_F_Fishnet_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UR_1.HUM_F_LI_Stockings_UR.0" />
+							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_FS_Fishnet_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UR_1.HUM_FS_LI_Stockings_UR.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -520,11 +691,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="8a09ff1a-736b-42fa-a8b4-0f16f2d58bc0" />
+					<attribute id="ID" type="FixedString" value="4a4dcbd2-29e6-4941-a32c-1afc136be0a1" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UR_2" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UR_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -532,9 +703,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_2.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_2.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_2.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -542,8 +713,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_F_Fishnet_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UR_2.HUM_F_LI_Stockings_UR.0" />
+							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_FS_Fishnet_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UR_2.HUM_FS_LI_Stockings_UR.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -562,11 +733,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="ad26d7b8-e128-4fb4-b4fd-6b9062485e17" />
+					<attribute id="ID" type="FixedString" value="a538752b-d9fa-46c5-8fbf-79ec1fbe8697" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UR_3" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UR_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -574,9 +745,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_3.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_3.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_3.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -584,8 +755,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_F_Fishnet_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UR_3.HUM_F_LI_Stockings_UR.0" />
+							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_FS_Fishnet_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UR_3.HUM_FS_LI_Stockings_UR.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -604,11 +775,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="ba08ad32-7003-46a9-9a2a-712d0ef340a0" />
+					<attribute id="ID" type="FixedString" value="84188eff-8c43-4139-86dc-aa449c4e0ec4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_LI_Stockings_UR_4" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Stockings_UR_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.3575889" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -616,9 +787,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Footwear" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_4.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_F_LI_Stockings_UR_4.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/UmberleeNets/Assets/HUM_FS_LI_Stockings_UR_4.Dummy_Root.0" />
 					<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="" />
@@ -626,8 +797,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_F_Fishnet_Fabric
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Stockings_UR_4.HUM_F_LI_Stockings_UR.0" />
+							<attribute id="MaterialID" type="FixedString" value="5aabb30c-7a2f-4dd2-87ed-294649dde762" /> HUM_FS_Fishnet_Fabric
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Stockings_UR_4.HUM_FS_LI_Stockings_UR.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -636,6 +807,7 @@
 						</node>
 					</children>
 				</node>
+
 			</children>
 		</node>
 	</region>	

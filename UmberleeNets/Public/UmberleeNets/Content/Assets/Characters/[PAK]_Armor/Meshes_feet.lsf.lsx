@@ -4,7 +4,7 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
-				<node id="Resource">
+				<node id="Resource"> LL
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -46,7 +46,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">
+				<node id="Resource"> LR
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -90,7 +90,7 @@
 				</node>
 
 
-				<node id="Resource">
+				<node id="Resource"> LL unflexed
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -132,7 +132,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">
+				<node id="Resource"> LR unflexed
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />

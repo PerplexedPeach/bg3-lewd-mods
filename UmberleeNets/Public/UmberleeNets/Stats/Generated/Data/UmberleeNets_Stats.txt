@@ -9,3 +9,23 @@ new entry "LI_UmberleeNets_Unflexed"
 type "Armor"
 using "LI_UmberleeNets"
 data "RootTemplate" "4ce38af1-7bbd-4380-a971-dfdea65d1819" 
+
+new entry "LI_UmberleeNets_1"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "0dbf9c7d-930e-484d-8ac0-632490b00c39" 
+
+new entry "LI_UmberleeNets_2"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "0818e267-9727-49dc-bc3a-acf3dfaf185a" 
+
+new entry "LI_UmberleeNets_3"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "b21ed2ae-9735-4b94-aef1-5e593935e11c" 
+
+new entry "LI_UmberleeNets_4"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "7400a182-e2a9-43ce-af0b-52222a475192" 
