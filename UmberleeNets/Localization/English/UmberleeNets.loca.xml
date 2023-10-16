@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><contentList>
 	<content contentuid="h6d7258f6g797bg4bebgb1acgc09570e43dc1" version="1">Umberlee's Nets</content> 
-	<content contentuid="hede74d82g8f3cg40f3g9113g769934b7db75" version="1">Legendary nets of Umberlee fashioned into suggestive footwear.</content> 
+	<content contentuid="hede74d82g8f3cg40f3g9113g769934b7db75" version="1">Umberlee's legendary nets fashioned into suggestive footwear. Are you a willing prey?</content> 
+
+	<content contentuid="h4c8b5e0ag50edg4285g935bg430ad342b9a8" version="1">Willing Prey</content> 
+	<content contentuid="h34c1a983g3ea3g40cfgb0a1g7deb8ad23736" version="1">You have disadvantage on checks against being &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;, but when you are restrained, you receive [1] (equal to level) bonus HP per turn.</content> 
+
+	<content contentuid="hf8697955g8884g4c14gbd61g06a717525033" version="1">Fish in Water</content> 
+	<content contentuid="h3a97471egd9f2g4f94ga2fdg98c198cf4327" version="1">When you are &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;, you gain &lt;LSTag Type="Status" Tooltip="FREEDOM_OF_MOVEMENT"&gt;Freedom of Movement&lt;/LSTag&gt;.</content> 
 
 	<content contentuid="hf856cc70g160cg4486gba4cg6640c9652687" version="1">Umberlee's Nets (Unflexed)</content> 
 	<content contentuid="h7a6759d6g9d6cg4402g93cbge2a3922afc92" version="1">Umberlee's Nets (Inception)</content> 

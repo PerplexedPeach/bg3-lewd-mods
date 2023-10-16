@@ -1,9 +1,43 @@
 new entry "LI_UmberleeNets"
 type "Armor"
 using "ARM_Underwear"
+data "ValueOverride" "4000"
 data "Rarity" "Legendary"
 data "RootTemplate" "372c66a5-8211-4ff1-86b2-f10bb1a84167" 
 data "ColorPresetResource" "fba5eaf5-6063-415d-b8f4-3d79a0b5e214"
+data "PassivesOnEquip" "LI_Willing_prey;LI_Fish_in_water"
+
+new entry "LI_Willing_prey"
+type "PassiveData"
+data "DisplayName" "h4c8b5e0ag50edg4285g935bg430ad342b9a8;1"
+data "Description" "h34c1a983g3ea3g40cfgb0a1g7deb8ad23736;1"
+data "DescriptionParams" "GainTemporaryHitPoints(Level)"
+data "Properties" "Highlighted"
+data "Icon" "Willing_prey"
+data "Boosts" "Tag(RESTRAINED_DISADV);IF(HasStatus('SG_Restrained')):TemporaryHP(Level);"
+
+
+new entry "FISH_IN_WATER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hf8697955g8884g4c14gbd61g06a717525033;1"
+data "Description" "h3a97471egd9f2g4f94ga2fdg98c198cf4327;6"
+data "Icon" "Fish_in_water"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "OnRemoveFunctors" "RemoveStatus(FREEDOM_OF_MOVEMENT)"
+data "OnApplyFunctors" "ApplyStatus(FREEDOM_OF_MOVEMENT,100,-1)"
+
+
+new entry "LI_Fish_in_water"
+type "PassiveData"
+data "DisplayName" "hf8697955g8884g4c14gbd61g06a717525033;1"
+data "Description" "h3a97471egd9f2g4f94ga2fdg98c198cf4327;1"
+data "Properties" "Highlighted"
+data "Icon" "Fish_in_water"
+data "StatsFunctorContext" "OnStatusApplied;OnStatusRemoved"
+data "StatsFunctors" "IF(HasStatus('WET') and not HasStatus('FISH_IN_WATER') and not HasStatus('FREEDOM_OF_MOVEMENT')):ApplyStatus(FISH_IN_WATER,100,-1);IF(not HasStatus('WET')):RemoveStatus(FISH_IN_WATER)"
+
+
 
 new entry "LI_UmberleeNets_Unflexed"
 type "Armor"
