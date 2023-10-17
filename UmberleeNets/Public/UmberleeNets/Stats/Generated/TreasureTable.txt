@@ -12,3 +12,15 @@ new subtable "1,1"
 object category "I_LI_UmberleeNets_3",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_UmberleeNets_4",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_Suc",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_Suc_Unflexed",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_Suc_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_Suc_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_Suc_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_UmberleeNets_Suc_4",1,0,0,0,0,0,0,0
