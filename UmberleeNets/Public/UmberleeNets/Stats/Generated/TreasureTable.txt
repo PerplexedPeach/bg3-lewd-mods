@@ -2,25 +2,14 @@ new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
 object category "I_LI_UmberleeNets",1,0,0,0,0,0,0,0
+
+
+new treasuretable "DEN_Harpy_Nest"
+CanMerge 1
 new subtable "1,1"
-object category "I_LI_UmberleeNets_Unflexed",1,0,0,0,0,0,0,0
+object category "I_LI_UmberleeNets",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_LI_UmberleeNets_1",1,0,0,0,0,0,0,0
+object category "OBJ_Potion_Of_Animal_Speaking",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_LI_UmberleeNets_2",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_3",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_4",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_Suc",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_Suc_Unflexed",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_Suc_1",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_Suc_2",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_Suc_3",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_LI_UmberleeNets_Suc_4",1,0,0,0,0,0,0,0
+object category "OBJ_Kit_ThievesTools",1,0,0,0,0,0,0,0
+
