@@ -51,12 +51,6 @@
 							<attribute id="Object" type="FixedString" value="decolletage_02" />
 						</node>
 						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
-						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Nipple Covers" />
-						</node>
-						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="upperarm" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -74,9 +68,6 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
-						</node>								
 					</children>
 				</node>
 
@@ -127,12 +118,6 @@
 							<attribute id="Object" type="FixedString" value="decolletage_02" />
 						</node>
 						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
-						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Nipple Covers" />
-						</node>
-						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="upperarm" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -150,9 +135,6 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
-						</node>								
 					</children>
 				</node>
 
@@ -202,12 +184,6 @@
 							<attribute id="Object" type="FixedString" value="decolletage_02" />
 						</node>
 						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
-						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Nipple Covers" />
-						</node>
-						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="upperarm" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -225,9 +201,6 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
-						</node>								
 					</children>
 				</node>
 
@@ -278,12 +251,6 @@
 							<attribute id="Object" type="FixedString" value="decolletage_02" />
 						</node>
 						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
-						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Nipple Covers" />
-						</node>
-						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="upperarm" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -301,9 +268,6 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Sleeves" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
-						</node>								
 					</children>
 				</node>
 			</children>
