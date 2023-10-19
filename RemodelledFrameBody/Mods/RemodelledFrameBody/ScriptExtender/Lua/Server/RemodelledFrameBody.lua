@@ -84,7 +84,7 @@ function UnequipHandler(item, char)
         -- create and equip camp feet later
         local id = body_ids[frame_level];
         Osi.TemplateAddTo(id, char, 1, 0);
-        delayedCall(200, function()
+        delayedCall(400, function()
             local to_equip = Osi.GetItemByTemplateInUserInventory(id, char);
             _I("Equipping remodelled frame body " .. frame_level);
             Osi.Equip(char, to_equip);
@@ -92,7 +92,7 @@ function UnequipHandler(item, char)
     elseif slot == body_slot_camp then
         local id = body_camp_ids[frame_level];
         Osi.TemplateAddTo(id, char, 1, 0);
-        delayedCall(200, function()
+        delayedCall(400, function()
             local to_equip = Osi.GetItemByTemplateInUserInventory(id, char);
             _I("Equipping remodelled frame body (camp) " .. frame_level);
             Osi.Equip(char, to_equip);
