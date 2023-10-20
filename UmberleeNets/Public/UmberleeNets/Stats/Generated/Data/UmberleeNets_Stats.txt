@@ -105,3 +105,35 @@ new entry "LI_UmberleeNets_Suc_4"
 type "Armor"
 using "LI_UmberleeNets"
 data "RootTemplate" "ae79b53a-776b-47d4-849d-e68f42a76c89" 
+
+
+
+new entry "LI_UmberleeNets_Same"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "fa0cbc86-9691-406d-8cb3-5f62110ce035" 
+
+new entry "LI_UmberleeNets_Same_Unflexed"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "1401afb1-f86d-423e-b529-73913f63c8f1" 
+
+new entry "LI_UmberleeNets_Same_1"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "e0ea3e12-07a2-4643-83f4-107b1ef36e23" 
+
+new entry "LI_UmberleeNets_Same_2"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "6e0b66ac-0692-4550-9b0c-708e4511cf7a" 
+
+new entry "LI_UmberleeNets_Same_3"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "3a06cebc-25a2-43c0-8e49-14e19d93f562" 
+
+new entry "LI_UmberleeNets_Same_4"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "5904578f-4aa4-47ae-a510-b5907ee5853f" 

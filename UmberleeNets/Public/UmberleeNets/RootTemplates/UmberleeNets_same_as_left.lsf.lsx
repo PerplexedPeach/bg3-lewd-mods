@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="Templates">
+        <node id="Templates">
+            <children>        
+				<node id="GameObjects">  Umberlee Nets_Same 
+					<attribute id="DisplayName" type="TranslatedString" handle="hb08a1212g08ebg4398g8794g0e75ffc80d12" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets_Same" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Same" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Same" />
+					<attribute id="MapKey" type="FixedString" value="fa0cbc86-9691-406d-8cb3-5f62110ce035" />
+					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ce2922e5-6062-429a-97fc-c72e1ff33fe2" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cd901798-503b-4d6c-8b3a-67d84a819acc" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6bbc3bee-494a-4d59-958c-793df076b114" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1d067e7e-92b5-43bf-a6f4-cd0ff566f410" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="62fe77cf-d005-44e6-9c8e-0885661868c1" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="399a7ecd-3950-468a-aa5a-93fd75a1c65a" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0d823d90-31ac-4e1e-a72c-7338c7e2aa30" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="29881cbc-f802-4389-90b1-6ee3f94bb9aa" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a1acae8f-8592-4a61-9d18-9fe2083ae25a" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="4674113b-7717-4a0d-a14a-ab8d181284ae" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ff1e8930-b8e9-40be-ade0-7f1216e78c7b" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c9c8aa5d-7170-4e32-b0e5-25a8409dd61c" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1c410fd-cd44-4e86-8b31-3c4f92d4613a" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3c49ba20-73d5-440f-ac9c-924c80f08a15" /> LR
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  Umberlee Nets_Same Unflexed
+					<attribute id="DisplayName" type="TranslatedString" handle="h217e77c7g6783g4741gbd04gccf670e7a648" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets_Same" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Same_Unflexed" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Same_Unflexed" />
+					<attribute id="MapKey" type="FixedString" value="1401afb1-f86d-423e-b529-73913f63c8f1" />
+					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ce2922e5-6062-429a-97fc-c72e1ff33fe2" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cd901798-503b-4d6c-8b3a-67d84a819acc" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ca973cdc-f7d2-4db8-a6d3-fcf4a161dfa1" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="aca164f6-a803-47f1-8709-2cd5ce6a385b" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="62fe77cf-d005-44e6-9c8e-0885661868c1" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="399a7ecd-3950-468a-aa5a-93fd75a1c65a" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0d823d90-31ac-4e1e-a72c-7338c7e2aa30" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cb8c4572-9177-4891-8ab0-640aa9508339" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2910456a-ee7a-4016-84ca-0a36fe697438" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="4674113b-7717-4a0d-a14a-ab8d181284ae" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ff1e8930-b8e9-40be-ade0-7f1216e78c7b" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c9c8aa5d-7170-4e32-b0e5-25a8409dd61c" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="adb7ed99-7d53-454d-ae1c-1117d48e50ac" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="df7b1402-aeb2-4696-9e6c-84e6636f258b" /> LR
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  Umberlee Nets_Same 1
+					<attribute id="DisplayName" type="TranslatedString" handle="hf6ada83dg9565g4a2fgaff3gac4c210e65ca" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets_Same" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Same_1" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Same_1" />
+					<attribute id="MapKey" type="FixedString" value="e0ea3e12-07a2-4643-83f4-107b1ef36e23" />
+					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1a4a70aa-1e3d-4c25-9674-ef747bfe949e" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="72448b1b-8d45-4954-a18d-3ee06fa93510" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e21f5711-44e6-4ece-98d7-9fd9d4bf402e" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6bbc3bee-494a-4d59-958c-793df076b114" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1d067e7e-92b5-43bf-a6f4-cd0ff566f410" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="62fe77cf-d005-44e6-9c8e-0885661868c1" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="399a7ecd-3950-468a-aa5a-93fd75a1c65a" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0d823d90-31ac-4e1e-a72c-7338c7e2aa30" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="29881cbc-f802-4389-90b1-6ee3f94bb9aa" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a1acae8f-8592-4a61-9d18-9fe2083ae25a" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0ed49bc8-1ede-40d3-9232-e329c0ee2eb6" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1e6b9653-f74f-487b-948f-47aa8342dbb8" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ba00961f-afc2-4ec1-8d6d-60a8689e8ed5" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1c410fd-cd44-4e86-8b31-3c4f92d4613a" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3c49ba20-73d5-440f-ac9c-924c80f08a15" /> LR
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  Umberlee Nets_Same 2
+					<attribute id="DisplayName" type="TranslatedString" handle="h4dab9529ge309g4370ga572g0e5ce88d6758" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets_Same" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Same_2" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Same_2" />
+					<attribute id="MapKey" type="FixedString" value="6e0b66ac-0692-4550-9b0c-708e4511cf7a" />
+					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d02039ad-e83e-4fdc-8970-b0aa2a14a01b" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="645289bc-52f9-4389-aa14-ba37e59394c5" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="800c1308-3060-462e-8206-6df227f03009" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6bbc3bee-494a-4d59-958c-793df076b114" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1d067e7e-92b5-43bf-a6f4-cd0ff566f410" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="62fe77cf-d005-44e6-9c8e-0885661868c1" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="399a7ecd-3950-468a-aa5a-93fd75a1c65a" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0d823d90-31ac-4e1e-a72c-7338c7e2aa30" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="29881cbc-f802-4389-90b1-6ee3f94bb9aa" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a1acae8f-8592-4a61-9d18-9fe2083ae25a" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="846e7c38-5541-419c-be22-e8f85bba5e8e" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d7944f11-40fe-4c79-a42b-f3d8c545b998" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2c47b9c9-f89f-4bc3-ba72-0fbe29bc9fd3" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1c410fd-cd44-4e86-8b31-3c4f92d4613a" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3c49ba20-73d5-440f-ac9c-924c80f08a15" /> LR
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  Umberlee Nets_Same 3
+					<attribute id="DisplayName" type="TranslatedString" handle="h80af9f45g9c1cg48c4gb328ge4872701c151" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets_Same" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Same_3" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Same_3" />
+					<attribute id="MapKey" type="FixedString" value="3a06cebc-25a2-43c0-8e49-14e19d93f562" />
+					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d345a8a4-c805-4654-aa6e-1d4bf8b3aa4b" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c768ca5a-e317-49ca-86b8-dcaa792b065a" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="815ff488-6c92-4cb0-8981-09bf834e3674" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6bbc3bee-494a-4d59-958c-793df076b114" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1d067e7e-92b5-43bf-a6f4-cd0ff566f410" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="62fe77cf-d005-44e6-9c8e-0885661868c1" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="399a7ecd-3950-468a-aa5a-93fd75a1c65a" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0d823d90-31ac-4e1e-a72c-7338c7e2aa30" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="29881cbc-f802-4389-90b1-6ee3f94bb9aa" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a1acae8f-8592-4a61-9d18-9fe2083ae25a" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c8e9bae9-3a25-4451-afc9-4daef2ea5200" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9e07a899-a894-40f2-b30c-40ba39723205" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="98f58fe0-7207-4087-acea-2d7a9cd045f9" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1c410fd-cd44-4e86-8b31-3c4f92d4613a" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3c49ba20-73d5-440f-ac9c-924c80f08a15" /> LR
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  Umberlee Nets_Same 4
+					<attribute id="DisplayName" type="TranslatedString" handle="h4c02e6b7ga0c1g483ega5c8g01c9536ea9c3" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets_Same" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Same_4" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Same_4" />
+					<attribute id="MapKey" type="FixedString" value="5904578f-4aa4-47ae-a510-b5907ee5853f" />
+					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
+					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> Human_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9cf8f1c6-53df-44a9-8d5a-c3ac14563842" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1e729837-cb2c-4bff-8159-055939545632" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a8e90e5d-878e-4482-ab2b-8cf8f35b7a8f" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6bbc3bee-494a-4d59-958c-793df076b114" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1d067e7e-92b5-43bf-a6f4-cd0ff566f410" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> Human Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="62fe77cf-d005-44e6-9c8e-0885661868c1" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="399a7ecd-3950-468a-aa5a-93fd75a1c65a" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0d823d90-31ac-4e1e-a72c-7338c7e2aa30" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="29881cbc-f802-4389-90b1-6ee3f94bb9aa" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a1acae8f-8592-4a61-9d18-9fe2083ae25a" /> LR
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="56b3c234-2555-44cc-92b9-9ad29ab42e5b" /> belt
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1fdd782f-caf5-4c47-aa3e-60855fc9a61b" /> UL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9825f447-67d8-456c-b64f-57e472bcf4d6" /> UR
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1c410fd-cd44-4e86-8b31-3c4f92d4613a" /> LL
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3c49ba20-73d5-440f-ac9c-924c80f08a15" /> LR
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+        </node>
+    </region>
+</save>
+                    
