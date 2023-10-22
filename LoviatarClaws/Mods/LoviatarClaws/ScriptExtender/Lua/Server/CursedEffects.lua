@@ -128,7 +128,9 @@ function LiClawsProgression:getCurrentWearers()
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
         local char = player[1];
         local boots = Osi.GetEquippedItem(char, "Boots");
-        if boots ~= nil and Osi.GetTemplate(boots) == self.item_id then
+
+        -- requires having Loviatar's love as well as wearing the boots
+        if HasLoviatarsLove(char) and boots ~= nil and Osi.GetTemplate(boots) == self.item_id then
             self:log("Found wearer: " .. char);
             wearers[#wearers + 1] = char;
         end
@@ -163,12 +165,6 @@ function LiClawsProgression:curseLongRestHandler()
     local wearers = self:getCurrentWearers();
     for _, wearer in pairs(wearers) do
         self:log("Long rest Loviatar Claws wearer found: " .. wearer);
-        -- check that the wearer has Loviatar's blessing
-        -- if not, then they can no longer proceed with the transformation
-        if not HasLoviatarsLove(wearer) then
-            return
-        end
-
         UpgradeRemodelledFrame(wearer);
     end
 end
