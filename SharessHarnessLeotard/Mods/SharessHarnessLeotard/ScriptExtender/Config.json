@@ -1,0 +1,7 @@
+
+{
+    "RequiredVersion": 4,
+    "ModTable": "SharessHarnessLeotard",
+    "FeatureFlags": ["Lua"]
+}
+                    

@@ -1,0 +1,96 @@
+new entry "LI_SharessHarnessLeotard"
+type "Armor"
+using "LI_SharessHarness"
+data "RootTemplate" "076a69a4-0393-4298-8aa9-7f3cbe9f0911"
+
+new entry "LI_SharessHarnessLeotard_1"
+type "Armor"
+using "LI_SharessHarness_1"
+data "RootTemplate" "18ad07e8-49a3-4a7d-b663-b710785c5019"
+
+new entry "LI_SharessHarnessLeotard_2"
+type "Armor"
+using "LI_SharessHarness_2"
+data "RootTemplate" "a22e815a-816d-4be0-9c95-318d369ed968"
+
+new entry "LI_SharessHarnessLeotard_3"
+type "Armor"
+using "LI_SharessHarness_3"
+data "RootTemplate" "68544a71-65b4-43fa-8f9d-c26cd051736c"
+
+new entry "LI_SharessHarnessLeotard_4"
+type "Armor"
+using "LI_SharessHarness_4"
+data "RootTemplate" "4fe14e6e-4499-4821-8248-aa7cd96fb312"
+ 
+
+ new entry "LI_SharessHarnessLeotardBare"
+type "Armor"
+using "LI_SharessHarnessLetoard"
+data "RootTemplate" "10fb656d-5e68-46b2-895a-85f03e6540df"
+
+new entry "LI_SharessHarnessLeotardBare_1"
+type "Armor"
+using "LI_SharessHarnessLeotard_1"
+data "RootTemplate" "1b9b0546-8205-4276-a3c6-3f101c6ec2e4"
+
+new entry "LI_SharessHarnessLeotardBare_2"
+type "Armor"
+using "LI_SharessHarnessLeotard_2"
+data "RootTemplate" "6f9d56cf-73b9-4f0d-915d-193bac57b9a4"
+
+new entry "LI_SharessHarnessLeotardBare_3"
+type "Armor"
+using "LI_SharessHarnessLeotard_3"
+data "RootTemplate" "d26b4fb5-4737-41d8-abf1-828eafd7eaca"
+
+new entry "LI_SharessHarnessLeotardBare_4"
+type "Armor"
+using "LI_SharessHarnessLeotard_4"
+data "RootTemplate" "892bca54-5c0e-4909-b7e5-5437a992f37a"
+ 
+
+
+
+
+new entry "LI_SharessHarnessLeotard_Camp"
+using "LI_SharessHarness_Camp"
+data "RootTemplate" "791323ef-42f4-4691-a93b-f8843c746764"
+
+new entry "LI_SharessHarnessLeotard_Camp_1"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "f911938a-ae97-42e2-93c5-32a5c0dd870b"
+
+new entry "LI_SharessHarnessLeotard_Camp_2"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "d4aaaff8-f0f9-440a-9fd6-d415612ff7fc"
+
+new entry "LI_SharessHarnessLeotard_Camp_3"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "4d29d1d8-4671-4b79-afc7-9035070be0dc"
+
+new entry "LI_SharessHarnessLeotard_Camp_4"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "f2c8421a-f372-4778-9963-461099ac4575"
+ 
+
+ new entry "LI_SharessHarnessLeotardBare_Camp"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "3e0bc90f-faad-4463-99fe-717e971b33e5"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_1"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "7b3afe1c-cba0-4f89-8755-a3342f821f81"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_2"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "9e92e911-09ab-4541-8739-029936c33d3a"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_3"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "302ff444-82b2-4ddf-9e13-16c98e0db0ba"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_4"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "ec522801-df00-4184-a1da-8a2e9fd5bd10"
+ 

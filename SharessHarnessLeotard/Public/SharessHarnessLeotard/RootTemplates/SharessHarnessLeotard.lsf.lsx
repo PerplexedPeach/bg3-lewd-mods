@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="Templates">
+        <node id="Templates">
+            <children>        
+				<!-- <node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hdf2d740dg2429g488cgb44fg9f8b85837989" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6820f3ffgf5d4g48f5g9f3bgfdf9880489cf" version="1" />
+					<attribute id="Icon" type="FixedString" value="" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="aa454939-a089-4692-a56a-d6dc498eb91e" />
+					<attribute id="Name" type="LSString" value="Vlaakith's_Armor" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ba55c6f-1302-4069-9e04-ff0bf2a7ede2" />
+					<attribute id="Stats" type="FixedString" value="Vlaakith's_Armor" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="464e8fd3-3a49-3c47-7027-fc1aef4be362" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274414" />
+					<children>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="2" />
+							<children>
+								<node id="LongHair" />
+								<node id="ParentRace">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="f07faafa-0c6f-4f79-a049-70e96b23d51b" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-bac5-ff15696e6497" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="6d38f246-15cb-48b5-9b85-378016a7a78e" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="6dd3db4f-e2db-4097-b82e-12f379f94c2e" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="eb81b1de-985e-4e3a-8573-5717dc1fa15c" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="VisualSet">
+									<attribute id="BodySetVisual" type="FixedString" value="" />
+									<attribute id="ShowEquipmentVisuals" type="bool" value="False" />
+									<children>
+										<node id="MaterialOverrides">
+											<attribute id="MaterialResource" type="FixedString" value="" />
+											<children>
+												<node id="Vector3Parameters">
+													<attribute id="Parameter" type="FixedString" value="Color_01" />
+													<attribute id="Value" type="fvec3" value="0.5479935 0.1904629 0.1419803" />
+													<attribute id="Enabled" type="bool" value="False" />
+													<attribute id="Color" type="bool" value="False" />
+													<attribute id="Custom" type="bool" value="True" />
+												</node>
+												<node id="Vector3Parameters">
+													<attribute id="Parameter" type="FixedString" value="Color_02" />
+													<attribute id="Value" type="fvec3" value="1 0.5234432 0.3344578" />
+													<attribute id="Enabled" type="bool" value="False" />
+													<attribute id="Color" type="bool" value="False" />
+													<attribute id="Custom" type="bool" value="True" />
+												</node>
+												<node id="Vector3Parameters">
+													<attribute id="Parameter" type="FixedString" value="Color_03" />
+													<attribute id="Value" type="fvec3" value="0.1572807 0.09151835 0.3488648" />
+													<attribute id="Enabled" type="bool" value="False" />
+													<attribute id="Color" type="bool" value="False" />
+													<attribute id="Custom" type="bool" value="True" />
+												</node>
+												<node id="MaterialPresets">
+													<children>
+														<node id="Object">
+															<attribute id="MapKey" type="FixedString" value="02 Colour" />
+															<attribute id="ForcePresetValues" type="bool" value="True" />
+															<attribute id="MaterialPresetResource" type="FixedString" value="d2e27ba4-ea7b-9953-2407-8ae62f7b793c" />
+															<attribute id="GroupName" type="FixedString" value="02 Colour" />
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+										<node id="RealMaterialOverrides" />
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d8b62b0b-5f74-4418-81ae-545d9ba6f2d5" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="7ae75b86-dd28-4467-9795-1020edf203ca" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node> -->
+				<node id="GameObjects"> stage 0
+					<attribute id="MapKey" type="FixedString" value="076a69a4-0393-4298-8aa9-7f3cbe9f0911" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarnessLeotard" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6599c3f-cfcd-4721-9cc2-1df5d8ff0154" />
+					<attribute id="VisualTemplate" type="FixedString" value="eec213cc-3484-4555-8ebe-bea181ecdb42" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c0973a14-4386-3100-99c6-f0ab3c747405" />
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb886db15g0e12g4d8fg9964g43c4741177b2" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarnessLeotard" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarnessLeotard" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> HUM_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="34dbad65-f9f4-463d-b947-7cfdf0503d77" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="906952ff-8c1c-4233-b9e6-892a3ce0c494" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="4da7f516-0692-49e3-b4ae-ba359f05e1ee" />
+												</node>
+											</children>
+										</node>
+
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cb860ac2-44f1-4d4c-b100-087751c2738c" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="dfb67fa3-46ab-43a7-a3aa-1adaf6a8c0c4" />
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9825a587-2c1b-430f-b523-8a5bec1c0842" />
+												</node>
+											</children>
+										</node>
+
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- <node id="GameObjects"> stage 0
+					<attribute id="MapKey" type="FixedString" value="076a69a4-0393-4298-8aa9-7f3cbe9f0911" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarnessLeotard" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb886db15g0e12g4d8fg9964g43c4741177b2" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarnessLeotard" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarnessLeotard" />
+					<children>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="2" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> HUM_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2d3c84aa-4498-41e0-a2b2-bc4dd9c36c17" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+											</children>
+										</node>
+
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c2cf3f6f-eebc-42e8-9e02-1f51c9cd32c2" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+											</children>
+										</node>
+
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+
+				</node> -->
+				<node id="GameObjects"> stage 1
+					<attribute id="MapKey" type="FixedString" value="18ad07e8-49a3-4a7d-b663-b710785c5019" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarnessLeotard_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hae139e65ga634g4d4eg8f31g374998c8bc6f" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarnessLeotard_1" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarnessLeotard_1" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
+									</children>
+								</node>		
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cb88d2c3-0756-41c2-9f7c-8905db70934a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="5c54ca07-b2b8-4df3-a3b9-4e41632b26ed" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cb88d2c3-0756-41c2-9f7c-8905db70934a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c882dd7a-4127-408d-8fa0-5cb44d8451ba" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cb88d2c3-0756-41c2-9f7c-8905db70934a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="4c2f84e1-ef20-4c65-8a12-a154f4eb2070" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="38a9b909-25aa-4352-8a84-21af813f20bf" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="747e81a7-a253-4be3-839c-1a7221f9a2f0" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="38a9b909-25aa-4352-8a84-21af813f20bf" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3b06d69e-bdf0-4867-9f0a-b65c32b57be6" /> body
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> stage 2
+					<attribute id="MapKey" type="FixedString" value="a22e815a-816d-4be0-9c95-318d369ed968" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarnessLeotard_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h25a2322eg006dg4bdag8ca4g506f5126f2c6" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarnessLeotard_2" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarnessLeotard_2" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
+									</children>
+								</node>		
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="20da44cc-b471-4968-a193-6688a3c4485a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a0541c68-2d76-43b9-90d4-cbca8181ca6a" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="20da44cc-b471-4968-a193-6688a3c4485a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="770504c7-d498-4ce3-b600-66203a7334c9" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="20da44cc-b471-4968-a193-6688a3c4485a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d82d31a3-e89c-4a78-ae36-8b185f559a44" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="14aa5089-7af3-4f39-b186-18ae7f5468a1" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c63ad2b7-2bcf-482b-9013-b3e26fd2e895" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="14aa5089-7af3-4f39-b186-18ae7f5468a1" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="61a7e690-e992-4b78-be60-fae5f36eb83f" /> body
+												</node>
+
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> stage 3
+					<attribute id="MapKey" type="FixedString" value="68544a71-65b4-43fa-8f9d-c26cd051736c" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarnessLeotard_3" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hea98ffe7g7586g42fbg95edgb8c660b1cba8" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarnessLeotard_3" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarnessLeotard_3" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
+									</children>
+								</node>		
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="906c4b7d-c6cc-4711-9ca6-0fb42e52ebdd" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="88c0c1a6-8e8d-4c6a-a8a4-1c67445e7752" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="906c4b7d-c6cc-4711-9ca6-0fb42e52ebdd" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="fb89fbda-3f83-433d-a67b-d6997bd5ef60" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="906c4b7d-c6cc-4711-9ca6-0fb42e52ebdd" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="8216fd23-28ae-4246-8d1e-4f61348b860c" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="48c013a3-8cfd-443c-86f5-eb0e52320486" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cd754774-ed6e-4ffd-bdc6-18a94441391e" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="48c013a3-8cfd-443c-86f5-eb0e52320486" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="55d936e8-d381-4be4-90ba-0c272fe0755c" /> body
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> stage 4
+					<attribute id="MapKey" type="FixedString" value="4fe14e6e-4499-4821-8248-aa7cd96fb312" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarnessLeotard_4" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="11620dfe-71ae-7d36-1463-92b84b249d88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha60b4d38g8fd0g4b2fgbc41gd998234885d6" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarnessLeotard_4" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarnessLeotard_4" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="ParentRace"> This sets the ParentRace for each race
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> Githyanki_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Githyanki Females have Human as ParentRace unless removed by this Object
+										</node>							
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> Tiefling_Female
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> Tiefling Females have Human as ParentRace unless removed by this Object
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" /> 
+										</node>	
+									</children>
+								</node>		
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="303cec00-b0c4-4a7c-ae9e-87976dcacaf6" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="55286ba4-d053-4f8d-b6dd-1c87b8016623" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="303cec00-b0c4-4a7c-ae9e-87976dcacaf6" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="df55f9ec-41fd-491e-b75d-3c8e1c7912f1" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="303cec00-b0c4-4a7c-ae9e-87976dcacaf6" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="629576bc-dd21-4f72-8385-25f3c8bc2edf" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="714dd3df-38c1-46c3-80f3-20d9b05a701f" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="efbe2a1d-5f26-46c0-a19a-a2c06af84535" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3b374d5b-ceac-4b3d-8731-3f0155fabc08" /> body
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="efbe2a1d-5f26-46c0-a19a-a2c06af84535" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="96e73648-e97c-43e2-8ad8-96fd9d70d4fb" /> pauldron
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="05e691e8-2180-4ccf-b7fd-fd79a20a46ba" /> body
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+        </node>
+    </region>
+</save>
+                    
