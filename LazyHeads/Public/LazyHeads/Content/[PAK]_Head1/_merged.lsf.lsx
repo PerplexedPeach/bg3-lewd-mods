@@ -13,7 +13,7 @@ x   <region id="MaterialBank">
 					<attribute id="ID" type="FixedString" value="8ef02989-c372-4b23-93fd-749c1a49882e" />
 					<!-- ^^ Mass Replace, CTRL+H, this UUID with a unique one generated in the multitool. There should be 3. ^^ -->
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="LI_Head_Material" />
+					<attribute id="Name" type="LSString" value="LI_Head_Material_Diva" />
 					<!-- ^^ Copy the name of your head and place it here. ^^ -->
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />

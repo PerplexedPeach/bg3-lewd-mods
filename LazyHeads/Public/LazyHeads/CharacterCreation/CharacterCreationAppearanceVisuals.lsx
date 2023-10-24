@@ -13,6 +13,7 @@
 					<!-- ^^ Masculine: 0 || Feminine: 1 ^^ -->
                     <attribute id="DefaultSkinColor" type="guid" value="39949ade-52c7-d562-df3f-52da62275e26"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h35a54b32g4328g46ddgb709gdfcbbe6854a3" version="1"/>
+					<attribute id="IconIdOverride" type="FixedString" value="0_Head_29a4303f-81ec-48d7-a183-3e3546b38e96"/> 
 					<!-- ^^ Paste the handle that you generated in your localization file for the appropriate head here. ^^ -->
                     <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
 					<!-- ^^ Below is a guide to each of the UUIDS for the different races. Paste the appropriate one here. ^^ -->
@@ -29,6 +30,7 @@
 					<!-- ^^ Masculine: 0 || Feminine: 1 ^^ -->
                     <attribute id="DefaultSkinColor" type="guid" value="39949ade-52c7-d562-df3f-52da62275e26"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h35a54b32g4328g46ddgb709gdfcbbe6854a3" version="1"/>
+					<attribute id="IconIdOverride" type="FixedString" value="0_Head_29a4303f-81ec-48d7-a183-3e3546b38e96"/> 
 					<!-- ^^ Paste the handle that you generated in your localization file for the appropriate head here. ^^ -->
                     <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
 					<!-- ^^ Below is a guide to each of the UUIDS for the different races. Paste the appropriate one here. ^^ -->
@@ -45,6 +47,7 @@
 					<!-- ^^ Masculine: 0 || Feminine: 1 ^^ -->
                     <attribute id="DefaultSkinColor" type="guid" value="39949ade-52c7-d562-df3f-52da62275e26"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h35a54b32g4328g46ddgb709gdfcbbe6854a3" version="1"/>
+					<attribute id="IconIdOverride" type="FixedString" value="0_Head_29a4303f-81ec-48d7-a183-3e3546b38e96"/> 
 					<!-- ^^ Paste the handle that you generated in your localization file for the appropriate head here. ^^ -->
                     <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
 					<!-- ^^ Below is a guide to each of the UUIDS for the different races. Paste the appropriate one here. ^^ -->
@@ -62,12 +65,30 @@
                     <attribute id="DefaultSkinColor" type="guid" value="39949ade-52c7-d562-df3f-52da62275e26"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h35a54b32g4328g46ddgb709gdfcbbe6854a3" version="1"/>
 					<!-- ^^ Paste the handle that you generated in your localization file for the appropriate head here. ^^ -->
+					<attribute id="IconIdOverride" type="FixedString" value="0_Head_29a4303f-81ec-48d7-a183-3e3546b38e96"/> 
                     <attribute id="RaceUUID" type="guid" value="45f4ac10-3c89-4fb2-b37d-f973bb9110c0"/>
 					<!-- ^^ Below is a guide to each of the UUIDS for the different races. Paste the appropriate one here. ^^ -->
                     <attribute id="SlotName" type="FixedString" value="Head"/>
                     <attribute id="UUID" type="guid" value="fe7f7931-65f6-4714-8647-1045d29bb352"/>
 					<!-- ^^ Generate a brand new unique UUID in the multitool and place it here. ^^ -->
                     <attribute id="VisualResource" type="guid" value="6de1e4e0-d819-4e80-961f-a61452eda123"/>
+					<!-- ^^ The UUID you generate here will be used in the VisualBank section of the _merged file. ^^ -->
+				</node>
+				<node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+					<!-- ^^ Standard Body: 0 || Strong Body: 1 ^^ -->
+                    <attribute id="BodyType" type="uint8" value="1"/>
+					<!-- ^^ Masculine: 0 || Feminine: 1 ^^ -->
+                    <attribute id="DefaultSkinColor" type="guid" value="39949ade-52c7-d562-df3f-52da62275e26"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h35a54b32g4328g46ddgb709gdfcbbe6854a3" version="1"/>
+					<attribute id="IconIdOverride" type="FixedString" value="0_Head_29a4303f-81ec-48d7-a183-3e3546b38e96"/> 
+					<!-- ^^ Paste the handle that you generated in your localization file for the appropriate head here. ^^ -->
+                    <attribute id="RaceUUID" type="guid" value="b6dccbed-30f3-424b-a181-c4540cf38197"/>
+					<!-- ^^ Below is a guide to each of the UUIDS for the different races. Paste the appropriate one here. ^^ -->
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="ad9b13f1-7683-4033-89f1-73349760947c"/>
+					<!-- ^^ Generate a brand new unique UUID in the multitool and place it here. ^^ -->
+                    <attribute id="VisualResource" type="guid" value="089d6389-13b8-44a0-a89d-0d6acca5fc7c"/>
 					<!-- ^^ The UUID you generate here will be used in the VisualBank section of the _merged file. ^^ -->
 				</node>
 					<!-- RaceUUIDs
