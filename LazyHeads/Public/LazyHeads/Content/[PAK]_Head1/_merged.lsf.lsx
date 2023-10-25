@@ -535,7 +535,7 @@ x   <region id="MaterialBank">
 							<attribute id="ParameterName" type="FixedString" value="" />
 						</node>
 						<node id="Texture2DParameters">
-                            <attribute id="Enabled" type="bool" value="True" />
+                            <attribute id="Enabled" type="bool" value="False" />
                             <attribute id="ExportAsPreset" type="bool" value="True" />
                             <attribute id="GroupName" type="FixedString" value="01Texture Maps" />
                             <attribute id="ID" type="FixedString" value="2f72fffe-7602-05c4-b005-ieatpaste666" />

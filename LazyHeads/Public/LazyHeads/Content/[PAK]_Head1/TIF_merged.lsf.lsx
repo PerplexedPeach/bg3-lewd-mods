@@ -784,7 +784,7 @@ x   <region id="TextureBank">
 					<attribute id="Name" type="LSString" value="TIF_F_NKD_Head_LI_Diva_CLEA" />
 					<!-- ^^ Copy the name of your CLEA texture and place it here. ^^ -->
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/LazyHeads/Assets/HUM_F_NKD_Head_LI_Diva_CLEA.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LazyHeads/Assets/TIF_F_NKD_Head_LI_Diva_CLEA.DDS" />
 					<!-- ^^ Copy the path to your CLEA here, including the .DDS. Change all \ to / ^^ -->
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="TIF_F_NKD_Head_LI_Diva_CLEA" />
@@ -801,7 +801,7 @@ x   <region id="TextureBank">
 					<attribute id="Name" type="LSString" value="TIF_F_NKD_Head_LI_Diva_HMVY" />
 					<!-- ^^ Copy the name of your HMVY texture and place it here. ^^ -->
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/LazyHeads/Assets/HUM_F_NKD_Head_LI_Diva_HMVY.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LazyHeads/Assets/TIF_F_NKD_Head_LI_Diva_HMVY.DDS" />
 					<!-- ^^ Copy the path to your HMVY here, including the .DDS. Change all \ to / ^^ -->
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="TIF_F_NKD_Head_LI_Diva_HMVY" />
@@ -893,10 +893,10 @@ x   <region id="VisualBank">
 					<attribute id="SkeletonSlot" type="FixedString" value="1" />
 					<attribute id="Slot" type="FixedString" value="Head" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/LazyHeads/Assets/HUM_F_NKD_Head_LI_Diva.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LazyHeads/Assets/TIF_F_NKD_Head_LI_Diva.GR2" />
 					<!-- ^^ Copy the path to your head mesh here, including the .GR2. Change all \ to / ^^ -->
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/LazyHeads/Assets/HUM_F_NKD_Head_LI_Diva.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/LazyHeads/Assets/TIF_F_NKD_Head_LI_Diva.Dummy_Root.0" />
 					<!-- ^^ This should be the same path as above, but instead of .GR2, it should say .Dummy_Root.0 ^^ -->
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725665" />
 					<children>

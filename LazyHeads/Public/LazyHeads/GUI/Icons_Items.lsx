@@ -23,7 +23,7 @@
         <node id="root">
            <children>
 				<node id="IconUV"> <!-- row 1 start -->
-                    <attribute id="MapKey" type="FixedString" value="0_Hair_"/> <!-- insert unique UUID here, 'Head' indicates CC type -->
+                    <attribute id="MapKey" type="FixedString" value="0_Hair_b0c0ac9b-ebe9-4d07-b07b-93e6cbc3b4df"/> <!-- insert unique UUID here, 'Head' indicates CC type -->
                     <attribute id="U1" type="float" value="6.1035156e-05"/>		indicates column
                     <attribute id="U2" type="float" value="0.018249512"/>	   
                     <attribute id="V1" type="float" value="0.0"/>	   indicates row
