@@ -41,9 +41,7 @@
 							<attribute id="MaterialID" type="FixedString" value="488d83ac-e207-29c4-faad-7a83b48c5c8e" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Vlaakith_Basis.HUM_FS.0" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Torso" />
-						</node>
+
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
@@ -89,9 +87,7 @@
 							<attribute id="MaterialID" type="FixedString" value="488d83ac-e207-29c4-faad-7a83b48c5c8e" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Vlaakith_1.HUM_FS.0" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Torso" />
-						</node>
+
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
@@ -136,9 +132,7 @@
 							<attribute id="MaterialID" type="FixedString" value="488d83ac-e207-29c4-faad-7a83b48c5c8e" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Vlaakith_2.HUM_FS.0" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Torso" />
-						</node>
+
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
@@ -183,9 +177,7 @@
 							<attribute id="MaterialID" type="FixedString" value="488d83ac-e207-29c4-faad-7a83b48c5c8e" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Vlaakith_3.HUM_FS.0" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Torso" />
-						</node>
+
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
@@ -230,9 +222,7 @@
 							<attribute id="MaterialID" type="FixedString" value="488d83ac-e207-29c4-faad-7a83b48c5c8e" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Vlaakith_4.HUM_FS.0" />
 						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Torso" />
-						</node>
+
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>

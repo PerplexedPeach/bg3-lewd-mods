@@ -1,0 +1,42 @@
+new entry "LI_SharessHarnessLeotard_Camp"
+using "LI_SharessHarness_Camp"
+data "RootTemplate" "791323ef-42f4-4691-a93b-f8843c746764"
+data "ColorPresetResource" ""
+
+new entry "LI_SharessHarnessLeotard_Camp_1"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "f911938a-ae97-42e2-93c5-32a5c0dd870b"
+
+new entry "LI_SharessHarnessLeotard_Camp_2"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "d4aaaff8-f0f9-440a-9fd6-d415612ff7fc"
+
+new entry "LI_SharessHarnessLeotard_Camp_3"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "4d29d1d8-4671-4b79-afc7-9035070be0dc"
+
+new entry "LI_SharessHarnessLeotard_Camp_4"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "f2c8421a-f372-4778-9963-461099ac4575"
+ 
+
+ new entry "LI_SharessHarnessLeotardBare_Camp"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "3e0bc90f-faad-4463-99fe-717e971b33e5"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_1"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "7b3afe1c-cba0-4f89-8755-a3342f821f81"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_2"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "9e92e911-09ab-4541-8739-029936c33d3a"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_3"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "302ff444-82b2-4ddf-9e13-16c98e0db0ba"
+
+new entry "LI_SharessHarnessLeotardBare_Camp_4"
+using "LI_SharessHarnessLeotard_Camp"
+data "RootTemplate" "ec522801-df00-4184-a1da-8a2e9fd5bd10"
+ 

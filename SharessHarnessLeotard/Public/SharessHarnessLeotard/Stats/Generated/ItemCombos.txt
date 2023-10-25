@@ -1,0 +1,814 @@
+new ItemCombination "FOR_SharessHarnessLeotard"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard"
+data "PreviewStatsID" "LI_SharessHarnessLeotard"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_rev"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_rev_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness"
+data "PreviewStatsID" "LI_SharessHarness"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_1"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_1"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_rev_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_rev_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_1"
+data "PreviewStatsID" "LI_SharessHarness_1"
+-- requires having Loviatar's love as well as wearing the boots
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_2"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_rev_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_rev_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_2"
+data "PreviewStatsID" "LI_SharessHarness_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_3"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_3"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_rev_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_rev_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_3"
+data "PreviewStatsID" "LI_SharessHarness_3"
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_4"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_4"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_rev_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_rev_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_4"
+data "PreviewStatsID" "LI_SharessHarness_4"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_Camp"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_Camp"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_rev"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_rev_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp"
+data "PreviewStatsID" "LI_SharessHarness_Camp"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_Camp_1"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_Camp_1"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_rev_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_Camp_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_rev_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_1"
+data "PreviewStatsID" "LI_SharessHarness_Camp_1"
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_Camp_2"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_Camp_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_rev_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_Camp_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_rev_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_2"
+data "PreviewStatsID" "LI_SharessHarness_Camp_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_Camp_3"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_Camp_3"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_rev_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_Camp_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_rev_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_3"
+data "PreviewStatsID" "LI_SharessHarness_Camp_3"
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotard_Camp_4"
+data "PreviewStatsID" "LI_SharessHarnessLeotard_Camp_4"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotard_Camp_rev_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotard_Camp_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_ThievesTools"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotard_Camp_rev_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_4"
+data "PreviewStatsID" "LI_SharessHarness_Camp_4"
+
+
+
+
+
+
+
+
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_rev"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_rev_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness"
+data "PreviewStatsID" "LI_SharessHarness"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_1"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_1"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_rev_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_rev_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_1"
+data "PreviewStatsID" "LI_SharessHarness_1"
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_2"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_rev_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_rev_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_2"
+data "PreviewStatsID" "LI_SharessHarness_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_3"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_3"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_rev_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_rev_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_3"
+data "PreviewStatsID" "LI_SharessHarness_3"
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_4"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_4"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_rev_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_rev_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_4"
+data "PreviewStatsID" "LI_SharessHarness_4"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_Camp"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_Camp"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_rev"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_Camp"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_rev_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp"
+data "PreviewStatsID" "LI_SharessHarness_Camp"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_Camp_1"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_Camp_1"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_rev_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_Camp_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_rev_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_1"
+data "PreviewStatsID" "LI_SharessHarness_Camp_1"
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_Camp_2"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_Camp_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_rev_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_Camp_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_rev_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_2"
+data "PreviewStatsID" "LI_SharessHarness_Camp_2"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_Camp_3"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_Camp_3"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_rev_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_Camp_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_rev_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_3"
+data "PreviewStatsID" "LI_SharessHarness_Camp_3"
+
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Camp_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarnessLeotardBare_Camp_4"
+data "PreviewStatsID" "LI_SharessHarnessLeotardBare_Camp_4"
+
+
+
+new ItemCombination "FOR_SharessHarnessLeotardBare_Camp_rev_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarnessLeotardBare_Camp_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Kit_TrapDisarm"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarnessLeotardBare_Camp_rev_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Camp_4"
+data "PreviewStatsID" "LI_SharessHarness_Camp_4"
