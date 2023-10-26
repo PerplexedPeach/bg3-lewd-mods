@@ -91,6 +91,9 @@ function BodyEquipment:error(message)
 end
 
 function BodyEquipment:itemLevel(item)
+    if item == nil then
+        return nil;
+    end
     local template = Osi.GetTemplate(item);
     for level = 0, 4 do
         local id = self.item_ids_per_stage[level + 1];
@@ -104,36 +107,31 @@ end
 function BodyEquipment:enforceBodyEquipmentConsistency(item, char)
     -- check if the equipped item is one of ours
     local item_level = self:itemLevel(item);
-    self:log("item level " .. item_level);
     if item_level == nil then
         return;
     end
 
-    -- check if there's an incompatibility between item level and Body Equipment level
-    local body_level = BodyEquipmentLevel(char);
-    self:log("body level " .. body_level);
-    if item_level ~= body_level then
-        self:log("Transforming " .. self.slot .. " from level " .. item_level .. " to " .. body_level);
-        self:log("Unequipping " .. self.slot .. " because it's incompatible with body level " .. body_level);
-        Osi.TemplateRemoveFromUser(self.item_ids_per_stage[item_level + 1], char, 1);
-        local template_id = self.item_ids_per_stage[body_level + 1];
+    DelayedCall(100, function()
+        -- check if there's an incompatibility between item level and Body Equipment level
+        local body_level = BodyEquipmentLevel(char);
 
-        local item = Osi.CreateAtObject(template_id, char, 0, 0, "", 0);
-        Osi.Equip(char, item);
+        self:log("item level " .. tostring(item_level) .. " body level " .. body_level .. " for " .. char);
+        if item_level ~= body_level then
+            self:log("Transforming " .. self.slot .. " from level " .. item_level .. " to " .. body_level);
+            Osi.TemplateRemoveFromUser(self.item_ids_per_stage[item_level + 1], char, 1);
+            local template_id = self.item_ids_per_stage[body_level + 1];
 
-    end
+            local item = Osi.CreateAtObject(template_id, char, 0, 0, "", 0);
+            Osi.Equip(char, item);
+        end
+    end);
 end
 
-function BodyEquipment:equipHandler(item, char)
-    local slot = Ext.Entity.Get(item).Equipable.Slot;
-    if slot ~= self.slot then
-        return;
-    end
-    self:log("Equipped " .. self.slot .. " " .. item .. " " .. char);
-
+function BodyEquipment:equipHandler(equipped_item, char)
+    -- we also need to care about equipping things other than our item since they could change the body level
+    local item = Osi.GetEquippedItem(char, self.slot);
     self:enforceBodyEquipmentConsistency(item, char);
 end
-
 -- also check after a delay after long rest (since the body level may have changed)
 function BodyEquipment:longRestHandler()
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
@@ -143,7 +141,6 @@ function BodyEquipment:longRestHandler()
         self:enforceBodyEquipmentConsistency(item, char);
     end
 end
-
 
 function BodyEquipment:registerHandlers()
     Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) self:equipHandler(...) end);
