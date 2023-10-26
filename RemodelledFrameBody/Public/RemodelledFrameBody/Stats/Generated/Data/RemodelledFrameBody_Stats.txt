@@ -4,16 +4,19 @@ data "ValueOverride" "0"
 data "Weight" "0.1"
 data "Rarity" "Common"
 data "RootTemplate" "f3b9c69e-e1df-4db7-8d94-d1372240df7a"
+data "PassivesOnEquip" "LI_Body_1"
 
 new entry "LI_RemodelledFrameBody_2"
 using "LI_RemodelledFrameBody_1"
 data "RootTemplate" "06bd8d1f-dcb9-451f-bb85-901f5fa79023"
+data "PassivesOnEquip" "LI_Body_2"
 
 new entry "LI_RemodelledFrameBody_3"
 using "LI_RemodelledFrameBody_2"
 data "RootTemplate" "fc55ef7a-6e74-4537-8e3f-231ba3a1fc5b"
+data "PassivesOnEquip" "LI_Body_3"
 
 new entry "LI_RemodelledFrameBody_4"
 using "LI_RemodelledFrameBody_3"
 data "RootTemplate" "faa19a15-0f48-4a9e-b2dd-c6e6bd7160fb"
- 
+data "PassivesOnEquip" "LI_Body_4"
