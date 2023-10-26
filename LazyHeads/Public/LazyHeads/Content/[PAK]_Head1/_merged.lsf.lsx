@@ -542,7 +542,7 @@ x   <region id="MaterialBank">
                             <attribute id="ParameterName" type="FixedString" value="MakeUpAtlas" />
                         </node>
                         <node id="Texture2DParameters">
-                            <attribute id="Enabled" type="bool" value="True" />
+                            <attribute id="Enabled" type="bool" value="False" />
                             <attribute id="ExportAsPreset" type="bool" value="True" />
                             <attribute id="GroupName" type="FixedString" value="01Texture Maps" />
                             <attribute id="ID" type="FixedString" value="505e82ee-ed64-05cc-aa31-ieatpaste666" />
