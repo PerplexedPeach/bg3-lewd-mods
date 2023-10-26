@@ -1,0 +1,37 @@
+new entry "LI_Clothes_0"
+type "PassiveData"
+data "DisplayName" ""
+data "Properties" "IsHidden"
+
+new entry "LI_Clothes_1"
+type "PassiveData"
+using "LI_Clothes_0"
+
+new entry "LI_Clothes_2"
+type "PassiveData"
+using "LI_Clothes_0"
+
+new entry "LI_Clothes_3"
+type "PassiveData"
+using "LI_Clothes_0"
+
+new entry "LI_Clothes_4"
+type "PassiveData"
+using "LI_Clothes_0"
+
+new entry "LI_Body_1"
+type "PassiveData"
+data "DisplayName" ""
+data "Properties" "IsHidden"
+
+new entry "LI_Body_2"
+type "PassiveData"
+using "LI_Body_1"
+
+new entry "LI_Body_3"
+type "PassiveData"
+using "LI_Body_1"
+
+new entry "LI_Body_4"
+type "PassiveData"
+using "LI_Body_1"

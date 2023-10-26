@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328" />
+    <region id="TextureBank">
+        <node id="TextureBank">
+            <children>
+                <node id="Resource">
+                    <attribute id="ID" type="FixedString" value="0d2f85cc-9870-4682-b7a2-c7e29a9f8632" />
+                    <attribute id="Localized" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="DivineCurse_Icons" />
+                    <attribute id="SRGB" type="bool" value="True" />
+                    <attribute id="SourceFile" type="LSString" value="Public/DivineCurse/Assets/Textures/Icons/DivineCurse_Icons.dds" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Icons_Items" />
+                    <attribute id="Type" type="int64" value="0" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+                    
