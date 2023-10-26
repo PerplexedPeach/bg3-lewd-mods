@@ -121,18 +121,9 @@ function LiHarnessProgression:upgradeArmor(char)
 
         -- add the new armor
         local new_armor_template = self.item_ids[armor_level + 2];
-        Osi.TemplateAddTo(new_armor_template, char, 1, 1);
-        -- if new_armor == nil then
-        --     _I("Failed to find new armor " .. new_armor_template .. " in inventory");
-        --     return
-        -- end
-        -- create a timed callback to equip it after 1 second
-        -- this is because the armor is not available to equip immediately after adding it
-        delayedCall(1000, function()
-            local new_armor = Osi.GetItemByTemplateInUserInventory(new_armor_template, char);
-            self:log("Equipping new armor " .. tostring(new_armor));
-            Osi.Equip(char, new_armor);
-        end);
+        local new_armor = Osi.CreateAtObject(new_armor_template, char, 0, 0, "", 0);
+        self:log("Equipping new armor " .. tostring(new_armor));
+        Osi.Equip(char, new_armor);
     end
 end
 

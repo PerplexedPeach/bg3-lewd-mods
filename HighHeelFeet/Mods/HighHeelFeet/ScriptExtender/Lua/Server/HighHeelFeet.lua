@@ -49,19 +49,13 @@ function UnequipHandler(item, char)
     -- only care about feet or camp feet
     if slot == feet_slot then
         -- create and equip camp feet later
-        Osi.TemplateAddTo(feet_id, char, 1, 0);
-        delayedCall(500, function()
-            local to_equip = Osi.GetItemByTemplateInUserInventory(feet_id, char);
-            _I("Equipping high heel feet");
-            Osi.Equip(char, to_equip);
-        end);
+        local item = Osi.CreateAtObject(feet_id, char, 0, 0, "", 0);
+        _I("Equipping high heel feet");
+        Osi.Equip(char, item);
     elseif slot == feet_slot_camp then
-        Osi.TemplateAddTo(feet_camp_id, char, 1, 0);
-        delayedCall(500, function()
-            local to_equip = Osi.GetItemByTemplateInUserInventory(feet_camp_id, char);
-            _I("Equipping high heel feet (camp)");
-            Osi.Equip(char, to_equip);
-        end);
+        local item = Osi.CreateAtObject(feet_camp_id, char, 0, 0, "", 0);
+        _I("Equipping high heel feet (camp)");
+        Osi.Equip(char, item);
     end
 end
 
