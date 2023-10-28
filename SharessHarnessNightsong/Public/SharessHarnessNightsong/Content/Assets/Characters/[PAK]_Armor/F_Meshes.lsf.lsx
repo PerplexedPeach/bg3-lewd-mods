@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource"> human female top 0
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.3662713 1.583791 0.1163213" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.3463536 0.6944935 -0.1745828" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="19e82ad3-01e8-4a17-bef3-e493ba7c702f" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Nightsong" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_Nightsong.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_Nightsong.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<!-- <node id="ClothParams">
+							<attribute id="AngularDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="AngularInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="AnimDriveDampingForce" type="float" value="0" />
+							<attribute id="AnimDriveSpringForce" type="float" value="100" />
+							<attribute id="AnimInfluenceMultiplier" type="float" value="1" />
+							<attribute id="AtmosphericWindEnabled" type="bool" value="True" />
+							<attribute id="BendingStiffness" type="float" value="1" />
+							<attribute id="CentrifugalInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="ClothMainWindFrequency" type="float" value="0" />
+							<attribute id="ClothMainWindSpeed" type="float" value="0" />
+							<attribute id="ClothMainWindVariance" type="float" value="0" />
+							<attribute id="ClothMaxWindDirectionOffset" type="float" value="0" />
+							<attribute id="ClothWindDirectionOffsetFrequency" type="float" value="0" />
+							<attribute id="ClothWindSpeed" type="float" value="0" />
+							<attribute id="CollisionMassScale" type="float" value="1" />
+							<attribute id="CompressionLimit" type="float" value="0.8" />
+							<attribute id="Damping" type="fvec3" value="0.015 0.015 0.015" />
+							<attribute id="DragCoefficient" type="float" value="0.4" />
+							<attribute id="EnableCCD" type="bool" value="False" />
+							<attribute id="EnableVirtualParticles" type="bool" value="True" />
+							<attribute id="FluidDensity" type="float" value="0.1" />
+							<attribute id="Friction" type="float" value="0.1" />
+							<attribute id="FrontalWindSpeed" type="float" value="0" />
+							<attribute id="FrontalWindVariance" type="float" value="0" />
+							<attribute id="LiftCoefficient" type="float" value="0.01" />
+							<attribute id="LinearDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="LinearInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="LinearStiffness" type="float" value="1" />
+							<attribute id="OverrideAtmosphericWind" type="bool" value="False" />
+							<attribute id="SelfCollisionDistance" type="float" value="0" />
+							<attribute id="SelfCollisionStiffness" type="float" value="0" />
+							<attribute id="SolverFrequency" type="float" value="30" />
+							<attribute id="StiffnessFrequency" type="float" value="100" />
+							<attribute id="StiffnessMultiplier" type="float" value="1" />
+							<attribute id="StretchLimit" type="float" value="1.2" />
+							<attribute id="TetherConstraintScale" type="float" value="1" />
+							<attribute id="TetherConstraintStiffness" type="float" value="1" />
+							<attribute id="UUID" type="FixedString" value="HUM_F_LI_Nightsong.Cloth_Proxy.1" />
+						</node>
+						<node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_F_LI_Nightsong.Cloth_Proxy.1" />
+									<children>
+										<node id="MapValue">
+											<children>
+												<node id="Object">
+													<attribute id="ClosestVertices" type="ScratchBuffer" value="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" />
+													<attribute id="Name" type="FixedString" value="HUM_F_LI_Nightsong.Body_Mesh.0" />
+													<attribute id="NbClosestVertices" type="int32" value="2500" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node> -->
+
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Nightsong.Body_Top_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Nightsong.Body_Bot_Mesh.1" />
+						</node>
+						<!-- <node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="f5fb825d-cc05-41d5-ac9c-42b6b1e17871" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_LI_Harness_Robe_Body.HUM_F_ARM_LI_Harness_Robe_Accessories_Mesh.1" />
+						</node> -->
+						<!-- <node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="9e2966c7-b61c-4bc1-bef1-a79cb5fde067" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Nightsong.Cloth_Proxy.1" />
+						</node> -->
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>	
+</save>

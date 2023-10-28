@@ -1,0 +1,4 @@
+new entry "LI_SharessHarness_Nightsong"
+type "Armor"
+using "LI_SharessHarness"
+data "RootTemplate" "d5bc38a8-a90c-4f4f-bb00-2fba9a4f26eb"

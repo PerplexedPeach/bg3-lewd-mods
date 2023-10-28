@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <save>
+        <version major="4" minor="0" revision="6" build="5" />
+        <region id="Templates">
+            <node id="Templates">
+                <children>        
+				<node id="GameObjects"> stage 0
+					<attribute id="MapKey" type="FixedString" value="d5bc38a8-a90c-4f4f-bb00-2fba9a4f26eb" />
+					<attribute id="Name" type="LSString" value="LI_SharessHarness_Nightsong" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="19e82ad3-01e8-4a17-bef3-e493ba7c702f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
+					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb886db15g0e12g4d8fg9964g43c4741177b2" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Nightsong" />
+					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_Nightsong" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> HUM_F
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="19e82ad3-01e8-4a17-bef3-e493ba7c702f" /> robe
+												</node>
+											</children>
+										</node>
+
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="056d8246-b926-4f48-9346-c0c04986fbee" /> robe
+												</node>
+											</children>
+										</node>
+
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+
+				</node>
+                </children>
+            </node>
+        </region>
+    </save>
+                    
