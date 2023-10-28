@@ -44,10 +44,35 @@ function WornClothesLevel(char)
     return nil;
 end
 
----What level (0 to 4) equipped body equipment should be, taking into account remodelled frame level and any worn clothing
+local forced_status_prefix = "LI_FORCED_BODY_";
+function ForcedBodyLevel(char)
+    for level = 0, 4 do
+        local status_key = forced_status_prefix .. level;
+        if Osi.HasActiveStatus(char, status_key) == 1 then
+            return level;
+        end
+    end
+end
+
+---What level (0 to 4) the character's body should be, taking into account remodelled frame level and overrides (no clothing considered)
+---@param char any
+---@return integer
+function ForcedExposedBodyLevel(char)
+    local forced_level = ForcedBodyLevel(char);
+    if forced_level ~= nil then
+        return forced_level;
+    end
+    return RemodelledFrameLevel(char);
+end
+
+---What level (0 to 4) equipped body accessories should be, taking into account remodelled frame level and any worn clothing
 ---@param char any
 ---@return integer
 function BodyEquipmentLevel(char)
+    local forced_level = ForcedBodyLevel(char);
+    if forced_level ~= nil then
+        return forced_level;
+    end
     local body_level = ExposedBodyLevel(char);
     local clothes_level = WornClothesLevel(char);
     -- if clothes is worn, report that, else report the body level
@@ -150,3 +175,20 @@ function BodyEquipment:registerHandlers()
 
     self:log("Registered handlers");
 end
+
+
+
+-- get body override debug item
+PersistentVars = {};
+local debug_item_id = "LI_Body_Debugger_5c4ace59-3a59-4dc0-b6dc-b6049b119a02";
+local function addDebugItem()
+    if PersistentVars[debug_item_id] == nil then
+        local char = Osi.GetHostCharacter();
+        _P("Added body debug item to " .. tostring(char));
+        Osi.TemplateAddTo(debug_item_id, char, 1, 1)
+        PersistentVars[debug_item_id] = true;
+    end
+end
+
+Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function() addDebugItem() end);
+Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() addDebugItem() end);

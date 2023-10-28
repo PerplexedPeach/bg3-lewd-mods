@@ -1,11 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <save>
-        <version major="4" minor="0" revision="6" build="5" />
-        <region id="Templates">
-            <node id="Templates">
-                <children>        
-                </children>
-            </node>
-        </region>
-    </save>
+<save>
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="Templates">
+        <node id="Templates">
+            <children>
+                <node id="GameObjects"> body debugger
+                    <attribute id="MapKey" type="FixedString" value="5c4ace59-3a59-4dc0-b6dc-b6049b119a02" />
+                    <attribute id="Name" type="LSString" value="LI_Body_Debugger" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="ReadinessFlags" type="uint32" value="136" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="VisualTemplate" type="FixedString" value="3b1edfa2-3522-311d-ed37-a329a9f9be6d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="680534f5-63d7-17dd-2b78-5caf8d8ec8f7" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h38574412g1cd7g4bffg84c5gd27d580f7581" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h4b5512dbgac05g4d10gb3e6g2e3ddef7da3b" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_HandMirror_A_Metal_A" />
+                    <attribute id="Stats" type="FixedString" value="LI_Body_Debugger" />
+                    <attribute id="maxStackAmount" type="int32" value="1" />
+                    <attribute id="ImpactSound" type="FixedString" value="5290a2da-7af9-dc1e-c32f-64df15f74a4c" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="DropSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="PickupSound" type="FixedString" value="c9d54f46-4779-bfd5-de26-1df05216ea3a" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="273296fc-764e-4119-b36e-a2c2f29c96b1" />
+                                </node>
+                            </children>
+                        </node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08080538 -0.0108242 -0.1818348" />
+									<attribute id="Max" type="fvec3" value="0.08009656 0.01131853 0.1817833" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08080538 -0.0108242 -0.1818348" />
+									<attribute id="Max" type="fvec3" value="0.08009656 0.01131853 0.1817833" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08080538 -0.0108242 -0.1818348" />
+									<attribute id="Max" type="fvec3" value="0.08009656 0.01131853 0.1817833" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
                     
