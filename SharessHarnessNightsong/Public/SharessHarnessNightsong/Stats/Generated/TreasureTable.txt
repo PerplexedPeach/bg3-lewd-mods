@@ -2,3 +2,11 @@ new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
 object category "I_LI_SharessHarness_Nightsong",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_4",1,0,0,0,0,0,0,0
