@@ -43,6 +43,12 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
 						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
+						</node>
 					</children>
 				</node>
 
@@ -90,6 +96,12 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
 						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
+						</node>
 					</children>
 				</node>
 				<node id="Resource"> female top 2
@@ -134,6 +146,12 @@
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 					</children>
 				</node>
@@ -180,6 +198,12 @@
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
 						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
+						</node>
 					</children>
 				</node>
 				<node id="Resource"> female top 4
@@ -224,6 +248,12 @@
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 					</children>
 				</node>
