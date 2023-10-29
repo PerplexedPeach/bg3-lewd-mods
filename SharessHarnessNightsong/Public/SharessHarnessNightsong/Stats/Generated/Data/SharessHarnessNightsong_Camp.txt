@@ -1,0 +1,21 @@
+new entry "LI_SharessHarness_Nightsong_Camp"
+using "LI_SharessHarness_Camp"
+data "RootTemplate" "9c682d5b-2551-40f1-9b3f-3591ae902b10"
+data "ColorPresetResource" "6b50bf81-2a5c-4c9d-8ecf-271322c2aa5d"
+
+new entry "LI_SharessHarness_Nightsong_Camp_1"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "072e6ca6-db17-4c10-bdfb-c059dcba3a3d"
+
+new entry "LI_SharessHarness_Nightsong_Camp_2"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "683a2206-c401-4cd2-8144-7f40d5bf4e49"
+
+new entry "LI_SharessHarness_Nightsong_Camp_3"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "53f466be-4a30-4558-8dd1-1ee4dc5bb651"
+
+new entry "LI_SharessHarness_Nightsong_Camp_4"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "0685af11-10c6-470b-b0e8-0e7f880ec23f"
+
