@@ -1,5 +1,4 @@
-new treasuretable "TUT_Chest_Potions"
-CanMerge 1
+new treasuretable "LI_SharessHarness_TT"
 new subtable "1,1"
 object category "I_LI_SharessHarness",1,0,0,0,0,0,0,0
 new subtable "1,1"
@@ -20,6 +19,13 @@ new subtable "1,1"
 object category "I_LI_SharessHarness_Camp_3",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_SharessHarness_Camp_4",1,0,0,0,0,0,0,0
+
+
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_LI_Bag_SharessHarness",1,0,0,0,0,0,0,0
+
 
 new treasuretable "FOR_Spiders_SpiderQueen"
 CanMerge 1
