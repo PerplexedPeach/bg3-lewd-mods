@@ -23,7 +23,7 @@
         <node id="root">
             <children>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="SharessHarnessNightsong"/> 1
+                    <attribute id="MapKey" type="FixedString" value="LI_SharessHarness_Nightsong"/> 1
                     <attribute id="U1" type="float" value="0.0"/> Left
                     <attribute id="U2" type="float" value="0.25"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top

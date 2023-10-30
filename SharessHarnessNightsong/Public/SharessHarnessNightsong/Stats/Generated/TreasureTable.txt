@@ -1,4 +1,4 @@
-new treasuretable "TUT_Chest_Potions"
+new treasuretable "LI_SharessHarness_TT"
 CanMerge 1
 new subtable "1,1"
 object category "I_LI_SharessHarness_Nightsong",1,0,0,0,0,0,0,0
@@ -10,3 +10,13 @@ new subtable "1,1"
 object category "I_LI_SharessHarness_Nightsong_3",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_SharessHarness_Nightsong_4",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_Camp",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_Camp_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_Camp_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_Camp_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Nightsong_Camp_4",1,0,0,0,0,0,0,0
