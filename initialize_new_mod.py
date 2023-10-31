@@ -54,9 +54,56 @@ class XMLFile(File):
         return ret
 
 
+def create_symlinks(args):
+    name = args.name
+    with Folder(name):
+        def generate_symlink(rel_path):
+            full_rel_path = os.path.join(rel_path, name)
+
+            path_in_data = os.path.join(args.data, full_rel_path)
+            path_local = os.path.join(os.getcwd(), full_rel_path)
+
+            # create the parent directory
+            os.makedirs(os.path.dirname(path_in_data), exist_ok=True)
+            os.symlink(path_local, path_in_data, target_is_directory=True)
+
+        try:
+            # create symlink to some folders to enable hot loading
+            if args.assets:
+                generate_symlink("Generated/Public")
+            if args.scripts:
+                generate_symlink("Mods")
+            if args.items:
+                generate_symlink("Public")
+            # Data\Generated\Public\GrazztRing should be linked to .\GrazztRing\Generated\Public\GrazztRing
+        except OSError as e:
+            print("Failed to create symlink. Please run this script with administrator privileges.")
+            print(e)
+
+
+def clean_symlinks(args):
+    name = args.name
+
+    def remove_symlink(rel_path):
+        full_rel_path = os.path.join(rel_path, name)
+        path_in_data = os.path.join(args.data, full_rel_path)
+        os.unlink(path_in_data)
+
+    remove_symlink("Generated/Public")
+    remove_symlink("Mods")
+    remove_symlink("Public")
+
+
 def create_mod(args):
     name = args.name
     author = args.author
+    # check if this mod already exists and warn against override
+    if os.path.exists(os.path.join(os.getcwd(), name)):
+        confirm = input(f"Mod {name} already exists. Are you sure you want to recreate parts of it? (y/n) ").lower()
+        if confirm not in ["y", "yes"]:
+            print("Aborting.")
+            return
+
     with Folder(name):
         # only if there are models and textures
         # with Folder(f"Generated/Public/{name}"):
@@ -344,30 +391,6 @@ def create_mod(args):
                     with File("define meshes materials and textures here.txt") as f:
                         f.add_line(" ")
 
-        if args.link:
-            def generate_symlink(rel_path):
-                full_rel_path = os.path.join(rel_path, name)
-
-                path_in_data = os.path.join(args.data, full_rel_path)
-                path_local = os.path.join(os.getcwd(), full_rel_path)
-
-                # create the parent directory
-                os.makedirs(os.path.dirname(path_in_data), exist_ok=True)
-                os.symlink(path_local, path_in_data, target_is_directory=True)
-
-            try:
-                # create symlink to some folders to enable hot loading
-                if args.assets:
-                    generate_symlink("Generated/Public")
-                if args.scripts:
-                    generate_symlink("Mods")
-                if args.items:
-                    generate_symlink("Public")
-                # Data\Generated\Public\GrazztRing should be linked to .\GrazztRing\Generated\Public\GrazztRing
-            except OSError as e:
-                print("Failed to create symlink. Please run this script with administrator privileges.")
-                print(e)
-
 
 def prompt_for_binary_response(message):
     while True:
@@ -400,10 +423,19 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--data",
                         help="Path to the BG3 data folder (default C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data)",
                         default="")
+    parser.add_argument("-n", "--dont_create", action="store_true",
+                        help="Don't create the mod folder, just create the symlinks")
+    parser.add_argument("-r", "--clean_symlinks", action="store_true", help="Remove all symlinks to the mod folder")
 
     args = parser.parse_args()
     if args.assets:
         args.items = True
+
+    if args.clean_symlinks:
+        args.dont_create = True
+        args.link = True
+        args.quiet = True
+
     if not args.quiet:
         if not args.assets:
             args.assets = prompt_for_binary_response("Will this mod have custom assets? (y/n) ")
@@ -414,7 +446,8 @@ if __name__ == "__main__":
         if not args.scripts:
             args.scripts = prompt_for_binary_response("Will this mod have custom scripts? (y/n) ")
         if not args.link:
-            args.link = prompt_for_binary_response("Do you want to enable hot-loading to update mod without restarting game, just needs to save or load? (y/n) ")
+            args.link = prompt_for_binary_response(
+                "Do you want to enable hot-loading to update mod without restarting game, just needs to save or load? (y/n) ")
     if args.link:
         if args.data == "":
             # see if the data path is cached
@@ -429,4 +462,12 @@ if __name__ == "__main__":
                     with open(saved_path_file, "wb") as f:
                         pickle.dump(args.data, f)
 
-    create_mod(args)
+    if not args.dont_create:
+        print("Creating mod folder")
+        create_mod(args)
+    if args.link:
+        print("Creating symlinks")
+        create_symlinks(args)
+    if args.clean_symlinks:
+        print("Removing symlinks")
+        clean_symlinks(args)
