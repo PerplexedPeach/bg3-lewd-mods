@@ -1,6 +1,9 @@
 import os
 import argparse
 import uuid
+import pickle
+
+saved_path_file = ".cache.pk"
 
 
 # e.g. b3a212d7-e669-4f3d-aa2f-3a629d00ba01
@@ -341,6 +344,30 @@ def create_mod(args):
                     with File("define meshes materials and textures here.txt") as f:
                         f.add_line(" ")
 
+        if args.link:
+            def generate_symlink(rel_path):
+                full_rel_path = os.path.join(rel_path, name)
+
+                path_in_data = os.path.join(args.data, full_rel_path)
+                path_local = os.path.join(os.getcwd(), full_rel_path)
+
+                # create the parent directory
+                os.makedirs(os.path.dirname(path_in_data), exist_ok=True)
+                os.symlink(path_local, path_in_data, target_is_directory=True)
+
+            try:
+                # create symlink to some folders to enable hot loading
+                if args.assets:
+                    generate_symlink("Generated/Public")
+                if args.scripts:
+                    generate_symlink("Mods")
+                if args.items:
+                    generate_symlink("Public")
+                # Data\Generated\Public\GrazztRing should be linked to .\GrazztRing\Generated\Public\GrazztRing
+            except OSError as e:
+                print("Failed to create symlink. Please run this script with administrator privileges.")
+                print(e)
+
 
 def prompt_for_binary_response(message):
     while True:
@@ -368,6 +395,11 @@ if __name__ == "__main__":
                                                                    "(default False)")
     parser.add_argument("-s", "--scripts", action="store_true", help="Whether this mod will have custom scripts enabled"
                                                                      "by BG3SE (default False)")
+    parser.add_argument("-l", "--link", action="store_true",
+                        help="Whether to create a symlink to the mod to allow hot-loading (fast update of mod without restarting game, just needs to save or load)")
+    parser.add_argument("-d", "--data",
+                        help="Path to the BG3 data folder (default C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data)",
+                        default="")
 
     args = parser.parse_args()
     if args.assets:
@@ -381,4 +413,20 @@ if __name__ == "__main__":
             args.items = prompt_for_binary_response("Will this mod have custom items? (y/n) ")
         if not args.scripts:
             args.scripts = prompt_for_binary_response("Will this mod have custom scripts? (y/n) ")
+        if not args.link:
+            args.link = prompt_for_binary_response("Do you want to enable hot-loading to update mod without restarting game, just needs to save or load? (y/n) ")
+    if args.link:
+        if args.data == "":
+            # see if the data path is cached
+            if os.path.exists(saved_path_file):
+                with open(saved_path_file, "rb") as f:
+                    args.data = pickle.load(f)
+                    print(f"Using cached data path '{args.data}'")
+            else:
+                while not os.path.exists(args.data):
+                    args.data = input(
+                        "Enter the path to the BG3 data folder e.g. C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data\n")
+                    with open(saved_path_file, "wb") as f:
+                        pickle.dump(args.data, f)
+
     create_mod(args)
