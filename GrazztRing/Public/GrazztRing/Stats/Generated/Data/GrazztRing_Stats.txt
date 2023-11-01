@@ -1,0 +1,5 @@
+new entry "LI_GrazztRing"
+type "Armor"
+using "ARM_Cloak"
+data "Rarity" "Legendary"
+data "RootTemplate" "a372e826-3eb0-4eb5-be1d-92e0953957d5"
