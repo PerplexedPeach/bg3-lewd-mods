@@ -50,7 +50,16 @@
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
 						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 
 					</children>
@@ -101,7 +110,16 @@
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
 						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 
 					</children>
@@ -152,7 +170,16 @@
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
 						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 
 					</children>
@@ -203,7 +230,16 @@
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
 						</node>
 						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 
 					</children>
