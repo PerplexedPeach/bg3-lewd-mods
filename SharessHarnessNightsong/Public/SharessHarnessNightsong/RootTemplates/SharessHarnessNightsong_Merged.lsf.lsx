@@ -36,7 +36,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> HUM_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="19e82ad3-01e8-4a17-bef3-e493ba7c702f" /> robe
+													<attribute id="Object" type="FixedString" value="5c83ddcc-5abf-4f33-b5d6-922845366047" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="cf155d7f-aab0-49e1-8741-536cbed34c4b" /> bot
 												</node>
 											</children>
 										</node>
@@ -45,7 +48,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d7c4cd52-4d54-46ea-aca8-b0409aba12da" /> robe
+													<attribute id="Object" type="FixedString" value="4d046e3b-d1a9-4957-96a0-b10e4835a491" /> top
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f7a373e1-7fab-44fe-9ba6-903686be8726" /> bot
 												</node>
 											</children>
 										</node>
@@ -109,7 +115,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ba77d335-0abb-411e-8392-c1e597a7714b" /> robe
+													<attribute id="Object" type="FixedString" value="a8387c34-65df-4a64-9b3d-8068305bb481" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="24cb6c79-15ef-4cfc-9d1c-44fb22b15466" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="5c54ca07-b2b8-4df3-a3b9-4e41632b26ed" /> body
@@ -120,7 +129,10 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ba77d335-0abb-411e-8392-c1e597a7714b" /> robe
+													<attribute id="Object" type="FixedString" value="a8387c34-65df-4a64-9b3d-8068305bb481" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="24cb6c79-15ef-4cfc-9d1c-44fb22b15466" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="1b845df0-6bee-4159-b066-84d68e34a5d9" /> body
@@ -131,7 +143,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="ba77d335-0abb-411e-8392-c1e597a7714b" /> robe
+													<attribute id="Object" type="FixedString" value="a8387c34-65df-4a64-9b3d-8068305bb481" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="24cb6c79-15ef-4cfc-9d1c-44fb22b15466" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="4c2f84e1-ef20-4c65-8a12-a154f4eb2070" /> body
@@ -142,7 +157,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f84eaefb-3542-4a61-b8c4-63682268a608" /> robe
+													<attribute id="Object" type="FixedString" value="db019398-d5e0-46ba-8e8d-bb26d4315980" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c2c0fff1-bcfd-45a5-a972-53890cb870f8" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="747e81a7-a253-4be3-839c-1a7221f9a2f0" /> body
@@ -153,7 +171,10 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f84eaefb-3542-4a61-b8c4-63682268a608" /> robe
+													<attribute id="Object" type="FixedString" value="db019398-d5e0-46ba-8e8d-bb26d4315980" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c2c0fff1-bcfd-45a5-a972-53890cb870f8" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="3b06d69e-bdf0-4867-9f0a-b65c32b57be6" /> body
@@ -217,7 +238,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="0e7c24e4-262a-44aa-9055-2cbab1f1ac2a" /> robe
+													<attribute id="Object" type="FixedString" value="001bfd33-48c1-41fe-9743-1288129ed469" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1fc3bb8b-5187-47ce-9349-2577d43e7fc0" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="a0541c68-2d76-43b9-90d4-cbca8181ca6a" /> body
@@ -228,7 +252,10 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="0e7c24e4-262a-44aa-9055-2cbab1f1ac2a" /> robe
+													<attribute id="Object" type="FixedString" value="001bfd33-48c1-41fe-9743-1288129ed469" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1fc3bb8b-5187-47ce-9349-2577d43e7fc0" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="c65307c5-82cc-4393-b82a-b60b0a02cec9" /> body
@@ -239,7 +266,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="0e7c24e4-262a-44aa-9055-2cbab1f1ac2a" /> robe
+													<attribute id="Object" type="FixedString" value="001bfd33-48c1-41fe-9743-1288129ed469" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="1fc3bb8b-5187-47ce-9349-2577d43e7fc0" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="d82d31a3-e89c-4a78-ae36-8b185f559a44" /> body
@@ -250,7 +280,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1e98040c-36de-4185-84ad-237850d73dde" /> robe
+													<attribute id="Object" type="FixedString" value="c4f5b83a-790a-4439-a6d2-a98e43ee8ca6" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0ede3ead-b20a-4b27-b4df-70c8758815ef" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="c63ad2b7-2bcf-482b-9013-b3e26fd2e895" /> body
@@ -261,7 +294,10 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1e98040c-36de-4185-84ad-237850d73dde" /> robe
+													<attribute id="Object" type="FixedString" value="c4f5b83a-790a-4439-a6d2-a98e43ee8ca6" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0ede3ead-b20a-4b27-b4df-70c8758815ef" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="61a7e690-e992-4b78-be60-fae5f36eb83f" /> body
@@ -326,7 +362,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d792d757-d24d-4108-949d-69ba2411cbeb" /> robe
+													<attribute id="Object" type="FixedString" value="63300d4b-606b-416f-a84c-e664e5e757da" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d1f97795-0448-47e7-a19a-9f3a2f3bf965" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="88c0c1a6-8e8d-4c6a-a8a4-1c67445e7752" /> body
@@ -337,7 +376,10 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d792d757-d24d-4108-949d-69ba2411cbeb" /> robe
+													<attribute id="Object" type="FixedString" value="63300d4b-606b-416f-a84c-e664e5e757da" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d1f97795-0448-47e7-a19a-9f3a2f3bf965" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="957960e7-190f-41d6-9770-1cc1bf5a4c1c" /> body
@@ -348,7 +390,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d792d757-d24d-4108-949d-69ba2411cbeb" /> robe
+													<attribute id="Object" type="FixedString" value="63300d4b-606b-416f-a84c-e664e5e757da" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d1f97795-0448-47e7-a19a-9f3a2f3bf965" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="8216fd23-28ae-4246-8d1e-4f61348b860c" /> body
@@ -359,7 +404,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="beab23d6-1e14-40f4-8f16-ec892dcded03" /> robe
+													<attribute id="Object" type="FixedString" value="b371195d-5599-4752-a059-50f356af661a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="91a08737-067a-49d5-8e0e-93215c93d026" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="cd754774-ed6e-4ffd-bdc6-18a94441391e" /> body
@@ -370,7 +418,10 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="beab23d6-1e14-40f4-8f16-ec892dcded03" /> robe
+													<attribute id="Object" type="FixedString" value="b371195d-5599-4752-a059-50f356af661a" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="91a08737-067a-49d5-8e0e-93215c93d026" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="55d936e8-d381-4be4-90ba-0c272fe0755c" /> body
@@ -434,7 +485,10 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="6615f075-59e1-434a-98ab-4bbcded70714" /> robe
+													<attribute id="Object" type="FixedString" value="ca5f0e59-2312-43c5-add7-0d7a29e3b94e" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="bb8ae2aa-b2d5-4318-9b77-0fc01132eeda" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="55286ba4-d053-4f8d-b6dd-1c87b8016623" /> body
@@ -445,7 +499,10 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="6615f075-59e1-434a-98ab-4bbcded70714" /> robe
+													<attribute id="Object" type="FixedString" value="ca5f0e59-2312-43c5-add7-0d7a29e3b94e" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="bb8ae2aa-b2d5-4318-9b77-0fc01132eeda" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f0417d4c-7c9c-49d0-8c40-5d585e25e4e4" /> body
@@ -456,7 +513,10 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="6615f075-59e1-434a-98ab-4bbcded70714" /> robe
+													<attribute id="Object" type="FixedString" value="ca5f0e59-2312-43c5-add7-0d7a29e3b94e" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="bb8ae2aa-b2d5-4318-9b77-0fc01132eeda" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="714dd3df-38c1-46c3-80f3-20d9b05a701f" /> body
@@ -467,7 +527,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="16cb900d-c9b3-4556-a4ef-8b883c5b1546" /> robe
+													<attribute id="Object" type="FixedString" value="6ffecfdc-a460-4d0d-80c9-4989b120ada9" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="3b374d5b-ceac-4b3d-8731-3f0155fabc08" /> body
@@ -478,7 +541,10 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="16cb900d-c9b3-4556-a4ef-8b883c5b1546" /> robe
+													<attribute id="Object" type="FixedString" value="6ffecfdc-a460-4d0d-80c9-4989b120ada9" /> robe
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="05e691e8-2180-4ccf-b7fd-fd79a20a46ba" /> body

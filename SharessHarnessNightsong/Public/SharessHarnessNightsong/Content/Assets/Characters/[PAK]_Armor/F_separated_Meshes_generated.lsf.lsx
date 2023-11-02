@@ -4,7 +4,7 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
-				<node id="Resource"> HUM_FS_LI_NightsongTop_1
+				<node id="Resource"> HUM_F_LI_NightsongTop_1
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -13,9 +13,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="db019398-d5e0-46ba-8e8d-bb26d4315980" />
+					<attribute id="ID" type="FixedString" value="a8387c34-65df-4a64-9b3d-8068305bb481" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongTop_1" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongTop_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -23,9 +23,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_1.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_1.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_1.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -35,7 +35,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongTop_1.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongTop_1.Body_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
@@ -54,7 +54,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource"> HUM_FS_LI_NightsongTop_2
+				<node id="Resource"> HUM_F_LI_NightsongTop_2
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -63,9 +63,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="c4f5b83a-790a-4439-a6d2-a98e43ee8ca6" />
+					<attribute id="ID" type="FixedString" value="001bfd33-48c1-41fe-9743-1288129ed469" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongTop_2" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongTop_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -73,9 +73,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_2.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_2.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_2.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -85,7 +85,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongTop_2.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongTop_2.Body_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
@@ -104,7 +104,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource"> HUM_FS_LI_NightsongTop_3
+				<node id="Resource"> HUM_F_LI_NightsongTop_3
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -113,9 +113,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="b371195d-5599-4752-a059-50f356af661a" />
+					<attribute id="ID" type="FixedString" value="63300d4b-606b-416f-a84c-e664e5e757da" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongTop_3" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongTop_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -123,9 +123,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_3.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_3.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_3.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -135,7 +135,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongTop_3.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongTop_3.Body_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
@@ -154,7 +154,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource"> HUM_FS_LI_NightsongTop_4
+				<node id="Resource"> HUM_F_LI_NightsongTop_4
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -163,9 +163,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="6ffecfdc-a460-4d0d-80c9-4989b120ada9" />
+					<attribute id="ID" type="FixedString" value="ca5f0e59-2312-43c5-add7-0d7a29e3b94e" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongTop_4" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongTop_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -173,9 +173,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_4.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongTop_4.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongTop_4.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -185,7 +185,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongTop_4.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongTop_4.Body_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
@@ -204,7 +204,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource"> HUM_FS_LI_NightsongBot_1
+				<node id="Resource"> HUM_F_LI_NightsongBot_1
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -213,9 +213,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="c2c0fff1-bcfd-45a5-a972-53890cb870f8" />
+					<attribute id="ID" type="FixedString" value="24cb6c79-15ef-4cfc-9d1c-44fb22b15466" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongBot_1" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongBot_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -223,9 +223,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_1.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_1.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_1.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -235,11 +235,12 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_1.Skirt.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongBot_1.Skirt.0" />
 						</node>
 					</children>
 				</node>
-			<node id="Resource"> HUM_FS_LI_NightsongBot_2
+
+			<node id="Resource"> HUM_F_LI_NightsongBot_2
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -248,9 +249,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="0ede3ead-b20a-4b27-b4df-70c8758815ef" />
+					<attribute id="ID" type="FixedString" value="1fc3bb8b-5187-47ce-9349-2577d43e7fc0" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongBot_2" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongBot_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -258,9 +259,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_2.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_2.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_2.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -270,11 +271,12 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_2.Skirt.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongBot_2.Skirt.0" />
 						</node>
 					</children>
 				</node>
-			<node id="Resource"> HUM_FS_LI_NightsongBot_3
+
+			<node id="Resource"> HUM_F_LI_NightsongBot_3
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -283,9 +285,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="91a08737-067a-49d5-8e0e-93215c93d026" />
+					<attribute id="ID" type="FixedString" value="d1f97795-0448-47e7-a19a-9f3a2f3bf965" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongBot_3" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongBot_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -293,9 +295,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_3.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_3.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_3.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -305,11 +307,12 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_3.Skirt.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongBot_3.Skirt.0" />
 						</node>
 					</children>
 				</node>
-			<node id="Resource"> HUM_FS_LI_NightsongBot_4
+
+			<node id="Resource"> HUM_F_LI_NightsongBot_4
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -318,9 +321,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" />
+					<attribute id="ID" type="FixedString" value="bb8ae2aa-b2d5-4318-9b77-0fc01132eeda" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongBot_4" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_NightsongBot_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -328,9 +331,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Body" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_4.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBot_4.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_F_LI_NightsongBot_4.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -340,10 +343,11 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_4.Skirt.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_NightsongBot_4.Skirt.0" />
 						</node>
 					</children>
 				</node>
+
 			</children>
 		</node>
 	</region>	
