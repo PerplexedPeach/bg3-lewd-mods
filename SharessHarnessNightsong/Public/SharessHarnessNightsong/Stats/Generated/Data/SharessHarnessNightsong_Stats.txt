@@ -28,3 +28,29 @@ using "LI_SharessHarness_4"
 data "RootTemplate" "2053f2c9-a5b2-4fac-9739-49fc23ea6122"
 data "ColorPresetResource" "6b50bf81-2a5c-4c9d-8ecf-271322c2aa5d"
 
+
+new entry "LI_SharessHarness_NightsongSkimpy"
+type "Armor"
+using "LI_SharessHarness_Nightsong"
+data "RootTemplate" "67681347-ed95-4b5b-82a6-4b77b546c56a"
+
+new entry "LI_SharessHarness_NightsongSkimpy_1"
+type "Armor"
+using "LI_SharessHarness_Nightsong_1"
+data "RootTemplate" "5b80445f-9dde-496b-83ed-8d6ef36986ed"
+
+new entry "LI_SharessHarness_NightsongSkimpy_2"
+type "Armor"
+using "LI_SharessHarness_Nightsong_2"
+data "RootTemplate" "badb52fb-a011-42dc-b4b3-f20b71ad67ee"
+
+new entry "LI_SharessHarness_NightsongSkimpy_3"
+type "Armor"
+using "LI_SharessHarness_Nightsong_3"
+data "RootTemplate" "d83a39c1-ff6f-40db-8330-faedf93928a9"
+
+new entry "LI_SharessHarness_NightsongSkimpy_4"
+type "Armor"
+using "LI_SharessHarness_Nightsong_4"
+data "RootTemplate" "17b4f6f5-50a4-43a1-9bcf-672c75b64a86"
+

@@ -19,3 +19,23 @@ new entry "LI_SharessHarness_Nightsong_Camp_4"
 using "LI_SharessHarness_Nightsong_Camp"
 data "RootTemplate" "0685af11-10c6-470b-b0e8-0e7f880ec23f"
 
+new entry "LI_SharessHarness_NightsongSkimpy_Camp"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "9640f4d9-4f82-41bf-844e-c32fd658950d"
+
+new entry "LI_SharessHarness_Nightsong_Camp_1"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "a4a9a7ad-3cfb-4f8b-89d5-d05584cff097"
+
+new entry "LI_SharessHarness_NightsongSkimpy_Camp_2"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "1a7ddc95-fda4-425b-a088-af5c7eb77c40"
+
+new entry "LI_SharessHarness_NightsongSkimpy_Camp_3"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "e6ca8445-315b-414f-bf2b-c6d9c0706d33"
+
+new entry "LI_SharessHarness_NightsongSkimpy_Camp_4"
+using "LI_SharessHarness_Nightsong_Camp"
+data "RootTemplate" "f36f459e-173f-4447-8d0b-28879b2afa41"
+
