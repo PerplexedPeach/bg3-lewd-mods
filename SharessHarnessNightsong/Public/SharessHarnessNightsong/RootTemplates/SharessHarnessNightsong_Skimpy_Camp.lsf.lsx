@@ -48,10 +48,10 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="4d046e3b-d1a9-4957-96a0-b10e4835a491" /> top
+													<attribute id="Object" type="FixedString" value="1056456e-c051-4e0b-a619-04c318280403" /> top
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f7a373e1-7fab-44fe-9ba6-903686be8726" /> bot
+													<attribute id="Object" type="FixedString" value="beb4ddf4-f507-42af-907e-baebe25a143a" /> bot
 												</node>
 											</children>
 										</node>
@@ -157,7 +157,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="db019398-d5e0-46ba-8e8d-bb26d4315980" /> robe
+													<attribute id="Object" type="FixedString" value="1056456e-c051-4e0b-a619-04c318280403" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="c2c0fff1-bcfd-45a5-a972-53890cb870f8" /> bot
@@ -171,7 +171,7 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="db019398-d5e0-46ba-8e8d-bb26d4315980" /> robe
+													<attribute id="Object" type="FixedString" value="1056456e-c051-4e0b-a619-04c318280403" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="c2c0fff1-bcfd-45a5-a972-53890cb870f8" /> bot
@@ -280,7 +280,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c4f5b83a-790a-4439-a6d2-a98e43ee8ca6" /> robe
+													<attribute id="Object" type="FixedString" value="03396615-6c2f-48f0-b1e3-e5b7c25761fd" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="0ede3ead-b20a-4b27-b4df-70c8758815ef" /> bot
@@ -294,7 +294,7 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c4f5b83a-790a-4439-a6d2-a98e43ee8ca6" /> robe
+													<attribute id="Object" type="FixedString" value="03396615-6c2f-48f0-b1e3-e5b7c25761fd" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="0ede3ead-b20a-4b27-b4df-70c8758815ef" /> bot
@@ -404,7 +404,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="b371195d-5599-4752-a059-50f356af661a" /> robe
+													<attribute id="Object" type="FixedString" value="fe7c8d5d-22de-4c5a-bc73-8d4e84ca3fc3" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="91a08737-067a-49d5-8e0e-93215c93d026" /> bot
@@ -418,7 +418,7 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="b371195d-5599-4752-a059-50f356af661a" /> robe
+													<attribute id="Object" type="FixedString" value="fe7c8d5d-22de-4c5a-bc73-8d4e84ca3fc3" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="91a08737-067a-49d5-8e0e-93215c93d026" /> bot
@@ -527,7 +527,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="6ffecfdc-a460-4d0d-80c9-4989b120ada9" /> robe
+													<attribute id="Object" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" /> bot
@@ -541,7 +541,7 @@
 											<attribute id="MapKey" type="guid" value="a5789cd3-ecd6-411b-a53a-368b659bc04a" /> Karlach
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="6ffecfdc-a460-4d0d-80c9-4989b120ada9" /> robe
+													<attribute id="Object" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" /> bot

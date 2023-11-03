@@ -23,7 +23,7 @@ new entry "LI_SharessHarness_NightsongSkimpy_Camp"
 using "LI_SharessHarness_Nightsong_Camp"
 data "RootTemplate" "9640f4d9-4f82-41bf-844e-c32fd658950d"
 
-new entry "LI_SharessHarness_Nightsong_Camp_1"
+new entry "LI_SharessHarness_NightsongSkimpy_Camp_1"
 using "LI_SharessHarness_Nightsong_Camp"
 data "RootTemplate" "a4a9a7ad-3cfb-4f8b-89d5-d05584cff097"
 

@@ -413,7 +413,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -433,7 +433,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -453,7 +453,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_1"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -473,7 +473,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_1"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -494,7 +494,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_2"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -514,7 +514,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_2"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -534,7 +534,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_3"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -554,7 +554,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_3"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -575,7 +575,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_4"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -595,7 +595,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_4"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -615,7 +615,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_Camp"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -635,7 +635,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_Camp"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -655,7 +655,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_Camp_1"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -675,7 +675,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_Camp_1"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -696,7 +696,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_Camp_2"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -716,7 +716,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_Camp_2"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -736,7 +736,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_Camp_3"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -756,7 +756,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_Camp_3"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -777,7 +777,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_Camp_4"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
@@ -797,7 +797,7 @@ data "Type 2" "Object"
 data "Object 2" "LI_SharessHarness_NightsongSkimpy_Camp_4"
 data "Transform 2" "Transform"
 data "Type 3" "Object"
-data "Object 3" "OBJ_Bloodstone"
+data "Object 3" "OBJ_Onyx"
 data "Transform 3" "None"
 
 
