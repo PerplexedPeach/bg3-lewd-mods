@@ -15,7 +15,7 @@
 
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb886db15g0e12g4d8fg9964g43c4741177b2" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_NightsongSkimpy" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_Nightsong" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_NightsongSkimpy_Camp" />
 					<children>
 						<node id="Equipment">
@@ -78,7 +78,7 @@
 
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hae139e65ga634g4d4eg8f31g374998c8bc6f" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_NightsongSkimpy" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_NightsongHalfSkimpy" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_NightsongSkimpy_Camp_1" />
 					<children>
 						<node id="Equipment">
@@ -115,7 +115,7 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="08a62d79-fdb4-453a-9a70-3e56fb5ca100" /> robe
+													<attribute id="Object" type="FixedString" value="3fed1269-3bd4-4057-a216-c6391dadc314" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="24cb6c79-15ef-4cfc-9d1c-44fb22b15466" /> bot
@@ -129,7 +129,7 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="08a62d79-fdb4-453a-9a70-3e56fb5ca100" /> robe
+													<attribute id="Object" type="FixedString" value="3fed1269-3bd4-4057-a216-c6391dadc314" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="24cb6c79-15ef-4cfc-9d1c-44fb22b15466" /> bot
@@ -143,7 +143,7 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="08a62d79-fdb4-453a-9a70-3e56fb5ca100" /> robe
+													<attribute id="Object" type="FixedString" value="3fed1269-3bd4-4057-a216-c6391dadc314" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="24cb6c79-15ef-4cfc-9d1c-44fb22b15466" /> bot
@@ -201,7 +201,7 @@
 
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h25a2322eg006dg4bdag8ca4g506f5126f2c6" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_NightsongSkimpy" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_NightsongHalfSkimpy" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_NightsongSkimpy_Camp_2" />
 					<children>
 						<node id="Equipment">
@@ -238,7 +238,7 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="a0622edb-90d5-4f35-a916-c31b7f41730a" /> robe
+													<attribute id="Object" type="FixedString" value="d2839f58-ed03-4af3-b188-712cec548b46" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="1fc3bb8b-5187-47ce-9349-2577d43e7fc0" /> bot
@@ -252,7 +252,7 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="a0622edb-90d5-4f35-a916-c31b7f41730a" /> robe
+													<attribute id="Object" type="FixedString" value="d2839f58-ed03-4af3-b188-712cec548b46" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="1fc3bb8b-5187-47ce-9349-2577d43e7fc0" /> bot
@@ -266,7 +266,7 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="a0622edb-90d5-4f35-a916-c31b7f41730a" /> robe
+													<attribute id="Object" type="FixedString" value="d2839f58-ed03-4af3-b188-712cec548b46" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="1fc3bb8b-5187-47ce-9349-2577d43e7fc0" /> bot
@@ -325,7 +325,7 @@
 
 					<attribute id="Description" type="TranslatedString" handle="h8d690723g1136g46fega769g7ff1928102e8" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hea98ffe7g7586g42fbg95edgb8c660b1cba8" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_NightsongSkimpy" />
+					<attribute id="Icon" type="FixedString" value="LI_SharessHarness_NightsongHalfSkimpy" />
 					<attribute id="Stats" type="FixedString" value="LI_SharessHarness_NightsongSkimpy_Camp_3" />
 					<children>
 						<node id="Equipment">
@@ -362,7 +362,7 @@
 											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="8d5fe9ff-2328-4833-91cb-ca8312d97fc1" /> robe
+													<attribute id="Object" type="FixedString" value="d15fdd7c-35c5-4c46-a879-082b40ca8e85" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="d1f97795-0448-47e7-a19a-9f3a2f3bf965" /> bot
@@ -376,7 +376,7 @@
 											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-ac00-b08e13a5b0fa" /> GTY_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="8d5fe9ff-2328-4833-91cb-ca8312d97fc1" /> robe
+													<attribute id="Object" type="FixedString" value="d15fdd7c-35c5-4c46-a879-082b40ca8e85" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="d1f97795-0448-47e7-a19a-9f3a2f3bf965" /> bot
@@ -390,7 +390,7 @@
 											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-86aa-090419c624a5" /> TIF_F
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="8d5fe9ff-2328-4833-91cb-ca8312d97fc1" /> robe
+													<attribute id="Object" type="FixedString" value="d15fdd7c-35c5-4c46-a879-082b40ca8e85" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="d1f97795-0448-47e7-a19a-9f3a2f3bf965" /> bot

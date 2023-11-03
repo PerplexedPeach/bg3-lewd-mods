@@ -37,7 +37,7 @@
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="LI_"/> 3
+                    <attribute id="MapKey" type="FixedString" value="LI_SharessHarness_NightsongHalfSkimpy"/> 3
                     <attribute id="U1" type="float" value="0.5"/> Left
                     <attribute id="U2" type="float" value="0.75"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
