@@ -527,7 +527,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" /> robe
+													<attribute id="Object" type="FixedString" value="5e7f2430-2b6a-4291-84ab-2c6ce24820d4" /> robe
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" /> bot
