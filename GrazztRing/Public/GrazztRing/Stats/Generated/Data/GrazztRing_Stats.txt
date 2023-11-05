@@ -1,4 +1,4 @@
-new entry "LI_GrazztRing"
+new entry "LI_GrazztRing_1"
 type "Armor"
 using "ARM_Cloak"
 data "Rarity" "Legendary"

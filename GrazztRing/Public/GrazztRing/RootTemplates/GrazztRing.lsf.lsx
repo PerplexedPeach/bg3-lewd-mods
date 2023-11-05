@@ -4,9 +4,9 @@
     <region id="Templates">
         <node id="Templates">
             <children>        
-				<node id="GameObjects"> stage 0
+				<node id="GameObjects"> stage 0 piercings
 					<attribute id="MapKey" type="FixedString" value="a372e826-3eb0-4eb5-be1d-92e0953957d5" />
-					<attribute id="Name" type="LSString" value="LI_GrazztRing" />
+					<attribute id="Name" type="LSString" value="LI_GrazztRing_1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
                     <attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
@@ -15,8 +15,8 @@
 
 					<attribute id="Description" type="TranslatedString" handle="h1a8869deg6af7g4288gabb6g51a44e4dac4f" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1" />
-					<attribute id="Icon" type="FixedString" value="LI_GrazztRing" />
-					<attribute id="Stats" type="FixedString" value="LI_GrazztRing" />
+					<attribute id="Icon" type="FixedString" value="LI_GrazztRing_1" />
+					<attribute id="Stats" type="FixedString" value="LI_GrazztRing_1" />
 					<children>
 						<node id="Equipment">
 							<children>
@@ -32,30 +32,6 @@
 								<node id="AfroLongHair" />
 								<node id="Visuals">
 									<children>
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> HUM_F
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="06d99edc-920c-489d-b0a9-7766a18f43ce" /> swirls
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="0ead1664-face-4ffb-868a-3e231a886f57" /> chains
-												</node>
-											</children>
-										</node>
-
-										<node id="Object">
-											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> HUM_FS
-											<children>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d7c4cd52-4d54-46ea-aca8-b0409aba12da" /> swirls
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="0ead1664-face-4ffb-868a-3e231a886f57" /> chains
-												</node>
-											</children>
-										</node>
-
 									</children>
 								</node>
 								<node id="Slot">

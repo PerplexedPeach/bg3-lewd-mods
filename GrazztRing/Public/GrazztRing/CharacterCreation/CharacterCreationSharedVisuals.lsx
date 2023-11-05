@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="330"/>
+    <region id="CharacterCreationSharedVisuals">
+        <node id="root">
+            <children>
+                <node id="CharacterCreationSharedVisual"> chains 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="a15bbb01-7edd-4a17-a0fd-b8286a68d96e"/>
+                    <attribute id="VisualResource" type="guid" value="0ead1664-face-4ffb-868a-3e231a886f57"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> swirls 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="219eefaa-7614-4a1e-a82a-a9957e170b5c"/>
+                    <attribute id="VisualResource" type="guid" value="06d99edc-920c-489d-b0a9-7766a18f43ce"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

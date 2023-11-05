@@ -4,6 +4,227 @@
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="84d68f47-aa1e-4ef3-874f-b0a2705cc095" />
+					<attribute id="MaterialType" type="uint8" value="13" />
+					<attribute id="Name" type="LSString" value="LI_Sharess_Nightsong_Silver" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE_AlphaTest_VertCut_VT.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.7" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Armor_Dirt_Sharpness" />
+							<attribute id="Value" type="float" value="0.7" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Armor_Blood_Sharpness" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="4" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Dirt_AO_Sharpness" />
+							<attribute id="Value" type="float" value="4" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="4" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Blood_AO_Sharpness" />
+							<attribute id="Value" type="float" value="4" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Dirt" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Blood" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="8f1f209a-dd37-4531-b1ee-5e81c1d169cc" />
+							<attribute id="ParameterName" type="FixedString" value="VertexColor_MSK" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="2f5e72de-f170-ce6e-b8e3-8146eac52147" />
+							<attribute id="ParameterName" type="FixedString" value="MSKColor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="2765e270-52ce-6f45-eddf-d0451042b54c" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.151058 0.2932161 0.4877652" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Cloth_Primary" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.1701384 0.04614884 0.04614884" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Cloth_Secondary" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.07176144 0.06190747 0.1061561" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Cloth_Tertiary" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Accent_Color" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.238828 0.1036341 0.0600316" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Leather_Primary" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.151058 0.0342302 0.02654868" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Leather_Secondary" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.1219857 0.0600316 0.05112205" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Leather_Tertiary" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Custom_1" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.7667436 0.7667436 0.7667436" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Metal_Primary" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.6870308 0.6870308 0.6870308" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Metal_Secondary" />
+							<attribute id="Value" type="fvec3" value="0.4 0.4 0.4" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.6054843 0.6054843 0.6054843" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Metal_Tertiary" />
+							<attribute id="Value" type="fvec3" value="0.4 0.4 0.4" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02 Colour" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Custom_2" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="DirtColor" />
+							<attribute id="Value" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Blood_Color" />
+							<attribute id="Value" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
+						</node>
+						<node id="VirtualTextureParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="46dd0fa1-1a32-9344-dba6-e8839cb361fa" />
+							<attribute id="Index" type="int32" value="0" />
+							<attribute id="ParameterName" type="FixedString" value="virtualtexture" />
+						</node>
+					</children>
+				</node>
 
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
@@ -85,7 +306,7 @@
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.151058 0.2932161 0.4877652" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
@@ -94,7 +315,7 @@
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.1701384 0.04614884 0.04614884" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
@@ -103,7 +324,7 @@
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.07176144 0.06190747 0.1061561" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
@@ -112,16 +333,16 @@
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Accent_Color" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.238828 0.1036341 0.0600316" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
@@ -130,7 +351,7 @@
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.151058 0.0342302 0.02654868" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
@@ -138,58 +359,58 @@
 							<attribute id="Value" type="fvec3" value="0.151058 0.0342302 0.02654868" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1219857 0.0600316 0.05112205" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.1219857 0.0600316 0.25112205" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Leather_Tertiary" />
-							<attribute id="Value" type="fvec3" value="0.1219857 0.0600316 0.05112205" />
+							<attribute id="Value" type="fvec3" value="0.1219857 0.0600316 0.25112205" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Custom_1" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.7667436 0.7667436 0.7667436" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.25 0.25 0.25" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Metal_Primary" />
-							<attribute id="Value" type="fvec3" value="0.7667436 0.7667436 0.7667436" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.6870308 0.6870308 0.6870308" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.25 0.25 0.25" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Metal_Secondary" />
-							<attribute id="Value" type="fvec3" value="0.6870308 0.6870308 0.6870308" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.6054843 0.6054843 0.6054843" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.25 0.25 0.25" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Metal_Tertiary" />
-							<attribute id="Value" type="fvec3" value="0.6054843 0.6054843 0.6054843" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="02 Colour" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Custom_2" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="0.25 0.25 0.25" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.1176471 0.06666667 0.04705882" />

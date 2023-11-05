@@ -1,4 +1,4 @@
 new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
-object category "I_LI_GrazztRing",1,0,0,0,0,0,0,0
+object category "I_LI_GrazztRing_1",1,0,0,0,0,0,0,0

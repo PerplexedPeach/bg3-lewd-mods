@@ -76,7 +76,7 @@
 
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
+							<attribute id="MaterialID" type="FixedString" value="84d68f47-aa1e-4ef3-874f-b0a2705cc095" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Chains_Basis.LI_Chains_no_ring.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -115,7 +115,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="fc211abc-b97d-b3d8-5241-cd2055f43ed7" />
+							<attribute id="MaterialID" type="FixedString" value="c3eca220-6934-4686-b12f-645f98bdc21f" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Swirls_Basis.Body_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
