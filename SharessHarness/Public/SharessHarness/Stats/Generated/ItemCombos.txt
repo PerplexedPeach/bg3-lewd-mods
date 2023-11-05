@@ -1,0 +1,200 @@
+new ItemCombination "FOR_SharessHarness_Bare"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Bare"
+data "PreviewStatsID" "LI_SharessHarness_Bare"
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_rev"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Bare"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_rev_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness"
+data "PreviewStatsID" "LI_SharessHarness"
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Bare_1"
+data "PreviewStatsID" "LI_SharessHarness_Bare_1"
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_rev_a"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Bare_1"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_rev_a_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_1"
+data "PreviewStatsID" "LI_SharessHarness_1"
+-- requires having Loviatar's love as well as wearing the boots
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Bare_2"
+data "PreviewStatsID" "LI_SharessHarness_Bare_2"
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_rev_b"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Bare_2"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_rev_b_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_2"
+data "PreviewStatsID" "LI_SharessHarness_2"
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Bare_3"
+data "PreviewStatsID" "LI_SharessHarness_Bare_3"
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_rev_c"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Bare_3"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_rev_c_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_3"
+data "PreviewStatsID" "LI_SharessHarness_3"
+
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_Bare_4"
+data "PreviewStatsID" "LI_SharessHarness_Bare_4"
+
+
+
+new ItemCombination "FOR_SharessHarness_Bare_rev_d"
+data "Type 1" "Object"
+data "Object 1" "LI_Formless_Anvil"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "LI_SharessHarness_Bare_4"
+data "Transform 2" "Transform"
+data "Type 3" "Object"
+data "Object 3" "OBJ_Bloodstone"
+data "Transform 3" "None"
+
+
+new ItemCombinationResult "FOR_SharessHarness_Bare_rev_d_1"
+data "ResultAmount 1" "1"
+data "Result 1" "LI_SharessHarness_4"
+data "PreviewStatsID" "LI_SharessHarness_4"
+

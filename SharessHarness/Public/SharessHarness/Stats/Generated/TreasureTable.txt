@@ -35,6 +35,8 @@ new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
 object category "I_OBJ_LI_Bag_SharessHarness",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Bloodstone",1,0,0,0,0,0,0,0
 
 
 new treasuretable "FOR_Spiders_SpiderQueen"
