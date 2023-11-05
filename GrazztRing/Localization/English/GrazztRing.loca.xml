@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><contentList>
 	<content contentuid="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1">Graz'zt's Rings</content>
 	<content contentuid="h1a8869deg6af7g4288gabb6g51a44e4dac4f" version="1">Piercings</content>
+
+	<content contentuid="hc9532287gc215g4b64gb0b9gdcf1c6b88168" version="1">Hide Piercings</content>
+	<content contentuid="h1d34609fg9056g40f0g8b16g75d78b3f0719" version="1">Make piercings invisible.</content>
+
+	<content contentuid="h141bfe18g45c2g41adga510gb4940086a823" version="1">Stop Hiding Piercings</content>
+	<content contentuid="h8663aa4ag1880g401fg8dfegedccb4cfbab7" version="1">Make piercings visible.</content>
 </contentList>
