@@ -1,0 +1,14 @@
+new treasuretable "LI_Loviatar_TT"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Alt",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Camp_Alt",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Replica_Alt",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_AltTight",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Camp_AltTight",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Replica_AltTight",1,0,0,0,0,0,0,0

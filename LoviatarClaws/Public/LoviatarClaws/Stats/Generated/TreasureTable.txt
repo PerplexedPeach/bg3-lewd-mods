@@ -1,8 +1,20 @@
 new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
+object category "I_OBJ_LI_Box_Loviatar",1,0,0,0,0,0,0,0
+
+
+new treasuretable "LI_Loviatar_TT"
+CanMerge 1
+new subtable "1,1"
 object category "I_LI_LoviatarClaws",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_LoviatarClaws_Camp",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_LoviatarClaws_Replica",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Bare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Bare_Camp",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_LoviatarClaws_Bare_Replica",1,0,0,0,0,0,0,0

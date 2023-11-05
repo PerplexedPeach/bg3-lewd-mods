@@ -4,6 +4,59 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
+				<node id="GameObjects"> box
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="OBJ_LI_Box_Loviatar" />
+					<attribute id="Stats" type="FixedString" value="OBJ_LI_Box_Loviatar" />
+					<attribute id="MapKey" type="FixedString" value="d20becf9-4d12-4aa5-80b9-f836d8dd7d61" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he78117e9g2b68g4e73g9d62g61c955058a9e" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hb4b9dc23g2486g4d9cg9814g43e4954aa59d" version="1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7aef0ad4-113a-402b-8491-e2dbff9add19" /> 
+					<attribute id="VisualTemplate" type="FixedString" value="aa06931b-cd08-9ebd-17c3-d3bb324ad9ba" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="8ce240d2-f898-6dd6-f6d1-a3bf199b1055" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Chest_Jewel_B" />
+
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="LI_Loviatar_TT" />
+								</node>
+							</children>
+						</node>
+
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="a796d240-9f1e-3bd1-1fd1-fadfb25903e9" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="bb8d9215-15a3-4303-a15c-88d0df1aab8c" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
 				<node id="GameObjects">  Loviatar's Claws (Tintable)
 					<attribute id="Description" type="TranslatedString" handle="hf0d79f30gb1acg4e04gb9bdgd8b143be15e4" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h2aea3ddegc6d9g410eg9a10ge6491dc76c5d" version="1" />

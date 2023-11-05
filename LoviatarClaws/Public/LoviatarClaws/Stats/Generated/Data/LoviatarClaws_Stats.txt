@@ -1,3 +1,11 @@
+new entry "OBJ_LI_Box_Loviatar"
+type "Object"
+using "OBJ_Bag"
+data "RootTemplate" "d20becf9-4d12-4aa5-80b9-f836d8dd7d61"
+data "ValueOverride" "1"
+data "Weight" "0.1"
+data "Rarity" "Legendary"
+
 new entry "LI_LoviatarClaws"
 using "ARM_Boots_Leather"
 data "ValueOverride" "999"
