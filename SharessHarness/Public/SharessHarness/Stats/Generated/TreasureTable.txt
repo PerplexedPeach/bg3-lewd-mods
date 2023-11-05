@@ -19,6 +19,16 @@ new subtable "1,1"
 object category "I_LI_SharessHarness_Camp_3",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_SharessHarness_Camp_4",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Bare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Bare_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Bare_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Bare_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_SharessHarness_Bare_4",1,0,0,0,0,0,0,0
 
 
 new treasuretable "TUT_Chest_Potions"

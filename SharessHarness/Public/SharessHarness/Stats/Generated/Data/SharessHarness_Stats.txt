@@ -296,3 +296,29 @@ data "RootTemplate" "e5b59ef5-c49f-4b64-b2dd-dcd45223ce22"
 data "ValueOverride" "1"
 data "Weight" "0.1"
 data "Rarity" "Legendary"
+
+
+new entry "LI_SharessHarness_Bare"
+type "Armor"
+using "LI_SharessHarness"
+data "RootTemplate" "d6b38547-d3c2-4ea5-846d-7dc7c44a7cb8"
+
+new entry "LI_SharessHarness_Bare_1"
+type "Armor"
+using "LI_SharessHarness_1"
+data "RootTemplate" "61c2bcc1-150e-4d4b-8ae5-b0ed1a626207"
+
+new entry "LI_SharessHarness_Bare_2"
+type "Armor"
+using "LI_SharessHarness_2"
+data "RootTemplate" "e4853fd2-f570-498a-b60b-910628f8be04"
+
+new entry "LI_SharessHarness_Bare_3"
+type "Armor"
+using "LI_SharessHarness_3"
+data "RootTemplate" "fbf9fba0-1e16-4101-913f-b72b9a763099"
+
+new entry "LI_SharessHarness_Bare_4"
+type "Armor"
+using "LI_SharessHarness_4"
+data "RootTemplate" "beca8b1a-9ccb-42d9-98de-0af64d140c15"
