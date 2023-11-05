@@ -104,6 +104,36 @@ function ReequipHandler(item, char)
     end);
 end
 
+-- after loading, check if the body or body camp slot is unequipped, and if so equip it
+function SaveGameLoadedHandler()
+    for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
+        local char = player[1];
+        -- check if they have remodelled frame
+        local frame_level = Mods.DivineCurse.ForcedExposedBodyLevel(char);
+        if frame_level > 0 then
+            -- check if they have the body slot equipped
+            local item = Osi.GetEquippedItem(char, body_slot);
+            if item == nil then
+                -- equip the body slot
+                local id = body_ids[frame_level];
+                local item = Osi.CreateAtObject(id, char, 0, 0, "", 0);
+                _I("Equipping remodelled frame body " .. frame_level);
+                Osi.Equip(char, item);
+            end
+            -- check if they have the body camp slot equipped
+            item = Osi.GetEquippedItem(char, body_slot_camp);
+            if item == nil then
+                -- equip the body slot
+                local id = body_camp_ids[frame_level];
+                local item = Osi.CreateAtObject(id, char, 0, 0, "", 0);
+                _I("Equipping remodelled frame body (camp) " .. frame_level);
+                Osi.Equip(char, item);
+            end
+        end
+    end
+end
+
 Ext.Osiris.RegisterListener("Unequipped", 2, "after", function(...) UnequipHandler(...) end);
 Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) ReequipHandler(...) end);
+Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function(...) SaveGameLoadedHandler(...) end);
  
