@@ -16,6 +16,58 @@
                     <attribute id="UUID" type="guid" value="219eefaa-7614-4a1e-a82a-a9957e170b5c"/>
                     <attribute id="VisualResource" type="guid" value="06d99edc-920c-489d-b0a9-7766a18f43ce"/>
                 </node>
+
+                <node id="CharacterCreationSharedVisual"> chains 1
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="e07bbed8-242d-4a17-8669-de00059030e5"/>
+                    <attribute id="VisualResource" type="guid" value="611a58a7-e672-4f3c-998f-31227df1494a"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> swirls 1
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="437972aa-2221-4522-8bda-0d12e5bd9db7"/>
+                    <attribute id="VisualResource" type="guid" value="b82541fd-21e4-4693-a879-378b5bd2994a"/>
+                </node>
+
+                <node id="CharacterCreationSharedVisual"> chains 2
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="8f509b81-962e-40dc-8e29-b2f49ef03e66"/>
+                    <attribute id="VisualResource" type="guid" value="7c79eabb-5e74-4de4-898e-90a3e0a75139"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> swirls 2
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="afc9f644-fa89-4dbf-a5a6-b8e71b67a060"/>
+                    <attribute id="VisualResource" type="guid" value="a8c687a0-d134-45bc-9d33-937f2b9a6f1a"/>
+                </node>
+
+                <node id="CharacterCreationSharedVisual"> chains 3
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="88ba0085-bfda-4e49-a5fa-cd0c7075268d"/>
+                    <attribute id="VisualResource" type="guid" value="4edf4644-9d47-4ec8-8df4-ff49f094629d"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> swirls 3
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="fe39df5a-f76f-40df-a48a-51a358e0e3ee"/>
+                    <attribute id="VisualResource" type="guid" value="23676167-dc9b-4363-86a2-faed1dd19afc"/>
+                </node>
+
+                <node id="CharacterCreationSharedVisual"> chains 4
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="3e371491-034b-4fc4-8b19-d1ed67b9ee66"/>
+                    <attribute id="VisualResource" type="guid" value="1bf3d4f0-4a8d-4204-ae75-986d11e1594b"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> swirls 4
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="ebb3ee9c-4d29-484c-8ea0-dc577ba6a092"/>
+                    <attribute id="VisualResource" type="guid" value="f04cc50d-5d3d-42bf-aaf8-7c3d4b8a2ad7"/>
+                </node>
             </children>
         </node>
     </region>
