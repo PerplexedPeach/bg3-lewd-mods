@@ -6,7 +6,8 @@ BodyPiercing = {};
 ---@param main_shortname string Short name for logging
 ---@param template_id string Template ID for the item
 ---@param equipment_slot string equipment slot e.g. "Breast"
----@param ccsv_ids_per_stage table list of CharacterCreationSharedVisual IDs for the item ordered by remodelled body stage
+---@param ccsv_ids_per_stage table list of CharacterCreationSharedVisual IDs for the item ordered by remodelled body stage.
+--- Note BodyType 0 is male, BodyType 1 is female; BodyShape 0 is normal, BodyShape 1 is strong
 ---@return BodyPiercing
 function BodyPiercing:new(main_shortname, template_id, equipment_slot, ccsv_ids_per_stage)
     local self = {} ---@class BodyPiercing
@@ -17,18 +18,46 @@ function BodyPiercing:new(main_shortname, template_id, equipment_slot, ccsv_ids_
     self.shortname = main_shortname;
     self.slot = equipment_slot;
     self.template_id = template_id;
-    self.ids_per_stage = ccsv_ids_per_stage;
-    if #self.ids_per_stage ~= 5 then
-        self:error("Must have 5 stages of equipment (body stages 0 to 4)");
+    -- indexed by body type then body shape
+    self.ids_per_stage = {{{}, {}}, {{}, {}}};
+    -- iterate over the keys and values of ccsv_ids_per_stage
+    local body_type_index_map = {
+        male=1, Male=1, M=1,
+        female=2, Female=2, F=2,
+    };
+    local body_shape_index_map = {
+        normal=1, Normal=1, N=1,
+        strong=2, Strong=2, S=2,
+    }
+    for body_type, body_type_ids in pairs(ccsv_ids_per_stage) do
+        for body_shape, body_shape_ids in pairs(body_type_ids) do
+            if #body_shape_ids ~= 5 then
+                self:error("Must have 5 stages of equipment (body stages 0 to 4)");
+            end
+            local body_type_index = body_type_index_map[body_type];
+            local body_shape_index = body_shape_index_map[body_shape];
+            if body_type_index == nil then
+                self:error("Unknown body type " .. body_type);
+            end
+            if body_shape_index == nil then
+                self:error("Unknown body shape " .. body_shape);
+            end
+            self.ids_per_stage[body_type_index][body_shape_index] = body_shape_ids;
+        end
     end
+
     self.all_ids = {};
-    for _, ids in ipairs(self.ids_per_stage) do
-        for _, id in ipairs(ids) do
-            self.all_ids[id] = true;
+    for _, body_type_ids in ipairs(self.ids_per_stage) do
+        for _, body_shape_ids in ipairs(body_type_ids) do
+            for _, ids in ipairs(body_shape_ids) do
+                for _, id in ipairs(ids) do
+                    self.all_ids[id] = true;
+                end
+            end
         end
     end
     self:log("new");
-    _D(self.all_ids);
+    _D(self.ids_per_stage);
 
     return self;
 end
@@ -41,17 +70,27 @@ function BodyPiercing:error(message)
     self:log(" [ERROR] " .. message);
 end
 
+function BodyPiercing:getIdsPerStageForEntity(entity)
+    local body_type = entity.CharacterCreationStats.BodyType + 1;
+    local body_shape = entity.CharacterCreationStats.BodyShape + 1;
+    return self.ids_per_stage[body_type][body_shape];
+end
+
+function BodyPiercing:isWearingItem(char)
+    local item = Osi.GetEquippedItem(char, self.slot);
+    if item == nil then
+        return false;
+    end
+    local template = Osi.GetTemplate(item);
+    return template == self.template_id;
+end
+
 function BodyPiercing:itemLevel(char)
     -- forced to not show piercing
     if Osi.HasActiveStatus(char, hide_piercing_status) == 1 then
         return nil;
     end
-    local item = Osi.GetEquippedItem(char, self.slot);
-    if item == nil then
-        return nil;
-    end
-    local template = Osi.GetTemplate(item);
-    if template ~= self.template_id then
+    if self:isWearingItem(char) == false then
         return nil;
     end
     -- else return the forced body level
@@ -70,7 +109,10 @@ function BodyPiercing:enforceBodyPiercingConsistency(char)
     local keep_vis_ids = {};
     if itemLevel ~= nil then
         -- add visuals that belong to the item level
-        for _, vis_id in ipairs(self.ids_per_stage[itemLevel + 1]) do
+        local ids_per_stage = self:getIdsPerStageForEntity(char_entity);
+        -- self:log("ids per stage for entity " .. char);
+        _D(ids_per_stage);
+        for _, vis_id in ipairs(ids_per_stage[itemLevel + 1]) do
             keep_vis_ids[vis_id] = true;
         end
     end
@@ -98,26 +140,36 @@ function BodyPiercing:enforceBodyPiercingConsistency(char)
 end
 
 function BodyPiercing:equipHandler(equipped_item, char)
-    -- we also need to care about equipping things other than our item since they could change the body level
-    self:enforceBodyPiercingConsistency(char);
+    -- only care about ourselves since there are potentially many piercings with shared ccsv ids
+    local template = Osi.GetTemplate(equipped_item);
+    if template == self.template_id then
+        self:enforceBodyPiercingConsistency(char);
+    end
 end
 
 function BodyPiercing:unequipHandler(unequipped_item, char)
-    -- we also need to care about equipping things other than our item since they could change the body level
-    self:enforceBodyPiercingConsistency(char);
+    -- only care about ourselves
+    local template = Osi.GetTemplate(unequipped_item);
+    if template == self.template_id then
+        self:enforceBodyPiercingConsistency(char);
+    end
 end
 
 function BodyPiercing:statusAppliedHandler(object, status, causee, storyActionID)
     if status == hide_piercing_status then
-        self:log("Hiding piercing for " .. object);
-        self:enforceBodyPiercingConsistency(object);
+        if self:isWearingItem(object) == true then
+            self:log("Hiding piercing for " .. object);
+            self:enforceBodyPiercingConsistency(object);
+        end
     end
 end
 
 function BodyPiercing:statusRemovedHandler(object, status, causee, applyStoryActionID)
     if status == hide_piercing_status then
-        self:log("Stop hiding piercing for " .. object);
-        self:enforceBodyPiercingConsistency(object);
+        if self:isWearingItem(object) == true then
+            self:log("Stop hiding piercing for " .. object);
+            self:enforceBodyPiercingConsistency(object);
+        end
     end
 end
 
@@ -133,10 +185,14 @@ end
 
 
 Piercing1 = BodyPiercing:new("P1", "LI_GrazztRing_1_a372e826-3eb0-4eb5-be1d-92e0953957d5", "Cloak", {
-    {"a15bbb01-7edd-4a17-a0fd-b8286a68d96e", "219eefaa-7614-4a1e-a82a-a9957e170b5c"},
-    {"e07bbed8-242d-4a17-8669-de00059030e5", "437972aa-2221-4522-8bda-0d12e5bd9db7"},
-    {"8f509b81-962e-40dc-8e29-b2f49ef03e66", "afc9f644-fa89-4dbf-a5a6-b8e71b67a060"},
-    {"88ba0085-bfda-4e49-a5fa-cd0c7075268d", "fe39df5a-f76f-40df-a48a-51a358e0e3ee"},
-    {"3e371491-034b-4fc4-8b19-d1ed67b9ee66", "ebb3ee9c-4d29-484c-8ea0-dc577ba6a092"},
+    female={
+        normal={
+            {"a15bbb01-7edd-4a17-a0fd-b8286a68d96e", "219eefaa-7614-4a1e-a82a-a9957e170b5c"},
+            {"e07bbed8-242d-4a17-8669-de00059030e5", "437972aa-2221-4522-8bda-0d12e5bd9db7"},
+            {"8f509b81-962e-40dc-8e29-b2f49ef03e66", "afc9f644-fa89-4dbf-a5a6-b8e71b67a060"},
+            {"88ba0085-bfda-4e49-a5fa-cd0c7075268d", "fe39df5a-f76f-40df-a48a-51a358e0e3ee"},
+            {"3e371491-034b-4fc4-8b19-d1ed67b9ee66", "ebb3ee9c-4d29-484c-8ea0-dc577ba6a092"},
+        }
+    }
 });
 Piercing1:registerHandlers();
