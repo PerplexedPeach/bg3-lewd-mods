@@ -3,7 +3,74 @@
     <version major="4" minor="0" revision="6" build="5" />
     <region id="Templates">
         <node id="Templates">
-            <children>        
+            <children>   
+				<node id="GameObjects"> box
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="OBJ_LI_Box_Grazzt" />
+					<attribute id="Stats" type="FixedString" value="OBJ_LI_Box_Grazzt" />
+					<attribute id="MapKey" type="FixedString" value="ac1a442f-062c-49e7-8a33-b496693813bb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfaa9495bgf4b2g4e9egb8a4g76ce3114f1e2" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hbd7dbcfage396g4a04gaf80g0e1cbef1b923" version="1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7aef0ad4-113a-402b-8491-e2dbff9add19" /> 
+					<attribute id="VisualTemplate" type="FixedString" value="aa06931b-cd08-9ebd-17c3-d3bb324ad9ba" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="8ce240d2-f898-6dd6-f6d1-a3bf199b1055" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Chest_Jewel_B" />
+
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="LI_Grazzt_TT" />
+								</node>
+							</children>
+						</node>
+
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="a796d240-9f1e-3bd1-1fd1-fadfb25903e9" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="bb8d9215-15a3-4303-a15c-88d0df1aab8c" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+
+				</node>
+
+				<node id="GameObjects"> stage 0 ring (unevolved)
+					<attribute id="Description" type="TranslatedString" handle="hf332a893gb7e5g48e8ga172gb1350ba26258" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h006cdbccgb99dg41dag88c8gaa169f365660" version="4" />
+					<attribute id="Icon" type="FixedString" value="Item_S_UNI_LOW_KerriRing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2a33b13e-adb2-4d52-9303-14ca982cef99" />
+					<attribute id="Name" type="LSString" value="LI_GrazztRing" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3344b3a0-eb1b-41e5-a7ab-2151a42c9a32" />
+					<attribute id="Stats" type="FixedString" value="LOW_KerriRing_Ring" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="079b2e00-aa68-169f-438f-e3f3cb1c28ce" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
 				<node id="GameObjects"> stage 0 piercings
 					<attribute id="MapKey" type="FixedString" value="a372e826-3eb0-4eb5-be1d-92e0953957d5" />
 					<attribute id="Name" type="LSString" value="LI_GrazztRing_1" />

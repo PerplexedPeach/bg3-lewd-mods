@@ -1,6 +1,24 @@
+new entry "OBJ_LI_Box_Grazzt"
+type "Object"
+using "OBJ_Bag"
+data "RootTemplate" "ac1a442f-062c-49e7-8a33-b496693813bb"
+data "ValueOverride" "1"
+data "Weight" "0.1"
+data "Rarity" "Legendary"
+
+
+new entry "LI_GrazztRing"
+type "Armor"
+using "_Ring_Magic"
+data "ValueOverride" "1000"
+data "RootTemplate" "2a33b13e-adb2-4d52-9303-14ca982cef99"
+data "Rarity" "VeryRare"
+
+
 new entry "LI_GrazztRing_1"
 type "Armor"
 using "ARM_Cloak"
+data "ValueOverride" "3500"
 data "Rarity" "Legendary"
 data "RootTemplate" "a372e826-3eb0-4eb5-be1d-92e0953957d5"
 data "Boosts" "UnlockSpell(Shout_HidePiercings);"
