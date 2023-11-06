@@ -6,3 +6,12 @@ _Nightsong = Mods.SharessHarness.LiHarnessProgression:new("Sharess Nightsong", {
     "LI_SharessHarness_Nightsong_4_2053f2c9-a5b2-4fac-9739-49fc23ea6122"
 });
 _Nightsong:registerHandlers();
+
+_NightsongSkimpy = Mods.SharessHarness.LiHarnessProgression:new("Sharess NightsongSkimpy", {
+    "LI_SharessHarness_NightsongSkimpy_67681347-ed95-4b5b-82a6-4b77b546c56a",
+    "LI_SharessHarness_NightsongSkimpy_1_5b80445f-9dde-496b-83ed-8d6ef36986ed",
+    "LI_SharessHarness_NightsongSkimpy_2_badb52fb-a011-42dc-b4b3-f20b71ad67ee",
+    "LI_SharessHarness_NightsongSkimpy_3_d83a39c1-ff6f-40db-8330-faedf93928a9",
+    "LI_SharessHarness_NightsongSkimpy_4_17b4f6f5-50a4-43a1-9bcf-672c75b64a86"
+});
+_NightsongSkimpy:registerHandlers();
