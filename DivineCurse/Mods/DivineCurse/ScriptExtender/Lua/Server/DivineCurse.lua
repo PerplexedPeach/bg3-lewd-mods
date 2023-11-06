@@ -176,6 +176,45 @@ function BodyEquipment:registerHandlers()
     self:log("Registered handlers");
 end
 
+-- TODO separate code into modules
+local function _I(message)
+    _P("[DivineCurse] " .. message);
+end
+
+local bliss_status = "LI_BLISS";
+local pleasure_status = "LI_PLEASURE";
+function Modifier(character, attribute)
+    return math.floor((Osi.GetAbility(character, attribute) - 10) / 2);
+end
+
+function MaxPleasure(character)
+    -- consider modifiers / perks for raising max pleasure
+    local max_pleasure = 10;
+    local modifier = Modifier(character, "Wisdom") + Modifier(character, "Constitution");
+    local frame_level = RemodelledFrameLevel(character);
+    local level = math.floor(Osi.GetLevel(character) / 2);
+    max_pleasure = max_pleasure + level + modifier * 2 + frame_level * 3;
+    if max_pleasure < 5 then
+        max_pleasure = 5;
+    end
+    return max_pleasure;
+end
+
+function HandlePleasure(character, status, causee, storyActionID)
+    if status ~= pleasure_status then
+        return;
+    end
+    _I("Pleasure status applied to " .. character .. " by " .. causee .. " with story action " .. storyActionID);
+    -- check character max HP against stacks of pleasure
+    local max_pleasure = MaxPleasure(character);
+    local cur_pleasure = Osi.GetStatusTurns(character, pleasure_status);
+    _I("Pleasure " .. cur_pleasure .. " / " .. max_pleasure .. " for " .. character);
+    if cur_pleasure > max_pleasure then
+        _I("Bliss for " .. character);
+        Osi.ApplyStatus(character, bliss_status, 2, 1, character);
+        Osi.RemoveStatus(character, pleasure_status);
+    end
+end
 
 
 -- get body override debug item
@@ -192,3 +231,4 @@ end
 
 Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function() addDebugItem() end);
 Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() addDebugItem() end);
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandlePleasure(...) end);
