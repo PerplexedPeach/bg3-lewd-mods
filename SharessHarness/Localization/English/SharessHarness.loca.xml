@@ -33,7 +33,9 @@
 	<content contentuid="h0f74bf2cg1886g4f44g9c20gd3116e2918d2" version="2">Overstimulated</content>
 	<content contentuid="hdd2520d6gabf7g40e8g9f74g2ea9bb255c23" version="2">You fall to the floor, convulsing and unable to control the natural reaction of your body.</content>
 
-	<content contentuid="haff09e03ge491g4a89gab74ga6b4302d9900" version="2">Sated and Satiated</content>
+	<content contentuid="haff09e03ge491g4a89gab74ga6b4302d9900" version="2">Whetted Appetite</content>
+	<content contentuid="he5b23244g6b63g4476g9f7bg782942cf3a06" version="2">Sated</content>
+	<content contentuid="h1b04c26cg55fcg40e5g8d3egd3013e1e8b55" version="2">Satisfied</content>
 	<content contentuid="h985731f0gcc1bg480bga5f5g1a84c87c1b53" version="2">Your armor shifts, as if to bring you more comfort. You receive +[1] to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and regenerate [2] HP a turn. Is it sated, or have you merely whet its appetite?</content>
 
 	<content contentuid="h719b1529gafa3g4f76gb914g95967c68efc4" version="1">Your armor squirms against your body, ready to evolve. It struggles though, seemingly not having enough energy to do so. Perhaps you need to sate it more before resting?</content>
