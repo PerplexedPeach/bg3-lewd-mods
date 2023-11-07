@@ -1,1 +1,1 @@
-Ext.Require("Server/CursedEffects.lua")
+Ext.Require("Server/LoviatarClaws.lua")
