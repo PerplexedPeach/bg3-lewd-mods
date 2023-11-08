@@ -68,6 +68,13 @@
                     <attribute id="UUID" type="guid" value="ebb3ee9c-4d29-484c-8ea0-dc577ba6a092"/>
                     <attribute id="VisualResource" type="guid" value="f04cc50d-5d3d-42bf-aaf8-7c3d4b8a2ad7"/>
                 </node>
+
+                <node id="CharacterCreationSharedVisual"> lust brand 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf788275agceb2g4d5fga7a4g420bf51538a6" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="0ed6e187-2232-4bec-a524-f983e175df55"/>
+                    <attribute id="VisualResource" type="guid" value="f4ec6b3f-ea2e-4658-8501-fe96f6fc728d"/>
+                </node>
             </children>
         </node>
     </region>
