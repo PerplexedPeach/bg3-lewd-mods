@@ -488,7 +488,7 @@
 													<attribute id="Object" type="FixedString" value="5a19986f-d448-414b-bef3-3d629dd9fbd7" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="bb8ae2aa-b2d5-4318-9b77-0fc01132eeda" /> bot
+													<attribute id="Object" type="FixedString" value="9ad86685-709a-4f84-a406-e5282bd6c6ae" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="55286ba4-d053-4f8d-b6dd-1c87b8016623" /> body
@@ -502,7 +502,7 @@
 													<attribute id="Object" type="FixedString" value="5a19986f-d448-414b-bef3-3d629dd9fbd7" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="bb8ae2aa-b2d5-4318-9b77-0fc01132eeda" /> bot
+													<attribute id="Object" type="FixedString" value="9ad86685-709a-4f84-a406-e5282bd6c6ae" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="f0417d4c-7c9c-49d0-8c40-5d585e25e4e4" /> body
@@ -516,7 +516,7 @@
 													<attribute id="Object" type="FixedString" value="5a19986f-d448-414b-bef3-3d629dd9fbd7" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="bb8ae2aa-b2d5-4318-9b77-0fc01132eeda" /> bot
+													<attribute id="Object" type="FixedString" value="9ad86685-709a-4f84-a406-e5282bd6c6ae" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="714dd3df-38c1-46c3-80f3-20d9b05a701f" /> body
@@ -530,7 +530,7 @@
 													<attribute id="Object" type="FixedString" value="5e7f2430-2b6a-4291-84ab-2c6ce24820d4" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" /> bot
+													<attribute id="Object" type="FixedString" value="b0cd4ab2-a6a8-4e58-9323-ac9be14450ff" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="3b374d5b-ceac-4b3d-8731-3f0155fabc08" /> body
@@ -544,7 +544,7 @@
 													<attribute id="Object" type="FixedString" value="5e7f2430-2b6a-4291-84ab-2c6ce24820d4" /> robe
 												</node>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="f8c4756f-7bdf-4996-8a7b-1bc314d16c4a" /> bot
+													<attribute id="Object" type="FixedString" value="b0cd4ab2-a6a8-4e58-9323-ac9be14450ff" /> bot
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="05e691e8-2180-4ccf-b7fd-fd79a20a46ba" /> body

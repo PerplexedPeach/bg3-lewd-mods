@@ -54,6 +54,41 @@
 						</node>
 					</children>
 				</node>
+				<node id="Resource"> human female bot 4
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.3662713 1.583791 0.1163213" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.3463536 0.6944935 -0.1745828" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="b0cd4ab2-a6a8-4e58-9323-ac9be14450ff" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_NightsongBotSkimpy_4" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBotSkimpy_4.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharessHarnessNightsong/Assets/HUM_FS_LI_NightsongBotSkimpy_4.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBotSkimpy_4.Skirt.0" />
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>	
