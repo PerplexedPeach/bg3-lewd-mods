@@ -5,7 +5,7 @@
 		<node id="VisualBank">
 			<children>
 
-				<node id="Resource"> human female body 1
+				<node id="Resource"> elf female body 1
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -14,9 +14,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="5c54ca07-b2b8-4df3-a3b9-4e41632b26ed" />
+					<attribute id="ID" type="FixedString" value="893d2e70-eadc-4d50-b3ef-d7c76d2e0d74" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_Body_1" />
+					<attribute id="Name" type="LSString" value="ELF_F_Body_1" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -35,7 +35,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="80567441-dafe-b6c6-4873-aa67bff518bc" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_1.HUM_F_NKD_Body_1_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -73,7 +73,7 @@
 				</node>
 
 
-				<node id="Resource"> human female body 2
+				<node id="Resource"> elf female body 2
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -82,9 +82,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="a0541c68-2d76-43b9-90d4-cbca8181ca6a" />
+					<attribute id="ID" type="FixedString" value="91028348-5d79-4448-8ffa-c25459b8b3c8" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_Body_2" />
+					<attribute id="Name" type="LSString" value="ELF_F_Body_2" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -103,7 +103,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="80567441-dafe-b6c6-4873-aa67bff518bc" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_2.HUM_F_NKD_Body_2_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -139,7 +139,7 @@
 					</children>
 				</node>
 
-				<node id="Resource"> human female body 3
+				<node id="Resource"> elf female body 3
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -148,9 +148,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="88c0c1a6-8e8d-4c6a-a8a4-1c67445e7752" />
+					<attribute id="ID" type="FixedString" value="6d6c6344-5137-49f6-8500-89a7af9c400e" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_Body_3" />
+					<attribute id="Name" type="LSString" value="ELF_F_Body_3" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -169,7 +169,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="80567441-dafe-b6c6-4873-aa67bff518bc" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_3.HUM_F_NKD_Body_3_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
@@ -206,7 +206,7 @@
 				</node>
 
 
-				<node id="Resource"> human female body 4
+				<node id="Resource"> elf female body 4
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -215,9 +215,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="55286ba4-d053-4f8d-b6dd-1c87b8016623" />
+					<attribute id="ID" type="FixedString" value="87f72e69-6e53-44ba-b23b-511cd0064326" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_F_Body_4" />
+					<attribute id="Name" type="LSString" value="ELF_F_Body_4" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -236,7 +236,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5e46e917-0c94-44ae-a41e-96428aa5ea32" />
+							<attribute id="MaterialID" type="FixedString" value="80567441-dafe-b6c6-4873-aa67bff518bc" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_4.HUM_F_NKD_Body_4_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
