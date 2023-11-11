@@ -51,6 +51,12 @@ data "Rarity" "Legendary"
 data "RootTemplate" "a372e826-3eb0-4eb5-be1d-92e0953957d5"
 data "Boosts" "UnlockSpell(Shout_HidePiercings);"
 
+new entry "LI_GrazztRing_2"
+type "Armor"
+using "LI_GrazztRing_1"
+data "ValueOverride" "7000"
+data "RootTemplate" "3325e465-daed-4daf-b6d3-1a2d8c0ff338"
+
 
 new entry "LI_HIDE_PIERCINGS"
 type "StatusData"

@@ -3,9 +3,22 @@ new subtable "1,1"
 object category "I_LI_GrazztRing",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_GrazztRing_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_GrazztRing_2",1,0,0,0,0,0,0,0
 
 
 new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
 object category "I_OBJ_LI_Box_Grazzt",1,0,0,0,0,0,0,0
+
+
+new treasuretable "CRE_GithQuartermistress_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_GrazztRing",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_MagicItem_Gith_Trader"
+CanMerge 1
+new subtable "1,1"
+object category "I_LI_GrazztRing",1,0,0,0,0,0,0,0

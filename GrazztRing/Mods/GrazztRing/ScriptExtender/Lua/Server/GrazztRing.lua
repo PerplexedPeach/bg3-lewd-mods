@@ -19,15 +19,23 @@ function BodyPiercing:new(main_shortname, template_id, equipment_slot, ccsv_ids_
     self.slot = equipment_slot;
     self.template_id = template_id;
     -- indexed by body type then body shape
-    self.ids_per_stage = {{{}, {}}, {{}, {}}};
+    self.ids_per_stage = { { {}, {} }, { {}, {} } };
     -- iterate over the keys and values of ccsv_ids_per_stage
     local body_type_index_map = {
-        male=1, Male=1, M=1,
-        female=2, Female=2, F=2,
+        male = 1,
+        Male = 1,
+        M = 1,
+        female = 2,
+        Female = 2,
+        F = 2,
     };
     local body_shape_index_map = {
-        normal=1, Normal=1, N=1,
-        strong=2, Strong=2, S=2,
+        normal = 1,
+        Normal = 1,
+        N = 1,
+        strong = 2,
+        Strong = 2,
+        S = 2,
     }
     for body_type, body_type_ids in pairs(ccsv_ids_per_stage) do
         for body_shape, body_shape_ids in pairs(body_type_ids) do
@@ -183,16 +191,28 @@ function BodyPiercing:registerHandlers()
     self:log("Registered handlers");
 end
 
-
 Piercing1 = BodyPiercing:new("P1", "LI_GrazztRing_1_a372e826-3eb0-4eb5-be1d-92e0953957d5", "Cloak", {
-    female={
-        normal={
-            {"a15bbb01-7edd-4a17-a0fd-b8286a68d96e", "219eefaa-7614-4a1e-a82a-a9957e170b5c"},
-            {"e07bbed8-242d-4a17-8669-de00059030e5", "437972aa-2221-4522-8bda-0d12e5bd9db7"},
-            {"8f509b81-962e-40dc-8e29-b2f49ef03e66", "afc9f644-fa89-4dbf-a5a6-b8e71b67a060"},
-            {"88ba0085-bfda-4e49-a5fa-cd0c7075268d", "fe39df5a-f76f-40df-a48a-51a358e0e3ee"},
-            {"3e371491-034b-4fc4-8b19-d1ed67b9ee66", "ebb3ee9c-4d29-484c-8ea0-dc577ba6a092"},
+    female = {
+        normal = {
+            { "219eefaa-7614-4a1e-a82a-a9957e170b5c" },
+            { "437972aa-2221-4522-8bda-0d12e5bd9db7" },
+            { "afc9f644-fa89-4dbf-a5a6-b8e71b67a060" },
+            { "fe39df5a-f76f-40df-a48a-51a358e0e3ee" },
+            { "ebb3ee9c-4d29-484c-8ea0-dc577ba6a092" },
         }
     }
 });
 Piercing1:registerHandlers();
+
+Piercing2 = BodyPiercing:new("P2", "LI_GrazztRing_2_3325e465-daed-4daf-b6d3-1a2d8c0ff338", "Cloak", {
+    female = {
+        normal = {
+            { "a15bbb01-7edd-4a17-a0fd-b8286a68d96e", "219eefaa-7614-4a1e-a82a-a9957e170b5c" },
+            { "e07bbed8-242d-4a17-8669-de00059030e5", "437972aa-2221-4522-8bda-0d12e5bd9db7" },
+            { "8f509b81-962e-40dc-8e29-b2f49ef03e66", "afc9f644-fa89-4dbf-a5a6-b8e71b67a060" },
+            { "88ba0085-bfda-4e49-a5fa-cd0c7075268d", "fe39df5a-f76f-40df-a48a-51a358e0e3ee" },
+            { "3e371491-034b-4fc4-8b19-d1ed67b9ee66", "ebb3ee9c-4d29-484c-8ea0-dc577ba6a092" },
+        }
+    }
+});
+Piercing2:registerHandlers();

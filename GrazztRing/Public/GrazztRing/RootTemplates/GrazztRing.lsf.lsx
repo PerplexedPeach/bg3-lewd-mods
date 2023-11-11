@@ -71,7 +71,7 @@
 					<attribute id="VisualTemplate" type="FixedString" value="079b2e00-aa68-169f-438f-e3f3cb1c28ce" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 				</node>
-				<node id="GameObjects"> stage 0 piercings
+				<node id="GameObjects"> stage 1 piercings
 					<attribute id="MapKey" type="FixedString" value="a372e826-3eb0-4eb5-be1d-92e0953957d5" />
 					<attribute id="Name" type="LSString" value="LI_GrazztRing_1" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -84,6 +84,46 @@
 					<attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_GrazztRing_1" />
 					<attribute id="Stats" type="FixedString" value="LI_GrazztRing_1" />
+					<children>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals">
+									<children>
+									</children>
+
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+
+				</node>
+				<node id="GameObjects"> stage 2 piercings with chains
+					<attribute id="MapKey" type="FixedString" value="3325e465-daed-4daf-b6d3-1a2d8c0ff338" />
+					<attribute id="Name" type="LSString" value="LI_GrazztRing_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="168b9099-19f5-44e4-b55c-e64ceb60b71f" />
+					<attribute id="VisualTemplate" type="FixedString" value="06d99edc-920c-489d-b0a9-7766a18f43ce" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7b597825-0bd2-6d10-f959-5962050d274e" />
+
+					<attribute id="DisplayName" type="TranslatedString" handle="hf2880447g4608g455fg8f53gb17e9f991973" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h650c93fbg1a38g416dg9c78g55040bd051c8" version="1" />
+					<attribute id="Icon" type="FixedString" value="LI_GrazztRing_2" />
+					<attribute id="Stats" type="FixedString" value="LI_GrazztRing_2" />
 					<children>
 						<node id="Equipment">
 							<children>
