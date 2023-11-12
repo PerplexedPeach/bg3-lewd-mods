@@ -64,8 +64,8 @@ function BodyPiercing:new(main_shortname, template_id, equipment_slot, ccsv_ids_
             end
         end
     end
-    self:log("new");
-    _D(self.ids_per_stage);
+    -- self:log("new");
+    -- _D(self.ids_per_stage);
 
     return self;
 end
@@ -119,7 +119,7 @@ function BodyPiercing:enforceBodyPiercingConsistency(char)
         -- add visuals that belong to the item level
         local ids_per_stage = self:getIdsPerStageForEntity(char_entity);
         -- self:log("ids per stage for entity " .. char);
-        _D(ids_per_stage);
+        -- _D(ids_per_stage);
         for _, vis_id in ipairs(ids_per_stage[itemLevel + 1]) do
             keep_vis_ids[vis_id] = true;
         end
