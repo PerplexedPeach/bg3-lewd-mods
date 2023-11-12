@@ -152,6 +152,16 @@
                     <attribute id="UUID" type="guid" value="df12ad96-5974-47cb-8456-597ce733cca2"/>
                     <attribute id="VisualResource" type="guid" value="b0c0ac9b-ebe9-4d07-b07b-93e6cbc3b4df"/>
                 </node>
+                <node id="CharacterCreationAppearanceVisual">        
+                    <attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
+                    <attribute id="BodyType" type="uint8" value="1"/> <!--0 = Masc 1 = Fem -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h67121819g933dg47bdg915bg2c4b3585cfed" version="1" />
+                    <attribute id="IconIdOverride" type="FixedString" value="0_Hair_b0c0ac9b-ebe9-4d07-b07b-93e6cbc3b4df"/>
+                    <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> 
+                    <attribute id="SlotName" type="FixedString" value="Hair" />
+                    <attribute id="UUID" type="guid" value="70ea8034-7735-4cf7-9257-a7bd3fd6314f" />
+                    <attribute id="VisualResource" type="guid" value="b0c0ac9b-ebe9-4d07-b07b-93e6cbc3b4df" />       
+                </node>
 					<!-- RaceUUIDs
 						Halfling: 78cd3bcc-1c43-4a2a-aa80-c34322c16a04
 						Gnome: f1b3f884-4029-4f0f-b158-1f9fe0ae5a0d
