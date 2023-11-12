@@ -1,4 +1,5 @@
 local hide_piercing_status = "LI_HIDE_PIERCINGS";
+local remove_piercing_damage = 15;
 
 ---@class BodyPiercing
 BodyPiercing = {};
@@ -160,6 +161,7 @@ function BodyPiercing:unequipHandler(unequipped_item, char)
     local template = Osi.GetTemplate(unequipped_item);
     if template == self.template_id then
         self:enforceBodyPiercingConsistency(char);
+        Osi.ApplyDamage(char, remove_piercing_damage, "Piercing", unequipped_item); 
     end
 end
 

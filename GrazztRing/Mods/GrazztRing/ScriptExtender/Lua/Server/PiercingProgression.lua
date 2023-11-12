@@ -2,8 +2,13 @@
 local base_ring_template = "LI_GrazztRing_2a33b13e-adb2-4d52-9303-14ca982cef99";
 local possible_ring_slots = { "Ring", "Ring2" };
 local base_piercing_template = "LI_GrazztRing_1_a372e826-3eb0-4eb5-be1d-92e0953957d5";
-local bliss_threshold = 1;
+local bliss_threshold_ring_to_piercing = 1;
+local bliss_threshold_lust_brand = 3;
 local ring_to_piercing_msg = "LI_RING_PROGRESSION_MSG";
+local lust_brand_msg = "LI_LUST_BRAND_MSG";
+local player_lust_brand_passive_ids = {
+    "LI_Lust_Brand"
+};
 
 local function _I(message)
     _P("[Grazzt Piercings] " .. message);
@@ -19,6 +24,15 @@ function IsWearingBaseRing(char)
     return false;
 end
 
+function LustBrandStage(char)
+    for i, passive_id in ipairs(player_lust_brand_passive_ids) do
+        if Osi.HasPassive(char, passive_id) == 1 then
+            return i;
+        end
+    end
+    return 0;
+end
+
 function DoRingToPiercings(char)
     _I("Upgrade ring conditions met for " .. char);
     Osi.OpenMessageBox(char, ring_to_piercing_msg);
@@ -27,9 +41,6 @@ function DoRingToPiercings(char)
     Osi.TemplateRemoveFromUser(base_ring_template, char, 1);
     local piercings = Osi.CreateAtObject(base_piercing_template, char, 0, 0, "", 0);
     Osi.Equip(char, piercings);
-
-    -- TODO add lust brand passive
-    -- TODO add lust brand passive framework (listen for passive added and passive removed)
 end
 
 function HandleLongRest()
@@ -37,10 +48,22 @@ function HandleLongRest()
     -- loop through player characters
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
         local char = player[1];
-        if IsWearingBaseRing(char) and Mods.DivineCurse.BlissCount(char) >= bliss_threshold then
+        if IsWearingBaseRing(char) and Mods.DivineCurse.BlissCount(char) >= bliss_threshold_ring_to_piercing then
             DoRingToPiercings(char);
         end
     end
 end
 
+function HandleBliss(char, status, causee, storyActionID)
+    if status ~= Mods.DivineCurse.BLISS_STATUS then
+        return;
+    end
+    if Mods.DivineCurse.BlissCount(char) >= bliss_threshold_lust_brand and LustBrandStage(char) == 0 then
+        _I("Applying lust brand to " .. char);
+        Osi.OpenMessageBox(char, lust_brand_msg);
+        Osi.AddPassive(char, player_lust_brand_passive_ids[1]);
+    end
+end
+
 Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function() HandleLongRest() end);
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandleBliss(...) end);

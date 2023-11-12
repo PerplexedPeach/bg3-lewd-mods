@@ -29,7 +29,7 @@ data "Description" "h78ae2f4bg1e76g4211g81d4gc2868ea95615;1"
 data "DescriptionParams" "RegainHitPoints(1d10);3"
 data "TooltipDamageList" "RegainHitPoints(1d10)"
 data "TooltipStatusApply" "ApplyStatus(LI_PLEASURE,100,3)"
-data "Icon" "LI_Pleasure"
+data "Icon" "LI_Grazzt_Touch"
 data "CastSound" "Spell_Cast_Bard_SongOfRest_L1to3"
 data "TargetSound" "Spell_Impact_Bard_SongOfRest_L1to3"
 data "CastTextEvent" "Cast"
@@ -42,6 +42,16 @@ data "CastEffect" "28a8039d-9df1-4210-8137-f396dd23614e"
 data "TargetEffect" "6b316222-955e-4539-87eb-a098db22c98b"
 
 
+new entry Shout_GrazztTouch_1
+type "SpellData"
+using "Shout_GrazztTouch"
+data "Level" "2"
+data "DisplayName" "h0d74cf45g725dg491fgad60g66d042395078;1"
+data "SpellProperties" "RegainHitPoints(2d10);ApplyStatus(LI_PLEASURE,100,5)"
+data "TooltipDamageList" "RegainHitPoints(2d10)"
+data "TooltipStatusApply" "ApplyStatus(LI_PLEASURE,100,5)"
+data "DescriptionParams" "RegainHitPoints(2d10);5"
+
 
 new entry "LI_GrazztRing_1"
 type "Armor"
@@ -49,7 +59,8 @@ using "ARM_Cloak"
 data "ValueOverride" "3500"
 data "Rarity" "Legendary"
 data "RootTemplate" "a372e826-3eb0-4eb5-be1d-92e0953957d5"
-data "Boosts" "UnlockSpell(Shout_HidePiercings);"
+data "Boosts" "UnlockSpell(Shout_HidePiercings);UnlockSpell(Shout_GrazztTouch_1);AC(1);"
+
 
 new entry "LI_GrazztRing_2"
 type "Armor"
@@ -109,3 +120,26 @@ data "CastTextEvent" "Cast"
 data "UseCosts" "ActionPoint:1"
 data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
 data "SpellFlags" "Temporary"
+
+
+
+
+new entry "LI_LUST_BRAND_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h97876559gf4c1g41c9g9f1dg6838d89e7d9a;3"
+data "StackId" "LI_LUST_BRAND_TECHNICAL"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "RemoveConditions" "not HasPassive('LI_Lust_Brand')"
+data "RemoveEvents" "OnTurn"
+
+new entry "LI_Lust_Brand"
+type "PassiveData"
+data "DisplayName" "hf788275agceb2g4d5fga7a4g420bf51538a6;1"
+data "Description" "h8142038fg3a37g4debga007g8a0224322227;1"
+data "Icon" "LI_Lust_Brand"
+data "DescriptionParams" "2"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Wisdom,-2);Ability(Intelligence,-2);Ability(Charisma,2);"
+data "StatsFunctorContext" "OnCreate;OnTurn"
+data "StatsFunctors" "ApplyStatus(LI_LUST_BRAND_TECHNICAL, 100, -1)"
