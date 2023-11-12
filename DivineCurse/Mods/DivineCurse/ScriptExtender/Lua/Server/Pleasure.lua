@@ -2,8 +2,8 @@ local function _I(message)
     _P("[DC Pleasure] " .. message);
 end
 
-local bliss_status = "LI_BLISS";
-local pleasure_status = "LI_PLEASURE";
+BLISS_STATUS = "LI_BLISS";
+PLEASURE_STATUS = "LI_PLEASURE";
 function Modifier(character, attribute)
     return math.floor((Osi.GetAbility(character, attribute) - 10) / 2);
 end
@@ -22,13 +22,13 @@ function MaxPleasure(character)
 end
 
 function HandlePleasure(character, status, causee, storyActionID)
-    if status ~= pleasure_status then
+    if status ~= PLEASURE_STATUS then
         return;
     end
     _I("Pleasure status applied to " .. character .. " by " .. causee .. " with story action " .. storyActionID);
     -- check character max HP against stacks of pleasure
     local max_pleasure = MaxPleasure(character);
-    local cur_pleasure = Osi.GetStatusTurns(character, pleasure_status);
+    local cur_pleasure = Osi.GetStatusTurns(character, PLEASURE_STATUS);
     _I("Pleasure " .. cur_pleasure .. " / " .. max_pleasure .. " for " .. character);
 
     -- TODO remove after debugging
@@ -36,8 +36,8 @@ function HandlePleasure(character, status, causee, storyActionID)
 
     if cur_pleasure > max_pleasure then
         RegisterBlissCausee(character, causee);
-        Osi.ApplyStatus(character, bliss_status, 2, 1, character);
-        Osi.RemoveStatus(character, pleasure_status);
+        Osi.ApplyStatus(character, BLISS_STATUS, 2, 1, character);
+        Osi.RemoveStatus(character, PLEASURE_STATUS);
         IncreaseBlissCount(character, 1);
     end
 end
@@ -50,7 +50,7 @@ function RegisterBlissCausee(char_in_bliss, char_causing_bliss)
     -- iterate in reverse since it's very likely to be at the end
     for i = #statuses, 1, -1 do
         local status = statuses[i];
-        if status.StatusId == pleasure_status then
+        if status.StatusId == PLEASURE_STATUS then
             local ability = "";
             -- find the ability that caused this status
             if status.SourceSpell.OriginatorPrototype ~= "" then
@@ -71,7 +71,7 @@ function RegisterBlissCausee(char_in_bliss, char_causing_bliss)
 end
 
 function BlissCauseID(char, ability)
-    return bliss_status .. "_" .. char .. "_" .. ability;
+    return BLISS_STATUS .. "_" .. char .. "_" .. ability;
 end
 
 ---How many times this character has caused bliss via this ability
@@ -82,7 +82,7 @@ function BlissCauseCount(character, ability)
 end
 
 function BlissID(char)
-    return bliss_status .. "_" .. char;
+    return BLISS_STATUS .. "_" .. char;
 end
 
 function IncreaseBlissCount(char, amount)
