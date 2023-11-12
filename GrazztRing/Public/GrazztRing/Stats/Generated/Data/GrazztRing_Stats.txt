@@ -52,6 +52,16 @@ data "TooltipDamageList" "RegainHitPoints(2d10)"
 data "TooltipStatusApply" "ApplyStatus(LI_PLEASURE,100,5)"
 data "DescriptionParams" "RegainHitPoints(2d10);5"
 
+new entry Shout_GrazztTouch_2
+type "SpellData"
+using "Shout_GrazztTouch"
+data "Level" "3"
+data "DisplayName" "h80a730ddg41f6g4c3eg9de5gaac90824d9e7;1"
+data "SpellProperties" "RegainHitPoints(3d8);ApplyStatus(LI_PLEASURE,100,6)"
+data "TooltipDamageList" "RegainHitPoints(3d8)"
+data "TooltipStatusApply" "ApplyStatus(LI_PLEASURE,100,6)"
+data "DescriptionParams" "RegainHitPoints(3d8);6"
+
 
 new entry "LI_GrazztRing_1"
 type "Armor"
@@ -67,6 +77,7 @@ type "Armor"
 using "LI_GrazztRing_1"
 data "ValueOverride" "7000"
 data "RootTemplate" "3325e465-daed-4daf-b6d3-1a2d8c0ff338"
+data "Boosts" "UnlockSpell(Shout_HidePiercings);UnlockSpell(Shout_GrazztTouch_2);AC(1);"
 
 
 new entry "LI_HIDE_PIERCINGS"
