@@ -90,7 +90,7 @@
 													<children>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="0" />
-															<attribute id="Value" type="float" value="50" />
+															<attribute id="Value" type="float" value="20" />
 														</node>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="1" />
