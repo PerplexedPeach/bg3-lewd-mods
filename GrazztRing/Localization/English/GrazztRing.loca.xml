@@ -26,13 +26,16 @@
 	<content contentuid="hd7a5e852g115fg4acag9d5cg434b0db1cf45" version="1">Touch of Graz'zt</content>
 	<content contentuid="h0d74cf45g725dg491fgad60g66d042395078" version="1">Caress of Graz'zt</content>
 	<content contentuid="h80a730ddg41f6g4c3eg9de5gaac90824d9e7" version="1">Embrace of Graz'zt</content>
-	<content contentuid="h78ae2f4bg1e76g4211g81d4gc2868ea95615" version="1">Surrender yourself to spectral caresses, letting ethereal hands explore your body. You heal for [1] and receive [2] &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt;.</content>
+	<content contentuid="h78ae2f4bg1e76g4211g81d4gc2868ea95615" version="1">Surrender yourself to spectral caresses, letting ethereal hands explore your body. You gain [1] + &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; and receive [2] &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hf788275agceb2g4d5fga7a4g420bf51538a6" version="1">Lust Brand</content> 
 	<content contentuid="h8142038fg3a37g4debga007g8a0224322227" version="1">Imbued with dark potency, this indelible mark stirs unnatural desire in any that gaze upon it. Skillfully etched into your womb, the Lust Brand is a constant reminder that you are undeniably a creature of pure, untempered lust. It impairs your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; and &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; by [1] while boosting your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by the same amount.</content>  
 
 	<content contentuid="hd7a5e852g115fg4acag9d5cg434b0db1cf45" version="1">Ecstatic Lash</content>
-	<content contentuid="hc806e45dg9782g457fg9458g139fbfeb3ce0" version="2">Concentrate your hedonistic thoughts into an ethereal whip, striking at the minds of your foes. You inflict [3] &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt;; if they are in &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;, their mind is overwhelmed and they suffer damage. Otherwise, they heal for [2] and move [1] towards you, seeking the source of their pleasure.</content>
+	<content contentuid="hc806e45dg9782g457fg9458g139fbfeb3ce0" version="2">Concentrate your hedonistic thoughts into an ethereal whip, striking at the minds of your foes. You inflict [3] + &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt;; if they are in &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;, their mind is overwhelmed and they suffer damage. Otherwise, they gain [2] and move [1] towards you, seeking the source of their pleasure.</content>
+
+	<content contentuid="h168d0c0dg168cg47f0g8bffg96a6dad6bca4" version="1">Lustful High</content>
+	<content contentuid="h12913d1ag170eg4c7cg9702g98261303a6a1" version="2">Your arousal distracts you from pain, letting you endure more than usual and providing you [1].</content>
 
 
 	<content contentuid="h21177641gd1cdg4273g8986g9addca845dcf" version="1">After a breathlessly wet dream, you wake to find the Ring of Graz'zt gone from your finger. You panic until you feel a slightly painful burning in your chest, and you realize the ring has split in two and embedded itself in your nipples. Graz'zt has claimed you in your sleep, and you are His.  &lt;br&gt;&lt;br&gt;Each transformed ring bears a sinister black sheen, its surface eerily smooth against your skin. Spiked adornments, reminiscent of thorns on a rose stem, trace along its length, hinting at a painful removal. His claim is not easily relinquished. </content> 
