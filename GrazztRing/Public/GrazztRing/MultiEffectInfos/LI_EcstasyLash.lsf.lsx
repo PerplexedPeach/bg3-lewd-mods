@@ -11,7 +11,7 @@
 					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="EffectResourceGuid" type="guid" value="0dceb276-c58a-45ff-b4cf-d4d07126949b" />
+					<attribute id="EffectResourceGuid" type="guid" value="eacf9995-64ac-49db-b80e-f38a6546eeee" />
 					<attribute id="KeepRotation" type="bool" value="False" />
 					<attribute id="KeepScale" type="bool" value="False" />
 					<attribute id="MainHand" type="bool" value="False" />
