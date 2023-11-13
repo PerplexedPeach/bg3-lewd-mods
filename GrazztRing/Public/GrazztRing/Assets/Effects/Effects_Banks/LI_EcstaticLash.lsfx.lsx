@@ -57,73 +57,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">
-							<attribute id="EndTime" type="float" value="1.5" />
-							<attribute id="ID" type="guid" value="bce79fe0-78e4-4e96-b60a-7e7b0f8afb95" />
-							<attribute id="Name" type="LSString" value="CameraShake" />
-							<attribute id="StartTime" type="float" value="0.85" />
-							<attribute id="Track" type="uint32" value="1" />
-							<attribute id="Type" type="LSString" value="CameraShake" />
-							<children>
-								<node id="Properties">
-									<children>
-										<node id="Property">
-											<attribute id="AttributeName" type="FixedString" value="Name" />
-											<attribute id="FullName" type="FixedString" value="Name" />
-											<attribute id="Type" type="uint8" value="7" />
-											<attribute id="Value" type="LSString" value="CameraShake" />
-										</node>
-										<node id="Property">
-											<attribute id="AttributeName" type="FixedString" value="Falloff Start-End" />
-											<attribute id="FullName" type="FixedString" value="Falloff Start-End" />
-											<attribute id="Max" type="float" value="100" />
-											<attribute id="Min" type="float" value="20" />
-											<attribute id="Type" type="uint8" value="5" />
-										</node>
-										<node id="Property">
-											<attribute id="AttributeName" type="FixedString" value="Shake Strength" />
-											<attribute id="FullName" type="FixedString" value="Shake Strength" />
-											<attribute id="Type" type="uint8" value="6" />
-											<children>
-												<node id="Frames">
-													<attribute id="FrameType" type="uint8" value="0" />
-													<children>
-														<node id="Frame">
-															<attribute id="Time" type="float" value="0" />
-															<attribute id="Value" type="float" value="20" />
-														</node>
-														<node id="Frame">
-															<attribute id="Time" type="float" value="1" />
-															<attribute id="Value" type="float" value="0" />
-														</node>
-													</children>
-												</node>
-											</children>
-										</node>
-										<node id="Property">
-											<attribute id="AttributeName" type="FixedString" value="Shake Vibration Frequency" />
-											<attribute id="FullName" type="FixedString" value="Shake Vibration Frequency" />
-											<attribute id="Type" type="uint8" value="6" />
-											<children>
-												<node id="Frames">
-													<attribute id="FrameType" type="uint8" value="0" />
-													<children>
-														<node id="Frame">
-															<attribute id="Time" type="float" value="0" />
-															<attribute id="Value" type="float" value="50" />
-														</node>
-														<node id="Frame">
-															<attribute id="Time" type="float" value="1" />
-															<attribute id="Value" type="float" value="50" />
-														</node>
-													</children>
-												</node>
-											</children>
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
+
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="8e89b278-d1e1-4312-95f7-85418422ec8a" />
