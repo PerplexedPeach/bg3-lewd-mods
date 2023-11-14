@@ -8,6 +8,14 @@ function Modifier(character, attribute)
     return math.floor((Osi.GetAbility(character, attribute) - 10) / 2);
 end
 
+function GetGUID(str) 
+    if str ~= nil then
+        return string.sub(str,-36);
+        -- return str:match("_?([^_]*)$");
+    end
+    return "";
+end
+
 function MaxPleasure(character)
     -- consider modifiers / perks for raising max pleasure
     local max_pleasure = 10;
@@ -65,13 +73,14 @@ function RegisterBlissCausee(char_in_bliss, char_causing_bliss)
             local id = BlissCauseID(char_causing_bliss, ability);
             local count = PersistentVars[id] or 0;
             PersistentVars[id] = count + 1;
+            _I("Bliss cause count: " .. PersistentVars[id] .. " for " .. char_causing_bliss .. " with ability " .. ability);
             break
         end
     end
 end
 
 function BlissCauseID(char, ability)
-    return BLISS_STATUS .. "_" .. char .. "_" .. ability;
+    return BLISS_STATUS .. "_" .. GetGUID(char) .. "_" .. ability;
 end
 
 ---How many times this character has caused bliss via this ability
@@ -81,8 +90,33 @@ function BlissCauseCount(character, ability)
     return PersistentVars[BlissCauseID(character, ability)] or 0;
 end
 
+---Get table mapping ability to count of bliss caused by this character using that ability
+---@param character string
+---@return table
+function BlissCauseCountAll(character)
+    local ret = {};
+    -- character name can have race prefixes that we want to remove (ends with Player_)
+    character = GetGUID(character);
+
+    local char_bliss_cause_prefix = BLISS_STATUS .. "_" .. character .. "_";
+    local len_prefix = string.len(char_bliss_cause_prefix);
+
+    _I("Looking for bliss cause counts for " .. character .. " with prefix " .. char_bliss_cause_prefix .. " and length " .. len_prefix);
+
+    for k, v in pairs(PersistentVars) do
+        _I("Check key " .. k .. " is prefix of " .. char_bliss_cause_prefix .. " ? " .. tostring(string.sub(k, 1, len_prefix) == char_bliss_cause_prefix));
+        -- check if k starts with char_bliss_cause_prefix
+        if string.sub(k, 1, len_prefix) == char_bliss_cause_prefix then
+            -- extract ability from k
+            local ability = string.sub(k, len_prefix + 1);
+            ret[ability] = v;
+        end
+    end
+    return ret;
+end
+
 function BlissID(char)
-    return BLISS_STATUS .. "_" .. char;
+    return BLISS_STATUS .. "_" .. GetGUID(char);
 end
 
 function IncreaseBlissCount(char, amount)
