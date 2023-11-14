@@ -34,7 +34,7 @@
 	<content contentuid="hf788275agceb2g4d5fga7a4g420bf51538a6" version="1">Lust Brand</content> 
 	<content contentuid="h8142038fg3a37g4debga007g8a0224322227" version="1">Imbued with dark potency, this indelible mark stirs unnatural desire in any that gaze upon it. Skillfully etched into your womb, the Lust Brand is a constant reminder that you are undeniably a creature of pure, untempered lust. It impairs your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; and &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; by [1] while boosting your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by the same amount.</content>  
 
-	<content contentuid="hd7a5e852g115fg4acag9d5cg434b0db1cf45" version="1">Ecstatic Lash</content>
+	<content contentuid="hc65a1066gd4dcg4c8fga47cg0663c71c35a9" version="1">Ecstatic Lash</content>
 	<content contentuid="hc806e45dg9782g457fg9458g139fbfeb3ce0" version="2">Concentrate your hedonistic thoughts into an ethereal whip, striking at the minds of your foes. You inflict [3] + &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt;; if they are in &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;, their mind is overwhelmed and they suffer damage. Otherwise, they gain [2] and move [1] towards you, seeking the source of their pleasure.</content>
 
 	<content contentuid="h168d0c0dg168cg47f0g8bffg96a6dad6bca4" version="1">Lustful High</content>

@@ -38,8 +38,6 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="2619e98d-86b2-42aa-ad8f-b72c65932988" /> HUM_F_LI_Womb
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Womb_Basis.HUM_F_LI_Womb.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 					</children>
 				</node>
