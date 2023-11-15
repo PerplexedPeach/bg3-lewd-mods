@@ -284,8 +284,8 @@
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb.DDS" />
 
 					<attribute id="Format" type="uint32" value="64" /> BC3
-					<attribute id="Width" type="int32" value="768" />
-					<attribute id="Height" type="int32" value="715" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="Depth" type="int32" value="1" />
 
 					<attribute id="Localized" type="bool" value="False" />

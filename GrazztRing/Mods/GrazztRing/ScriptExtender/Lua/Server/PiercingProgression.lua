@@ -1,3 +1,4 @@
+PersistentVars = {};
 -- listen for long rest for when you have enough orgasms and sleeps with the ring on
 local base_ring_template = "LI_GrazztRing_2a33b13e-adb2-4d52-9303-14ca982cef99";
 local possible_ring_slots = { "Ring", "Ring2" };
@@ -9,6 +10,8 @@ local lust_brand_msg = "LI_LUST_BRAND_MSG";
 local player_lust_brand_passive_ids = {
     "LI_Lust_Brand"
 };
+local grazzt_consort_key = "grazzt_consort";
+local grazzt_ignore_msg = "LI_GRAZZT_IGNORE_MSG";
 
 local function _I(message)
     _P("[Grazzt Piercings] " .. message);
@@ -49,16 +52,36 @@ function HandleLongRest()
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
         local char = player[1];
         if IsWearingBaseRing(char) and Mods.DivineCurse.BlissCount(char) >= bliss_threshold_ring_to_piercing then
-            DoRingToPiercings(char);
+            -- grazzt will only have 1 consort (first one to use it)
+            if PersistentVars[grazzt_consort_key] == nil then
+                _I("Setting " .. char .. " as Grazzt's consort");
+                PersistentVars[grazzt_consort_key] = Mods.DivineCurse.GetGUID(char);
+                DoRingToPiercings(char);
+            else
+                _I("Grazzt already has a consort, ignoring " .. char);
+                Osi.OpenMessageBox(char, grazzt_ignore_msg);
+            end
         end
     end
+end
+
+function GrazztConsort()
+    return PersistentVars[grazzt_consort_key];
+end
+
+function IsGrazztConsort(char)
+    if PersistentVars[grazzt_consort_key] == nil then
+        return false;
+    end
+    char = Mods.DivineCurse.GetGUID(char);
+    return PersistentVars[grazzt_consort_key] == char;
 end
 
 function HandleBliss(char, status, causee, storyActionID)
     if status ~= Mods.DivineCurse.BLISS_STATUS then
         return;
     end
-    if Mods.DivineCurse.BlissCount(char) >= bliss_threshold_lust_brand and LustBrandStage(char) == 0 then
+    if Mods.DivineCurse.BlissCount(char) >= bliss_threshold_lust_brand and LustBrandStage(char) == 0 and IsGrazztConsort(char) then
         _I("Applying lust brand to " .. char);
         Osi.OpenMessageBox(char, lust_brand_msg);
         Osi.AddPassive(char, player_lust_brand_passive_ids[1]);
