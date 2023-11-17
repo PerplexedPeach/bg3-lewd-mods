@@ -189,6 +189,15 @@ def create_mod(args):
                 with Folder("ItemIcons"):
                     with File("large 380 DDS DXT3 icons for items here.txt") as f:
                         f.add_line(" ")
+            # controller icons
+            with Folder(f"Public/Game/GUI/Assets/ControllerUIicons"):
+                with Folder("skills_png"):
+                    with File("144 by 144 DDS DXT3 icons for abilities here.txt") as f:
+                        f.add_line(" ")
+                with Folder("items_png"):
+                    with File("144 by 144 DDS DXT3 icons for items here.txt") as f:
+                        f.add_line(" ")
+
             # small icons
             with Folder(f"Public/{name}/Assets/Textures/Icons"):
                 with File(f"small icon tileset 256 DDS DXT3 each 64 here called {name}_Icons.dds.txt") as f:
