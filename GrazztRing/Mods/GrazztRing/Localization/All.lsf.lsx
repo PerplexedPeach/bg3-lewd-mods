@@ -25,6 +25,13 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="hb3436a69g5fe9g47d8g8bdcg1f6c577d38a5" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_GRAZZT_CONSORT_TITLE" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
 			</children>
 		</node>
 	</region>

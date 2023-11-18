@@ -11,6 +11,7 @@ local player_lust_brand_passive_ids = {
     "LI_Lust_Brand"
 };
 local grazzt_consort_key = "grazzt_consort";
+local grazzt_consort_title = "hb3436a69g5fe9g47d8g8bdcg1f6c577d38a5";
 local grazzt_ignore_msg = "LI_GRAZZT_IGNORE_MSG";
 
 local function _I(message)
@@ -56,9 +57,13 @@ function HandleLongRest()
             if PersistentVars[grazzt_consort_key] == nil then
                 _I("Setting " .. char .. " as Grazzt's consort");
                 PersistentVars[grazzt_consort_key] = Mods.DivineCurse.GetGUID(char);
+                NameConsort(char);
+                DoRingToPiercings(char);
+            elseif IsGrazztConsort(char) then
+                -- allow you to evolve ring to piercing even if you already have it
                 DoRingToPiercings(char);
             else
-                _I("Grazzt already has a consort, ignoring " .. char);
+                _I("Grazzt already has a consort " .. GrazztConsort() .. " ignoring " .. char);
                 Osi.OpenMessageBox(char, grazzt_ignore_msg);
             end
         end
@@ -88,5 +93,29 @@ function HandleBliss(char, status, causee, storyActionID)
     end
 end
 
+function NameConsort(consort)
+    local name_handle = Osi.GetDisplayName(consort);
+    local name = Ext.Loca.GetTranslatedString(name_handle);
+    -- TODO different titles with stages and choices rather than just a single selection here
+    local title = Ext.Loca.GetTranslatedString(grazzt_consort_title);
+    -- if the name already has the title, don't add it again
+    _I("checking if " .. name .. " has title " .. title .. " find result " .. tostring(string.find(name, title)));
+    if string.find(name, title) ~= nil then
+        return;
+    end
+    _I("found consort " .. consort .. " name handle " .. name_handle .. " translated name " .. name .. " translated title " .. title);
+    -- Osi.SetStoryDisplayName(consort, name .. title);
+    Ext.Loca.UpdateTranslatedString(name_handle, name .. title);
+end
+
+function NameConsortAfterLoad()
+    local consort = GrazztConsort();
+    if consort ~= nil then
+        NameConsort(consort);
+    end
+end
+
+
+Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() NameConsortAfterLoad() end);
 Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function() HandleLongRest() end);
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandleBliss(...) end);
