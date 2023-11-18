@@ -66,7 +66,7 @@
                     <attribute id="V2" type="float" value="0.5"/> Bottom
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 3
+                    <attribute id="MapKey" type="FixedString" value="LI_Lust_Brand_White"/> 3
                     <attribute id="U1" type="float" value="0.5"/> Left
                     <attribute id="U2" type="float" value="0.75"/> Right
                     <attribute id="V1" type="float" value="0.25"/> Top

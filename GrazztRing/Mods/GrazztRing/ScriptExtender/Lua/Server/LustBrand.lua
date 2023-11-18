@@ -1,3 +1,5 @@
+local hide_brand_status = "LI_HIDE_BRAND";
+
 ---@class LustBrand
 LustBrand = {};
 ---Framework for syncing lust brand passives and their character visuals, as well as optionally gating it behind characters.
@@ -6,7 +8,7 @@ LustBrand = {};
 ---@param main_shortname string Short name for logging
 ---@param status_id string status ID associated with this lust brand that should decide whether to apply the visual
 ---@param ccsv_id string CharacterCreationSharedVisual ID for the visual brand
----@param character_lock_id string optional character ID that restricts the check to just this character
+---@param character_lock_id string|nil optional character ID that restricts the check to just this character
 ---@return LustBrand
 function LustBrand:new(main_shortname, status_id, ccsv_id, character_lock_id)
     local self = {} ---@class LustBrand
@@ -30,21 +32,29 @@ function LustBrand:error(message)
     self:log(" [ERROR] " .. message);
 end
 
-function LustBrand:statusAppliedHandler(char, status, causee, storyActionID)
-    -- TODO care about if self.character is specified
-    if status == self.status_id then
+function LustBrand:handleLustBrandConsistency(char)
+    -- care about if self.character is specified
+    if self.character_id ~= nil and self.character_id ~= char then
+        return;
+    end
+    if Osi.HasActiveStatus(char, self.status_id) == 1 and Osi.HasActiveStatus(char, hide_brand_status) == 0 then
         self:log("Applying lust brand visual to " .. char);
         Osi.AddCustomVisualOverride(char, self.ccsv_id);
+    else
+        self:log("Removing lust brand visual from " .. char);
+        Osi.RemoveCustomVisualOvirride(char, self.ccsv_id);
+    end
+end
+
+function LustBrand:statusAppliedHandler(char, status, causee, storyActionID)
+    if status == self.status_id or status == hide_brand_status then
+        self:handleLustBrandConsistency(char);
     end
 end
 
 function LustBrand:statusRemovedHandler(char, status, causee, applyStoryActionID)
-    if status == self.status_id then
-        -- only if we're not reapplying it afterwards
-        if Osi.HasActiveStatus(char, self.status_id) == 0 then
-            self:log("Removing lust brand visual from " .. char);
-            Osi.RemoveCustomVisualOvirride(char, self.ccsv_id);
-        end
+    if status == self.status_id or status == hide_brand_status then
+        self:handleLustBrandConsistency(char);
     end
 end
 

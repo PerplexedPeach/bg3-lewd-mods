@@ -151,7 +151,7 @@ data "Description" "h8142038fg3a37g4debga007g8a0224322227;1"
 data "Icon" "LI_Lust_Brand"
 data "DescriptionParams" "2"
 data "Properties" "Highlighted"
-data "Boosts" "Ability(Wisdom,-2);Ability(Intelligence,-2);Ability(Charisma,2);UnlockSpell(Target_EcstasyLash);UnlockSpell(Target_DarkInspection)"
+data "Boosts" "Ability(Wisdom,-2);Ability(Intelligence,-2);Ability(Charisma,2);UnlockSpell(Target_EcstasyLash);UnlockSpell(Target_DarkInspection);UnlockSpell(Shout_HideBrand)"
 data "StatsFunctorContext" "OnCreate;OnTurn"
 data "StatsFunctors" "ApplyStatus(LI_LUST_BRAND_TECHNICAL, 100, -1)"
 
@@ -186,6 +186,39 @@ data "CastEffect" ""
 data "TargetEffect" "3d44d416-6dde-4c4b-81af-977a828bf30e"
 data "BeamEffect" "2f055376-5b13-4fd7-ba05-ee21d1072288"
 data "DamageType" "Psychic"
+
+
+new entry "LI_HIDE_BRAND"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd8b60198g3295g4492g8c2bg6573aa4d468c;1"
+data "Description" "hf6bbaac1g667fg4ed8g9991gf530b010e6cc;1"
+data "DescriptionParams" "0"
+data "Icon" "LI_Lust_Brand_White"
+data "StackId" "LI_HIDE_BRAND"
+data "Boosts" "UnlockSpell(Shout_HideBrand_Cancel);"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisableInteractions;IgnoreResting;DisablePortraitIndicator"
+
+new entry "Shout_HideBrand"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_HidePiercings"
+data "SpellProperties" "ApplyStatus(LI_HIDE_BRAND,100,-1)"
+data "DisplayName" "hd8b60198g3295g4492g8c2bg6573aa4d468c;1"
+data "Description" "hf6bbaac1g667fg4ed8g9991gf530b010e6cc;1"
+data "TooltipStatusApply" "ApplyStatus(LI_HIDE_BRAND,100,-1)"
+data "Icon" "LI_Lust_Brand_White"
+
+new entry "Shout_HideBrand_Cancel"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_HidePiercings_Cancel"
+data "SpellProperties" "RemoveStatus(LI_HIDE_BRAND)"
+data "DisplayName" "hf59a353ag7163g4c58g9a71gc292983f66df;1"
+data "Description" "h55831fcege9d0g417ega07fga644c2be1514;1"
+data "Icon" "LI_Lust_Brand_White"
+
 
 <!-- Temp hp Statuses -->
 
