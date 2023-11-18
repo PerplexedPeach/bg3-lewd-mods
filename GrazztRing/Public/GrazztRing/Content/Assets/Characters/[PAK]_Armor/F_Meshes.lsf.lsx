@@ -21,8 +21,8 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<!-- <attribute id="Slot" type="FixedString" value="Body" /> -->
-					<attribute id="Slot" type="FixedString" value="Underwear" />
+					<!-- <attribute id="Slot" type="FixedString" value="Piercing" /> -->
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Chains_Basis.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
@@ -101,8 +101,8 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
-					<!-- <attribute id="Slot" type="FixedString" value="Underwear" /> -->
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<!-- <attribute id="Slot" type="FixedString" value="Piercing" /> -->
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Swirls_Basis.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />

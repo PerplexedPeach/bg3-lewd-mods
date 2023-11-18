@@ -22,7 +22,7 @@
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					
-					<attribute id="Slot" type="FixedString" value="Underwear" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Chain_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
@@ -102,7 +102,7 @@
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					
-					<attribute id="Slot" type="FixedString" value="Underwear" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Chain_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
@@ -182,7 +182,7 @@
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					
-					<attribute id="Slot" type="FixedString" value="Underwear" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Chain_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
@@ -262,7 +262,7 @@
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					
-					<attribute id="Slot" type="FixedString" value="Underwear" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Chain_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
@@ -341,7 +341,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Swirl_1.GR2" />
@@ -356,7 +356,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="c3eca220-6934-4686-b12f-645f98bdc21f" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_1.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_1.Piercing_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
@@ -381,7 +381,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Swirl_2.GR2" />
@@ -396,7 +396,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="c3eca220-6934-4686-b12f-645f98bdc21f" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_2.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_2.Piercing_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
@@ -421,7 +421,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Swirl_3.GR2" />
@@ -436,7 +436,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="c3eca220-6934-4686-b12f-645f98bdc21f" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_3.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_3.Piercing_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
@@ -461,7 +461,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
 					
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Swirl_4.GR2" />
@@ -476,7 +476,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="c3eca220-6934-4686-b12f-645f98bdc21f" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_4.Body_Top_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Swirl_4.Piercing_Top_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
