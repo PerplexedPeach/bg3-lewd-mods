@@ -1,5 +1,26 @@
 local hide_piercing_status = "LI_HIDE_PIERCINGS";
 local remove_piercing_damage = 15;
+BodyTypeIndexMap = {
+    male = 1,
+    Male = 1,
+    M = 1,
+    female = 2,
+    Female = 2,
+    F = 2,
+};
+BodyShapeIndexMap = {
+    normal = 1,
+    Normal = 1,
+    N = 1,
+    strong = 2,
+    Strong = 2,
+    S = 2,
+}
+function GetAssetForBodyShapeAndType(asset_map, entity)
+    local body_type = entity.CharacterCreationStats.BodyType + 1;
+    local body_shape = entity.CharacterCreationStats.BodyShape + 1;
+    return asset_map[body_type][body_shape];
+end
 
 ---@class BodyPiercing
 BodyPiercing = {};
@@ -22,29 +43,14 @@ function BodyPiercing:new(main_shortname, template_id, equipment_slot, ccsv_ids_
     -- indexed by body type then body shape
     self.ids_per_stage = { { {}, {} }, { {}, {} } };
     -- iterate over the keys and values of ccsv_ids_per_stage
-    local body_type_index_map = {
-        male = 1,
-        Male = 1,
-        M = 1,
-        female = 2,
-        Female = 2,
-        F = 2,
-    };
-    local body_shape_index_map = {
-        normal = 1,
-        Normal = 1,
-        N = 1,
-        strong = 2,
-        Strong = 2,
-        S = 2,
-    }
+
     for body_type, body_type_ids in pairs(ccsv_ids_per_stage) do
         for body_shape, body_shape_ids in pairs(body_type_ids) do
             if #body_shape_ids ~= 5 then
                 self:error("Must have 5 stages of equipment (body stages 0 to 4)");
             end
-            local body_type_index = body_type_index_map[body_type];
-            local body_shape_index = body_shape_index_map[body_shape];
+            local body_type_index = BodyTypeIndexMap[body_type];
+            local body_shape_index = BodyShapeIndexMap[body_shape];
             if body_type_index == nil then
                 self:error("Unknown body type " .. body_type);
             end
@@ -80,9 +86,7 @@ function BodyPiercing:error(message)
 end
 
 function BodyPiercing:getIdsPerStageForEntity(entity)
-    local body_type = entity.CharacterCreationStats.BodyType + 1;
-    local body_shape = entity.CharacterCreationStats.BodyShape + 1;
-    return self.ids_per_stage[body_type][body_shape];
+    return GetAssetForBodyShapeAndType(self.ids_per_stage, entity);
 end
 
 function BodyPiercing:isWearingItem(char)
