@@ -213,6 +213,15 @@ Piercing1 = BodyPiercing:new("P1", "LI_GrazztRing_1_a372e826-3eb0-4eb5-be1d-92e0
             { "facbf4f6-e288-48a6-87db-2433bcfc60a5" },
             { "a20f45db-c11f-4c0a-a46d-2a2ff789e07b" },
         }
+    },
+    male = {
+        normal = {
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd"},
+        }
     }
 });
 Piercing1:registerHandlers();
@@ -232,6 +241,15 @@ Piercing2 = BodyPiercing:new("P2", "LI_GrazztRing_2_3325e465-daed-4daf-b6d3-1a2d
             { "4011dbf5-a4a1-44cf-9d42-b8b346420b80", "142659d1-7d5e-4180-bce1-9ee510b1f8cd" },
             { "5da94a8e-4e4c-4573-a3a3-5e8c5f42fd5e", "facbf4f6-e288-48a6-87db-2433bcfc60a5" },
             { "410c7436-61d0-4b5e-b5c3-1b4898c581f6", "a20f45db-c11f-4c0a-a46d-2a2ff789e07b" },
+        }
+    },
+    male = {
+        normal = {
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd", "af7cb44c-ef4a-4b3b-82fd-444cdedeef9a"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd", "af7cb44c-ef4a-4b3b-82fd-444cdedeef9a"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd", "af7cb44c-ef4a-4b3b-82fd-444cdedeef9a"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd", "af7cb44c-ef4a-4b3b-82fd-444cdedeef9a"},
+            {"122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd", "af7cb44c-ef4a-4b3b-82fd-444cdedeef9a"},
         }
     }
 });

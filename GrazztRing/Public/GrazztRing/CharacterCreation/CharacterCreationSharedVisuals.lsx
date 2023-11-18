@@ -155,9 +155,21 @@
 
 
                 HUM_M
+                <node id="CharacterCreationSharedVisual"> chains 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
+                    <attribute id="UUID" type="guid" value="af7cb44c-ef4a-4b3b-82fd-444cdedeef9a"/>
+                    <attribute id="VisualResource" type="guid" value="af9c09b4-e68e-404f-ad2b-705745010fc0"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> swirls 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
+                    <attribute id="UUID" type="guid" value="122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd"/>
+                    <attribute id="VisualResource" type="guid" value="2498c792-06c9-47b3-9321-a04460b981a4"/>
+                </node>
                 <node id="CharacterCreationSharedVisual"> lust brand 0
                     <attribute id="DisplayName" type="TranslatedString" handle="hf788275agceb2g4d5fga7a4g420bf51538a6" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="7bfece7a-9142-409f-b276-1227bb037169"/>
                     <attribute id="VisualResource" type="guid" value="d5c1ab8d-87f6-4e79-9da0-1fa0fc1254f6"/>
                 </node>
