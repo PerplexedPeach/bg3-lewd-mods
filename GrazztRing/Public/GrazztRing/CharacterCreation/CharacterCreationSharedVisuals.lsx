@@ -152,6 +152,15 @@
                     <attribute id="UUID" type="guid" value="58a88b95-eb78-4c00-9207-52c3f76df89b"/>
                     <attribute id="VisualResource" type="guid" value="49f99a4c-ec68-472e-b67d-663029f053b1"/>
                 </node>
+
+
+                HUM_M
+                <node id="CharacterCreationSharedVisual"> lust brand 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf788275agceb2g4d5fga7a4g420bf51538a6" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="7bfece7a-9142-409f-b276-1227bb037169"/>
+                    <attribute id="VisualResource" type="guid" value="d5c1ab8d-87f6-4e79-9da0-1fa0fc1254f6"/>
+                </node>
             </children>
         </node>
     </region>
