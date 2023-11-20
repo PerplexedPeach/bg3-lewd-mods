@@ -17,7 +17,7 @@ data "Description" "hfaa01da4gb114g421cgbc31g4aa4ea9009a5;1"
 data "Icon" "LI_Stim"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnTurn"
-data "StatsFunctors" "IF(not HasStatus('LI_STIM_0') and not HasStatus('LI_STIM_1') and not HasStatus('LI_STIM_2') and not HasStatus('LI_STIM_3') and not HasStatus('LI_STIM_4') and not HasStatus('LI_STIM_5') and not HasStatus('LI_STIM_6') and not HasStatus('LI_STIM_7') and not HasStatus('LI_STIM_8') and not HasStatus('LI_STIM_9') and not HasStatus('LI_OVERSTIM')):ApplyStatus(SELF,LI_STIM_0,100,1)"
+data "StatsFunctors" "IF(not HasStatus('LI_STIM_0') and not HasStatus('LI_STIM_1') and not HasStatus('LI_STIM_2') and not HasStatus('LI_STIM_3') and not HasStatus('LI_STIM_4') and not HasStatus('LI_STIM_5') and not HasStatus('LI_STIM_6') and not HasStatus('LI_STIM_7') and not HasStatus('LI_STIM_8') and not HasStatus('LI_STIM_9') and not HasStatus('LI_BLISS')):ApplyStatus(SELF,LI_STIM_0,100,1)"
 data "Boosts" "IF(not HasStatus('LI_SATED')):Disadvantage(Concentration)"
 
 new entry "Shout_LI_Stim_Surge"
@@ -62,7 +62,7 @@ data "TickType" "EndTurn"
 data "DescriptionParams" "6"
 data "OnTickRoll" "SavingThrow(Ability.Constitution, 6)"
 data "OnTickSuccess" "IF(Combat()):ApplyStatus(SELF,LI_STIM_1,100,1)"
-data "OnTickFail" "ApplyStatus(SELF,LI_OVERSTIM,100,2)"
+data "OnTickFail" "ApplyStatus(SELF,LI_BLISS,100,2)"
 
 
 new entry "LI_STIM_1"
@@ -137,12 +137,6 @@ using "LI_STIM_0"
 data "DescriptionParams" "33"
 data "OnTickRoll" "SavingThrow(Ability.Constitution, 33)"
 data "OnTickSuccess" "IF(Combat()):ApplyStatus(SELF,LI_STIM_9,100,1)"
-
-new entry "LI_OVERSTIM"
-using "LI_BLISS"
-data "DisplayName" "h0f74bf2cg1886g4f44g9c20gd3116e2918d2;2"
-data "Description" "hdd2520d6gabf7g40e8g9f74g2ea9bb255c23;2"
-data "OnRemoveFunctors" "IF(HasStatus('LI_SATED_1')):ApplyStatus(LI_SATED_2,100,-1); IF(HasStatus('LI_SATED')):ApplyStatus(LI_SATED_1,100,-1); IF(not HasStatus('LI_SATED_1') and not HasStatus('LI_SATED_2')):ApplyStatus(LI_SATED,100,-1)"
 
 
 new entry "LI_SATED"

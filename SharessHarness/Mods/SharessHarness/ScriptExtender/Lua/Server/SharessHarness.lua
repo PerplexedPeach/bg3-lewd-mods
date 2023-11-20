@@ -2,6 +2,7 @@ local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_";
 local stim_surge_id = "Shout_LI_Stim_Surge";
 local stim_status_prefix = "LI_STIM_";
 local stim_surge_level_increment = 3;
+local stimulation_passive = "LI_Sharess_Stimulation_Passive";
 
 local sated_status_ids = {
     "LI_SATED",
@@ -192,7 +193,33 @@ function HandleStimSurge(caster, spell, spellType, spellElement, storyActionID)
         _I("Stim surge: " .. caster .. " stim level " .. current_stim_level .. " -> " .. new_stim_level);
     end
 end
+
+function HandleSatedFromBliss(char, status, causee, storyActionID)
+    if status ~= Mods.DivineCurse.BLISS_STATUS then
+        return;
+    end
+    -- sate armor if wearing it - first check if we're wearing any by presence of passive
+    if Osi.HasPassive(char, stimulation_passive) == 1 then
+        -- check what sated level we're at
+        for i, status in ipairs(sated_status_ids) do
+            if Osi.HasActiveStatus(char, status) == 1 then
+                -- remove the status
+                Osi.RemoveStatus(char, status);
+                -- add the next one
+                local next_status = sated_status_ids[i + 1];
+                if next_status ~= nil then
+                    Osi.ApplyStatus(char, next_status, -1, 1, char);
+                end
+                return;
+            end
+        end
+        -- haven't found any, so we need to add the first one
+        Osi.ApplyStatus(char, sated_status_ids[1], -1, 1, char);
+    end
+end
+
 Ext.Osiris.RegisterListener("CastedSpell", 5, "after", HandleStimSurge);
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", HandleSatedFromBliss);
 
 Harness = LiHarnessProgression:new("Harness", {
     "LI_SharessHarness_f84dabb1-f1da-467a-9236-8c6aa474d4a4",
