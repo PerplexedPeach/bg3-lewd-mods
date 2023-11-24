@@ -91,6 +91,21 @@
                     <attribute id="VisualResource" type="guid" value="089d6389-13b8-44a0-a89d-0d6acca5fc7c"/>
 					<!-- ^^ The UUID you generate here will be used in the VisualBank section of the _merged file. ^^ -->
 				</node>
+                <node id="CharacterCreationAppearanceVisual">  aasimar compatibility      
+                    <attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
+                    <attribute id="BodyType" type="uint8" value="1"/> <!--0 = Masc 1 = Fem -->
+                                        <attribute id="DefaultSkinColor" type="guid" value="39949ade-52c7-d562-df3f-52da62275e26"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h35a54b32g4328g46ddgb709gdfcbbe6854a3" version="1"/>
+					<attribute id="IconIdOverride" type="FixedString" value="0_Head_29a4303f-81ec-48d7-a183-3e3546b38e96"/> 
+					<!-- ^^ Paste the handle that you generated in your localization file for the appropriate head here. ^^ -->
+                    <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e"/>
+					<!-- ^^ Below is a guide to each of the UUIDS for the different races. Paste the appropriate one here. ^^ -->
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="cabd256d-9410-428e-83b0-8dd6663822fd"/>
+					<!-- ^^ Generate a brand new unique UUID in the multitool and place it here. ^^ -->
+                    <attribute id="VisualResource" type="guid" value="6de1e4e0-d819-4e80-961f-a61452eda123"/>
+
+                </node>
 				hair
 				<node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
@@ -152,7 +167,7 @@
                     <attribute id="UUID" type="guid" value="df12ad96-5974-47cb-8456-597ce733cca2"/>
                     <attribute id="VisualResource" type="guid" value="b0c0ac9b-ebe9-4d07-b07b-93e6cbc3b4df"/>
                 </node>
-                <node id="CharacterCreationAppearanceVisual">        
+                <node id="CharacterCreationAppearanceVisual">  aasimar compatibility      
                     <attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
                     <attribute id="BodyType" type="uint8" value="1"/> <!--0 = Masc 1 = Fem -->
                     <attribute id="DisplayName" type="TranslatedString" handle="h67121819g933dg47bdg915bg2c4b3585cfed" version="1" />
