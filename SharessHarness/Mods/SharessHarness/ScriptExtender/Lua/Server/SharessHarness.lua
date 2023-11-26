@@ -203,6 +203,10 @@ function HandleSatedFromBliss(char, status, causee, storyActionID)
         -- check what sated level we're at
         for i, status in ipairs(sated_status_ids) do
             if Osi.HasActiveStatus(char, status) == 1 then
+                if i == #sated_status_ids then
+                    -- already at max level
+                    return;
+                end
                 -- remove the status
                 Osi.RemoveStatus(char, status);
                 -- add the next one
