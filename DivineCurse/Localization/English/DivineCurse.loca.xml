@@ -21,7 +21,7 @@
 	<content contentuid="hc2099153g04acg41dfga0a5gb0ce931bf3e3" version="1">Remove override and return to using actual remodelled frame passive level and worn clothing to decide nude body appearance, and body level for accessories.</content>
 
 	<content contentuid="h4f6173d2gf203g41e4gbaefgf94cfab4cd15" version="1">Pleasure</content>
-	<content contentuid="h2c3b9b66gbe4fg4d0bga3c2g6868f422e57c" version="1">Like pain, your body can only tolerate so much pleasure. When you experience more pleasure stacks than your max HP, you collapse. It slowly decays over time, and can be decreased via abilities.</content>
+	<content contentuid="h2c3b9b66gbe4fg4d0bga3c2g6868f422e57c" version="1">Like pain, your body can only tolerate so much pleasure. When you experience more pleasure stacks than you can tolerate, you collapse. It slowly decays over time, and can be decreased via abilities.</content>
 
 	<content contentuid="h974b1a2eg64b8g4ddegac6dg178133ace556" version="2">Bliss</content>
 	<content contentuid="ha8d804adg105ag4e17gb82ag04ac07492212" version="2">Overwhelmed with pleasure, you are incapacitated and cannot think straight.</content>
