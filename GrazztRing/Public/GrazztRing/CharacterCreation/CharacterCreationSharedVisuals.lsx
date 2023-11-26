@@ -83,65 +83,65 @@
                 HUM_FS
                 <node id="CharacterCreationSharedVisual"> chains 0
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="c698fab1-43a2-4c7d-9d59-38d94a986ec4"/>
                     <attribute id="VisualResource" type="guid" value="b6985c70-bf12-4675-95b7-d932128d8bf8"/>
                 </node>
                 <node id="CharacterCreationSharedVisual"> swirls 0
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="4813dae1-cb97-481e-b9e1-5a60d22ce7fa"/>
                     <attribute id="VisualResource" type="guid" value="830863d6-e0fb-46ad-a0d5-b4a0411f6088"/>
                 </node>
 
                 <node id="CharacterCreationSharedVisual"> chains 1
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="fc60aa34-b2b0-4bc7-be37-38bba9fae88c"/>
                     <attribute id="VisualResource" type="guid" value="93163a0a-5b45-4817-be76-673b6be51c3b"/>
                 </node>
                 <node id="CharacterCreationSharedVisual"> swirls 1
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="166a81f6-1e14-46fa-aac5-b5c4cce00068"/>
                     <attribute id="VisualResource" type="guid" value="771e0c69-d417-4207-84a7-4e51b9ae9a01"/>
                 </node>
 
                 <node id="CharacterCreationSharedVisual"> chains 2
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="4011dbf5-a4a1-44cf-9d42-b8b346420b80"/>
                     <attribute id="VisualResource" type="guid" value="3d09c43f-74e5-4dcc-ace7-67b5208558ac"/>
                 </node>
                 <node id="CharacterCreationSharedVisual"> swirls 2
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="142659d1-7d5e-4180-bce1-9ee510b1f8cd"/>
                     <attribute id="VisualResource" type="guid" value="fec7aca9-e19d-43cd-bb5f-08d0226e9c8f"/>
                 </node>
 
                 <node id="CharacterCreationSharedVisual"> chains 3
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="5da94a8e-4e4c-4573-a3a3-5e8c5f42fd5e"/>
                     <attribute id="VisualResource" type="guid" value="74b6c4fc-8efe-4ce6-bf45-608ff21f5302"/>
                 </node>
                 <node id="CharacterCreationSharedVisual"> swirls 3
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="facbf4f6-e288-48a6-87db-2433bcfc60a5"/>
                     <attribute id="VisualResource" type="guid" value="cbf6bedf-a9f7-4fa7-9c2a-157f03818075"/>
                 </node>
 
                 <node id="CharacterCreationSharedVisual"> chains 4
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="410c7436-61d0-4b5e-b5c3-1b4898c581f6"/>
                     <attribute id="VisualResource" type="guid" value="51f0c313-aed6-4230-a252-d0ced028f837"/>
                 </node>
                 <node id="CharacterCreationSharedVisual"> swirls 4
                     <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
-                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="SlotName" type="FixedString" value="DragonbornTop"/>
                     <attribute id="UUID" type="guid" value="a20f45db-c11f-4c0a-a46d-2a2ff789e07b"/>
                     <attribute id="VisualResource" type="guid" value="db062fd2-746b-461d-b80a-f8841d30ce75"/>
                 </node>
