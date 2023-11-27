@@ -69,7 +69,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d59782c3-78e7-ec54-a358-e58bd540e092" /> underwear
+													<attribute id="Object" type="FixedString" value="c64d931c-2f0f-445b-a6e2-a4173f775731" /> underwear
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="4674113b-7717-4a0d-a14a-ab8d181284ae" /> belt
@@ -159,7 +159,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d59782c3-78e7-ec54-a358-e58bd540e092" /> underwear
+													<attribute id="Object" type="FixedString" value="c64d931c-2f0f-445b-a6e2-a4173f775731" /> underwear
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="4674113b-7717-4a0d-a14a-ab8d181284ae" /> belt
@@ -249,7 +249,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="21cdb8a2-0567-455a-9a00-5698911d85bf" /> underwear
+													<attribute id="Object" type="FixedString" value="35ffd24a-c639-43c9-afd0-b06a9fc9dd64" /> underwear
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="0ed49bc8-1ede-40d3-9232-e329c0ee2eb6" /> belt
@@ -339,7 +339,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="608b1e50-50eb-417d-b9c9-d85bb74e85a2" /> underwear
+													<attribute id="Object" type="FixedString" value="d5369484-1d78-4672-9056-9b97c99f7764" /> underwear
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="846e7c38-5541-419c-be22-e8f85bba5e8e" /> belt
@@ -429,7 +429,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="2f2c5e08-17e7-44c9-8df5-e18bf7343e3e" /> underwear
+													<attribute id="Object" type="FixedString" value="6ffeb1f6-237e-4c54-a2e5-30789b2872f8" /> underwear
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="c8e9bae9-3a25-4451-afc9-4daef2ea5200" /> belt
@@ -519,7 +519,7 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> Strong_Female
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="3f86a5a8-4e74-4a01-9132-5590a46cc7ab" /> underwear
+													<attribute id="Object" type="FixedString" value="d2a034b3-e363-4794-8996-a0568db9fa7d" /> underwear
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="56b3c234-2555-44cc-92b9-9ad29ab42e5b" /> belt
