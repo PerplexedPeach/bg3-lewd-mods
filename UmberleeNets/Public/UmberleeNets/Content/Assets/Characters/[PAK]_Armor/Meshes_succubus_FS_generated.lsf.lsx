@@ -39,9 +39,6 @@
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Skimy_Basis.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Private_Parts" />
-						</node>
-						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 					</children>
@@ -79,9 +76,6 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="e469460b-eb90-2cbc-b845-80d7ae7b87d4" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Skimy_Basis.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
-						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Private_Parts" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
@@ -123,9 +117,6 @@
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Skimy_Basis.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Private_Parts" />
-						</node>
-						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 					</children>
@@ -163,9 +154,6 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="e469460b-eb90-2cbc-b845-80d7ae7b87d4" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Skimy_Basis.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
-						</node>
-						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Private_Parts" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
@@ -207,6 +195,9 @@
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Bra_1.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
 						</node>
 					</children>
@@ -244,6 +235,9 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="e469460b-eb90-2cbc-b845-80d7ae7b87d4" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Bra_2.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
@@ -285,6 +279,9 @@
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Bra_3.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
 						</node>
 					</children>
@@ -322,6 +319,9 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="e469460b-eb90-2cbc-b845-80d7ae7b87d4" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Succubus_Underwear_Bra_4.HUM_FS_CLT_Succubus_Underwear_A_Mesh.0" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />

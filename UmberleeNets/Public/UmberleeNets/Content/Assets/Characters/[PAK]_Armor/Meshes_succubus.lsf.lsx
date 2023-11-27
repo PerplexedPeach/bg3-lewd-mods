@@ -39,9 +39,6 @@
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Succubus_Underwear_Skimy_Basis.HUM_F_CLT_Succubus_Underwear_A_Mesh.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
-							<attribute id="Object" type="FixedString" value="Private_Parts" />
-						</node>
-						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
 						</node>
 					</children>
@@ -82,6 +79,9 @@
 						</node>
 						<node id="VertexColorMaskSlots">
 							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
 						</node>
 					</children>
 				</node>
