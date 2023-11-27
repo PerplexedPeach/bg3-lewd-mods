@@ -107,6 +107,36 @@ using "LI_UmberleeNets"
 data "RootTemplate" "ae79b53a-776b-47d4-849d-e68f42a76c89" 
 
 
+new entry "LI_UmberleeNets_Suc_Skimpy"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "da19d995-3b84-4774-8bdc-802f7f21add6" 
+
+new entry "LI_UmberleeNets_Suc_Skimpy_Unflexed"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "7f0db749-828e-4ea1-8963-5629672f0d88" 
+
+new entry "LI_UmberleeNets_Suc_Skimpy_1"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "099fdf69-50aa-40b7-913f-47e21d2687ce" 
+
+new entry "LI_UmberleeNets_Suc_Skimpy_2"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "8b1ab871-4133-4fe4-8ee3-24a08ea25105" 
+
+new entry "LI_UmberleeNets_Suc_Skimpy_3"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "d499fba5-0735-4827-aadc-81ca758ee87d" 
+
+new entry "LI_UmberleeNets_Suc_Skimpy_4"
+type "Armor"
+using "LI_UmberleeNets"
+data "RootTemplate" "a1ae0701-bb90-42ff-bcfb-b877808cb80c" 
+
 
 new entry "LI_UmberleeNets_Same"
 type "Armor"

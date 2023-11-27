@@ -5,12 +5,12 @@
         <node id="Templates">
             <children>        
 				<node id="GameObjects">  Umberlee Nets 
-					<attribute id="DisplayName" type="TranslatedString" handle="h87fccc13gc972g4d46g88d2g3ad2e03ae5ff" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h15cb30ccg2b0fg46c5g8324gd9e98cd24782" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets" />
-					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc" />
-					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc" />
-					<attribute id="MapKey" type="FixedString" value="6a0291b8-f8a9-4659-a46d-9f2f9231ca4e" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_Skimpy" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_Skimpy" />
+					<attribute id="MapKey" type="FixedString" value="da19d995-3b84-4774-8bdc-802f7f21add6" />
 					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
@@ -24,9 +24,6 @@
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="90a9e0f1-6e5a-4441-a951-f02811cb2035" /> underwear
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="5b9de649-76ac-4092-a243-00c53580001a" /> bra
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> belt
@@ -98,12 +95,12 @@
 					</children>
 				</node>
 				<node id="GameObjects">  Umberlee Nets Unflexed
-					<attribute id="DisplayName" type="TranslatedString" handle="h846ae000g5b3cg478ag9d8fge4939bd6ae92" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h87147d4dgf33dg4d18g937bg8f38cb0fb80f" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets" />
-					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_Unflexed" />
-					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_Unflexed" />
-					<attribute id="MapKey" type="FixedString" value="c9e977b5-c487-4d8e-a32a-e4e385c60dd9" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_Skimpy_Unflexed" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_Skimpy_Unflexed" />
+					<attribute id="MapKey" type="FixedString" value="7f0db749-828e-4ea1-8963-5629672f0d88" />
 					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
@@ -117,9 +114,6 @@
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="90a9e0f1-6e5a-4441-a951-f02811cb2035" /> underwear
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="5b9de649-76ac-4092-a243-00c53580001a" /> bra
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> belt
@@ -191,12 +185,12 @@
 					</children>
 				</node>
 				<node id="GameObjects">  Umberlee Nets 1
-					<attribute id="DisplayName" type="TranslatedString" handle="h10ed3971gf578g4a87gbc55g88393eee0959" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4b258bdeg7e53g4060g8834gd38f1a21900a" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets" />
-					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_1" />
-					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_1" />
-					<attribute id="MapKey" type="FixedString" value="72daccbf-ad39-416f-a907-539feaa7ca4d" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_Skimpy_1" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_Skimpy_1" />
+					<attribute id="MapKey" type="FixedString" value="099fdf69-50aa-40b7-913f-47e21d2687ce" />
 					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
@@ -210,9 +204,6 @@
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="511b5c8f-c1f6-473f-b7ec-69699e363303" /> underwear
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1a8299f8-6ac1-4245-80f5-f085fd358129" /> bra
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="1a4a70aa-1e3d-4c25-9674-ef747bfe949e" /> belt
@@ -284,12 +275,12 @@
 					</children>
 				</node>
 				<node id="GameObjects">  Umberlee Nets 2
-					<attribute id="DisplayName" type="TranslatedString" handle="hf9dc1856g79afg407agb66eg7f1ad89dc07b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16b827f0g3352g48f2g89d5g7aeb1ac5659e" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets" />
-					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_2" />
-					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_2" />
-					<attribute id="MapKey" type="FixedString" value="853c6971-7257-4e7d-85b4-00315e9ea0da" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_Skimpy_2" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_Skimpy_2" />
+					<attribute id="MapKey" type="FixedString" value="8b1ab871-4133-4fe4-8ee3-24a08ea25105" />
 					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
@@ -303,9 +294,6 @@
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="a96d9998-8e60-4f6c-91ed-4b6cedadae77" /> underwear
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="3f5fb548-bc8d-4758-935b-9f3ef58ed438" /> bra
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="d02039ad-e83e-4fdc-8970-b0aa2a14a01b" /> belt
@@ -377,12 +365,12 @@
 					</children>
 				</node>
 				<node id="GameObjects">  Umberlee Nets 3
-					<attribute id="DisplayName" type="TranslatedString" handle="h575e443dgd494g46dag970ageeff9c35cbb4" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1d8b6077g0ad5g4f84ga760g6582359db5cd" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets" />
-					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_3" />
-					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_3" />
-					<attribute id="MapKey" type="FixedString" value="7dd8e863-e810-4436-8956-c2082c115445" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_Skimpy_3" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_Skimpy_3" />
+					<attribute id="MapKey" type="FixedString" value="d499fba5-0735-4827-aadc-81ca758ee87d" />
 					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
@@ -396,9 +384,6 @@
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="ffd2efa7-68c3-4af8-90ee-4014bf1c369c" /> underwear
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="bba68876-f347-4b69-a9a1-c1cb4384381f" /> bra
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="d345a8a4-c805-4654-aa6e-1d4bf8b3aa4b" /> belt
@@ -470,12 +455,12 @@
 					</children>
 				</node>
 				<node id="GameObjects">  Umberlee Nets 4
-					<attribute id="DisplayName" type="TranslatedString" handle="hf5a2aff0gc679g46dfg834eg948606341708" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9f38fcefgbb96g4ea0ga077g91a7fb656cef" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="hede74d82g8f3cg40f3g9113g769934b7db75" version="1" />
 					<attribute id="Icon" type="FixedString" value="LI_UmberleeNets" />
-					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_4" />
-					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_4" />
-					<attribute id="MapKey" type="FixedString" value="ae79b53a-776b-47d4-849d-e68f42a76c89" />
+					<attribute id="Name" type="LSString" value="LI_UmberleeNets_Suc_Skimpy_4" />
+					<attribute id="Stats" type="FixedString" value="LI_UmberleeNets_Suc_Skimpy_4" />
+					<attribute id="MapKey" type="FixedString" value="a1ae0701-bb90-42ff-bcfb-b877808cb80c" />
 					<attribute id="VisualTemplate" type="FixedString" value="c6ce96d5-af8a-4b61-85c5-2d304603fea4" /> 
 					<attribute id="ParentTemplateId" type="FixedString" value="969bab00-b269-46a5-a7e9-dd4887814719" /> ARM_Boots_Leather
 					<attribute id="Type" type="FixedString" value="item" />
@@ -489,9 +474,6 @@
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="a8029dd8-0e1a-4dbf-a48c-5adf30fdaa34" /> underwear
-												</node>
-												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="1338654b-f349-4c3e-a9ae-f6007e35c237" /> bra
 												</node>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="9cf8f1c6-53df-44a9-8d5a-c3ac14563842" /> belt
