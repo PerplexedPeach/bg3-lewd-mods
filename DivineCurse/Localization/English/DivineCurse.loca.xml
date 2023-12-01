@@ -23,6 +23,9 @@
 	<content contentuid="h4f6173d2gf203g41e4gbaefgf94cfab4cd15" version="1">Pleasure</content>
 	<content contentuid="h2c3b9b66gbe4fg4d0bga3c2g6868f422e57c" version="1">Like pain, your body can only tolerate so much pleasure. When you experience more pleasure stacks than you can tolerate, you collapse. It slowly decays over time, and can be decreased via abilities.</content>
 
+	<content contentuid="h06d917efgd33eg40b4gab31gba8384a804a5" version="1">Max Pleasure</content>
+	<content contentuid="h053ae35bgd66eg4784gadccg0d9492fc9412" version="1">Like pain, the body can only tolerate so much pleasure. The duration of this status is how much &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt; you can tolerate.</content>
+
 	<content contentuid="h974b1a2eg64b8g4ddegac6dg178133ace556" version="2">Bliss</content>
 	<content contentuid="ha8d804adg105ag4e17gb82ag04ac07492212" version="2">Overwhelmed with pleasure, you are incapacitated and cannot think straight.</content>
 

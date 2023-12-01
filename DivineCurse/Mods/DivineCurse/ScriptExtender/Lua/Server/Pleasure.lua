@@ -4,6 +4,7 @@ end
 
 BLISS_STATUS = "LI_BLISS";
 PLEASURE_STATUS = "LI_PLEASURE";
+MAX_PLEASURE_STATUS = "LI_PLEASURE_MAX";
 function Modifier(character, attribute)
     return math.floor((Osi.GetAbility(character, attribute) - 10) / 2);
 end

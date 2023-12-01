@@ -18,7 +18,11 @@ function ReportBlissCounts(caster, target, spell, spellType, spellElement, story
     -- also report this to the caster in a string that we pass onto OpenMessageBox
     local name_handle = Osi.GetDisplayName(caster);
     local report = "You channel your dark inspection on " .. Ext.Loca.GetTranslatedString(name_handle) .. "...\n";
-    report = report .. "Max pleasure: " .. Mods.DivineCurse.MaxPleasure(target) .. "\n";
+    local max_pleasure = Mods.DivineCurse.MaxPleasure(target);
+    report = report .. "Max pleasure: " .. max_pleasure .. "\n";
+    -- also apply a status effect to the target with duration equal to the max pleasure (it's frozen duration)
+    -- this API is given in seconds (6 seconds = 1 turn)
+    Osi.ApplyStatus(target, Mods.DivineCurse.MAX_PLEASURE_STATUS, max_pleasure * 6);
     report = report .. "Bliss count: " .. bliss_count .. "\n";
     report = report .. "Bliss cause counts:\n";
     for ability, count in pairs(bliss_cause_counts) do
