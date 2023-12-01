@@ -5,6 +5,14 @@ end
 BLISS_STATUS = "LI_BLISS";
 PLEASURE_STATUS = "LI_PLEASURE";
 MAX_PLEASURE_STATUS = "LI_PLEASURE_MAX";
+BLISS_OVERLOAD_STATUSES = {
+    "LI_BLISS_OVERLOAD_1",
+    "LI_BLISS_OVERLOAD_2",
+    "LI_BLISS_OVERLOAD_3",
+    "LI_BLISS_OVERLOAD_4",
+    "LI_BLISS_OVERLOAD_5",
+};
+
 function Modifier(character, attribute)
     return math.floor((Osi.GetAbility(character, attribute) - 10) / 2);
 end
@@ -48,7 +56,26 @@ function HandlePleasure(character, status, causee, storyActionID)
         Osi.ApplyStatus(character, BLISS_STATUS, 2, 1, character);
         Osi.RemoveStatus(character, PLEASURE_STATUS);
         IncreaseBlissCount(character, 1);
+
+        -- also apply bliss overload depending on the number of bliss
+        AdvanceBlissOverload(character);
     end
+end
+
+function AdvanceBlissOverload(character)
+    local overload_stage = 1;
+    for i = 1, #BLISS_OVERLOAD_STATUSES do
+        local bliss_overload_status = BLISS_OVERLOAD_STATUSES[i];
+        if Osi.HasActiveStatus(character, bliss_overload_status) == 1 then
+            if i < #BLISS_OVERLOAD_STATUSES then
+                overload_stage = i + 1;
+            else
+                overload_stage = i;
+            end
+        end
+    end
+    _I("Advance bliss overload for " .. character .. " to stage " .. overload_stage);
+    Osi.ApplyStatus(character, BLISS_OVERLOAD_STATUSES[overload_stage], overload_stage * 6, 1);
 end
 
 function RegisterBlissCausee(char_in_bliss, char_causing_bliss)

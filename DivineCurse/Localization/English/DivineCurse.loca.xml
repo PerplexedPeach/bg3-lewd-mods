@@ -29,4 +29,19 @@
 	<content contentuid="h974b1a2eg64b8g4ddegac6dg178133ace556" version="2">Bliss</content>
 	<content contentuid="ha8d804adg105ag4e17gb82ag04ac07492212" version="2">Overwhelmed with pleasure, you are incapacitated and cannot think straight.</content>
 
+
+	<content contentuid="h242c8827g33ceg4478gb479g54d293bd79b1" version="2">Bliss Overload I</content>
+	<content contentuid="h18a155bag4c76g4e1fg925ag34e98ecfa2b3" version="2">Your mind is distracted by the afterglow of &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;. You receive -1 to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
+
+	<content contentuid="heab8fe00gd109g4214g8ffdg6caddce48c2c" version="2">Bliss Overload II</content>
+	<content contentuid="he0a00f79ge9d2g43d7gbf6dg0fcd282f43b8" version="2">Your mind is occupied by the afterglow of &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;, preventing you from forming any complex thoughts. You receive -2 to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;, and -1 to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h888b3f37g305ag46f9g8d8fge862c1fde9f7" version="2">Bliss Overload III</content>
+	<content contentuid="hf93dbc66gbe39g4d3fga7c3ga58143575720" version="2">Your mind is dominated by the afterglow of &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;, preventing you from forming any coherent thoughts. You receive -2 to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;, -2 to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, and -1 to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hdeb2a203g6718g488dg89ccge0d5657cae09" version="2">Bliss Overload IV</content>
+	<content contentuid="h3efc3a6fgb2f4g46d6g9638g91ffc3daa9b9" version="2">Your mind is completely dominated by the afterglow of &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;, preventing you from forming any thoughts. You receive -2 to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;, -2 to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, -2 to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, and  &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h0acd9210g1deag4e0aga83bg8aa8712e8743" version="2">Tamed</content>
+	<content contentuid="h715e12aeg643ag44ecg8a97gbf1aa29a46b1" version="2">Your mind is tamed by overwhelming &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt;, incapacitating you.</content>
 </contentList>
