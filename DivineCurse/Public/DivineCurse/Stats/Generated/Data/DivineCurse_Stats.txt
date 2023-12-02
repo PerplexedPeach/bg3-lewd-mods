@@ -19,6 +19,27 @@ new entry "LI_Clothes_4"
 type "PassiveData"
 using "LI_Clothes_0"
 
+new entry "LI_Clothes_Camp_0"
+type "PassiveData"
+data "DisplayName" ""
+data "Properties" "IsHidden"
+
+new entry "LI_Clothes_Camp_1"
+type "PassiveData"
+using "LI_Clothes_Camp_0"
+
+new entry "LI_Clothes_Camp_2"
+type "PassiveData"
+using "LI_Clothes_Camp_0"
+
+new entry "LI_Clothes_Camp_3"
+type "PassiveData"
+using "LI_Clothes_Camp_0"
+
+new entry "LI_Clothes_Camp_4"
+type "PassiveData"
+using "LI_Clothes_Camp_0"
+
 new entry "LI_Body_1"
 type "PassiveData"
 data "DisplayName" ""
