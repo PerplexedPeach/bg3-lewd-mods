@@ -143,7 +143,8 @@ function BodyEquipment:itemLevel(item)
     return nil;
 end
 
-function BodyEquipment:enforceBodyEquipmentConsistency(item, char)
+function BodyEquipment:enforceBodyEquipmentConsistency(char)
+    local item = Osi.GetEquippedItem(char, self.slot);
     -- check if the equipped item is one of ours
     local item_level = self:itemLevel(item);
     if item_level == nil then
@@ -168,16 +169,19 @@ end
 
 function BodyEquipment:equipHandler(equipped_item, char)
     -- we also need to care about equipping things other than our item since they could change the body level
-    local item = Osi.GetEquippedItem(char, self.slot);
-    self:enforceBodyEquipmentConsistency(item, char);
+    self:enforceBodyEquipmentConsistency(char);
 end
+
+function BodyEquipment:armorSetChangedHandler(char, armorset)
+    self:enforceBodyEquipmentConsistency(char);
+end
+
+
 -- also check after a delay after long rest (since the body level may have changed)
 function BodyEquipment:longRestHandler()
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
         local char = player[1];
-        local item = Osi.GetEquippedItem(char, self.slot);
-
-        self:enforceBodyEquipmentConsistency(item, char);
+        self:enforceBodyEquipmentConsistency(char);
     end
 end
 
@@ -186,6 +190,7 @@ function BodyEquipment:registerHandlers()
     Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function()
         DelayedCall(1000, function() self:longRestHandler() end);
     end);
+    Ext.Osiris.RegisterListener("ArmorSetChanged", 2, "after", function(...) self:armorSetChangedHandler(...) end);
 
     self:log("Registered handlers");
 end
