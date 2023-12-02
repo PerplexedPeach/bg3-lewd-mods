@@ -25,3 +25,12 @@ NetsSame = Mods.DivineCurse.BodyEquipment:new("NetsSame", "Underwear", {
     "LI_UmberleeNets_Same_4_5904578f-4aa4-47ae-a510-b5907ee5853f"
 });
 NetsSame:registerHandlers();
+
+NetsUnderwearSkimpy = Mods.DivineCurse.BodyEquipment:new("NetsUnderwearSkimpy", "Underwear", {
+    "LI_UmberleeNets_Suc_Skimpy_da19d995-3b84-4774-8bdc-802f7f21add6",
+    "LI_UmberleeNets_Suc_Skimpy_1_099fdf69-50aa-40b7-913f-47e21d2687ce",
+    "LI_UmberleeNets_Suc_Skimpy_2_8b1ab871-4133-4fe4-8ee3-24a08ea25105",
+    "LI_UmberleeNets_Suc_Skimpy_3_d499fba5-0735-4827-aadc-81ca758ee87d",
+    "LI_UmberleeNets_Suc_Skimpy_4_a1ae0701-bb90-42ff-bcfb-b877808cb80c"
+});
+NetsUnderwearSkimpy:registerHandlers();
