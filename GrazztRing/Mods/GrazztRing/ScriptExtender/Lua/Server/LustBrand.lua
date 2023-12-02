@@ -48,6 +48,7 @@ function LustBrand:error(message)
     self:log(" [ERROR] " .. message);
 end
 
+
 function LustBrand:handleLustBrandConsistency(char)
     -- care about if self.character is specified
     if self.character_id ~= nil and self.character_id ~= char then
@@ -56,8 +57,11 @@ function LustBrand:handleLustBrandConsistency(char)
     local entity = Ext.Entity.Get(char);
     local id = GetAssetForBodyShapeAndType(self.ids, entity);
     if Osi.HasActiveStatus(char, self.status_id) == 1 and Osi.HasActiveStatus(char, hide_brand_status) == 0 then
-        self:log("Applying lust brand visual to " .. char .. " with ID " .. tostring(id));
-        Osi.AddCustomVisualOverride(char, id);
+        -- only add if we don't already have it (avoid spamming log)
+        if not Mods.DivineCurse.FindCharacterCreationVisual(entity, id) then
+            self:log("Applying lust brand visual to " .. char .. " with ID " .. tostring(id));
+            Osi.AddCustomVisualOverride(char, id);
+        end
     else
         self:log("Removing lust brand visual from " .. char .. " with ID " .. tostring(id));
         Osi.RemoveCustomVisualOvirride(char, id);
