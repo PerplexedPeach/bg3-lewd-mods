@@ -110,12 +110,7 @@ function BodyPiercing:itemLevel(char)
     return Mods.DivineCurse.BodyEquipmentLevel(char);
 end
 
-function BodyPiercing:enforceBodyPiercingConsistency(char)
-    -- check what level of the equipment the character is wearing
-    -- get the item template at slot
-    local itemLevel = self:itemLevel(char);
-    self:log("enforcing consistency for " .. char .. " with item level " .. tostring(itemLevel));
-
+function BodyPiercing:applyVisuals(char, itemLevel)
     local char_entity = Ext.Entity.Get(char);
     local char_visuals = char_entity.CharacterCreationAppearance.Visuals;
 
@@ -150,6 +145,14 @@ function BodyPiercing:enforceBodyPiercingConsistency(char)
             Osi.AddCustomVisualOverride(char, vis_id);
         end
     end
+end
+
+function BodyPiercing:enforceBodyPiercingConsistency(char)
+    -- check what level of the equipment the character is wearing
+    -- get the item template at slot
+    local itemLevel = self:itemLevel(char);
+    self:log("enforcing consistency for " .. char .. " with item level " .. tostring(itemLevel));
+    self:applyVisuals(char, itemLevel);
 end
 
 function BodyPiercing:equipHandler(equipped_item, char)
