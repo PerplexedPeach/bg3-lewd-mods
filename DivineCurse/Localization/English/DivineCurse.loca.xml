@@ -5,7 +5,11 @@
 	<content contentuid="h33e4bc0cg0197g48d7g8229gb6e854025aa8" version="1">Appearance Override</content>
 	<content contentuid="h21ce3890g0dbcg4896gbe41ge945bb6b139a" version="1">Override remodelled frame and armor level to set your appearance for accessories (such as Umberlee's Nets) to stage [1].</content>
 
+	<content contentuid="hf1732561g96efg47b2gabb5gff9f6ca9bd4b" version="1">Appearance Override (Camp)</content>
+
 	<content contentuid="h3a0127c7g5799g46a1g98aeg20fbb4a092d8" version="1">Override Appearance</content>
+	<content contentuid="h381ebdf0g0ec4g4346g80c8g4ef4da195ab7" version="1">Override Appearance (Camp)</content>
+
 
 	<content contentuid="h15e2e652g1987g423fg99a4g3093eb25728b" version="1">Vanilla (stage 0)</content>
 	<content contentuid="h5f0eabaagc47eg473fg8f02ga1ac8d320ef7" version="1">Base game model, no remodelled frame passive.</content>
@@ -19,6 +23,7 @@
 	<content contentuid="h42fe8e03ge4dag4dc0g93a6gdc5379f9c213" version="1">Remodelled frame passive stage 4.</content>
 	<content contentuid="h17788acbg2f0ag4917g8937g8e94721f5ffe" version="1">Dispel Override</content>
 	<content contentuid="hc2099153g04acg41dfga0a5gb0ce931bf3e3" version="1">Remove override and return to using actual remodelled frame passive level and worn clothing to decide nude body appearance, and body level for accessories.</content>
+	<content contentuid="h3d10e16bg5eafg40b1g9eaagb8e88f699f37" version="1">Dispel Override (Camp)</content>
 
 	<content contentuid="h4f6173d2gf203g41e4gbaefgf94cfab4cd15" version="1">Pleasure</content>
 	<content contentuid="h2c3b9b66gbe4fg4d0bga3c2g6868f422e57c" version="1">Like pain, your body can only tolerate so much pleasure. When you experience more pleasure stacks than you can tolerate, you collapse. It slowly decays over time, and can be decreased via abilities.</content>

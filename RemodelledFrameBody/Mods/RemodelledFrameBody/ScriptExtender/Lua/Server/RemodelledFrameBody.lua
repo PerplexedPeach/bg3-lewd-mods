@@ -17,17 +17,6 @@ local function _I(msg)
     _P("[RFB] " .. msg);
 end
 
-local function delayedCall(delayInMs, func)
-    local startTime = Ext.Utils.MonotonicTime()
-    local handlerId;
-    handlerId = Ext.Events.Tick:Subscribe(function()
-        local endTime = Ext.Utils.MonotonicTime()
-        if (endTime - startTime > delayInMs) then
-            Ext.Events.Tick:Unsubscribe(handlerId)
-            func()
-        end
-    end);
-end
 
 ---Get whether an item UUID belongs to a temporary ID
 ---@param item string UUID
@@ -99,31 +88,38 @@ function ReequipHandler(item, char)
         return;
     end
     do_not_trigger_unequip = true;
-    delayedCall(1000, function()
+    Mods.DivineCurse.DelayedCall(1000, function()
         do_not_trigger_unequip = false;
     end);
 end
 
--- after loading, check if the body or body camp slot is unequipped, and if so equip it
-function SaveGameLoadedHandler()
-    for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
-        local char = player[1];
-        -- check if they have remodelled frame
-        local frame_level = Mods.DivineCurse.ForcedExposedBodyLevel(char);
-        if frame_level > 0 then
-            -- check if they have the body slot equipped
-            local item = Osi.GetEquippedItem(char, body_slot);
-            if item == nil then
-                -- equip the body slot
+function ShouldReplaceBody(char, slot)
+    -- we add body if there's nothing worn, or if it's one of our body items
+    local item = Osi.GetEquippedItem(char, slot);
+    if item == nil then
+        return true;
+    end
+    local temp_level, temp_camp_level = tempBodyItemLevel(item);
+    if slot == body_slot then
+        return temp_level > 0;
+    elseif slot == body_slot_camp then
+        return temp_camp_level > 0;
+    end
+    return false;
+end
+
+function EnforceBodyConsistency(char)
+    local frame_level = Mods.DivineCurse.ForcedExposedBodyLevel(char);
+    if frame_level > 0 then
+        if Osi.GetArmourSet(char) == Mods.DivineCurse.ARMOR_SET then
+            if ShouldReplaceBody(char, body_slot) then
                 local id = body_ids[frame_level];
                 local item = Osi.CreateAtObject(id, char, 0, 0, "", 0);
                 _I("Equipping remodelled frame body " .. frame_level);
                 Osi.Equip(char, item);
             end
-            -- check if they have the body camp slot equipped
-            item = Osi.GetEquippedItem(char, body_slot_camp);
-            if item == nil then
-                -- equip the body slot
+        else
+            if ShouldReplaceBody(char, body_slot_camp) then
                 local id = body_camp_ids[frame_level];
                 local item = Osi.CreateAtObject(id, char, 0, 0, "", 0);
                 _I("Equipping remodelled frame body (camp) " .. frame_level);
@@ -133,7 +129,21 @@ function SaveGameLoadedHandler()
     end
 end
 
+-- after loading, check if the body or body camp slot is unequipped, and if so equip it
+function SaveGameLoadedHandler()
+    for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
+        local char = player[1];
+        -- check if they have remodelled frame
+        EnforceBodyConsistency(char);
+    end
+end
+-- also enforce after switching armor sets
+function ArmorSetChangedHandler(character, eArmorSet)
+    EnforceBodyConsistency(character);
+end
+
 Ext.Osiris.RegisterListener("Unequipped", 2, "after", function(...) UnequipHandler(...) end);
 Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) ReequipHandler(...) end);
 Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function(...) SaveGameLoadedHandler(...) end);
+Ext.Osiris.RegisterListener("ArmorSetChanged", 2, "after", function(...) ArmorSetChangedHandler(...) end);
  

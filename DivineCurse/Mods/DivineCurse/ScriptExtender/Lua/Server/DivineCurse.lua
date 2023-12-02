@@ -23,9 +23,15 @@ function RemodelledFrameLevel(char)
 end
 
 local body_passive_prefix = "LI_Body_";
+local body_camp_passive_prefix = "LI_Body_Camp_";
+ARMOR_SET = 0;
+CAMP_SET = 1;
 function ExposedBodyLevel(char)
     for level = 1, 4 do
         local passive_key = body_passive_prefix .. level;
+        if Osi.GetArmourSet(char) == CAMP_SET then
+            passive_key = body_camp_passive_prefix .. level;
+        end
         if Osi.HasPassive(char, passive_key) == 1 then
             return level;
         end
@@ -34,9 +40,13 @@ function ExposedBodyLevel(char)
 end
 
 local clothes_passive_prefix = "LI_Clothes_";
+local clothes_camp_passive_prefix = "LI_Clothes_Camp_";
 function WornClothesLevel(char)
     for level = 0, 4 do
         local passive_key = clothes_passive_prefix .. level;
+        if Osi.GetArmourSet(char) == CAMP_SET then
+            passive_key = clothes_camp_passive_prefix .. level;
+        end
         if Osi.HasPassive(char, passive_key) == 1 then
             return level;
         end
@@ -45,9 +55,13 @@ function WornClothesLevel(char)
 end
 
 local forced_status_prefix = "LI_FORCED_BODY_";
+local forced_camp_status_prefix = "LI_FORCED_BODY_CAMP_";
 function ForcedBodyLevel(char)
     for level = 0, 4 do
         local status_key = forced_status_prefix .. level;
+        if Osi.GetArmourSet(char) == CAMP_SET then
+            status_key = forced_camp_status_prefix .. level;
+        end
         if Osi.HasActiveStatus(char, status_key) == 1 then
             return level;
         end
@@ -176,3 +190,16 @@ function BodyEquipment:registerHandlers()
     self:log("Registered handlers");
 end
 
+---Find if a character entity has a specific visual
+---@param char_entity any
+---@param id string id of the visual to test
+---@return boolean
+function FindCharacterCreationVisual(char_entity, id)
+    local char_visuals = char_entity.CharacterCreationAppearance.Visuals;
+    for _, vis_id in ipairs(char_visuals) do
+        if vis_id == id then
+            return true;
+        end
+    end
+    return false;
+end

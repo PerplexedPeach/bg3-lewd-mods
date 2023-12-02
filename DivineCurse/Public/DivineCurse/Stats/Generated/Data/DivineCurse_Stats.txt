@@ -36,3 +36,20 @@ new entry "LI_Body_4"
 type "PassiveData"
 using "LI_Body_1"
 
+
+new entry "LI_Body_Camp_1"
+type "PassiveData"
+data "DisplayName" ""
+data "Properties" "IsHidden"
+
+new entry "LI_Body_Camp_2"
+type "PassiveData"
+using "LI_Body_Camp_1"
+
+new entry "LI_Body_Camp_3"
+type "PassiveData"
+using "LI_Body_Camp_1"
+
+new entry "LI_Body_Camp_4"
+type "PassiveData"
+using "LI_Body_Camp_1"
