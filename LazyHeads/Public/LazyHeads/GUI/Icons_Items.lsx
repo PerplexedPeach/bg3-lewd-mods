@@ -38,7 +38,7 @@
                     <attribute id="V2" type="float" value="0.24333333333333335"/>	    
                 </node>
 				<node id="IconUV"> <!-- row 0 col 2 -->
-                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="MapKey" type="FixedString" value="0_Head_Diva_Corrupted"/>
                     <attribute id="U1" type="float" value="0.5066666666666667"/>
                     <attribute id="U2" type="float" value="0.7433333333333333"/>	   
                     <attribute id="V1" type="float" value="0.006666666666666667"/>
