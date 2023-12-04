@@ -48,18 +48,21 @@ function HandlePleasure(character, status, causee, storyActionID)
     local cur_pleasure = Osi.GetStatusTurns(character, PLEASURE_STATUS);
     _I("Pleasure " .. cur_pleasure .. " / " .. max_pleasure .. " for " .. character);
 
-    -- TODO remove after debugging
-    -- RegisterBlissCausee(character, causee);
-
     if cur_pleasure > max_pleasure then
-        RegisterBlissCausee(character, causee);
         Osi.ApplyStatus(character, BLISS_STATUS, 2, 1, character);
-        Osi.RemoveStatus(character, PLEASURE_STATUS);
-        IncreaseBlissCount(character, 1);
-
-        -- also apply bliss overload depending on the number of bliss
-        AdvanceBlissOverload(character);
     end
+end
+
+function HandleBliss(character, status, causee, storyActionID)
+    if status ~= BLISS_STATUS then
+        return;
+    end
+    -- also try registering bliss cause here
+    RegisterBlissCausee(character, causee);
+    IncreaseBlissCount(character, 1);
+    -- also apply bliss overload depending on the number of bliss
+    AdvanceBlissOverload(character);
+    Osi.RemoveStatus(character, PLEASURE_STATUS);
 end
 
 function AdvanceBlissOverload(character)
@@ -161,4 +164,4 @@ function BlissCount(char)
     return bliss_count;
 end
 
-Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandlePleasure(...) end);
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandlePleasure(...); HandleBliss(...) end);
