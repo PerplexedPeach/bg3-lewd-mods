@@ -30,6 +30,7 @@ data "Icon" "LI_Overstimulated"
 data "StackId" "LI_Bliss"
 data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);Advantage(AttackTarget);DetectDisturbancesBlock(true);StatusImmunity(SG_Prone);ActionResourceBlock(ReactionActionPoint)"
 data "OnApplyFunctors" "BreakConcentratin();CreateSurface(2, 2, Water);ApplyStatus(WET, 100, 3)"
+data "StatusPropertyFlags" "LoseControl"
 
 
 
