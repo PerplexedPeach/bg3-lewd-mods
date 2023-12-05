@@ -16,7 +16,7 @@ function ReportBlissCounts(caster, target, spell, spellType, spellElement, story
     _D(bliss_cause_counts);
 
     -- also report this to the caster in a string that we pass onto OpenMessageBox
-    local name_handle = Osi.GetDisplayName(caster);
+    local name_handle = Osi.GetDisplayName(target);
     local report = "You channel your dark inspection on " .. Ext.Loca.GetTranslatedString(name_handle) .. "...\n";
     local max_pleasure = Mods.DivineCurse.MaxPleasure(target);
     report = report .. "Max pleasure: " .. max_pleasure .. "\n";
