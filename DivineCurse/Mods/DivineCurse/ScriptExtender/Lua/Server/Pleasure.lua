@@ -13,18 +13,6 @@ BLISS_OVERLOAD_STATUSES = {
     "LI_BLISS_OVERLOAD_5",
 };
 
-function Modifier(character, attribute)
-    return math.floor((Osi.GetAbility(character, attribute) - 10) / 2);
-end
-
-function GetGUID(str) 
-    if str ~= nil then
-        return string.sub(str,-36);
-        -- return str:match("_?([^_]*)$");
-    end
-    return "";
-end
-
 function MaxPleasure(character)
     -- consider modifiers / perks for raising max pleasure
     local max_pleasure = 10;

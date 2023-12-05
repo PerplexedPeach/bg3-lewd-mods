@@ -1,14 +1,3 @@
-function DelayedCall(delayInMs, func)
-    local startTime = Ext.Utils.MonotonicTime()
-    local handlerId;
-    handlerId = Ext.Events.Tick:Subscribe(function()
-        local endTime = Ext.Utils.MonotonicTime()
-        if (endTime - startTime > delayInMs) then
-            Ext.Events.Tick:Unsubscribe(handlerId)
-            func()
-        end
-    end);
-end
 
 -- need to track both the remodelled frame level as well as any worn harness level (since that overrides the body)
 local remodelled_frame_id_prefix = "LI_Claws_RemodelledFrame_";
@@ -193,18 +182,4 @@ function BodyEquipment:registerHandlers()
     Ext.Osiris.RegisterListener("ArmorSetChanged", 2, "after", function(...) self:armorSetChangedHandler(...) end);
 
     self:log("Registered handlers");
-end
-
----Find if a character entity has a specific visual
----@param char_entity any
----@param id string id of the visual to test
----@return boolean
-function FindCharacterCreationVisual(char_entity, id)
-    local char_visuals = char_entity.CharacterCreationAppearance.Visuals;
-    for _, vis_id in ipairs(char_visuals) do
-        if vis_id == id then
-            return true;
-        end
-    end
-    return false;
 end
