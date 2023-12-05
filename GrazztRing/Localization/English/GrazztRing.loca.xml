@@ -53,4 +53,19 @@
 	<content contentuid="h685322a8gf4e4g42b2g8adeg01a6838bd05a" version="1">You feel a sinister gaze in your sleep. Fortunately for you, or unfortunately, Graz'zt seems to already have his eyes set on another in your party. He spares you only a glance, and the rest of your dream is a sweet and incoherent mess. (remove the ring when sleeping to avoid this message)</content> 
 
 	<content contentuid="hb3436a69g5fe9g47d8g8bdcg1f6c577d38a5" version="1">, Consort of Graz'zt</content> 
+
+	<content contentuid="h4eb20687g805cg44e2gbd44g0f27a1396731" version="1">Abyssal Inheritance: Soul Branding</content> 
+	<content contentuid="h77039ab3g086fg4419g874cgada38d554dc1" version="1">Through experience, you have come to better understand how to give others Bliss. This is when they are most vulernable, and something urges you to leave your mark on them, devouring their potential for your own.</content>  
+
+	<content contentuid="hfba2dee3g02a6g4324gbd9bgdca9e9642f7d" version="1">Soul Brand</content> 
+	<content contentuid="he8567035g78b1g4c1bgbe03ga35dc08ae331" version="1">You exploit someone's vulnerability when in &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Bliss&lt;/LSTag&gt; to permanently mark their soul, devouring their potential for your own. Their resistance will get weaker the more they are overloaded by Bliss.</content>  
+
+	<content contentuid="h9bf02c9bgf7ddg44ceg8e1eg023f96d55bd5" version="1">Soul Branding Fatigue</content> 
+	<content contentuid="hc8831433g9237g4fe3g8701g3fe378a8e671" version="1">Soul branding is not to be done lightly. You are exhausted, body and soul, from attempting to do so. You suffer -1 to Charisma and Constitution per stack. You lose 1 stack per turn.</content>  
+
+	<content contentuid="haecf5a8cg9f44g4169g861fgcebc4b56e2d9" version="1">Power consuming</content> 
+	<content contentuid="h322a959egaf76g4f72gbc10g8d52412babcc" version="1">The newly formed soul brand is transferring power from the target to you.</content>  
+	<content contentuid="h7336905dgccc5g4e6bgac44ge03766a7385e" version="1">Power draining</content> 
+	<content contentuid="h53b9b7acgea92g4df1g915cg628572698478" version="1">Your power is being quickly drained away.</content>  
+
 </contentList>
