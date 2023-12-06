@@ -24,8 +24,9 @@ function SoulBrandAcquireHandler(char, status, causee, storyActionID)
     if status ~= Mods.DivineCurse.BLISS_STATUS then
         return;
     end
+    -- not the consort, ignore
     -- already have the passive, ignore
-    if Osi.HasPassive(char, SOUL_BRAND_PASSIVE) == 1 then
+    if not IsGrazztConsort(char) or Osi.HasPassive(char, SOUL_BRAND_PASSIVE) == 1 then
         return;
     end
     -- when we have given others at least some Bliss, we unlock ability to give Soul Brands
