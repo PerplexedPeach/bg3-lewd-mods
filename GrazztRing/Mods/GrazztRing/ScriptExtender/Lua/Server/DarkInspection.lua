@@ -10,7 +10,7 @@ function ReportBlissCounts(caster, target, spell, spellType, spellElement, story
     end
 
     local bliss_count = Mods.DivineCurse.BlissCount(target);
-    local bliss_cause_counts = Mods.DivineCurse.BlissCauseCountAll(target);
+    local bliss_cause_counts = Mods.DivineCurse.BlissCauseCountAllDetailed(target);
     _I("Bliss count for " .. target .. ": " .. bliss_count);
     _I("Bliss cause counts for " .. target .. ":");
     _D(bliss_cause_counts);
@@ -24,9 +24,13 @@ function ReportBlissCounts(caster, target, spell, spellType, spellElement, story
     -- this API is given in seconds (6 seconds = 1 turn)
     Osi.ApplyStatus(target, Mods.DivineCurse.MAX_PLEASURE_STATUS, max_pleasure * 6);
     report = report .. "Bliss count: " .. bliss_count .. "\n";
-    report = report .. "Bliss cause counts:\n";
+    report = report .. "Bliss cause count (total on others): " .. Mods.DivineCurse.BlissCauseCountAll(target) .. "\n";
+    report = report .. "Bliss cause counts (detailed):\n---------------------\n";
     for ability, count in pairs(bliss_cause_counts) do
-        report = report .. ability .. ": " .. count .. "\n";
+        -- empty is the total count
+        if ability ~= "" then
+            report = report .. ability .. ": " .. count .. "\n";
+        end
     end
     Osi.OpenMessageBox(caster, report);
 end
