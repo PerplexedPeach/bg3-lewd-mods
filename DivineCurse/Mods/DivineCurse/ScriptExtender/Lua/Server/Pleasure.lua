@@ -37,7 +37,7 @@ function HandlePleasure(character, status, causee, storyActionID)
     _I("Pleasure " .. cur_pleasure .. " / " .. max_pleasure .. " for " .. character);
 
     if cur_pleasure > max_pleasure then
-        Osi.ApplyStatus(character, BLISS_STATUS, 2, 1, character);
+        Osi.ApplyStatus(character, BLISS_STATUS, 2, 1, causee);
     end
 end
 
@@ -45,8 +45,11 @@ function HandleBliss(character, status, causee, storyActionID)
     if status ~= BLISS_STATUS then
         return;
     end
-    -- also try registering bliss cause here
     RegisterBlissCausee(character, causee);
+    if GetGUID(character) ~= GetGUID(causee) then
+        IncreaseBlissCauseCount(causee, 1);
+    end
+    -- also try registering bliss cause here
     IncreaseBlissCount(character, 1);
     -- also apply bliss overload depending on the number of bliss
     AdvanceBlissOverload(character);
@@ -109,10 +112,15 @@ function BlissCauseCount(character, ability)
     return PersistentVars[BlissCauseID(character, ability)] or 0;
 end
 
+---How many times this character has caused bliss to others via any ability
+function BlissCauseCountAll(character)
+    return PersistentVars[BlissCauseID(character, "")] or 0;
+end
+
 ---Get table mapping ability to count of bliss caused by this character using that ability
 ---@param character string
 ---@return table
-function BlissCauseCountAll(character)
+function BlissCauseCountAllDetailed(character)
     local ret = {};
     -- character name can have race prefixes that we want to remove (ends with Player_)
     character = GetGUID(character);
@@ -142,6 +150,12 @@ function IncreaseBlissCount(char, amount)
     local id = BlissID(char);
     PersistentVars[id] = BlissCount(char) + amount;
     _I("Increase bliss: " .. amount .. " total: " .. PersistentVars[id] .. " for: " .. char);
+end
+
+---Increase the number of times this character has caused bliss
+function IncreaseBlissCauseCount(char, amount)
+    local id = BlissCauseID(char, "");
+    PersistentVars[id] = BlissCauseCount(char, "") + amount;
 end
 
 ---How many times this character has experienced bliss
