@@ -7,6 +7,11 @@ DRAIN_TARGET_STATUS = "LI_SOUL_BRAND_GARROTE_TARGET";
 -- special NPC guids that have special crests
 KARLACH = "2c76687d-93a2-477b-8b18-8a14b549304c";
 
+local soul_brand_for_consort_passives = {"LI_Soul_Brand_Karlach_Consort"};
+local special_uuids_to_passive_and_message = {
+    [KARLACH] = {"LI_Soul_Brand_Karlach", "h33ad0a3bg1356g4f1cgbe4bgec353d03193b"},
+};
+
 
 local function _I(message)
     _P("[Soul Brand] " .. message);
@@ -18,6 +23,7 @@ function SoulBrandAppliedHandler(char, status, causee, storyActionID)
     end
     causee = Mods.DivineCurse.GetGUID(causee);
     _I("Soul brand status applied to " .. char .. " by " .. causee .. " with story action " .. storyActionID);
+    -- TODO check which NPC character it is
 end
 
 function SoulBrandAcquireHandler(char, status, causee, storyActionID)

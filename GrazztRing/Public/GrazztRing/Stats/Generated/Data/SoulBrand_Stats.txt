@@ -1,3 +1,5 @@
+<!-- Acquring the Soul Brand -->
+
 new entry "LI_SOUL_BRAND_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -117,3 +119,20 @@ data "Description" "h77039ab3g086fg4419g874cgada38d554dc1;1"
 data "Icon" "LI_Soul_Brand"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Soul_Brand)"
+
+<!-- Soul Brand -->
+new entry "LI_Soul_Brand_Karlach"
+type "PassiveData"
+data "DisplayName" "h8b87ca62g354ag4d00g84e9g6bfec12d30da;1"
+data "Description" "h85488343g6841g462ega04cgdaf5ec52d302;1"
+data "Icon" "LI_Lust_Brand"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Constitution,-4);Ability(Strength,-2);Ability(Intelligence,-2);Ability(Wisdom,-2);UnlockSpell(Shout_HideBrand)"
+
+new entry "LI_Soul_Brand_Karlach_Consort"
+type "PassiveData"
+data "DisplayName" "h5bf8c986g5cf8g4c23gbf61g35188585e078;1"
+data "Description" "hd712ad9fg798cg43f0g92f8g288f2e72f692;1"
+data "Icon" "LI_Lust_Brand"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Constitution,2);Ability(Strength,1)"
