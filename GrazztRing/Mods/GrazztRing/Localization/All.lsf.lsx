@@ -32,6 +32,21 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="ha709ac40g498bg4b91g9f8egf03100a9d2e4" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_SOUL_BRAND_ACQUIRE" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h33ad0a3bg1356g4f1cgbe4bgec353d03193b" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_SOUL_BRAND_KARLACH" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+
 			</children>
 		</node>
 	</region>
