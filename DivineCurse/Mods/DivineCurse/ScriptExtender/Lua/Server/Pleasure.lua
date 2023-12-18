@@ -13,6 +13,14 @@ BLISS_OVERLOAD_STATUSES = {
     "LI_BLISS_OVERLOAD_5",
 };
 
+LUST_SWEAT_STATUSES = {
+    "LUST_SWEAT_1",
+    "LUST_SWEAT_2",
+    "LUST_SWEAT_3",
+};
+-- in number of turns
+SWEAT_DURATION = 6;
+
 function MaxPleasure(character)
     -- consider modifiers / perks for raising max pleasure
     local max_pleasure = 10;
@@ -35,6 +43,13 @@ function HandlePleasure(character, status, causee, storyActionID)
     local max_pleasure = MaxPleasure(character);
     local cur_pleasure = Osi.GetStatusTurns(character, PLEASURE_STATUS);
     _I("Pleasure " .. cur_pleasure .. " / " .. max_pleasure .. " for " .. character);
+
+    -- add sweat level, depends on percentage of max pleasure
+    local sweat_level = 1;
+    if cur_pleasure > max_pleasure * 0.5 then
+        sweat_level = 2;
+    end
+    Osi.ApplyStatus(character, LUST_SWEAT_STATUSES[sweat_level], SWEAT_DURATION * 6, 1);
 
     if cur_pleasure > max_pleasure then
         Osi.ApplyStatus(character, BLISS_STATUS, 2, 1, causee);
