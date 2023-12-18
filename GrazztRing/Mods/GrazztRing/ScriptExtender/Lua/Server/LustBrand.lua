@@ -1,4 +1,4 @@
-local hide_brand_status = "LI_HIDE_BRAND";
+HIDE_BRAND_STATUS = "LI_HIDE_BRAND";
 
 ---@class LustBrand
 LustBrand = {};
@@ -9,8 +9,9 @@ LustBrand = {};
 ---@param status_id string status ID associated with this lust brand that should decide whether to apply the visual
 ---@param ccsv_ids table CharacterCreationSharedVisual IDs for the visual brand per body shape
 ---@param character_lock_id string|nil optional character ID that restricts the check to just this character
+---@param override_ccsv_id_fn function|nil optional function that takes the character GUID and returns the CCSV ID to use
 ---@return LustBrand
-function LustBrand:new(main_shortname, status_id, ccsv_ids, character_lock_id)
+function LustBrand:new(main_shortname, status_id, ccsv_ids, character_lock_id, override_ccsv_id_fn)
     local self = {} ---@class LustBrand
     setmetatable(self, {
         __index = LustBrand
@@ -21,6 +22,7 @@ function LustBrand:new(main_shortname, status_id, ccsv_ids, character_lock_id)
     self.character_id = character_lock_id;
 
     self.ids = { { {}, {} }, { {}, {} } };
+    self.override_ccsv_id_fn = override_ccsv_id_fn;
     -- iterate over the keys and values of ccsv_ids_per_stage
 
     for body_type, body_type_ids in pairs(ccsv_ids) do
@@ -50,13 +52,19 @@ end
 
 
 function LustBrand:handleLustBrandConsistency(char)
+    char = Mods.DivineCurse.GetGUID(char);
     -- care about if self.character is specified
     if self.character_id ~= nil and self.character_id ~= char then
         return;
     end
     local entity = Ext.Entity.Get(char);
+    
     local id = GetAssetForBodyShapeAndType(self.ids, entity);
-    if Osi.HasActiveStatus(char, self.status_id) == 1 and Osi.HasActiveStatus(char, hide_brand_status) == 0 then
+    if self.override_ccsv_id_fn ~= nil then
+        id = self.override_ccsv_id_fn(char);
+        self:log("Overriding CCSV ID for " .. char .. " to " .. id);
+    end
+    if Osi.HasActiveStatus(char, self.status_id) == 1 and Osi.HasActiveStatus(char, HIDE_BRAND_STATUS) == 0 then
         -- only add if we don't already have it (avoid spamming log)
         if not Mods.DivineCurse.FindCharacterCreationVisual(entity, id) then
             self:log("Applying lust brand visual to " .. char .. " with ID " .. tostring(id));
@@ -69,13 +77,13 @@ function LustBrand:handleLustBrandConsistency(char)
 end
 
 function LustBrand:statusAppliedHandler(char, status, causee, storyActionID)
-    if status == self.status_id or status == hide_brand_status then
+    if status == self.status_id or status == HIDE_BRAND_STATUS then
         self:handleLustBrandConsistency(char);
     end
 end
 
 function LustBrand:statusRemovedHandler(char, status, causee, applyStoryActionID)
-    if status == self.status_id or status == hide_brand_status then
+    if status == self.status_id or status == HIDE_BRAND_STATUS then
         self:handleLustBrandConsistency(char);
     end
 end
@@ -95,5 +103,5 @@ L1 = LustBrand:new("L1", "LI_LUST_BRAND_TECHNICAL", {
     male = {
         normal = "7bfece7a-9142-409f-b276-1227bb037169"
     }
-}, nil);
+}, nil, nil);
 L1:registerHandlers();

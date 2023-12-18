@@ -121,6 +121,13 @@ data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Soul_Brand)"
 
 <!-- Soul Brand -->
+new entry "LI_SOUL_BRAND_KARLACH_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LI_SOUL_BRAND_TECHNICAL"
+data "RemoveConditions" "not HasPassive('LI_Soul_Brand_Karlach')"
+data "RemoveEvents" "OnTurn"
+
 new entry "LI_Soul_Brand_Karlach"
 type "PassiveData"
 data "DisplayName" "h8b87ca62g354ag4d00g84e9g6bfec12d30da;1"
@@ -128,6 +135,8 @@ data "Description" "h85488343g6841g462ega04cgdaf5ec52d302;1"
 data "Icon" "LI_Lust_Brand"
 data "Properties" "Highlighted"
 data "Boosts" "Ability(Constitution,-4);Ability(Strength,-2);Ability(Intelligence,-2);Ability(Wisdom,-2);UnlockSpell(Shout_HideBrand)"
+data "StatsFunctorContext" "OnCreate;OnTurn"
+data "StatsFunctors" "ApplyStatus(LI_SOUL_BRAND_KARLACH_TECHNICAL, 100, -1)"
 
 new entry "LI_Soul_Brand_Karlach_Consort"
 type "PassiveData"

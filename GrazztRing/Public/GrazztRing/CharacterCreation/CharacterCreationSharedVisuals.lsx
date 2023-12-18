@@ -153,6 +153,13 @@
                     <attribute id="VisualResource" type="guid" value="49f99a4c-ec68-472e-b67d-663029f053b1"/>
                 </node>
 
+                <node id="CharacterCreationSharedVisual"> karlach soul brand
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b87ca62g354ag4d00g84e9g6bfec12d30da" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="3ebbe8d8-d509-479d-8c44-69b3343ae1dd"/>
+                    <attribute id="VisualResource" type="guid" value="600684b5-9f71-49d0-9eb2-e1e57cc828be"/>
+                </node>
+
 
                 HUM_M
                 <node id="CharacterCreationSharedVisual"> chains 0
