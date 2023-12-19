@@ -6,6 +6,11 @@ SOUL_BRAND_STATUS = "LI_SOUL_BRAND_TECHNICAL";
 DRAIN_TARGET_STATUS = "LI_SOUL_BRAND_GARROTE_TARGET";
 -- special NPC guids that have special crests
 KARLACH = "2c76687d-93a2-477b-8b18-8a14b549304c";
+SHADOWHEART = "3ed74f06-3c60-42dc-83f6-f034cb47c679";
+MINTHARA = "25721313-0c15-4935-8176-9f134385451b";
+TAV = "97c99688-6b7f-3b3e-5cb2-fea9647b6275";
+LAEZEL = "58a69333-40bf-8358-1d17-fff240d7fb12";
+AYLIN = "6c55edb0-901b-4ba4-b9e8-3475a8392d9b";
 
 local soul_brand_mapping = {
     [KARLACH] = {
@@ -15,6 +20,13 @@ local soul_brand_mapping = {
         message_id = "LI_SOUL_BRAND_KARLACH",
         visual_id = "3ebbe8d8-d509-479d-8c44-69b3343ae1dd"
     },
+    [SHADOWHEART] = {
+        passive = "LI_Soul_Brand_Shadowheart",
+        consort_passive = "LI_Soul_Brand_Shadowheart_Consort",
+        technical_status = "LI_SOUL_BRAND_SHADOWHEART_TECHNICAL",
+        message_id = "LI_SOUL_BRAND_SHADOWHEART",
+        visual_id = "bc3f8ad4-d8f4-47b2-9bb0-aaeedc901b86"
+    }
 };
 
 local function _I(message)
@@ -95,3 +107,4 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after",
     end);
 
 registerSoulBrandVisuals("Karlach", KARLACH);
+registerSoulBrandVisuals("Shadowheart", SHADOWHEART);

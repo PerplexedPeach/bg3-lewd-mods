@@ -159,6 +159,12 @@
                     <attribute id="UUID" type="guid" value="3ebbe8d8-d509-479d-8c44-69b3343ae1dd"/>
                     <attribute id="VisualResource" type="guid" value="600684b5-9f71-49d0-9eb2-e1e57cc828be"/>
                 </node>
+                <node id="CharacterCreationSharedVisual"> shadowheart soul brand
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b87ca62g354ag4d00g84e9g6bfec12d30da" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="bc3f8ad4-d8f4-47b2-9bb0-aaeedc901b86"/>
+                    <attribute id="VisualResource" type="guid" value="70775a65-8d30-4077-b59e-2c2db3213099"/>
+                </node>
 
 
                 HUM_M

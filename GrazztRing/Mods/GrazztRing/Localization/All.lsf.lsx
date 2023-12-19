@@ -46,6 +46,13 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h2c2c4b95gcb0eg472agaee8g4d31ec822da9" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_SOUL_BRAND_SHADOWHEART" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
 
 			</children>
 		</node>
