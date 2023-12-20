@@ -34,6 +34,13 @@ local soul_brand_mapping = {
         message_id = "LI_SOUL_BRAND_MINTHARA",
         visual_id = "3c02f49f-2fb0-4776-bad5-7fe5f9ee159f"
     },
+    [AYLIN] = {
+        passive = "LI_Soul_Brand_Aylin",
+        consort_passive = "LI_Soul_Brand_Aylin_Consort",
+        technical_status = "LI_SOUL_BRAND_AYLIN_TECHNICAL",
+        message_id = "LI_SOUL_BRAND_AYLIN",
+        visual_id = "61218b50-c4ea-410b-9db4-aa884f318fca"
+    },
 };
 
 local function _I(message)
@@ -116,3 +123,4 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after",
 registerSoulBrandVisuals("Karlach", KARLACH);
 registerSoulBrandVisuals("Shadowheart", SHADOWHEART);
 registerSoulBrandVisuals("Minthara", MINTHARA);
+registerSoulBrandVisuals("Aylin", AYLIN);

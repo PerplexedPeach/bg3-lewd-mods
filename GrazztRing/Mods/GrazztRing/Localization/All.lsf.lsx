@@ -60,6 +60,13 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="hf0ec2efdgb7aag4672g821fgc73c733c6fb8" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_SOUL_BRAND_AYLIN" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
 
 			</children>
 		</node>

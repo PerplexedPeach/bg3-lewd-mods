@@ -171,6 +171,12 @@
                     <attribute id="UUID" type="guid" value="3c02f49f-2fb0-4776-bad5-7fe5f9ee159f"/>
                     <attribute id="VisualResource" type="guid" value="7b4151e7-b51c-4700-bd6d-a6f8cf8c15ce"/>
                 </node>
+                <node id="CharacterCreationSharedVisual"> aylin soul brand
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b87ca62g354ag4d00g84e9g6bfec12d30da" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="61218b50-c4ea-410b-9db4-aa884f318fca"/>
+                    <attribute id="VisualResource" type="guid" value="68fcc117-6845-43cc-934d-430ef557b778"/>
+                </node>
 
                 HUM_M
                 <node id="CharacterCreationSharedVisual"> chains 0
