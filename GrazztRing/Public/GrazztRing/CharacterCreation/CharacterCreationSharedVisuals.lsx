@@ -165,7 +165,12 @@
                     <attribute id="UUID" type="guid" value="bc3f8ad4-d8f4-47b2-9bb0-aaeedc901b86"/>
                     <attribute id="VisualResource" type="guid" value="70775a65-8d30-4077-b59e-2c2db3213099"/>
                 </node>
-
+                <node id="CharacterCreationSharedVisual"> minthara soul brand
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b87ca62g354ag4d00g84e9g6bfec12d30da" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="3c02f49f-2fb0-4776-bad5-7fe5f9ee159f"/>
+                    <attribute id="VisualResource" type="guid" value="7b4151e7-b51c-4700-bd6d-a6f8cf8c15ce"/>
+                </node>
 
                 HUM_M
                 <node id="CharacterCreationSharedVisual"> chains 0
