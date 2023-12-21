@@ -67,6 +67,13 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h8f831e2dg5ae0g4c73g870dg720e0c883654" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_SOUL_BRAND_LAEZEL" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
 
 			</children>
 		</node>

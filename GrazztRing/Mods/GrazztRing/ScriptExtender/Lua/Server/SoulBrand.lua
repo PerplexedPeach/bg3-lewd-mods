@@ -41,6 +41,13 @@ local soul_brand_mapping = {
         message_id = "LI_SOUL_BRAND_AYLIN",
         visual_id = "61218b50-c4ea-410b-9db4-aa884f318fca"
     },
+    [LAEZEL] = {
+        passive = "LI_Soul_Brand_Laezel",
+        consort_passive = "LI_Soul_Brand_Laezel_Consort",
+        technical_status = "LI_SOUL_BRAND_LAEZEL_TECHNICAL",
+        message_id = "LI_SOUL_BRAND_LAEZEL",
+        visual_id = "a59314d4-9dda-4ca0-a090-3117a6630cc5"
+    },
 };
 
 local function _I(message)
@@ -124,3 +131,4 @@ registerSoulBrandVisuals("Karlach", KARLACH);
 registerSoulBrandVisuals("Shadowheart", SHADOWHEART);
 registerSoulBrandVisuals("Minthara", MINTHARA);
 registerSoulBrandVisuals("Aylin", AYLIN);
+registerSoulBrandVisuals("Laezel", LAEZEL);
