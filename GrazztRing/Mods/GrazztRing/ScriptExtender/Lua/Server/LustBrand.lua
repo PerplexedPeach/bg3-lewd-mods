@@ -21,23 +21,9 @@ function LustBrand:new(main_shortname, status_id, ccsv_ids, character_lock_id, o
     self.status_id = status_id;
     self.character_id = character_lock_id;
 
-    self.ids = { { {}, {} }, { {}, {} } };
+    self.ids = ccsv_ids;
     self.override_ccsv_id_fn = override_ccsv_id_fn;
     -- iterate over the keys and values of ccsv_ids_per_stage
-
-    for body_type, body_type_ids in pairs(ccsv_ids) do
-        for body_shape, body_shape_id in pairs(body_type_ids) do
-            local body_type_index = BodyTypeIndexMap[body_type];
-            local body_shape_index = BodyShapeIndexMap[body_shape];
-            if body_type_index == nil then
-                self:error("Unknown body type " .. body_type);
-            end
-            if body_shape_index == nil then
-                self:error("Unknown body shape " .. body_shape);
-            end
-            self.ids[body_type_index][body_shape_index] = body_shape_id;
-        end
-    end
 
     return self;
 end
@@ -96,12 +82,9 @@ function LustBrand:registerHandlers()
 end
 
 L1 = LustBrand:new("L1", "LI_LUST_BRAND_TECHNICAL", {
-    female = {
-        normal = "0ed6e187-2232-4bec-a524-f983e175df55",
-        strong = "58a88b95-eb78-4c00-9207-52c3f76df89b"
-    },
-    male = {
-        normal = "7bfece7a-9142-409f-b276-1227bb037169"
-    }
+    HUM_F = "0ed6e187-2232-4bec-a524-f983e175df55",
+    HUM_FS = "58a88b95-eb78-4c00-9207-52c3f76df89b",
+    GTY_F =  "9864b46d-bfae-49a8-a157-1b63d1d29d94",
+    HUM_M =  "7bfece7a-9142-409f-b276-1227bb037169",
 }, nil, nil);
 L1:registerHandlers();

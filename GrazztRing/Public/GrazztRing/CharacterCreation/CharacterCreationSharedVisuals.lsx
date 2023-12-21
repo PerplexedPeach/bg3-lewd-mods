@@ -177,6 +177,12 @@
                     <attribute id="UUID" type="guid" value="61218b50-c4ea-410b-9db4-aa884f318fca"/>
                     <attribute id="VisualResource" type="guid" value="68fcc117-6845-43cc-934d-430ef557b778"/>
                 </node>
+                <node id="CharacterCreationSharedVisual"> laezel soul brand
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b87ca62g354ag4d00g84e9g6bfec12d30da" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="a59314d4-9dda-4ca0-a090-3117a6630cc5"/>
+                    <attribute id="VisualResource" type="guid" value="ae39371e-64aa-4587-9742-52039447dab8"/>
+                </node>
 
                 HUM_M
                 <node id="CharacterCreationSharedVisual"> chains 0
@@ -197,6 +203,15 @@
                     <attribute id="UUID" type="guid" value="7bfece7a-9142-409f-b276-1227bb037169"/>
                     <attribute id="VisualResource" type="guid" value="d5c1ab8d-87f6-4e79-9da0-1fa0fc1254f6"/>
                 </node>
+
+                GTY_F
+                <node id="CharacterCreationSharedVisual"> lust brand 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf788275agceb2g4d5fga7a4g420bf51538a6" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="9864b46d-bfae-49a8-a157-1b63d1d29d94"/>
+                    <attribute id="VisualResource" type="guid" value="980a9011-71a2-4ed8-ab72-7b9bdaf1d46d"/>
+                </node>
+
             </children>
         </node>
     </region>
