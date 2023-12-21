@@ -877,7 +877,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Texture Map" />
-							<attribute id="ID" type="FixedString" value="05b19cd2-c76d-40c1-965f-7e9dcd758a9d" />
+							<attribute id="ID" type="FixedString" value="8bac5a89-8a94-42fa-ab92-8b1cb8f5eb5a" />
 							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
 						</node>
 
@@ -892,7 +892,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="a252ef72-665c-451b-9d57-c6750963499d" /> 
+							<attribute id="ID" type="FixedString" value="50e68233-3f3a-4b80-821b-44f5ec2f8dc4" /> 
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1537,7 +1537,7 @@
 
 				<node id="Resource"> shadowheart soul brand
 					<attribute id="Name" type="LSString" value="Soul_Brand_Shaodowheart_BM" />
-					<attribute id="ID" type="FixedString" value="a252ef72-665c-451b-9d57-c6750963499d" /> 
+					<attribute id="ID" type="FixedString" value="50e68233-3f3a-4b80-821b-44f5ec2f8dc4" /> 
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/Soul_Brand_Shadowheart.DDS" />
 
 					<attribute id="Format" type="uint32" value="64" /> BC3
@@ -1556,7 +1556,7 @@
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="Width" type="int32" value="1024" />
 
-					<attribute id="ID" type="FixedString" value="05b19cd2-c76d-40c1-965f-7e9dcd758a9d" />
+					<attribute id="ID" type="FixedString" value="8bac5a89-8a94-42fa-ab92-8b1cb8f5eb5a" />
 					<attribute id="Name" type="LSString" value="Soul_Brand_Shadowheart_GM" />
 					<attribute id="SRGB" type="bool" value="False" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/Soul_Brand_Shadowheart_GM.DDS" />
