@@ -208,7 +208,7 @@
                 <node id="CharacterCreationSharedVisual"> lust brand 0
                     <attribute id="DisplayName" type="TranslatedString" handle="hf788275agceb2g4d5fga7a4g420bf51538a6" version="1"/>
                     <attribute id="SlotName" type="FixedString" value="Beard"/>
-                    <attribute id="UUID" type="guid" value="9864b46d-bfae-49a8-a157-1b63d1d29d94"/>
+                    <attribute id="UUID" type="guid" value="52cea3e5-2115-4374-8071-9eed0761c995"/>
                     <attribute id="VisualResource" type="guid" value="980a9011-71a2-4ed8-ab72-7b9bdaf1d46d"/>
                 </node>
 

@@ -84,7 +84,7 @@ end
 L1 = LustBrand:new("L1", "LI_LUST_BRAND_TECHNICAL", {
     HUM_F = "0ed6e187-2232-4bec-a524-f983e175df55",
     HUM_FS = "58a88b95-eb78-4c00-9207-52c3f76df89b",
-    GTY_F =  "9864b46d-bfae-49a8-a157-1b63d1d29d94",
+    GTY_F =  "52cea3e5-2115-4374-8071-9eed0761c995",
     HUM_M =  "7bfece7a-9142-409f-b276-1227bb037169",
 }, nil, nil);
 L1:registerHandlers();

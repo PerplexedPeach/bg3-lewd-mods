@@ -1631,7 +1631,7 @@
 				<node id="Resource"> Lazel soul brand
 					<attribute id="Name" type="LSString" value="Soul_Brand_Laezel_BM" />
 					<attribute id="ID" type="FixedString" value="85ffd4a6-bd01-4220-a55a-44b832cb796c" /> 
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/Soul_Brand_Lazel.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/Soul_Brand_Laezel.DDS" />
 
 					<attribute id="Format" type="uint32" value="64" /> BC3
 					<attribute id="Width" type="int32" value="1024" />
