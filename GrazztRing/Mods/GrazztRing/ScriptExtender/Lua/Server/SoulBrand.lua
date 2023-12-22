@@ -1,4 +1,5 @@
 local soul_brand_unlock_limit = 5;
+local soul_brand_approval_bonus = 50;
 SOUL_BRAND_PASSIVE = "LI_Lust_Brand_Soul_Brand";
 local soul_brand_acquire_message = "LI_SOUL_BRAND_ACQUIRE";
 
@@ -98,6 +99,7 @@ function SoulBrandAppliedHandler(char, status, causee, storyActionID)
         Mods.DivineCurse.DelayedCall(3000, function()
             Osi.OpenMessageBox(char, message_id);
             SoulBrandGiveConsortProfaneSuccor(causee, NumberOfSoulBrandsApplied(causee));
+            Osi.ChangeApprovalRating(char, causee, 0, soul_brand_approval_bonus);
         end);
     end
 end
