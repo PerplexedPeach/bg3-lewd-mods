@@ -49,6 +49,11 @@ local soul_brand_mapping = {
         visual_id = "a59314d4-9dda-4ca0-a090-3117a6630cc5"
     },
 };
+local soul_brand_profane_succor_passives = {
+    [1] = "LI_Profane_Succor_1",
+    [3] = "LI_Profane_Succor_2",
+    [5] = "LI_Profane_Succor_3",
+};
 
 local function _I(message)
     _P("[Soul Brand] " .. message);
@@ -92,7 +97,19 @@ function SoulBrandAppliedHandler(char, status, causee, storyActionID)
         Osi.AddPassive(causee, passive_consort);
         Mods.DivineCurse.DelayedCall(3000, function()
             Osi.OpenMessageBox(char, message_id);
+            SoulBrandGiveConsortProfaneSuccor(causee, NumberOfSoulBrandsApplied(causee));
         end);
+    end
+end
+
+function SoulBrandGiveConsortProfaneSuccor(char, have_num_soul_brands)
+    _I("Giving profane succor to " .. char .. " with " .. have_num_soul_brands .. " soul brands");
+    for num_required, passive in pairs(soul_brand_profane_succor_passives) do
+        _I("Checking if " .. char .. " has " .. num_required .. " soul brands and does not have " .. passive .. " yet vs " .. have_num_soul_brands);
+        if have_num_soul_brands >= num_required and Osi.HasPassive(char, passive) == 0 then
+            _I("Adding profane succor " .. passive .. " to " .. char);
+            Osi.AddPassive(char, passive);
+        end
     end
 end
 

@@ -107,4 +107,10 @@
 	<content contentuid="h05e66b1agdb10g4f7cgb004g94ad2dae8f7c" version="1">Soul Branding: Lae'zel</content> 
 	<content contentuid="h6b9c379fg315dg451fg8d66g91cf5fdac70a" version="1">You have marked Lae'zel as a concubine of Grazzt, stealing her strength and deftness. You receive +2 to &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;, and +1 to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content> 
 
+	<content contentuid="h341a9687gae81g4992gaeefg14f3d394b6ea" version="1">Profane Succor: Taste of Darkness</content> 
+	<content contentuid="h48e121d6g6cb0g4d3cg953dg0ddcd17d2b10" version="1">Your dealing in the dark art of soul branding has borne fruit - you move with supernatural speed and have outstanding vigor. You receive a &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; bonus of [1] and your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; maximum is increased by [2].</content> 
+	<content contentuid="hf770a724g35c2g4896gbaf7gab8fb07dddc2" version="1">Profane Succor: Twilight Infusion</content> 
+	<content contentuid="h6e7eaa0cgc1a6g4724gbf99g101c4e920e1d" version="1">Your continued indulgence in soul branding has invigorated your body, letting you move with unnatural alacrity. You receive an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content> 
+	<content contentuid="h934010a0ge945g4d26gb6aag0d420b6b06a9" version="1">Profane Succor: Abyssal Embrace</content> 
+	<content contentuid="h60b7231cg993dg4940g9b8fgd5d98d2f3855" version="1">Your mastery of soul branding has reformed your body, giving you legendary speed and reactions. You receive an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt;.</content> 
 </contentList>
