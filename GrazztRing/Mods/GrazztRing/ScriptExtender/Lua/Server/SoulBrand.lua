@@ -105,7 +105,6 @@ end
 function SoulBrandGiveConsortProfaneSuccor(char, have_num_soul_brands)
     _I("Giving profane succor to " .. char .. " with " .. have_num_soul_brands .. " soul brands");
     for num_required, passive in pairs(soul_brand_profane_succor_passives) do
-        _I("Checking if " .. char .. " has " .. num_required .. " soul brands and does not have " .. passive .. " yet vs " .. have_num_soul_brands);
         if have_num_soul_brands >= num_required and Osi.HasPassive(char, passive) == 0 then
             _I("Adding profane succor " .. passive .. " to " .. char);
             Osi.AddPassive(char, passive);
