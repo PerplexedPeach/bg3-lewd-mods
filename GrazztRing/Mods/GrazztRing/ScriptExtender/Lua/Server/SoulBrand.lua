@@ -120,7 +120,7 @@ function SoulBrandAcquireHandler(char, status, causee, storyActionID)
     end
     -- not the consort, ignore
     -- already have the passive, ignore
-    if not IsGrazztConsort(char) or Osi.HasPassive(char, SOUL_BRAND_PASSIVE) == 1 then
+    if not IsGrazztConsort(causee) or Osi.HasPassive(causee, SOUL_BRAND_PASSIVE) == 1 then
         return;
     end
     -- when we have given others at least some Bliss, we unlock ability to give Soul Brands
@@ -129,8 +129,8 @@ function SoulBrandAcquireHandler(char, status, causee, storyActionID)
         return;
     end
 
-    Osi.OpenMessageBox(char, soul_brand_acquire_message);
-    Osi.AddPassive(char, SOUL_BRAND_PASSIVE);
+    Osi.OpenMessageBox(causee, soul_brand_acquire_message);
+    Osi.AddPassive(causee, SOUL_BRAND_PASSIVE);
 end
 
 local function registerSoulBrandVisuals(human_name, guid)
