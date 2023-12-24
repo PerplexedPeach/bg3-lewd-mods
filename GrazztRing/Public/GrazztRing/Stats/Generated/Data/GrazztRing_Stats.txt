@@ -254,6 +254,42 @@ using "LI_TEMP_HP_TOUCH"
 data "DescriptionParams" "GainTemporaryHitPoints(10)"
 data "Boosts" "TemporaryHP(10)"
 
+<!-- Consort Naming -->
+new entry "LI_CONSORT_TECHNICAL"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "DisplayName" "h97876559gf4c1g41c9g9f1dg6838d89e7d9a;3"
+data "Boosts" "UnlockSpell(Shout_HideTitle)"
+
+new entry "LI_HIDE_TITLE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "LI_Lust_Brand_White"
+data "StackId" "LI_HIDE_TITLE"
+data "Boosts" "UnlockSpell(Shout_HideTitle_Cancel);"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisableInteractions;IgnoreResting;DisablePortraitIndicator"
+
+new entry "Shout_HideTitle"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_HidePiercings"
+data "SpellProperties" "ApplyStatus(LI_HIDE_TITLE,100,-1)"
+data "DisplayName" "h68a894d0g3249g4e6dg8b1eg2efddd3676ce;1"
+data "Description" "ha1f18987g3f9bg4fefgaaaagd7e1b6d5049d;1"
+data "TooltipStatusApply" "ApplyStatus(LI_HIDE_TITLE,100,-1)"
+data "Icon" "LI_Lust_Brand_White"
+
+new entry "Shout_HideTitle_Cancel"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_HidePiercings_Cancel"
+data "SpellProperties" "RemoveStatus(LI_HIDE_TITLE)"
+data "DisplayName" "h87d97cd3ga133g4c1cgaf31gdc4b32a833fc;1"
+data "Description" "hfe939d8dg4e89g47fdgb897gc4382d5f07e3;1"
+data "Icon" "LI_Lust_Brand_White"
+
+
 
 <!-- Debug Spells -->
 

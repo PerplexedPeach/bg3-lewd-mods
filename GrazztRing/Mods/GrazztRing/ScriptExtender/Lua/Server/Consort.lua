@@ -5,6 +5,8 @@ local player_lust_brand_passive_ids = {
 };
 local grazzt_consort_key = "grazzt_consort";
 local grazzt_consort_title = "hb3436a69g5fe9g47d8g8bdcg1f6c577d38a5";
+local consort_passive = "LI_CONSORT_TECHNICAL";
+local title_hiding_status = "LI_HIDE_TITLE";
 
 local function _I(message)
     _P("[Consort] " .. message);
@@ -44,20 +46,47 @@ function NameConsort(consort)
     local title = Ext.Loca.GetTranslatedString(grazzt_consort_title);
     -- if the name already has the title, don't add it again
     _I("checking if " .. name .. " has title " .. title .. " find result " .. tostring(string.find(name, title)));
-    if string.find(name, title) ~= nil then
-        return;
+
+    -- depending on if you have the hide title status or not, we will add or remove the title
+    local should_have_title = Osi.HasActiveStatus(consort, title_hiding_status) == 0;
+    local res = string.find(name, title);
+    _I("Should have title? " .. tostring(should_have_title));
+
+    if should_have_title then
+        if res ~= nil then
+            return;
+        end
+        _I("found consort " ..
+        consort .. " name handle " .. name_handle .. " translated name " .. name .. " translated title " .. title);
+        -- Osi.SetStoryDisplayName(consort, name .. title);
+        Ext.Loca.UpdateTranslatedString(name_handle, name .. title);
+    else
+        if res == nil then
+            return;
+        end
+        _I("Hiding title");
+        -- Osi.SetStoryDisplayName(consort, name:gsub(title, ""));
+        Ext.Loca.UpdateTranslatedString(name_handle, name:gsub(title, ""));
     end
-    _I("found consort " ..
-    consort .. " name handle " .. name_handle .. " translated name " .. name .. " translated title " .. title);
-    -- Osi.SetStoryDisplayName(consort, name .. title);
-    Ext.Loca.UpdateTranslatedString(name_handle, name .. title);
 end
 
 function NameConsortAfterLoad()
     local consort = GrazztConsort();
     if consort ~= nil then
         NameConsort(consort);
+        -- ensure they have passive
+        Osi.AddPassive(consort, consort_passive);
     end
 end
 
+function TitleHidingHandler(char, status, causee, storyActionID)
+    if status ~= title_hiding_status then
+        return;
+    end
+    -- needs to be delayed because the status is not applied immediately
+    Mods.DivineCurse.DelayedCall(1000, function() NameConsort(char) end);
+end
+
 Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() NameConsortAfterLoad() end);
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) TitleHidingHandler(...) end);
+Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(...) TitleHidingHandler(...) end);
