@@ -184,14 +184,14 @@ end
 
 function HandleStimSurge(caster, spell, spellType, spellElement, storyActionID)
     -- _I("Spell casted: " .. spell .. " by " .. caster .. " type " .. spellType .. " element " .. spellElement .. " story action " .. storyActionID);
-    if spell == stim_surge_id then
-        -- check what level of stim they have
-        local current_stim_level = GetStimLevel(caster) or 0;
-        local new_stim_level = math.min(current_stim_level + stim_surge_level_increment, 9);
-        Osi.RemoveStatus(caster, stim_status_prefix .. current_stim_level);
-        Osi.ApplyStatus(caster, stim_status_prefix .. new_stim_level, 1, 1, caster);
-        _I("Stim surge: " .. caster .. " stim level " .. current_stim_level .. " -> " .. new_stim_level);
-    end
+    -- if spell == stim_surge_id then
+    --     -- check what level of stim they have
+    --     local current_stim_level = GetStimLevel(caster) or 0;
+    --     local new_stim_level = math.min(current_stim_level + stim_surge_level_increment, 9);
+    --     Osi.RemoveStatus(caster, stim_status_prefix .. current_stim_level);
+    --     Osi.ApplyStatus(caster, stim_status_prefix .. new_stim_level, 1, 1, caster);
+    --     _I("Stim surge: " .. caster .. " stim level " .. current_stim_level .. " -> " .. new_stim_level);
+    -- end
 end
 
 function HandleSatedFromBliss(char, status, causee, storyActionID)
