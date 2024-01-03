@@ -84,22 +84,27 @@ function SoulBrandAppliedHandler(char, status, causee, storyActionID)
     if status ~= SOUL_BRAND_STATUS then
         return;
     end
-    causee = Mods.DivineCurse.GetGUID(causee);
-    char = Mods.DivineCurse.GetGUID(char);
-    _I("Soul brand status applied to " .. char .. " by " .. causee .. " with story action " .. storyActionID);
-    local res = soul_brand_mapping[char];
+    DoApplySoulBrand(causee, char);
+end
+
+function DoApplySoulBrand(brander, brandee)
+    brander = Mods.DivineCurse.GetGUID(brander);
+    brandee = Mods.DivineCurse.GetGUID(brandee);
+    _I("Soul brand applied to " .. brandee .. " by " .. brander);
+
+    local res = soul_brand_mapping[brandee];
     if res ~= nil then
         local passive = res.passive;
         local passive_consort = res.consort_passive;
         local message_id = res.message_id;
         _I("Branding special NPC " ..
-            char .. " with passive " .. passive .. " and adding passive " .. passive_consort .. " to " .. causee);
-        Osi.AddPassive(char, passive);
-        Osi.AddPassive(causee, passive_consort);
+            brandee .. " with passive " .. passive .. " and adding passive " .. passive_consort .. " to " .. brander);
+        Osi.AddPassive(brandee, passive);
+        Osi.AddPassive(brander, passive_consort);
         Mods.DivineCurse.DelayedCall(3000, function()
-            Osi.OpenMessageBox(char, message_id);
-            SoulBrandGiveConsortProfaneSuccor(causee, NumberOfSoulBrandsApplied(causee));
-            Osi.ChangeApprovalRating(char, causee, 0, soul_brand_approval_bonus);
+            Osi.OpenMessageBox(brander, message_id);
+            SoulBrandGiveConsortProfaneSuccor(brander, NumberOfSoulBrandsApplied(brander));
+            Osi.ChangeApprovalRating(brandee, brander, 0, soul_brand_approval_bonus);
         end);
     end
 end
