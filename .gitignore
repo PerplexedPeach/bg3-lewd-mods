@@ -14,3 +14,6 @@ Ellian's trinkets
 combined.tga
 A.tga
 B.tga
+.cache.pk
+*TODO.txt
+*.code-workspace

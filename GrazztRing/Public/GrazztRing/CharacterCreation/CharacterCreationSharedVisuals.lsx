@@ -77,7 +77,36 @@
                     <attribute id="VisualResource" type="guid" value="f4ec6b3f-ea2e-4658-8501-fe96f6fc728d"/>
                 </node>
 
-
+                <node id="CharacterCreationSharedVisual"> chains side 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="fe80964a-85b3-43b0-87c2-1cd788814d8d"/>
+                    <attribute id="VisualResource" type="guid" value="2ebcd02b-3ef3-4cb5-b9a0-60b13dc0f331"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 1
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="cd0bed4b-006e-4e2b-811f-ffa1a198df52"/>
+                    <attribute id="VisualResource" type="guid" value="b292fc95-79e3-4a45-a280-bf0f0dc8533e"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 2
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="9cf34ce2-815f-44b3-9a49-47c4bc774e0f"/>
+                    <attribute id="VisualResource" type="guid" value="d45fb214-552a-4c70-95ed-dca137b7d8a5"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 3
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="1fcaa1dc-4ad0-4d28-bbf5-5fc119b9595f"/>
+                    <attribute id="VisualResource" type="guid" value="9f36f5f2-3ec9-4636-a3e8-2bc97a0cb64f"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 4
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="71479e6c-0905-403c-85be-62fcb25bf483"/>
+                    <attribute id="VisualResource" type="guid" value="29d2c25b-f7b9-4499-9fa7-cbeed0a9e67b"/>
+                </node>
 
 
                 HUM_FS

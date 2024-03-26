@@ -50,7 +50,7 @@ data "DisplayName" "h0d74cf45g725dg491fgad60g66d042395078;1"
 data "SpellProperties" "ApplyStatus(SELF,LI_TEMP_HP_TOUCH_1,100,-1);ApplyStatus(LI_PLEASURE,100,6)"
 data "TooltipDamageList" "GainTemporaryHitPoints(12)"
 data "TooltipStatusApply" "ApplyStatus(LI_TEMP_HP_TOUCH_1,100,-1);ApplyStatus(LI_PLEASURE,100,6)"
-data "DescriptionParams" "GainTemporaryHitPoints(12);5"
+data "DescriptionParams" "GainTemporaryHitPoints(12);6"
 
 new entry Shout_GrazztTouch_2
 type "SpellData"
@@ -60,7 +60,17 @@ data "DisplayName" "h80a730ddg41f6g4c3eg9de5gaac90824d9e7;1"
 data "SpellProperties" "ApplyStatus(SELF,LI_TEMP_HP_TOUCH_2,100,-1);ApplyStatus(LI_PLEASURE,100,8)"
 data "TooltipDamageList" "GainTemporaryHitPoints(16)"
 data "TooltipStatusApply" "ApplyStatus(LI_TEMP_HP_TOUCH_2,100,-1);ApplyStatus(LI_PLEASURE,100,8)"
-data "DescriptionParams" "GainTemporaryHitPoints(16);6"
+data "DescriptionParams" "GainTemporaryHitPoints(16);8"
+
+new entry Shout_GrazztTouch_3
+type "SpellData"
+using "Shout_GrazztTouch_2"
+data "Level" "4"
+data "DisplayName" "h18264672gc8eeg4459g8f4fg016ca7a362e3;1"
+data "SpellProperties" "ApplyStatus(SELF,LI_TEMP_HP_TOUCH_3,100,-1);ApplyStatus(LI_PLEASURE,100,10)"
+data "TooltipDamageList" "GainTemporaryHitPoints(20)"
+data "TooltipStatusApply" "ApplyStatus(LI_TEMP_HP_TOUCH_3,100,-1);ApplyStatus(LI_PLEASURE,100,10)"
+data "DescriptionParams" "GainTemporaryHitPoints(20);10"
 
 
 new entry "LI_GrazztRing_1"
@@ -78,6 +88,14 @@ using "LI_GrazztRing_1"
 data "ValueOverride" "7000"
 data "RootTemplate" "3325e465-daed-4daf-b6d3-1a2d8c0ff338"
 data "Boosts" "UnlockSpell(Shout_HidePiercings);UnlockSpell(Shout_GrazztTouch_2);AC(1);"
+
+
+new entry "LI_GrazztRing_3"
+type "Armor"
+using "LI_GrazztRing_2"
+data "ValueOverride" "10000"
+data "RootTemplate" "83d41e71-01b8-450b-b6a6-126b3e0a00a7"
+data "Boosts" "UnlockSpell(Shout_HidePiercings);UnlockSpell(Shout_GrazztTouch_3);AC(2);"
 
 
 new entry "LI_HIDE_PIERCINGS"
@@ -246,6 +264,13 @@ data "StatusType" "BOOST"
 using "LI_TEMP_HP_TOUCH"
 data "DescriptionParams" "GainTemporaryHitPoints(16+CharismaModifier)"
 data "Boosts" "TemporaryHP(16+CharismaModifier)"
+
+new entry "LI_TEMP_HP_TOUCH_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LI_TEMP_HP_TOUCH"
+data "DescriptionParams" "GainTemporaryHitPoints(20+CharismaModifier)"
+data "Boosts" "TemporaryHP(20+CharismaModifier)"
 
 new entry "LI_TEMP_HP_LASH"
 type "StatusData"
