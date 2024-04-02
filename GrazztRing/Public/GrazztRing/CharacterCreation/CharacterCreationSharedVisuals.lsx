@@ -108,6 +108,12 @@
                     <attribute id="VisualResource" type="guid" value="29d2c25b-f7b9-4499-9fa7-cbeed0a9e67b"/>
                 </node>
 
+                <node id="CharacterCreationSharedVisual"> clit ring 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="89f25bd9-7580-4f7f-9bf9-9bc0c2eeb062"/>
+                    <attribute id="VisualResource" type="guid" value="6cf566c1-1a7d-4bf0-8134-190e1e23463c"/>
+                </node>
 
                 HUM_FS
                 <node id="CharacterCreationSharedVisual"> chains 0
