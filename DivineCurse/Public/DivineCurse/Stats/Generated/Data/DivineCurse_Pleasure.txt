@@ -8,7 +8,7 @@ data "Icon" "LI_Pleasure"
 data "StackId" "LI_Pleasure"
 data "StackType" "Additive"
 data "OnApplyFunctors" "ApplyStatus(LUST_SWEAT_1, 100, 6)"
-data "SoundVocalLoop" "GASP"
+data "SoundVocalLoop" "EFFORTS"
 
 new entry "LI_PLEASURE_MAX"
 type "StatusData"
