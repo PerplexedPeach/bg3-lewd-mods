@@ -249,11 +249,11 @@ Piercing3 = BodyPiercing:new("P3", "LI_GrazztRing_3_83d41e71-01b8-450b-b6a6-126b
         { "3e371491-034b-4fc4-8b19-d1ed67b9ee66", "ebb3ee9c-4d29-484c-8ea0-dc577ba6a092", "71479e6c-0905-403c-85be-62fcb25bf483", "89f25bd9-7580-4f7f-9bf9-9bc0c2eeb062" },
     },
     HUM_FS = {
-        { "c698fab1-43a2-4c7d-9d59-38d94a986ec4", "4813dae1-cb97-481e-b9e1-5a60d22ce7fa" },
-        { "fc60aa34-b2b0-4bc7-be37-38bba9fae88c", "166a81f6-1e14-46fa-aac5-b5c4cce00068" },
-        { "4011dbf5-a4a1-44cf-9d42-b8b346420b80", "142659d1-7d5e-4180-bce1-9ee510b1f8cd" },
-        { "5da94a8e-4e4c-4573-a3a3-5e8c5f42fd5e", "facbf4f6-e288-48a6-87db-2433bcfc60a5" },
-        { "410c7436-61d0-4b5e-b5c3-1b4898c581f6", "a20f45db-c11f-4c0a-a46d-2a2ff789e07b" },
+        { "c698fab1-43a2-4c7d-9d59-38d94a986ec4", "4813dae1-cb97-481e-b9e1-5a60d22ce7fa", "fc91d3db-1a45-43ec-82fc-0d1e27287938", "6a151a4f-15f3-4ca6-9533-729df9d17e5d" },
+        { "fc60aa34-b2b0-4bc7-be37-38bba9fae88c", "166a81f6-1e14-46fa-aac5-b5c4cce00068", "d8c61255-770b-4ffc-8bb0-1e7250d7ff24", "6a151a4f-15f3-4ca6-9533-729df9d17e5d" },
+        { "4011dbf5-a4a1-44cf-9d42-b8b346420b80", "142659d1-7d5e-4180-bce1-9ee510b1f8cd", "45397245-aad6-4237-9fc4-1e4628612a40", "6a151a4f-15f3-4ca6-9533-729df9d17e5d" },
+        { "5da94a8e-4e4c-4573-a3a3-5e8c5f42fd5e", "facbf4f6-e288-48a6-87db-2433bcfc60a5", "50c4d695-93f5-4b6e-be79-ab51d6453509", "6a151a4f-15f3-4ca6-9533-729df9d17e5d" },
+        { "410c7436-61d0-4b5e-b5c3-1b4898c581f6", "a20f45db-c11f-4c0a-a46d-2a2ff789e07b", "37ba4259-bd6d-4834-a668-d45d2af3da89", "6a151a4f-15f3-4ca6-9533-729df9d17e5d" },
     },
     HUM_M = {
         { "122bdd78-cfa0-4911-8ea8-2c4dfbfb82dd", "af7cb44c-ef4a-4b3b-82fd-444cdedeef9a" },

@@ -188,6 +188,45 @@
                     <attribute id="VisualResource" type="guid" value="49f99a4c-ec68-472e-b67d-663029f053b1"/>
                 </node>
 
+                <node id="CharacterCreationSharedVisual"> chains side 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="fc91d3db-1a45-43ec-82fc-0d1e27287938"/>
+                    <attribute id="VisualResource" type="guid" value="00f495d8-7178-4bc9-810c-9e0b81ec63f9"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 1
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="d8c61255-770b-4ffc-8bb0-1e7250d7ff24"/>
+                    <attribute id="VisualResource" type="guid" value="6bfa1a20-2311-44e1-bc88-8d14b1e0e2dd"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 2
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="45397245-aad6-4237-9fc4-1e4628612a40"/>
+                    <attribute id="VisualResource" type="guid" value="431d1d86-a19c-4f66-beb5-39e8c249af9f"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 3
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="50c4d695-93f5-4b6e-be79-ab51d6453509"/>
+                    <attribute id="VisualResource" type="guid" value="1fe1ecd0-2d38-4226-9bfd-631a66b2c0bf"/>
+                </node>
+                <node id="CharacterCreationSharedVisual"> chains side 4
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="37ba4259-bd6d-4834-a668-d45d2af3da89"/>
+                    <attribute id="VisualResource" type="guid" value="fa0bc0e1-cb82-443e-a218-ae6eadac6556"/>
+                </node>
+
+                <node id="CharacterCreationSharedVisual"> clit ring 0
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb53111fdg2a06g4db0ga18ag955f373b88ea" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="6a151a4f-15f3-4ca6-9533-729df9d17e5d"/>
+                    <attribute id="VisualResource" type="guid" value="f75a6aea-a3b4-43b9-9e1c-a6bd71624bf5"/>
+                </node>
+
+
                 <node id="CharacterCreationSharedVisual"> karlach soul brand
                     <attribute id="DisplayName" type="TranslatedString" handle="h8b87ca62g354ag4d00g84e9g6bfec12d30da" version="1"/>
                     <attribute id="SlotName" type="FixedString" value="Beard"/>

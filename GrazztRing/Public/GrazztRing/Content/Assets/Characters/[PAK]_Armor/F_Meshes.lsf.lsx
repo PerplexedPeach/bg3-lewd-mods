@@ -235,7 +235,8 @@
 
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="84d68f47-aa1e-4ef3-874f-b0a2705cc095" />
+							<attribute id="MaterialID" type="FixedString" value="c3eca220-6934-4686-b12f-645f98bdc21f" />
+							<!-- <attribute id="MaterialID" type="FixedString" value="84d68f47-aa1e-4ef3-874f-b0a2705cc095" /> -->
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Clit_Basis.LI_Chains_no_ring.0" />
 						</node>
 						<node id="VertexColorMaskSlots">
