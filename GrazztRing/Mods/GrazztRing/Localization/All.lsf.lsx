@@ -18,7 +18,13 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
-
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h1339294ag880ag462cgb0b4g4a393dfe3d6e" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_PIERCINGS_2_PROGRESSION_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
 
 				<node id="TranslatedStringKey">
 					<attribute id="Content" type="TranslatedString" handle="h2d77b445ga917g493cga3b1g3e2c07e01b14" version="1" />

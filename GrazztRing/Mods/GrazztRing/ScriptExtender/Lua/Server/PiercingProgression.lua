@@ -12,6 +12,7 @@ local bliss_threshold_lust_brand = 3;
 local piercing_upgrade_msgs = {
     "LI_RING_PROGRESSION_MSG",
     "LI_PIERCINGS_PROGRESSION_MSG",
+    "LI_PIERCINGS_2_PROGRESSION_MSG"
 };
 local lust_brand_msg = "LI_LUST_BRAND_MSG";
 local player_lust_brand_passive_ids = {
@@ -81,7 +82,12 @@ function HandleLongRest()
         if IsGrazztConsort(char) and IsWearingPiercingStage(char, 1) and NumberOfSoulBrandsApplied(char) >= 3 then
             _I("Upgrading piercings for " .. char .. " from stage 1 to 2");
             UpgradePiercings(char, 1);
+        -- check stage 2 to 3
+        elseif IsGrazztConsort(char) and IsWearingPiercingStage(char, 2) and NumberOfSoulBrandsApplied(char) >= 5 then
+            _I("Upgrading piercings for " .. char .. " from stage 2 to 3");
+            UpgradePiercings(char, 2);
         end
+        
     end
 end
 
