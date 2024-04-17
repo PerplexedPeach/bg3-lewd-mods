@@ -1,6 +1,6 @@
 PersistentVars = {};
 -- listen for long rest for when you have enough orgasms and sleeps with the ring on
-local player_lust_brand_passive_ids = {
+PLAYER_LUST_BRAND_PASSIVES_IDS = {
     "LI_Lust_Brand"
 };
 local grazzt_consort_key = "grazzt_consort";
@@ -13,7 +13,7 @@ local function _I(message)
 end
 
 function LustBrandStage(char)
-    for i, passive_id in ipairs(player_lust_brand_passive_ids) do
+    for i, passive_id in ipairs(PLAYER_LUST_BRAND_PASSIVES_IDS) do
         if Osi.HasPassive(char, passive_id) == 1 then
             return i;
         end
