@@ -140,7 +140,7 @@ end
 
 local function registerSoulBrandVisuals(human_name, guid)
     local data = soul_brand_mapping[guid];
-    local sb = LustBrand:new(human_name, data.technical_status, {}, guid,
+    local sb = Mods.RemodelledFrameBody.BodyOverrideVisual:new(human_name, data.technical_status, HIDE_BRAND_STATUS, {}, guid,
         function(char) return soul_brand_mapping[guid].visual_id end);
     sb:registerHandlers();
 end

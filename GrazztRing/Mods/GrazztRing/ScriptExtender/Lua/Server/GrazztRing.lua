@@ -1,31 +1,5 @@
 local hide_piercing_status = "LI_HIDE_PIERCINGS";
 local remove_piercing_damage = 15;
-RaceMap = {
-    ["b6dccbed-30f3-424b-a181-c4540cf38197"] = "TIF",
-    ["bdf9b779-002c-4077-b377-8ea7c1faa795"] = "GTY",
-};
-function GetAssetForBodyShapeAndType(asset_map, entity)
-    -- asset map will have keys in the form of <race>_<body_type> e.g. HUM_F, HUM_FS, HUM_M, GTY_F
-    local cs = entity.CharacterCreationStats;
-    local race = RaceMap[cs.Race] or "HUM";
-
-    local body_type = "F";
-    if cs.BodyType == 0 then
-        body_type = "M";
-    end
-    local body_shape = "";
-    if cs.BodyShape == 1 then
-        body_shape = "S";
-    end
-
-    local query = race .. "_" .. body_type .. body_shape;
-    local res = asset_map[query];
-    if res == nil then
-        query = "HUM_" .. body_type .. body_shape;
-        res = asset_map[query];
-    end
-    return res;
-end
 
 ---@class BodyPiercing
 BodyPiercing = {};
@@ -76,7 +50,7 @@ function BodyPiercing:error(message)
 end
 
 function BodyPiercing:getIdsPerStageForEntity(entity)
-    return GetAssetForBodyShapeAndType(self.ids_per_stage, entity);
+    return Mods.RemodelledFrameBody.GetAssetForBodyShapeAndType(self.ids_per_stage, entity);
 end
 
 function BodyPiercing:isWearingItem(char)

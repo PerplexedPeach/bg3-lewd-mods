@@ -12,85 +12,6 @@ BRAND_PROGRESSION_EVENT_FLAGS = {
     ["NIGHT_Mizora_Romance_fbc49818-3d0a-43be-915b-b6d0f507d162"] = true,
 };
 
----@class LustBrand
-LustBrand = {};
----Framework for syncing lust brand passives and their character visuals, as well as optionally gating it behind characters.
----note that it's a passive that actually provides stat changes, but we introduce a hidden status effect to listen for when the
----passive gets added or removed since there's no way to do that with passives themselves.
----@param main_shortname string Short name for logging
----@param status_id string status ID associated with this lust brand that should decide whether to apply the visual
----@param ccsv_ids table CharacterCreationSharedVisual IDs for the visual brand per body shape
----@param character_lock_id string|nil optional character ID that restricts the check to just this character
----@param override_ccsv_id_fn function|nil optional function that takes the character GUID and returns the CCSV ID to use
----@return LustBrand
-function LustBrand:new(main_shortname, status_id, ccsv_ids, character_lock_id, override_ccsv_id_fn)
-    local self = {} ---@class LustBrand
-    setmetatable(self, {
-        __index = LustBrand
-    })
-
-    self.shortname = main_shortname;
-    self.status_id = status_id;
-    self.character_id = character_lock_id;
-
-    self.ids = ccsv_ids;
-    self.override_ccsv_id_fn = override_ccsv_id_fn;
-    -- iterate over the keys and values of ccsv_ids_per_stage
-
-    return self;
-end
-
-function LustBrand:log(message)
-    _P("[" .. self.shortname .. "] " .. message);
-end
-
-function LustBrand:error(message)
-    self:log(" [ERROR] " .. message);
-end
-
-function LustBrand:handleLustBrandConsistency(char)
-    char = Mods.DivineCurse.GetGUID(char);
-    -- care about if self.character is specified
-    if self.character_id ~= nil and self.character_id ~= char then
-        return;
-    end
-    local entity = Ext.Entity.Get(char);
-
-    local id = GetAssetForBodyShapeAndType(self.ids, entity);
-    if self.override_ccsv_id_fn ~= nil then
-        id = self.override_ccsv_id_fn(char);
-        self:log("Overriding CCSV ID for " .. char .. " to " .. id);
-    end
-    if Osi.HasActiveStatus(char, self.status_id) == 1 and Osi.HasActiveStatus(char, HIDE_BRAND_STATUS) == 0 then
-        -- only add if we don't already have it (avoid spamming log)
-        if not Mods.DivineCurse.FindCharacterCreationVisual(entity, id) then
-            self:log("Applying lust brand visual to " .. char .. " with ID " .. tostring(id));
-            Osi.AddCustomVisualOverride(char, id);
-        end
-    else
-        self:log("Removing lust brand visual from " .. char .. " with ID " .. tostring(id));
-        Osi.RemoveCustomVisualOvirride(char, id);
-    end
-end
-
-function LustBrand:statusAppliedHandler(char, status, causee, storyActionID)
-    if status == self.status_id or status == HIDE_BRAND_STATUS then
-        self:handleLustBrandConsistency(char);
-    end
-end
-
-function LustBrand:statusRemovedHandler(char, status, causee, applyStoryActionID)
-    if status == self.status_id or status == HIDE_BRAND_STATUS then
-        self:handleLustBrandConsistency(char);
-    end
-end
-
-function LustBrand:registerHandlers()
-    Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) self:statusAppliedHandler(...) end);
-    Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(...) self:statusRemovedHandler(...) end);
-
-    self:log("Registered handlers");
-end
 
 function ProgressLustBrand(char)
     local current_stage = LustBrandStage(char);
@@ -125,7 +46,7 @@ local function registerProgressionEventListeners()
     Ext.Osiris.RegisterListener("FlagSet", 3, "after", function(...) handleFlagSet(...) end);
 end
 
-L1 = LustBrand:new("L1", "LI_LUST_BRAND_TECHNICAL", {
+L1 = Mods.RemodelledFrameBody.BodyOverrideVisual:new("L1", "LI_LUST_BRAND_TECHNICAL", HIDE_BRAND_STATUS, {
     HUM_F = "0ed6e187-2232-4bec-a524-f983e175df55",
     HUM_FS = "58a88b95-eb78-4c00-9207-52c3f76df89b",
     GTY_F = "52cea3e5-2115-4374-8071-9eed0761c995",
