@@ -151,16 +151,6 @@ function LevelledBodyOverrideVisual:new(main_shortname, status_id, hide_status_i
     return self;
 end
 
-LI_FORCED_BODY = "LI_FORCED_BODY_";
-function BodyOverrideLevel(char)
-    -- whether the character has the body override level status
-    for level = 0, 4 do
-        if Osi.HasActiveStatus(char, LI_FORCED_BODY .. level) == 1 then
-            return level;
-        end
-    end
-    return 0;
-end
 
 function LevelledBodyOverrideVisual:shouldHaveVisual(char)
     -- if body is hidden then no body visual should be shown
@@ -168,8 +158,8 @@ function LevelledBodyOverrideVisual:shouldHaveVisual(char)
         return false;
     end
     -- if an override is active, then only show the one the override one
-    local override_level = BodyOverrideLevel(char);
-    if override_level > 0 then
+    local override_level = Mods.DivineCurse.BodyOverrideLevel(char);
+    if override_level ~= nil then
         return override_level == self.level;
     end
 
@@ -178,7 +168,7 @@ function LevelledBodyOverrideVisual:shouldHaveVisual(char)
 end
 
 function LevelledBodyOverrideVisual:shouldEnforceConsistency(status)
-    return status == self.status_id or status == self.hide_status_id or status:find(LI_FORCED_BODY) ~= nil;
+    return status == self.status_id or status == self.hide_status_id or string.find(status, Mods.DivineCurse.LI_FORCED_BODY) ~= nil;
 end
 
 B1 = LevelledBodyOverrideVisual:new("B1", "LI_REMODELLED_FRAME_1_TECHNICAL", "LI_HIDE_REMODELLED_FRAME", {

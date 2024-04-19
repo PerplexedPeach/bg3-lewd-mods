@@ -11,80 +11,28 @@ function RemodelledFrameLevel(char)
     return 0;
 end
 
-local body_passive_prefix = "LI_Body_";
-local body_camp_passive_prefix = "LI_Body_Camp_";
-ARMOR_SET = 0;
-CAMP_SET = 1;
-function ExposedBodyLevel(char)
-    for level = 1, 4 do
-        local passive_key = body_passive_prefix .. level;
-        if Osi.GetArmourSet(char) == CAMP_SET then
-            passive_key = body_camp_passive_prefix .. level;
-        end
-        if Osi.HasPassive(char, passive_key) == 1 then
-            return level;
-        end
-    end
-    return 0;
-end
 
-local clothes_passive_prefix = "LI_Clothes_";
-local clothes_camp_passive_prefix = "LI_Clothes_Camp_";
-function WornClothesLevel(char)
+LI_FORCED_BODY = "LI_FORCED_BODY_";
+function BodyOverrideLevel(char)
+    -- whether the character has the body override level status
     for level = 0, 4 do
-        local passive_key = clothes_passive_prefix .. level;
-        if Osi.GetArmourSet(char) == CAMP_SET then
-            passive_key = clothes_camp_passive_prefix .. level;
-        end
-        if Osi.HasPassive(char, passive_key) == 1 then
+        if Osi.HasActiveStatus(char, LI_FORCED_BODY .. level) == 1 then
             return level;
         end
     end
     return nil;
 end
 
-local forced_status_prefix = "LI_FORCED_BODY_";
-local forced_camp_status_prefix = "LI_FORCED_BODY_CAMP_";
-function ForcedBodyLevel(char)
-    for level = 0, 4 do
-        local status_key = forced_status_prefix .. level;
-        if Osi.GetArmourSet(char) == CAMP_SET then
-            status_key = forced_camp_status_prefix .. level;
-        end
-        if Osi.HasActiveStatus(char, status_key) == 1 then
-            return level;
-        end
-    end
-end
-
----What level (0 to 4) the character's body should be, taking into account remodelled frame level and overrides (no clothing considered)
----@param char any
----@return integer
-function ForcedExposedBodyLevel(char)
-    local forced_level = ForcedBodyLevel(char);
-    if forced_level ~= nil then
-        return forced_level;
-    end
-    return RemodelledFrameLevel(char);
-end
 
 ---What level (0 to 4) equipped body accessories should be, taking into account remodelled frame level and any worn clothing
 ---@param char any
 ---@return integer
 function BodyEquipmentLevel(char)
-    local forced_level = ForcedBodyLevel(char);
+    local forced_level = BodyOverrideLevel(char);
     if forced_level ~= nil then
         return forced_level;
     end
-    local body_level = ExposedBodyLevel(char);
-    local clothes_level = WornClothesLevel(char);
-    -- if clothes is worn, report that, else report the body level
-    if clothes_level == nil then
-        -- note that if character is wearing some other clothing, the body level will be 0
-        return body_level;
-    else
-        return clothes_level;
-    end
+    return RemodelledFrameLevel(char);
 end
 
 ---@class BodyEquipment
@@ -156,15 +104,21 @@ function BodyEquipment:enforceBodyEquipmentConsistency(char)
     end);
 end
 
-function BodyEquipment:equipHandler(equipped_item, char)
-    -- we also need to care about equipping things other than our item since they could change the body level
-    self:enforceBodyEquipmentConsistency(char);
+function BodyEquipment:shouldEnforceConsistency(status)
+    return string.find(status, LI_FORCED_BODY) ~= nil;
 end
 
-function BodyEquipment:armorSetChangedHandler(char, armorset)
-    self:enforceBodyEquipmentConsistency(char);
+function BodyEquipment:statusAppliedHandler(char, status, causee, storyActionID)
+    if self:shouldEnforceConsistency(status) then
+        self:enforceBodyEquipmentConsistency(char);
+    end
 end
 
+function BodyEquipment:statusRemovedHandler(char, status, causee, applyStoryActionID)
+    if self:shouldEnforceConsistency(status) then
+        self:enforceBodyEquipmentConsistency(char);
+    end
+end
 
 -- also check after a delay after long rest (since the body level may have changed)
 function BodyEquipment:longRestHandler()
@@ -175,11 +129,12 @@ function BodyEquipment:longRestHandler()
 end
 
 function BodyEquipment:registerHandlers()
-    Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) self:equipHandler(...) end);
     Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function()
         DelayedCall(1000, function() self:longRestHandler() end);
     end);
-    Ext.Osiris.RegisterListener("ArmorSetChanged", 2, "after", function(...) self:armorSetChangedHandler(...) end);
+    Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) self:statusAppliedHandler(...) end);
+    Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(...) self:statusRemovedHandler(...) end);
+
 
     self:log("Registered handlers");
 end
