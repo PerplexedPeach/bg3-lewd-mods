@@ -25,7 +25,7 @@ function ProgressLustBrand(char)
 end
 
 local function handleFlagSet(flag, speaker, dialogueInstance)
-    _P("FlagSet: " .. flag .. " by " .. speaker .. " in " .. dialogueInstance);
+    -- _P("FlagSet: " .. flag .. " by " .. speaker .. " in " .. dialogueInstance);
     if BRAND_PROGRESSION_EVENT_FLAGS[flag] then
         local char = Mods.DivineCurse.GetGUID(speaker);
         -- if the speaker has the brand, then progress it; otherwise we treat it like a global event and progress the brand of all
