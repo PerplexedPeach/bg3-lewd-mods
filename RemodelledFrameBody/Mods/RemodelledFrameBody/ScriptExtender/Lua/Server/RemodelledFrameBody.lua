@@ -62,11 +62,11 @@ function UnequipHandler(item, char)
         return;
     end
 
-    local frame_level = Mods.DivineCurse.ForcedExposedBodyLevel(char);
-    _I("Nude with frame level " .. frame_level);
-    if frame_level == 0 then
-        return;
-    end
+    -- local frame_level = Mods.DivineCurse.ForcedExposedBodyLevel(char);
+    -- _I("Nude with frame level " .. frame_level);
+    -- if frame_level == 0 then
+    --     return;
+    -- end
 
     -- if slot == body_slot then
     --     -- create and equip camp feet later
