@@ -40,7 +40,6 @@ local do_not_trigger_unequip = false;
 -- only care about this if the character has remodelled frame 
 function UnequipHandler(item, char)
     local slot = Ext.Entity.Get(item).Equipable.Slot;
-    _I("Unequip slot " .. tostring(slot));
     if slot ~= body_slot and slot ~= body_slot_camp then
         return;
     end

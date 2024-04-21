@@ -120,6 +120,13 @@ function BodyEquipment:statusRemovedHandler(char, status, causee, applyStoryActi
     end
 end
 
+function BodyEquipment:reequipHandler(item, char)
+    local slot = Ext.Entity.Get(item).Equipable.Slot;
+    if slot == self.slot then
+        self:enforceBodyEquipmentConsistency(char);
+    end
+end
+
 -- also check after a delay after long rest (since the body level may have changed)
 function BodyEquipment:longRestHandler()
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
@@ -134,6 +141,7 @@ function BodyEquipment:registerHandlers()
     end);
     Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) self:statusAppliedHandler(...) end);
     Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(...) self:statusRemovedHandler(...) end);
+    Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) self:reequipHandler(...) end);
 
 
     self:log("Registered handlers");
