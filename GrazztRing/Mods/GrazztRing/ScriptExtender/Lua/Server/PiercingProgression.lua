@@ -6,6 +6,7 @@ local piercing_templates = {
     "LI_GrazztRing_2a33b13e-adb2-4d52-9303-14ca982cef99",   -- stage 0 base ring
     "LI_GrazztRing_1_a372e826-3eb0-4eb5-be1d-92e0953957d5", -- stage 1 ring
     "LI_GrazztRing_2_3325e465-daed-4daf-b6d3-1a2d8c0ff338", -- stage 2 chain
+    "LI_GrazztRing_3_83d41e71-01b8-450b-b6a6-126b3e0a00a7", -- stage 3 chains of submission
 }
 local bliss_threshold_ring_to_piercing = 1;
 local bliss_threshold_lust_brand = 3;
