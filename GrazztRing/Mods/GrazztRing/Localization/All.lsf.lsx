@@ -90,6 +90,66 @@
 					<attribute id="Stub" type="bool" value="False" />
 				</node>
 
+                <!-- Lust brand progression events -->
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="hbf37cb3bg309fg4b79gbf21g48ee4d6bf17c" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_HAARLEP_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="hf87d125age9fag4fc0g8ee8g9662159d1f78" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_WALL_CRACK_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h4c7d4268g0aa3g4fc4g96cagdf1674385529" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_DROW_TWINS_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h87df33b9g61b1g498aga05cgb97ef4c7858f" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_SPIDER_MEAT_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h66bc1d7bg8aa9g4336g8207g2d3dd2155026" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_MIZORA_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+
+                <!-- Lust brand progression passive -->
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="ha580ceaegbe3dg41d0g9727g22c80e6b901d" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_COMPLETED_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="h9ad1b252g803ag4f3fgb3d5g05a84eb700b0" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_1_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" type="TranslatedString" handle="hfce31c6fg93cag4f28ga78bg98514147e4c2" version="1" />
+					<attribute id="UUID" type="FixedString" value="LI_LUST_BRAND_2_MSG" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="False" />
+				</node>
+
 			</children>
 		</node>
 	</region>
