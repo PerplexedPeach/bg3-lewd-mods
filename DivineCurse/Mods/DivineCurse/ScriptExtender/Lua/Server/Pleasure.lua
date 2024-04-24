@@ -52,7 +52,7 @@ function HandlePleasure(character, status, causee, storyActionID)
     Osi.ApplyStatus(character, LUST_SWEAT_STATUSES[sweat_level], SWEAT_DURATION * 6, 1);
 
     if cur_pleasure > max_pleasure then
-        Osi.ApplyStatus(character, BLISS_STATUS, 2, 1, causee);
+        Osi.ApplyStatus(character, BLISS_STATUS, 6, 1, causee);
     end
 end
 

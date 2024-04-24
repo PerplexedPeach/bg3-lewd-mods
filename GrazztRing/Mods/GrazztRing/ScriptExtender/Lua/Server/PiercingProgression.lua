@@ -17,7 +17,9 @@ local piercing_upgrade_msgs = {
 };
 local lust_brand_msg = "LI_LUST_BRAND_MSG";
 local player_lust_brand_passive_ids = {
-    "LI_Lust_Brand"
+    "LI_Lust_Brand",
+    "LI_Lust_Brand_Upgraded",
+    "LI_Lust_Brand_Complete",
 };
 local grazzt_ignore_msg = "LI_GRAZZT_IGNORE_MSG";
 
@@ -100,6 +102,14 @@ function HandleBliss(char, status, causee, storyActionID)
         _I("Applying lust brand to " .. char);
         Osi.OpenMessageBox(char, lust_brand_msg);
         Osi.AddPassive(char, player_lust_brand_passive_ids[1]);
+    end
+
+    -- applying bliss on someone gives you profane alacrity
+    if Mods.DivineCurse.GetGUID(char) ~= Mods.DivineCurse.GetGUID(causee) then
+        if Osi.HasPassive(causee, player_lust_brand_passive_ids[2]) == 1 or Osi.HasPassive(causee, player_lust_brand_passive_ids[3]) == 1 then
+            _I("Applying profane alacrity to " .. causee);
+            Osi.ApplyStatus(causee, "LI_PROFANE_ALACRITY", 6, 1);
+        end
     end
 end
 
