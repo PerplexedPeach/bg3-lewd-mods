@@ -43,9 +43,15 @@ function ProgressLustBrand(char)
         Osi.OpenMessageBox(char, BRAND_COMPLETED_MSG);
         return;
     end
-    -- TODO advance up a stage, remove the previous passive and add new passive in
-    -- give lore message about the brand advancing
-    Osi.OpenMessageBox(char, BRAND_PROGRESSION_MSGS[current_stage]);
+    if current_stage > 0 then
+        -- advance up a stage, remove the previous passive and add new passive in
+        Osi.RemovePassive(char, PLAYER_LUST_BRAND_PASSIVES_IDS[current_stage]);
+        -- also remove the hiding status if it exists
+        Osi.RemoveStatus(char, HIDE_BRAND_STATUS);
+        -- give lore message about the brand advancing
+        Osi.OpenMessageBox(char, BRAND_PROGRESSION_MSGS[current_stage]);
+    end
+    Osi.AddPassive(char, PLAYER_LUST_BRAND_PASSIVES_IDS[current_stage + 1]);
 end
 
 local function handleFlagSet(flag, speaker, dialogueInstance)
@@ -75,5 +81,19 @@ L1 = Mods.RemodelledFrameBody.BodyOverrideVisual:new("L1", "LI_LUST_BRAND_TECHNI
     HUM_M = "7bfece7a-9142-409f-b276-1227bb037169",
 }, nil, nil);
 L1:registerHandlers();
+L2 = Mods.RemodelledFrameBody.BodyOverrideVisual:new("L2", "LI_LUST_BRAND_UPGRADED_TECHNICAL", "LI_HIDE_BRAND_2", {
+    HUM_F = "7d2b1b00-b709-43ec-ac06-f02ecf845319",
+    HUM_FS = "64eb8f98-7f32-4ba9-98c6-15c570a0da36",
+    GTY_F = "7cc045f7-54e7-490e-874b-feea51b96e19",
+    HUM_M = "03da298d-aa8a-426a-ba83-7fdfa01df22a",
+}, nil, nil);
+L2:registerHandlers();
+L3 = Mods.RemodelledFrameBody.BodyOverrideVisual:new("L3", "LI_LUST_BRAND_COMPLETE_TECHNICAL", "LI_HIDE_BRAND_3", {
+    HUM_F = "314c5eb1-549b-43a0-a0fe-f0c1528f6170",
+    HUM_FS = "60fba90d-11b1-4904-9f37-9155c86d11bd",
+    GTY_F = "12b8ce89-7d21-4962-a605-045eeb1e52ba",
+    HUM_M = "ee91297e-b638-4513-86ca-788ee68326b7",
+}, nil, nil);
+L3:registerHandlers();
 
 registerProgressionEventListeners();

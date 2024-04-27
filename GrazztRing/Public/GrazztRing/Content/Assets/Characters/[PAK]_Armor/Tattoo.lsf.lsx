@@ -153,6 +153,305 @@
 					</children>
 				</node>
 
+				<node id="Resource"> HUM_F lust brand 2
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="d9568645-43c7-4e05-9026-c8004f663ed3" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="deca1577-aa56-4f15-9a09-63ca52893f86" /> HUM_F_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Womb_Basis.HUM_F_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> HUM_FS lust brand 2
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="81aa7c69-374d-425c-8f87-40a5af750a6a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="deca1577-aa56-4f15-9a09-63ca52893f86" /> HUM_FS_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Womb_Basis.HUM_FS_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> HUM_M lust brand 2
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="a39dbe1c-d72c-4ae1-ba92-33136f723721" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_M_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_M_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/HUM_M_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="deca1577-aa56-4f15-9a09-63ca52893f86" /> HUM_M_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="HUM_M_LI_Womb_Basis.HUM_M_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> GTY_F lust brand 2
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="0fb77aa6-909e-49ac-8d52-cfcab87ed817" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="GTY_F_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/GTY_F_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/GTY_F_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="deca1577-aa56-4f15-9a09-63ca52893f86" /> GTY_F_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="GTY_F_LI_Womb_Basis.GTY_F_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+
+				<node id="Resource"> HUM_F lust brand 3
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="0c3af6a8-c3c4-4c6d-80ae-d15ebb57c333" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="81db47c4-7ca1-437d-bd8d-67e175de8c39" /> HUM_F_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_LI_Womb_Basis.HUM_F_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> HUM_FS lust brand 3
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="fcf4697d-4b9b-4cab-8f5b-c756fac856e8" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/HUM_FS_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="81db47c4-7ca1-437d-bd8d-67e175de8c39" /> HUM_FS_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_Womb_Basis.HUM_FS_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> HUM_M lust brand 3
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="86b73d6c-fc9d-4bce-9c68-b9dd1b9050ac" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_M_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_M_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/HUM_M_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="81db47c4-7ca1-437d-bd8d-67e175de8c39" /> HUM_M_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="HUM_M_LI_Womb_Basis.HUM_M_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> GTY_F lust brand 3
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.153702 1.546805 0.1181183" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1257102 1.145485 -0.1712599" />
+					<attribute id="Center" type="fvec3" value="0.01399589 1.346145 -0.0265708" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="7fb324b0-a910-4047-9e6d-840416ad1cf4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="GTY_F_LI_Womb" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2841077" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Piercing" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/GTY_F_LI_Womb_Basis.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/GrazztRing/Assets/GTY_F_LI_Womb_Basis.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="81db47c4-7ca1-437d-bd8d-67e175de8c39" /> GTY_F_LI_Womb
+							<attribute id="ObjectID" type="FixedString" value="GTY_F_LI_Womb_Basis.GTY_F_LI_Womb.0" />
+						</node>
+					</children>
+				</node>
+
+
 				<node id="Resource"> Karlach soul brand 0
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -553,7 +852,420 @@
 						</node>
 					</children>
 				</node>
+				<node id="Resource"> lust brand 2
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="deca1577-aa56-4f15-9a09-63ca52893f86" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="44" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Womb_2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="_OpacityFade" />
+							<attribute id="SkinnedForward" type="uint32" value="12" />
+							<attribute id="StaticForward" type="uint32" value="12" />
+							<attribute id="StaticInstancedForward" type="uint32" value="12" />
+							<attribute id="UniformName" type="FixedString" value="_OpacityFade" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ParameterName" type="FixedString" value="Dirt" />
+							<attribute id="SkinnedDeferred" type="uint32" value="12" />
+							<attribute id="SkinnedForward" type="uint32" value="28" />
+							<attribute id="StaticBake" type="uint32" value="12" />
+							<attribute id="StaticDeferred" type="uint32" value="12" />
+							<attribute id="StaticForward" type="uint32" value="28" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="12" />
+							<attribute id="StaticInstancedForward" type="uint32" value="28" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Dirt" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ParameterName" type="FixedString" value="Armor_Dirt_Sharpness" />
+							<attribute id="SkinnedDeferred" type="uint32" value="28" />
+							<attribute id="SkinnedForward" type="uint32" value="44" />
+							<attribute id="StaticBake" type="uint32" value="28" />
+							<attribute id="StaticDeferred" type="uint32" value="28" />
+							<attribute id="StaticForward" type="uint32" value="44" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="28" />
+							<attribute id="StaticInstancedForward" type="uint32" value="44" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Armor_Dirt_Sharpness" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ParameterName" type="FixedString" value="Blood" />
+							<attribute id="SkinnedDeferred" type="uint32" value="44" />
+							<attribute id="SkinnedForward" type="uint32" value="60" />
+							<attribute id="StaticBake" type="uint32" value="44" />
+							<attribute id="StaticDeferred" type="uint32" value="44" />
+							<attribute id="StaticForward" type="uint32" value="60" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="44" />
+							<attribute id="StaticInstancedForward" type="uint32" value="60" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Blood" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="SkinnedDeferred" type="uint32" value="60" />
+							<attribute id="SkinnedForward" type="uint32" value="76" />
+							<attribute id="StaticBake" type="uint32" value="60" />
+							<attribute id="StaticDeferred" type="uint32" value="60" />
+							<attribute id="StaticForward" type="uint32" value="76" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="60" />
+							<attribute id="StaticInstancedForward" type="uint32" value="76" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Reflectance" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
 
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.0001" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="ClipTest" />
+							<attribute id="Value" type="float" value="0.0001" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="MinGlow" />
+							<attribute id="Value" type="float" value="0.2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="10" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="1.7" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="GlowMultiplier" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.8512517 0.1011452 0.002585825" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="1.0 0.0 0.2" />
+						</node>
+
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="dcba2db1-0a24-445e-b55c-8b7806f5adf2" />
+							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+						</node>
+
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="bf54e57b-4ad7-4d23-9d13-169bf123e222" /> 
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="acead142-f83d-4625-b0b7-e93379f0c0d9" /> HUM_F_LI_Womb_BM
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="d8ffdde5-de7d-44d9-84e2-41eaf986e09e" /> HUM_F_LI_Womb_PM
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="DirtColor" />
+							<attribute id="SkinnedDeferred" type="uint32" value="192" />
+							<attribute id="SkinnedForward" type="uint32" value="192" />
+							<attribute id="StaticBake" type="uint32" value="192" />
+							<attribute id="StaticDeferred" type="uint32" value="192" />
+							<attribute id="StaticForward" type="uint32" value="192" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="192" />
+							<attribute id="StaticInstancedForward" type="uint32" value="192" />
+							<attribute id="UniformName" type="FixedString" value="Vector3Parameter_DirtColor" />
+							<attribute id="Value" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Blood_Color" />
+							<attribute id="SkinnedDeferred" type="uint32" value="208" />
+							<attribute id="SkinnedForward" type="uint32" value="208" />
+							<attribute id="StaticBake" type="uint32" value="208" />
+							<attribute id="StaticDeferred" type="uint32" value="208" />
+							<attribute id="StaticForward" type="uint32" value="208" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="208" />
+							<attribute id="StaticInstancedForward" type="uint32" value="208" />
+							<attribute id="UniformName" type="FixedString" value="Vector3Parameter_Blood_Color" />
+							<attribute id="Value" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> lust brand 3
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="81db47c4-7ca1-437d-bd8d-67e175de8c39" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="44" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Womb_3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="_OpacityFade" />
+							<attribute id="SkinnedForward" type="uint32" value="12" />
+							<attribute id="StaticForward" type="uint32" value="12" />
+							<attribute id="StaticInstancedForward" type="uint32" value="12" />
+							<attribute id="UniformName" type="FixedString" value="_OpacityFade" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ParameterName" type="FixedString" value="Dirt" />
+							<attribute id="SkinnedDeferred" type="uint32" value="12" />
+							<attribute id="SkinnedForward" type="uint32" value="28" />
+							<attribute id="StaticBake" type="uint32" value="12" />
+							<attribute id="StaticDeferred" type="uint32" value="12" />
+							<attribute id="StaticForward" type="uint32" value="28" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="12" />
+							<attribute id="StaticInstancedForward" type="uint32" value="28" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Dirt" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ParameterName" type="FixedString" value="Armor_Dirt_Sharpness" />
+							<attribute id="SkinnedDeferred" type="uint32" value="28" />
+							<attribute id="SkinnedForward" type="uint32" value="44" />
+							<attribute id="StaticBake" type="uint32" value="28" />
+							<attribute id="StaticDeferred" type="uint32" value="28" />
+							<attribute id="StaticForward" type="uint32" value="44" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="28" />
+							<attribute id="StaticInstancedForward" type="uint32" value="44" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Armor_Dirt_Sharpness" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ParameterName" type="FixedString" value="Blood" />
+							<attribute id="SkinnedDeferred" type="uint32" value="44" />
+							<attribute id="SkinnedForward" type="uint32" value="60" />
+							<attribute id="StaticBake" type="uint32" value="44" />
+							<attribute id="StaticDeferred" type="uint32" value="44" />
+							<attribute id="StaticForward" type="uint32" value="60" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="44" />
+							<attribute id="StaticInstancedForward" type="uint32" value="60" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Blood" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="SkinnedDeferred" type="uint32" value="60" />
+							<attribute id="SkinnedForward" type="uint32" value="76" />
+							<attribute id="StaticBake" type="uint32" value="60" />
+							<attribute id="StaticDeferred" type="uint32" value="60" />
+							<attribute id="StaticForward" type="uint32" value="76" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="60" />
+							<attribute id="StaticInstancedForward" type="uint32" value="76" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Reflectance" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.0001" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="ClipTest" />
+							<attribute id="Value" type="float" value="0.0001" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="MinGlow" />
+							<attribute id="Value" type="float" value="0.2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="10" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="1.7" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="GlowMultiplier" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.8512517 0.1011452 0.002585825" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="1.0 0.0 0.2" />
+						</node>
+
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="a8449e31-d488-4417-9b2e-95724f2ee966" />
+							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+						</node>
+
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="bf54e57b-4ad7-4d23-9d13-169bf123e222" /> 
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="9b692c94-dc94-4a5d-a52c-3d5c0bdb3efb" /> HUM_F_LI_Womb_BM
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="d8ffdde5-de7d-44d9-84e2-41eaf986e09e" /> HUM_F_LI_Womb_PM
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="DirtColor" />
+							<attribute id="SkinnedDeferred" type="uint32" value="192" />
+							<attribute id="SkinnedForward" type="uint32" value="192" />
+							<attribute id="StaticBake" type="uint32" value="192" />
+							<attribute id="StaticDeferred" type="uint32" value="192" />
+							<attribute id="StaticForward" type="uint32" value="192" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="192" />
+							<attribute id="StaticInstancedForward" type="uint32" value="192" />
+							<attribute id="UniformName" type="FixedString" value="Vector3Parameter_DirtColor" />
+							<attribute id="Value" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Blood_Color" />
+							<attribute id="SkinnedDeferred" type="uint32" value="208" />
+							<attribute id="SkinnedForward" type="uint32" value="208" />
+							<attribute id="StaticBake" type="uint32" value="208" />
+							<attribute id="StaticDeferred" type="uint32" value="208" />
+							<attribute id="StaticForward" type="uint32" value="208" />
+							<attribute id="StaticInstancedDeferred" type="uint32" value="208" />
+							<attribute id="StaticInstancedForward" type="uint32" value="208" />
+							<attribute id="UniformName" type="FixedString" value="Vector3Parameter_Blood_Color" />
+							<attribute id="Value" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
+						</node>
+					</children>
+				</node>
 				<node id="Resource"> karlach soul brand
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="7405f874-b3de-49c5-9097-813a2e0ad2d4" />
@@ -1439,7 +2151,7 @@
 	<region id="TextureBank">
 		<node id="TextureBank">
 			<children>
-				<node id="Resource">
+				<node id="Resource"> lust brand 0 GM
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="Width" type="int32" value="1024" />
@@ -1453,11 +2165,71 @@
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 				</node>
+				<node id="Resource"> lsut brand 2 GM
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Width" type="int32" value="1024" />
+
+					<attribute id="ID" type="FixedString" value="dcba2db1-0a24-445e-b55c-8b7806f5adf2" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Womb_2_GM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_2_GM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="HUM_F_LI_Womb_2_GM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+				<node id="Resource"> lsut brand 3 GM
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Width" type="int32" value="1024" />
+
+					<attribute id="ID" type="FixedString" value="a8449e31-d488-4417-9b2e-95724f2ee966" />
+					<attribute id="Name" type="LSString" value="HUM_F_LI_Womb_3_GM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_3_GM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="HUM_F_LI_Womb_3_GM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
 
 				<node id="Resource"> lust brand 0 base
 					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Womb_BM" />
 					<attribute id="ID" type="FixedString" value="6c5e475a-04c9-46df-90d6-deb13ca47a3c" /> 
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb.DDS" />
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource"> lust brand 2 base
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Womb_2_BM" />
+					<attribute id="ID" type="FixedString" value="acead142-f83d-4625-b0b7-e93379f0c0d9" /> 
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_2.DDS" />
+
+					<attribute id="Format" type="uint32" value="64" /> BC3
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource"> lust brand 3 base
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_LI_Womb_BM" />
+					<attribute id="ID" type="FixedString" value="9b692c94-dc94-4a5d-a52c-3d5c0bdb3efb" /> 
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/GrazztRing/Assets/HUM_F_LI_Womb_3.DDS" />
 
 					<attribute id="Format" type="uint32" value="64" /> BC3
 					<attribute id="Width" type="int32" value="1024" />

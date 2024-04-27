@@ -1,7 +1,9 @@
 PersistentVars = {};
 -- listen for long rest for when you have enough orgasms and sleeps with the ring on
 PLAYER_LUST_BRAND_PASSIVES_IDS = {
-    "LI_Lust_Brand"
+    "LI_Lust_Brand",
+    "LI_Lust_Brand_Upgraded",
+    "LI_Lust_Brand_Complete",
 };
 local grazzt_consort_key = "grazzt_consort";
 local grazzt_consort_title = "hb3436a69g5fe9g47d8g8bdcg1f6c577d38a5";
