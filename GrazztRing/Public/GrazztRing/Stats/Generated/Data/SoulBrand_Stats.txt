@@ -258,6 +258,32 @@ data "Icon" "LI_Lust_Brand"
 data "Properties" "Highlighted"
 data "Boosts" "Ability(Strength,2);Ability(Dexterity,1)"
 
+
+new entry "LI_SOUL_BRAND_JAHEIRA_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LI_SOUL_BRAND_TECHNICAL"
+data "RemoveConditions" "not HasPassive('LI_Soul_Brand_Jaheira')"
+data "RemoveEvents" "OnTurn"
+
+new entry "LI_Soul_Brand_Jaheira"
+type "PassiveData"
+data "DisplayName" "hf5bffd94gebe6g4609gb3afga587d4e693f0;1"
+data "Description" "hbf41e126g7e29g4d5aga514g29c037aeda82;1"
+data "Icon" "LI_Lust_Brand"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Dexterity,-4);Ability(Wisdom,-2);Ability(Strength,-2);Ability(Intelligence,-2);UnlockSpell(Shout_HideBrand)"
+data "StatsFunctorContext" "OnCreate;OnTurn"
+data "StatsFunctors" "ApplyStatus(LI_SOUL_BRAND_JAHEIRA_TECHNICAL, 100, -1)"
+
+new entry "LI_Soul_Brand_Jaheira_Consort"
+type "PassiveData"
+data "DisplayName" "hc39d569bga07eg4b27ga583gf130426f72e9;1"
+data "Description" "h6226baabg082eg4da2ga542gde4e07dfcd81;1"
+data "Icon" "LI_Lust_Brand"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Dexterity,2);Ability(Wisdom,1)"
+
 <!-- consort passive from soul branding -->
 new entry "LI_Profane_Succor_1"
 type "PassiveData"

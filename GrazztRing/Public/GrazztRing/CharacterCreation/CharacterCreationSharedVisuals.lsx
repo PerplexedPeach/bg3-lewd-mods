@@ -281,6 +281,12 @@
                     <attribute id="UUID" type="guid" value="a59314d4-9dda-4ca0-a090-3117a6630cc5"/>
                     <attribute id="VisualResource" type="guid" value="ae39371e-64aa-4587-9742-52039447dab8"/>
                 </node>
+                <node id="CharacterCreationSharedVisual"> Jaheira soul brand
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b87ca62g354ag4d00g84e9g6bfec12d30da" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="6fa1cb2d-ccb0-4f65-a5b4-2a4c91d71bde"/>
+                    <attribute id="VisualResource" type="guid" value="f686f0e9-ce44-4b16-accc-dbff4be41322"/>
+                </node>
 
                 HUM_M
                 <node id="CharacterCreationSharedVisual"> chains 0

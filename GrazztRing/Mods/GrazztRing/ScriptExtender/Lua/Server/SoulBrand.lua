@@ -12,6 +12,8 @@ MINTHARA = "25721313-0c15-4935-8176-9f134385451b";
 TAV = "97c99688-6b7f-3b3e-5cb2-fea9647b6275";
 LAEZEL = "58a69333-40bf-8358-1d17-fff240d7fb12";
 AYLIN = "6c55edb0-901b-4ba4-b9e8-3475a8392d9b";
+JAHEIRA = "91b6b200-7d00-4d62-8dc9-99e8339dfa1a";
+
 
 local soul_brand_mapping = {
     [KARLACH] = {
@@ -48,6 +50,13 @@ local soul_brand_mapping = {
         technical_status = "LI_SOUL_BRAND_LAEZEL_TECHNICAL",
         message_id = "LI_SOUL_BRAND_LAEZEL",
         visual_id = "a59314d4-9dda-4ca0-a090-3117a6630cc5"
+    },
+    [JAHEIRA] = {
+        passive = "LI_Soul_Brand_Jaheira",
+        consort_passive = "LI_Soul_Brand_Jaheira_Consort",
+        technical_status = "LI_SOUL_BRAND_JAHEIRA_TECHNICAL",
+        message_id = "LI_SOUL_BRAND_JAHEIRA",
+        visual_id = "6fa1cb2d-ccb0-4f65-a5b4-2a4c91d71bde"
     },
 };
 local soul_brand_profane_succor_passives = {
@@ -155,3 +164,4 @@ registerSoulBrandVisuals("Shadowheart", SHADOWHEART);
 registerSoulBrandVisuals("Minthara", MINTHARA);
 registerSoulBrandVisuals("Aylin", AYLIN);
 registerSoulBrandVisuals("Laezel", LAEZEL);
+registerSoulBrandVisuals("Jaheira", JAHEIRA);
