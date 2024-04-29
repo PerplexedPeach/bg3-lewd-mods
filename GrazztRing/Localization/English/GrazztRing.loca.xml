@@ -152,4 +152,9 @@
 	<content contentuid="ha580ceaegbe3dg41d0g9727g22c80e6b901d" version="1">Your body is already perfect and the Lust Brand complete. There is nothing to add or take away.</content> 
 	<content contentuid="h9ad1b252g803ag4f3fgb3d5g05a84eb700b0" version="1">You feel your bones and muscles break and bend, the pain wracking your body and doubling you over. The lust brand reaches deep into your core, twisting and refining each fibre of your being to better fit its vision of you as a creature of lust.</content> 
 	<content contentuid="hfce31c6fg93cag4f28ga78bg98514147e4c2" version="1">Yet again your bones and muscles churn, but different from last time, you feel pleasure in addition to pain from the remodeling. The lust brand sculpts your curves, chiselling each inch of your body to perfection. This process lasts for what seems like eternity, but at the end of it you are reborn in sin.</content> 
+
+    <!-- Abilities -->
+	<content contentuid="h8f79c26cg537fg400dgb7f2g6e23bed8ea5c" version="1">Pleasure Sharing</content> 
+	<content contentuid="h9ebcab72g60adg4af9g8aeeg369d05d6ef64" version="1">Share half the &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt; you experience with someone else.</content> 
+
 </contentList>
