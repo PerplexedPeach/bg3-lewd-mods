@@ -34,15 +34,58 @@ function MaxPleasure(character)
     return max_pleasure;
 end
 
+-- temp map to figure out how much pleasure is applied
+PLEASURE_TABLE = "cur_pleasure";
+function PleasureKey(char)
+    return GetGUID(char);
+end
+
+function GetPrevPleasure(char)
+    local tab = PersistentVars[PLEASURE_TABLE];
+    if tab == nil then
+        PersistentVars[PLEASURE_TABLE] = {};
+    end
+    return PersistentVars[PLEASURE_TABLE][PleasureKey(char)] or 0;
+end
+
+PLEASURE_MODIFIERS = {};
+function RegisterPleasureModifier(modifier)
+    table.insert(PLEASURE_MODIFIERS, modifier);
+end
+
 function HandlePleasure(character, status, causee, storyActionID)
-    if status ~= PLEASURE_STATUS then
+    if status ~= PLEASURE_STATUS or (storyActionID == -1 and GetGUID(character) == causee) then
         return;
     end
     _I("Pleasure status applied to " .. character .. " by " .. causee .. " with story action " .. storyActionID);
     -- check character max HP against stacks of pleasure
     local max_pleasure = MaxPleasure(character);
     local cur_pleasure = Osi.GetStatusTurns(character, PLEASURE_STATUS);
-    _I("Pleasure " .. cur_pleasure .. " / " .. max_pleasure .. " for " .. character);
+
+    local prev_pleasure = GetPrevPleasure(character);
+    local this_pleasure = cur_pleasure - prev_pleasure;
+
+    -- potentially adjust pleasure based on resistances and so on
+    local props = {
+        full_pleasure = this_pleasure,
+        cur_pleasure = this_pleasure,
+        max_pleasure = max_pleasure,
+        resistance = false,
+    };
+    for _, modifier in ipairs(PLEASURE_MODIFIERS) do
+        modifier(character, causee, props);
+    end
+    this_pleasure = props.cur_pleasure;
+    -- set the current pleasure to the new value
+    local adjustment = this_pleasure - props.full_pleasure;
+    cur_pleasure = prev_pleasure + this_pleasure;
+    _I("Full pleasure " .. props.full_pleasure .. " reduced to " .. this_pleasure .. "current " .. cur_pleasure .. " / " .. max_pleasure);
+
+    -- TODO display "damage number" pop overhead character by creating temporary status and change the localization
+
+    -- store the current pleasure for next time
+    Osi.ApplyStatus(character, PLEASURE_STATUS, 6 * adjustment, 1, character);
+    PersistentVars[PLEASURE_TABLE][PleasureKey(character)] = cur_pleasure;
 
     -- add sweat level, depends on percentage of max pleasure
     local sweat_level = 1;
@@ -53,6 +96,27 @@ function HandlePleasure(character, status, causee, storyActionID)
 
     if cur_pleasure > max_pleasure then
         Osi.ApplyStatus(character, BLISS_STATUS, 6, 1, causee);
+    end
+end
+
+function MonitorPleasure()
+    -- _I("Monitoring pleasure for turn")
+    -- update the pleasure count for all characters
+    if PersistentVars[PLEASURE_TABLE] == nil then
+        PersistentVars[PLEASURE_TABLE] = {};
+    end
+    local tab = PersistentVars[PLEASURE_TABLE]
+    for character, prev_pleasure_turns in pairs(tab) do
+        local remaining = Osi.GetStatusCurrentLifetime(character, PLEASURE_STATUS);
+        -- convert from lifetime to turns
+        remaining = math.ceil(remaining / 6);
+        -- _I("Cur pleasure for " .. character .. " is " .. tostring(pleasure) .. " updated to " .. tostring(remaining));
+        if remaining == nil or remaining == 0 then
+            -- remove from table
+            tab[character] = nil;
+        else
+            tab[character] = remaining;
+        end
     end
 end
 
@@ -181,4 +245,5 @@ function BlissCount(char)
     return bliss_count;
 end
 
+RegisterTickListener("MonitorPleasure", MonitorPleasure);
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandlePleasure(...); HandleBliss(...) end);
