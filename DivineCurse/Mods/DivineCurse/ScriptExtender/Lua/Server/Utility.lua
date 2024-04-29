@@ -45,3 +45,41 @@ function DelayedCall(delayInMs, func)
         end
     end);
 end
+
+local tick_status = "LI_TICK_TECHNICAL";
+TICK_LISTENERS = {};
+function RegisterTickListener(name, listener)
+    TICK_LISTENERS[name] = listener;
+end
+
+local function handleTick(character, status, causee, storyActionID)
+    if status ~= tick_status then
+        return;
+    end
+    for _, listener in pairs(TICK_LISTENERS) do
+        listener();
+    end
+    -- refresh the tick
+    Osi.ApplyStatus(character, tick_status, 6, 1, character);
+end
+
+local function startTick()
+    -- loop over all player characters and check if any of them have the tick status
+    local tick_char = nil;
+    for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
+        local char = player[1];
+        -- someone's already ticking, don't start another
+        if Osi.HasActiveStatus(char, tick_status) == 1 then
+            return;
+        end
+        if tick_char == nil then
+            tick_char = char;
+        end
+    end
+    Osi.ApplyStatus(tick_char, tick_status, 6, 1, tick_char);
+end
+
+
+Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function() startTick() end);
+Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() startTick() end);
+Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(...) handleTick(...); end);
