@@ -336,6 +336,7 @@ data "DescriptionParams" ";Distance(5)"
 data "SoundVocalStart" "GASP"
 data "SoundVocalEnd" "GASP"
 data "Icon" "LI_Pleasure_Sharing"
+data "StatusEffectOnTurn" ""
 
 
 new entry "Target_PleasureSharing"
