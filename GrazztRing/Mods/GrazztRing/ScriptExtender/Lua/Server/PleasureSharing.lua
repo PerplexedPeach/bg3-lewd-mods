@@ -29,5 +29,20 @@ local function saveSharePleasureCharacters(character, status, causee, storyActio
     end
 end
 
+local function clearPleasureSharing(character, status, causee, storyActionID)
+    if status ~= PLEASURE_SHARING_SOURCE and status ~= PLEASURE_SHARING_TARGET then
+        return;
+    end
+    if SHARING_CHARS[PLEASURE_SHARING_TARGET] ~= nil then
+        Osi.RemoveStatus(SHARING_CHARS[PLEASURE_SHARING_TARGET], PLEASURE_SHARING_TARGET);
+    end
+    if SHARING_CHARS[PLEASURE_SHARING_SOURCE] ~= nil then
+        Osi.RemoveStatus(SHARING_CHARS[PLEASURE_SHARING_SOURCE], PLEASURE_SHARING_SOURCE);
+    end
+    SHARING_CHARS[PLEASURE_SHARING_SOURCE] = nil;
+    SHARING_CHARS[PLEASURE_SHARING_TARGET] = nil;
+end
+
 Mods.DivineCurse.RegisterPleasureModifier(SharePleasureModifier);
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) saveSharePleasureCharacters(...); end);
+Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(...) clearPleasureSharing(...); end);
