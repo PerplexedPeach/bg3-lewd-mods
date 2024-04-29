@@ -53,10 +53,24 @@ function RegisterPleasureModifier(modifier)
     table.insert(PLEASURE_MODIFIERS, modifier);
 end
 
+PLEASURE_MODIFIER_LOCK = false;
+function LockPleasureModifiers()
+    PLEASURE_MODIFIER_LOCK = true;
+end
+
+function UnlockPleasureModifiers()
+    DelayedCall(500, function()
+        PLEASURE_MODIFIER_LOCK = false;
+    end);
+end
+
 function HandlePleasure(character, status, causee, storyActionID)
-    if status ~= PLEASURE_STATUS or (storyActionID == -1 and GetGUID(character) == causee) then
+    if status ~= PLEASURE_STATUS then
         return;
     end
+    -- if status ~= PLEASURE_STATUS or (storyActionID == -1 and GetGUID(character) == causee) then
+    --     return;
+    -- end
     _I("Pleasure status applied to " .. character .. " by " .. causee .. " with story action " .. storyActionID);
     -- check character max HP against stacks of pleasure
     local max_pleasure = MaxPleasure(character);
@@ -66,25 +80,30 @@ function HandlePleasure(character, status, causee, storyActionID)
     local this_pleasure = cur_pleasure - prev_pleasure;
 
     -- potentially adjust pleasure based on resistances and so on
-    local props = {
-        full_pleasure = this_pleasure,
-        cur_pleasure = this_pleasure,
-        max_pleasure = max_pleasure,
-        resistance = false,
-    };
-    for _, modifier in ipairs(PLEASURE_MODIFIERS) do
-        modifier(character, causee, props);
+    if not PLEASURE_MODIFIER_LOCK then
+        LockPleasureModifiers();
+        local props = {
+            full_pleasure = this_pleasure,
+            pleasure = this_pleasure,
+            max_pleasure = max_pleasure,
+            resistance = false,
+        };
+        for _, modifier in ipairs(PLEASURE_MODIFIERS) do
+            modifier(character, causee, props);
+        end
+        this_pleasure = props.pleasure;
+        -- set the current pleasure to the new value
+        local adjustment = this_pleasure - props.full_pleasure;
+        cur_pleasure = prev_pleasure + this_pleasure;
+        _I("Full pleasure " ..
+        props.full_pleasure .. " reduced to " .. this_pleasure .. " current " .. cur_pleasure .. " / " .. max_pleasure);
+
+        -- store the current pleasure for next time
+        Osi.ApplyStatus(character, PLEASURE_STATUS, 6 * adjustment, 1, character);
+        UnlockPleasureModifiers();
     end
-    this_pleasure = props.cur_pleasure;
-    -- set the current pleasure to the new value
-    local adjustment = this_pleasure - props.full_pleasure;
-    cur_pleasure = prev_pleasure + this_pleasure;
-    _I("Full pleasure " .. props.full_pleasure .. " reduced to " .. this_pleasure .. "current " .. cur_pleasure .. " / " .. max_pleasure);
 
     -- TODO display "damage number" pop overhead character by creating temporary status and change the localization
-
-    -- store the current pleasure for next time
-    Osi.ApplyStatus(character, PLEASURE_STATUS, 6 * adjustment, 1, character);
     PersistentVars[PLEASURE_TABLE][PleasureKey(character)] = cur_pleasure;
 
     -- add sweat level, depends on percentage of max pleasure
@@ -152,7 +171,7 @@ function AdvanceBlissOverload(character)
 end
 
 function RegisterBlissCausee(char_in_bliss, char_causing_bliss)
-    -- read about what pleasure ability this character last used and assume that's what caused the 
+    -- read about what pleasure ability this character last used and assume that's what caused the
     -- look at status of the character in bliss
     local char_entity = Ext.Entity.Get(char_in_bliss);
     local statuses = char_entity.ServerCharacter.Character.StatusManager.Statuses;
@@ -174,7 +193,8 @@ function RegisterBlissCausee(char_in_bliss, char_causing_bliss)
             local id = BlissCauseID(char_causing_bliss, ability);
             local count = PersistentVars[id] or 0;
             PersistentVars[id] = count + 1;
-            _I("Bliss cause count: " .. PersistentVars[id] .. " for " .. char_causing_bliss .. " with ability " .. ability);
+            _I("Bliss cause count: " ..
+            PersistentVars[id] .. " for " .. char_causing_bliss .. " with ability " .. ability);
             break
         end
     end
@@ -207,10 +227,14 @@ function BlissCauseCountAllDetailed(character)
     local char_bliss_cause_prefix = BLISS_STATUS .. "_" .. character .. "_";
     local len_prefix = string.len(char_bliss_cause_prefix);
 
-    _I("Looking for bliss cause counts for " .. character .. " with prefix " .. char_bliss_cause_prefix .. " and length " .. len_prefix);
+    _I("Looking for bliss cause counts for " ..
+    character .. " with prefix " .. char_bliss_cause_prefix .. " and length " .. len_prefix);
 
     for k, v in pairs(PersistentVars) do
-        _I("Check key " .. k .. " is prefix of " .. char_bliss_cause_prefix .. " ? " .. tostring(string.sub(k, 1, len_prefix) == char_bliss_cause_prefix));
+        _I("Check key " ..
+        k ..
+        " is prefix of " ..
+        char_bliss_cause_prefix .. " ? " .. tostring(string.sub(k, 1, len_prefix) == char_bliss_cause_prefix));
         -- check if k starts with char_bliss_cause_prefix
         if string.sub(k, 1, len_prefix) == char_bliss_cause_prefix then
             -- extract ability from k
@@ -246,4 +270,6 @@ function BlissCount(char)
 end
 
 RegisterTickListener("MonitorPleasure", MonitorPleasure);
-Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandlePleasure(...); HandleBliss(...) end);
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...)
+    HandlePleasure(...); HandleBliss(...)
+end);
