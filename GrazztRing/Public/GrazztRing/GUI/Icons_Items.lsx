@@ -117,7 +117,7 @@
                     <attribute id="V2" type="float" value="1.0"/> Bottom
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DWE_"/> 2
+                    <attribute id="MapKey" type="FixedString" value="LI_Pleasure_Sharing"/> 2
                     <attribute id="U1" type="float" value="0.25"/> Left
                     <attribute id="U2" type="float" value="0.5"/> Right
                     <attribute id="V1" type="float" value="0.75"/> Top

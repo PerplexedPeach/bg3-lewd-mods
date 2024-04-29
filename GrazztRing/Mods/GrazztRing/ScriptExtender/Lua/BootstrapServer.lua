@@ -4,3 +4,4 @@ Ext.Require("Server/LustBrand.lua");
 Ext.Require("Server/DarkInspection.lua");
 Ext.Require("Server/SoulBrand.lua");
 Ext.Require("Server/PiercingProgression.lua");
+Ext.Require("Server/PleasureSharing.lua");

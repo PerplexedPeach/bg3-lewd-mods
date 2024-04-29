@@ -95,7 +95,7 @@ type "Armor"
 using "LI_GrazztRing_2"
 data "ValueOverride" "10000"
 data "RootTemplate" "83d41e71-01b8-450b-b6a6-126b3e0a00a7"
-data "Boosts" "UnlockSpell(Shout_HidePiercings);UnlockSpell(Shout_GrazztTouch_3);AC(2);"
+data "Boosts" "UnlockSpell(Shout_HidePiercings);UnlockSpell(Shout_GrazztTouch_3);AC(2);UnlockSpell(Target_Pleasure_Sharing);"
 
 
 new entry "LI_HIDE_PIERCINGS"
