@@ -155,7 +155,7 @@
 
     <!-- Abilities -->
 	<content contentuid="h8f79c26cg537fg400dgb7f2g6e23bed8ea5c" version="1">Pleasure Sharing</content> 
-	<content contentuid="h9ebcab72g60adg4af9g8aeeg369d05d6ef64" version="1">Share half the &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt; you experience with someone else.</content> 
+	<content contentuid="h9ebcab72g60adg4af9g8aeeg369d05d6ef64" version="1">Share half the &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt; you experience with someone else, as long as they are within [1] of them.</content> 
 
 	<content contentuid="h76639617g95b6g49ebgb1a5gce3ae314cd27" version="1">Stop Pleasure Sharing</content> 
 	<content contentuid="h777b7b8fg35f1g4ceegb25eg5ff851c03a79" version="1">Keep all the pleasure to yourself.</content> 
