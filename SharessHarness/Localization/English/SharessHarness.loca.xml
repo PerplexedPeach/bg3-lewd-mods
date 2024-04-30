@@ -27,7 +27,7 @@
 
 
 	<content contentuid="h91540dfeg012eg489aga568gca98f8457838" version="2">Subversive Stimulation</content>
-	<content contentuid="hfaa01da4gb114g421cgbc31g4aa4ea9009a5" version="2">Excited by combat, your armor comes to life. You must make progressively harder Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to avoid &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Overstimulation&lt;/LSTag&gt;. You receive &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; checks until you &lt;LSTag  Type="Status" Tooltip="LI_SATED"&gt;Sate&lt;/LSTag&gt; it.</content>
+	<content contentuid="hfaa01da4gb114g421cgbc31g4aa4ea9009a5" version="2">Excited by combat, your armor comes to life. You receive &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; checks until you &lt;LSTag  Type="Status" Tooltip="LI_SATED"&gt;Sate&lt;/LSTag&gt; it.</content>
 	<content contentuid="h6e8e6920gcb88g426bgbf32ga5f80beec2e2" version="2">Excited by combat, your armor comes to life. Every turn you receive +2 &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt;. Additionally, you must make a DC equal to &lt;LSTag Type="Status" Tooltip="LI_PLEASURE"&gt;Pleasure&lt;/LSTag&gt; Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to avoid &lt;LSTag Type="Status" Tooltip="LI_BLISS"&gt;Overstimulation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h0f74bf2cg1886g4f44g9c20gd3116e2918d2" version="2">Overstimulated</content>
