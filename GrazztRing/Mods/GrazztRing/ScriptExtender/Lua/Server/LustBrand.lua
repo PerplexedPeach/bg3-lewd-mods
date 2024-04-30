@@ -9,7 +9,8 @@ EVENTS = {
     -- eating juiced spider
     SPIDER_MEAT = "SHA_SpiderMeatHunk_HasLickedAgain_3ca12346-8d7e-3c3f-6340-f1b0de361094",
     -- sleeping with Mizora
-    MIZORA = "NIGHT_Mizora_Romance_fbc49818-3d0a-43be-915b-b6d0f507d162",
+    -- MIZORA = "NIGHT_Mizora_Romance_fbc49818-3d0a-43be-915b-b6d0f507d162",
+    MIZORA = "CAMP_Mizora_Event_RomancedMizora_b5bb0f61-64ac-255e-a7c7-9d3b6f84ea31",
 };
 BRAND_PROGRESSION_EVENT_FLAGS = {
     [EVENTS.HAARLEP] = true,
