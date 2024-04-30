@@ -4,6 +4,8 @@ end
 
 BLISS_STATUS = "LI_BLISS";
 PLEASURE_STATUS = "LI_PLEASURE";
+PLEASURE_DISPLAY_STATUS = "LI_PLEASURE_DISPLAY";
+PLEASURE_DISPLAY_STR = "h9fc588ebga9beg46bcga868gcab260a17755";
 MAX_PLEASURE_STATUS = "LI_PLEASURE_MAX";
 BLISS_OVERLOAD_STATUSES = {
     "LI_BLISS_OVERLOAD_1",
@@ -64,6 +66,14 @@ function UnlockPleasureModifiers()
     end);
 end
 
+function DisplayPleasure(character, this_pleasure)
+    -- display "damage number" pop overhead character by creating temporary status and change the localization
+    -- Ext.Loca.UpdateTranslatedString(PLEASURE_DISPLAY_STR, "&lt;3 " .. tostring(this_pleasure));
+    Ext.Loca.UpdateTranslatedString(PLEASURE_DISPLAY_STR, "Pleasure " .. tostring(this_pleasure));
+    -- Ext.Loca.UpdateTranslatedString(PLEASURE_DISPLAY_STR, tostring(this_pleasure) .. "\n\n.,d88b.d88b,\n  88888888888\n  `Y888888Y'\n     `Y888Y'    \n  `Y");
+    Osi.ApplyStatus(character, PLEASURE_DISPLAY_STATUS, 3, 1);
+end
+
 function HandlePleasure(character, status, causee, storyActionID)
     if status ~= PLEASURE_STATUS then
         return;
@@ -74,7 +84,11 @@ function HandlePleasure(character, status, causee, storyActionID)
     _I("Pleasure status applied to " .. character .. " by " .. causee .. " with story action " .. storyActionID);
     -- check character max HP against stacks of pleasure
     local max_pleasure = MaxPleasure(character);
-    local cur_pleasure = Osi.GetStatusTurns(character, PLEASURE_STATUS);
+
+    -- local cur_pleasure = Osi.GetStatusTurns(character, PLEASURE_STATUS);
+    local cur_pleasure = Osi.GetStatusCurrentLifetime(character, PLEASURE_STATUS);
+    -- convert from lifetime to turns
+    cur_pleasure = math.ceil(cur_pleasure / 6);
 
     local prev_pleasure = GetPrevPleasure(character);
     local this_pleasure = cur_pleasure - prev_pleasure;
@@ -101,9 +115,10 @@ function HandlePleasure(character, status, causee, storyActionID)
         -- store the current pleasure for next time
         Osi.ApplyStatus(character, PLEASURE_STATUS, 6 * adjustment, 1, character);
         UnlockPleasureModifiers();
+        DisplayPleasure(character, this_pleasure);
+
     end
 
-    -- TODO display "damage number" pop overhead character by creating temporary status and change the localization
     PersistentVars[PLEASURE_TABLE][PleasureKey(character)] = cur_pleasure;
 
     -- add sweat level, depends on percentage of max pleasure

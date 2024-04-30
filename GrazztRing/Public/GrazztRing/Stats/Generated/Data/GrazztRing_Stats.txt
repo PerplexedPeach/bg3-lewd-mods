@@ -327,6 +327,8 @@ data "DescriptionParams" "GainTemporaryHitPoints(8+CharismaModifier)"
 data "StackId" "LI_TEMP_HP"
 data "StackPriority" ""
 data "Boosts" "TemporaryHP(8+CharismaModifier)"
+data "StatusPropertyFlags" "DisableOverhead"
+
 
 new entry "LI_TEMP_HP_TOUCH_1"
 type "StatusData"

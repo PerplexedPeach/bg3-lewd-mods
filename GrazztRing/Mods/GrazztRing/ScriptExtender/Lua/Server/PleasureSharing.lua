@@ -17,8 +17,10 @@ function SharePleasureModifier(character, causee, props)
             -- find the target to share with
             if is_source then
                 Osi.ApplyStatus(target, Mods.DivineCurse.PLEASURE_STATUS, 6 * reduction, 1, character);
+                Mods.DivineCurse.DisplayPleasure(target, reduction);
             else
                 Osi.ApplyStatus(source, Mods.DivineCurse.PLEASURE_STATUS, 6 * reduction, 1, character);
+                Mods.DivineCurse.DisplayPleasure(source, reduction);
             end
         end
     end
