@@ -17,7 +17,7 @@ data "Description" "hfaa01da4gb114g421cgbc31g4aa4ea9009a5;1"
 data "Icon" "LI_Stim"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnTurn"
-data "StatsFunctors" "ApplyStatus(LI_PLEASURE,100,2);ApplyStatus(SELF,LI_STIM_ALL,100,1)"
+data "StatsFunctors" "ApplyStatus(LI_PLEASURE,100,3);ApplyStatus(SELF,LI_STIM_ALL,100,1)"
 data "Boosts" "IF(not HasStatus('LI_SATED')):Disadvantage(Concentration)"
 
 new entry "Shout_LI_Stim_Surge"
