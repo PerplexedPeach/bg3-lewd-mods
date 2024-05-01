@@ -22,7 +22,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="DragonbornChin" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/TIF_FS_NKD_Body_1.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
@@ -90,7 +90,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="DragonbornChin" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/TIF_FS_NKD_Body_2.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
@@ -157,7 +157,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="DragonbornChin" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/TIF_FS_NKD_Body_3.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
@@ -225,7 +225,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
-					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="Slot" type="FixedString" value="DragonbornChin" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/RemodelledFrameBody/Assets/TIF_FS_NKD_Body_4.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
