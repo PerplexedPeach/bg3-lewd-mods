@@ -7,6 +7,10 @@ new subtable "1,1"
 object category "I_LI_GrazztRing_2",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_LI_GrazztRing_3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_Grazzt_Greatsword",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_LI_Grazzt_Greatsword_Completed",1,0,0,0,0,0,0,0
 
 
 new treasuretable "TUT_Chest_Potions"

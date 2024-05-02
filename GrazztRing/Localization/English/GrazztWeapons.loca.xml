@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><contentList>
+	<content contentuid="hba027323g0b12g4bdeg98beg2a920269aa79" version="1">Bloodtrail Blade</content>
+	<content contentuid="h2724cfdagb169g4990g8f74gde3a1200981d" version="1">An exquisite blade that looks as if it is alive. Wielding it gives you some degree of being able to warp reality. It uses your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; for attack and damage. The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1. This effect can stack.</content>
+
+	<content contentuid="h8a5f0c8cg444fg4987g95e5gd6e08827e67b" version="1">Veinseeker</content>
+	<content contentuid="h648f4ca6gb2deg4b04gbb61g79487f731ada" version="1">An exquisite blade that looks as if it is alive. Wielding it allows you to warp reality to some degree. It uses your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; for attack and damage, with the bonus doubled for damage. The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 2. This effect can stack. </content>
+
+	<content contentuid="ha0eff09cgf811g4d9bg815eg51829f3989cb" version="1">Veinseeking</content>
+
+	<content contentuid="hba6f372dgfb58g4172g879cg22697f4917ed" version="1">Reality Warp</content>
+	<content contentuid="hedeb7d36ga067g468aga897g9f21c3f96988" version="3">The consort bound to this weapon is always &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with it. The weapon's damage is magical.</content>
+
+	<content contentuid="h136820e5gd76dg468eg9452gce1d9015c9cc" version="1">Torrent of Blood</content>
+	<content contentuid="h29f8b829g525eg4c56g9552g30b82715a54e" version="7">Lash out to attack up to [1] enemies at once and make them &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h168dedbdg323bg4e12g83abgd8fa5a0f2f35" version="1">&lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeds&lt;/LSTag&gt; targets on hit.</content>
+</contentList>
