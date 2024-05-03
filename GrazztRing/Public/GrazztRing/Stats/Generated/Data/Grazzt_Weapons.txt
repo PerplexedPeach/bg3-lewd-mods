@@ -5,6 +5,7 @@ data "RootTemplate" "0e8e010d-3661-472b-86f5-789f1e71d8b8"
 data "ValueOverride" "6666"
 data "Rarity" "VeryRare"
 data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);"
+data "Boosts" "Proficiency(Greatswords);"
 data "BoostsOnEquipMainHand" "UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Zone_TorrentOfBlood);ReduceCriticalAttackThreshold(1)"
 
 new entry "LI_Grazzt_Greatsword_Completed"
@@ -15,6 +16,7 @@ data "ValueOverride" "10000"
 data "Rarity" "Legendary"
 data "DefaultBoosts" "WeaponEnchantment(3);WeaponProperty(Magical);"
 data "WeaponFunctors" "ApplyStatus(BLEEDING,100, 3)"
+data "Boosts" "Proficiency(Greatswords);"
 data "BoostsOnEquipMainHand" "UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Zone_TorrentOfBlood);ReduceCriticalAttackThreshold(2)"
 
 
