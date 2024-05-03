@@ -89,8 +89,20 @@ function HandleLongRest()
         elseif IsGrazztConsort(char) and IsWearingPiercingStage(char, 2) and NumberOfSoulBrandsApplied(char) >= 5 then
             _I("Upgrading piercings for " .. char .. " from stage 2 to 3");
             UpgradePiercings(char, 2);
+            GetGrazztSword(char);
         end
-        
+    end
+end
+
+function GetGrazztSword(char)
+    local sword_id = "LI_Grazzt_Greatsword_0e8e010d-3661-472b-86f5-789f1e71d8b8";
+    -- can only get sword once
+    if PersistentVars[sword_id] == nil then
+        _I("Giving Grazzt sword to " .. char);
+        -- local item = Osi.CreateAtObject(sword_id, char, 0, 0, "", 0);
+        -- Osi.Equip(char, item);
+        Osi.TemplateAddTo(sword_id, char, 1, 1);
+        PersistentVars[sword_id] = true;
     end
 end
 
@@ -113,5 +125,15 @@ function HandleBliss(char, status, causee, storyActionID)
     end
 end
 
+local function addSwordToExistingSave()
+    if GrazztConsort() ~= nil then
+        local char = GrazztConsort();
+        if IsWearingPiercingStage(char, 3) then
+            GetGrazztSword(char);
+        end
+    end
+end
+
 Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function() HandleLongRest() end);
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(...) HandleBliss(...) end);
+Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() addSwordToExistingSave() end);
