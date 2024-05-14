@@ -51,6 +51,10 @@ data "SoundStop" ""
 data "SoundLoop" ""
 data "SoundVocalStart" "GASP"
 data "SoundVocalEnd" "FALL"
+data "ManagedStatusEffectType" ""
+data "ManagedStatusEffectGroup" ""
+data "AuraRadius" "0"
+data "StatusPropertyFlags" ""
 
 
 new entry "LI_SOUL_BRAND_APPLY_0"
