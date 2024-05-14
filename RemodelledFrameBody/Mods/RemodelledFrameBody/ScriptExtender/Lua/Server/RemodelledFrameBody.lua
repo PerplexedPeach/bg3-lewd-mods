@@ -38,14 +38,19 @@ end
 -- avoid triggering unequip handler after replacing an existing equipped boots
 local do_not_trigger_unequip = false;
 -- only care about this if the character has remodelled frame 
-function UnequipHandler(item, char)
-    local slot = Ext.Entity.Get(item).Equipable.Slot;
+local function unequipHandler(item, char)
+    local entity = Ext.Entity.Get(item);
+    if entity == nil then
+        return;
+    end
+    local slot = entity.Equipable.Slot;
     if slot ~= body_slot and slot ~= body_slot_camp then
         return;
     end
 
     -- remove if it's temp body 
     local temp_level, temp_camp_level = tempBodyItemLevel(item);
+    _I("Is temp body level? " .. temp_level .. " camp level? " .. temp_camp_level);
     if temp_level > 0 or temp_camp_level > 0 then
         if temp_level > 0 then
             local id = body_ids[temp_level];
@@ -82,7 +87,7 @@ function UnequipHandler(item, char)
     -- end
 end
 
-function ReequipHandler(item, char)
+local function reequipHandler(item, char)
     local entity = Ext.Entity.Get(item);
     if entity == nil then
         return;
@@ -147,8 +152,8 @@ end
 -- end
 
 -- no longer need these due to remodelled frame being a character creation body override
-Ext.Osiris.RegisterListener("Unequipped", 2, "after", function(...) UnequipHandler(...) end);
-Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) ReequipHandler(...) end);
+Ext.Osiris.RegisterListener("Unequipped", 2, "after", function(...) unequipHandler(...) end);
+Ext.Osiris.RegisterListener("Equipped", 2, "after", function(...) reequipHandler(...) end);
 -- Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function(...) SaveGameLoadedHandler(...) end);
 -- Ext.Osiris.RegisterListener("ArmorSetChanged", 2, "after", function(...) ArmorSetChangedHandler(...) end);
  

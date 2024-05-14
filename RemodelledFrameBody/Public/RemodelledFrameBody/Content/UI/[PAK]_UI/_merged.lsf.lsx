@@ -16,6 +16,20 @@
                 </node>
             </children>
         </node>
+        <node id="TextureBank">
+            <children>
+                <node id="Resource">
+                    <attribute id="ID" type="FixedString" value="8d52fb69-1abb-49f2-83f0-99636ed83299" />
+                    <attribute id="Localized" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="HighHeelFeet_Icons" />
+                    <attribute id="SRGB" type="bool" value="True" />
+                    <attribute id="SourceFile" type="LSString" value="Public/RemodelledFrameBody/Assets/Textures/Icons/HighHeelFeet_Icons.dds" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Icons_Items" />
+                    <attribute id="Type" type="int64" value="0" />
+                </node>
+            </children>
+        </node>
     </region>
 </save>
                     
