@@ -23,8 +23,3 @@ new treasuretable "CRE_GithQuartermistress_Trade"
 CanMerge 1
 new subtable "1,1"
 object category "I_LI_GrazztRing",1,0,0,0,0,0,0,0
-
-new treasuretable "CRE_MagicItem_Gith_Trader"
-CanMerge 1
-new subtable "1,1"
-object category "I_LI_GrazztRing",1,0,0,0,0,0,0,0
