@@ -64,7 +64,11 @@ function ReequipHandler(item, char)
     if Osi.GetTemplate(item) == feet_id or Osi.GetTemplate(item) == feet_camp_id then
         return;
     end
-    local slot = Ext.Entity.Get(item).Equipable.Slot;
+    local entity = Ext.Entity.Get(item);
+    if entity == nil then
+        return;
+    end
+    local slot = entity.Equipable.Slot;
     if slot == feet_slot then
         -- create and equip camp feet later
         Osi.TemplateRemoveFromUser(feet_id, char, 1);

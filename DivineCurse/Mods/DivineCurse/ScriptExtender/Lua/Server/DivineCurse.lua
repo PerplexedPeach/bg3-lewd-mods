@@ -121,7 +121,11 @@ function BodyEquipment:statusRemovedHandler(char, status, causee, applyStoryActi
 end
 
 function BodyEquipment:reequipHandler(item, char)
-    local slot = Ext.Entity.Get(item).Equipable.Slot;
+    local entity = Ext.Entity.Get(item);
+    if entity == nil then
+        return;
+    end
+    local slot = entity.Equipable.Slot;
     if slot == self.slot then
         self:enforceBodyEquipmentConsistency(char);
     end
