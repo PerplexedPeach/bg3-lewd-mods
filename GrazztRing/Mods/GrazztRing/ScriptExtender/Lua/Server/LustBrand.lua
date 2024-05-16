@@ -53,6 +53,7 @@ function ProgressLustBrand(char)
         Osi.OpenMessageBox(char, BRAND_PROGRESSION_MSGS[current_stage]);
     end
     Osi.AddPassive(char, PLAYER_LUST_BRAND_PASSIVES_IDS[current_stage + 1]);
+    Osi.ApplyStatus(char, "LI_LEVEL_UP_STATUS", 6, 1);
 end
 
 local function handleFlagSet(flag, speaker, dialogueInstance)

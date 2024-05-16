@@ -1,0 +1,7 @@
+new entry "LI_LEVEL_UP_STATUS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h97876559gf4c1g41c9g9f1dg6838d89e7d9a;3"
+data "StackId" "LI_LEVEL_UP_STATUS"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "EndEffect" "VFX_UI_LevelUp_01"

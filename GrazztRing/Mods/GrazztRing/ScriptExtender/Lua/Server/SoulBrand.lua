@@ -114,6 +114,7 @@ function DoApplySoulBrand(brander, brandee)
             Osi.OpenMessageBox(brander, message_id);
             SoulBrandGiveConsortProfaneSuccor(brander, NumberOfSoulBrandsApplied(brander));
             Osi.ChangeApprovalRating(brandee, brander, 0, soul_brand_approval_bonus);
+            Osi.ApplyStatus(brander, "LI_LEVEL_UP_STATUS", 6, 1);
         end);
     end
 end
