@@ -63,11 +63,11 @@ function BodyOverrideVisual:error(message)
     self:log(" [ERROR] " .. message);
 end
 
-function BodyOverrideVisual:enforceVisualConsistency(char)
+function BodyOverrideVisual:getEntityAndAsset(char)
     char = Mods.DivineCurse.GetGUID(char);
     -- care about if self.character is specified
     if self.character_id ~= nil and self.character_id ~= char then
-        return;
+        return nil, nil;
     end
     local entity = Ext.Entity.Get(char);
 
@@ -79,8 +79,18 @@ function BodyOverrideVisual:enforceVisualConsistency(char)
     -- sometimes valid to not have a valid asset (e.g. HUM_M for remodelled body)
     if id == nil then
         -- self:error("No CCSV ID found for " .. char);
+        return nil, nil;
+    end
+    return entity, id;
+end
+
+function BodyOverrideVisual:enforceVisualConsistency(char)
+    char = Mods.DivineCurse.GetGUID(char);
+    local entity, id = self:getEntityAndAsset(char);
+    if entity == nil then
         return;
     end
+
     if self:shouldHaveVisual(char) then
         -- only add if we don't already have it (avoid spamming log)
         if not Mods.DivineCurse.FindCharacterCreationVisual(entity, id) then
@@ -90,6 +100,19 @@ function BodyOverrideVisual:enforceVisualConsistency(char)
     else
         self:log("Removing visual from " .. char .. " with ID " .. tostring(id));
         Osi.RemoveCustomVisualOvirride(char, id);
+    end
+end
+
+function BodyOverrideVisual:applyVisuals(char)
+    char = Mods.DivineCurse.GetGUID(char);
+    local entity, id = self:getEntityAndAsset(char);
+    if entity == nil then
+        return;
+    end
+
+    if not Mods.DivineCurse.FindCharacterCreationVisual(entity, id) then
+        self:log("Applying visual to " .. char .. " with ID " .. tostring(id));
+        Osi.AddCustomVisualOverride(char, id);
     end
 end
 
