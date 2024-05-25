@@ -139,9 +139,12 @@ function MonitorPleasure()
     if PersistentVars[PLEASURE_TABLE] == nil then
         PersistentVars[PLEASURE_TABLE] = {};
     end
-    local tab = PersistentVars[PLEASURE_TABLE]
+    local tab = PersistentVars[PLEASURE_TABLE];
     for character, prev_pleasure_turns in pairs(tab) do
         local remaining = Osi.GetStatusCurrentLifetime(character, PLEASURE_STATUS);
+        if remaining == nil then
+            remaining = 0;
+        end
         -- convert from lifetime to turns
         remaining = math.ceil(remaining / 6);
         -- _I("Cur pleasure for " .. character .. " is " .. tostring(pleasure) .. " updated to " .. tostring(remaining));
