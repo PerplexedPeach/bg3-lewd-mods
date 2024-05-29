@@ -266,15 +266,6 @@ data "Boosts" "UnlockSpell(Shout_HideBrand_Cancel);"
 data "StackType" "Overwrite"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisableInteractions;IgnoreResting;DisablePortraitIndicator"
 
-// new entry "LI_HIDE_BRAND_2"
-// using "LI_HIDE_BRAND"
-// data "Icon" "LI_Lust_Brand_2"
-// data "Boosts" "UnlockSpell(Shout_HideBrand_Cancel_2);"
-
-// new entry "LI_HIDE_BRAND_3"
-// using "LI_HIDE_BRAND"
-// data "Icon" "LI_Lust_Brand_3"
-// data "Boosts" "UnlockSpell(Shout_HideBrand_Cancel_3);"
 
 new entry "Shout_HideBrand"
 type "SpellData"
@@ -294,25 +285,6 @@ data "SpellProperties" "RemoveStatus(LI_HIDE_BRAND)"
 data "DisplayName" "hf59a353ag7163g4c58g9a71gc292983f66df;1"
 data "Description" "h55831fcege9d0g417ega07fga644c2be1514;1"
 data "Icon" "LI_Lust_Brand_White"
-
-// new entry "Shout_HideBrand_2"
-// using "Shout_HideBrand"
-// data "SpellProperties" "ApplyStatus(LI_HIDE_BRAND_2,100,-1)"
-// data "TooltipStatusApply" "ApplyStatus(LI_HIDE_BRAND_2,100,-1)"
-// data "Icon" "LI_Lust_Brand_2"
-
-// new entry "Shout_HideBrand_3"
-// using "Shout_HideBrand"
-// data "Icon" "LI_Lust_Brand_3"
-
-// new entry "Shout_HideBrand_Cancel_2"
-// using "Shout_HideBrand_Cancel"
-// data "SpellProperties" "RemoveStatus(LI_HIDE_BRAND_2)"
-// data "Icon" "LI_Lust_Brand_2"
-
-// new entry "Shout_HideBrand_Cancel_3"
-// using "Shout_HideBrand_Cancel"
-// data "Icon" "LI_Lust_Brand_3"
 
 
 <!-- Temp hp Statuses -->
