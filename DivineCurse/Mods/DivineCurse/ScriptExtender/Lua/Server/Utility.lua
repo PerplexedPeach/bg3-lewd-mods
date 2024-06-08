@@ -1,3 +1,25 @@
+-- get body override debug item
+PersistentVars = {};
+local debug_item_id = "LI_Body_Debugger_5c4ace59-3a59-4dc0-b6dc-b6049b119a02";
+local function addDebugItem()
+
+    local item_id = PersistentVars[debug_item_id];
+    if item_id == nil or item_id == true then
+        local char = Osi.GetHostCharacter();
+        -- backwards compatible for the item being added without retrieving its item ID
+        if item_id == true then
+            -- find the item in the character inventory if we can 
+            item_id = Osi.GetItemByTemplateInPartyInventory(debug_item_id, char);
+        end
+        if item_id == nil then
+            _P("Added body debug item to " .. tostring(char));
+            item_id = Osi.CreateAtObject(debug_item_id, char, 0, 0, "", 0);
+        end
+
+        PersistentVars[debug_item_id] = item_id;
+    end
+end
+
 ---Calculate the attribute ability modifier for a character
 ---@param character string GUID of the character
 ---@param attribute string Attribute to get the modifier for, e.g. Wisdom, Constitution
@@ -47,13 +69,14 @@ function DelayedCall(delayInMs, func)
 end
 
 local tick_status = "LI_TICK_TECHNICAL";
+local suppress_status_read = false;
 TICK_LISTENERS = {};
 function RegisterTickListener(name, listener)
     TICK_LISTENERS[name] = listener;
 end
 
 local function handleTick(character, status, causee, storyActionID)
-    if status ~= tick_status then
+    if status ~= tick_status or suppress_status_read then
         return;
     end
     for _, listener in pairs(TICK_LISTENERS) do
@@ -64,21 +87,29 @@ local function handleTick(character, status, causee, storyActionID)
 end
 
 local function startTick()
-    -- loop over all player characters and check if any of them have the tick status
-    local tick_char = nil;
+    -- for backwards compatibility, remove the status on the character
+    suppress_status_read = true;
     for _, player in pairs(Osi["DB_Players"]:Get(nil)) do
         local char = player[1];
-        -- someone's already ticking, don't start another
         if Osi.HasActiveStatus(char, tick_status) == 1 then
-            return;
-        end
-        if tick_char == nil then
-            tick_char = char;
+            Osi.RemoveStatus(char, tick_status);
         end
     end
-    Osi.ApplyStatus(tick_char, tick_status, 6, 1, tick_char);
+    DelayedCall(1000, function()
+        suppress_status_read = false;
+    end);
+
+    local tick_item = PersistentVars[debug_item_id];
+    if Osi.HasActiveStatus(tick_item, tick_status) == 1 then
+        return;
+    end
+
+    Osi.ApplyStatus(tick_item, tick_status, 6, 1, tick_item);
 end
 
+
+Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function() addDebugItem() end);
+Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() addDebugItem() end);
 
 Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function() startTick() end);
 Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function() startTick() end);

@@ -147,7 +147,7 @@ function MonitorPleasure()
         end
         -- convert from lifetime to turns
         remaining = math.ceil(remaining / 6);
-        -- _I("Cur pleasure for " .. character .. " is " .. tostring(pleasure) .. " updated to " .. tostring(remaining));
+        -- _I("Cur pleasure for " .. character .. " is " .. tostring(prev_pleasure_turns) .. " updated to " .. tostring(remaining));
         if remaining == nil or remaining == 0 then
             -- remove from table
             tab[character] = nil;
