@@ -94,15 +94,19 @@ function HandleLongRest()
     end
 end
 
+local grazzt_weapon_id = "LI_Grazzt_Greatsword_0e8e010d-3661-472b-86f5-789f1e71d8b8";
+function SetGrazztWeapon(weapon_id)
+    grazzt_weapon_id = weapon_id;
+end
+
 function GetGrazztSword(char)
-    local sword_id = "LI_Grazzt_Greatsword_0e8e010d-3661-472b-86f5-789f1e71d8b8";
     -- can only get sword once
-    if PersistentVars[sword_id] == nil then
-        _I("Giving Grazzt sword to " .. char);
+    if PersistentVars[grazzt_weapon_id] == nil then
+        _I("Giving Grazzt weapon " .. grazzt_weapon_id .. " to " .. char);
         -- local item = Osi.CreateAtObject(sword_id, char, 0, 0, "", 0);
         -- Osi.Equip(char, item);
-        Osi.TemplateAddTo(sword_id, char, 1, 1);
-        PersistentVars[sword_id] = true;
+        Osi.TemplateAddTo(grazzt_weapon_id, char, 1, 1);
+        PersistentVars[grazzt_weapon_id] = true;
     end
 end
 
