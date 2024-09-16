@@ -87,6 +87,13 @@
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_Basis.Skirt.0" />
 						</node>
+                        <node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_FS_LI_NightsongBot_Basis.Skirt.0" />
+								</node>
+							</children>
+						</node>
 					</children>
 				</node>
 			</children>

@@ -237,6 +237,13 @@
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_1.Skirt.0" />
 						</node>
+                        <node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_FS_LI_NightsongBot_1.Skirt.0" />
+								</node>
+							</children>
+						</node>
 					</children>
 				</node>
 			<node id="Resource"> HUM_FS_LI_NightsongBot_2
@@ -271,6 +278,13 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_2.Skirt.0" />
+						</node>
+                        <node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_FS_LI_NightsongBot_2.Skirt.0" />
+								</node>
+							</children>
 						</node>
 					</children>
 				</node>
@@ -307,6 +321,13 @@
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_3.Skirt.0" />
 						</node>
+                        <node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_FS_LI_NightsongBot_3.Skirt.0" />
+								</node>
+							</children>
+						</node>
 					</children>
 				</node>
 			<node id="Resource"> HUM_FS_LI_NightsongBot_4
@@ -341,6 +362,13 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5c059513-036b-44ff-b3b6-969f3fc7a506" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_LI_NightsongBot_4.Skirt.0" />
+						</node>
+                        <node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_FS_LI_NightsongBot_4.Skirt.0" />
+								</node>
+							</children>
 						</node>
 					</children>
 				</node>
