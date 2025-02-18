@@ -196,7 +196,7 @@ function RegisterBlissCausee(char_in_bliss, char_causing_bliss)
     -- iterate in reverse since it's very likely to be at the end
     for i = #statuses, 1, -1 do
         local status = statuses[i];
-        if status.StatusId == PLEASURE_STATUS then
+        if status ~= nil and status.StatusId == PLEASURE_STATUS then
             local ability = "";
             -- find the ability that caused this status
             if status.SourceSpell.OriginatorPrototype ~= "" then
